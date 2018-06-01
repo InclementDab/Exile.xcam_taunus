@@ -14,6 +14,7 @@ if (!hasInterface || isServer) exitWith {};
 _trader = 
 [
     "Trader_Hospital",
+	"Trader_Hospital",
     "LOP_CHR_Civ_Worker_03",
     ["HubSittingChairA_idle1"],
     [6844.485, 11735.994, 0.5],
@@ -30,6 +31,7 @@ call ExileClient_object_trader_create;
 _trader = 
 [
     "Exile_Trader_Armory",
+	"Exile_Trader_Armory",
     "LOP_CHR_Civ_Worker_03",
     ["HubSittingChairA_idle1"],
     [6850.485, 11735.994, 0.5],
