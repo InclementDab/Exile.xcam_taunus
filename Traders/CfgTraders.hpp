@@ -1,5 +1,25 @@
 class CfgTraders
 {
+	class Trader_Civilian_Weapons
+	{
+		name = "CIVILIAN WEAPONS";
+		showWeaponFilter = 0;
+		categories[] =
+		{
+			"PointerAttachments" // Placeholder
+		};
+	};
+	
+	class Trader_Hospital
+	{
+		name = "HOSPITAL";
+		showWeaponFilter = 0;
+		categories[] =
+		{
+			"ACE_Medical"
+		};
+	};
+	
 	/**
 	 * Weapons, scopes, silencers, ammo
 	 */
@@ -9,7 +29,7 @@ class CfgTraders
 		showWeaponFilter = 1;
 		categories[] = 
 		{
-			"PointerAttachments",
+			"ACE_Attachments",
 			"BipodAttachments",
 			"MuzzleAttachments",
 			"OpticAttachments",
@@ -20,14 +40,23 @@ class CfgTraders
 			"LightMachineGuns",
 			"AssaultRifles",
 			"SniperRifles",
-			"RHSAssaultRifles",
-			"RHSSniperRifles",
 			"RHSPointerAttachments",
 			"RHSBipodAttachments",
 			"RHSMuzzleAttachments",
 			"RHSOpticAttachments",
+			"RHSAssaultRifles",
+			"RHSSniperRifles",
 			"RHSPistols",
-			"RHSLightMachineGuns"
+			"RHSLightMachineGuns",
+			"RHSAmmo",
+			"NIAMuzzleAttachments",
+			"NIAAttachments",
+			"NIAOpticAttachments",
+			"NIALightMachineGuns",
+			"NIASubMachineGuns",
+			"NIAAssaultRifles",
+			"NIASniperRifles",
+			"NIAAmmunition"
 		};
 	};
 
@@ -40,12 +69,12 @@ class CfgTraders
 		showWeaponFilter = 1; // for noob tubes
 		categories[] = 
 		{
-			"Flares",
 			"Smokes",
 			"UAVs",
 			"StaticMGs",
 			"Explosives",
-			"Navigation"
+			"ACE_Grenades",
+			"RHSMines"
 		};
 	};
 
@@ -63,7 +92,16 @@ class CfgTraders
 			"Uniforms",
 			"Vests",
 			"Backpacks",
-			"FirstAid"
+			"ACE_Equipment",
+			"ACE_Flares",
+			"TRYKBackpacks",
+			"TRYKHeadgear",
+			"TRYKUniforms",
+			"TRYKVests",
+			"RHSUniforms",
+			"RHSVests",
+			"RHSHeadgear"
+
 		};
 	};
 
@@ -106,7 +144,8 @@ class CfgTraders
 		categories[] = 
 		{
 			"Cars",
-			"Trucks"
+			"Trucks",
+			"RHSVehicles"
 		};
 	};
 
@@ -120,7 +159,9 @@ class CfgTraders
 		categories[] = 
 		{
 			"Choppers", 
-			"Planes"
+			"Planes",
+			"RHSPlanes",
+			"RHSHelicopters"
 		};
 	};
 
@@ -260,3 +301,49 @@ class CfgTraders
 		};
 	};
 };
+
+class CfgTrading 
+{
+	/*
+	* This factor defines the difference between sales/purchase price of
+	* items and vehicles. It is used if there is no sales price defined
+	* in CfgExileArsenal. 
+	*/
+	sellPriceFactor = 0.5;
+	
+	rekeyPriceFactor = 0.1;
+
+	class requiredRespect 
+	{
+		Level1 = 0;
+		Level2 = 5000;
+		Level3 = 10000;
+		Level4 = 15000;
+		Level5 = 20000;
+		Level6 = 25000;
+	};
+};
+
+class CfgExileArsenal
+{
+	
+	#include "TraderLists\EXILE\CfgExileArsenal.hpp"
+	#include "TraderLists\RHS\CfgExileArsenal.hpp"
+	#include "TraderLists\TRYK\CfgExileArsenal.hpp"
+	#include "TraderLists\NIARMS\CfgExileArsenal.hpp"
+	#include "TraderLists\ACE\CfgExileArsenal.hpp"
+	
+};
+
+class CfgTraderCategories
+{
+
+	#include "TraderLists\EXILE\CfgTraderCategories.hpp"
+	#include "TraderLists\RHS\CfgTraderCategories.hpp"
+	#include "TraderLists\TRYK\CfgTraderCategories.hpp"
+	#include "TraderLists\NIARMS\CfgTraderCategories.hpp"
+	#include "TraderLists\ACE\CfgTraderCategories.hpp"
+
+};
+
+
