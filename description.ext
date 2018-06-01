@@ -74,10 +74,6 @@ showHUD[] =
 #include "config.cpp"
 #include "CfgRemoteExec.hpp"
 #include "RscDefines.hpp"
-#include "infiSTAR\infiSTAR_AdminMenu.hpp"
-#include "infiSTAR\infiSTAR_defines.hpp"
-#include "infiSTAR\infiSTAR_chat.hpp"
-#include "infiSTAR\infiSTAR_KeyBinds.hpp"
 #include "traders\TraderPlus.hpp"
 
 
