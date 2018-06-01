@@ -9,7 +9,6 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-// #include "scripts\CDAH.hpp"
 
 #include "Traders\CfgTraders.hpp"
 
@@ -1754,22 +1753,9 @@ class CfgExileAnimals
 };
 class CfgExileCustomCode 
 {
-	/*
-		You can overwrite every single file of our code without touching it.
-		To do that, add the function name you want to overwrite plus the 
-		path to your custom file here. If you wonder how this works, have a
-		look at our bootstrap/fn_preInit.sqf function.
 
-		Simply add the following scheme here:
-
-		<Function Name of Exile> = "<New File Name>";
-
-		Example:
-
-		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
-	*/
+	#Include "ExileServerOverrides\CfgExileCustomCode.cpp"
 	
-
 };
 class CfgExileEnvironment
 {

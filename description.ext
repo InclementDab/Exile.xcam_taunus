@@ -80,7 +80,6 @@ class CfgRemoteExec
     {
         mode = 1;
         jip = 0;
-		class CDAH_fnc_CDAH_Workshop_Gui {allowedTargets = 0; };
         class ExileServer_system_network_dispatchIncomingMessage { allowedTargets = 2; };
 		class fnc_AdminReq { allowedTargets = 2; };
     };
