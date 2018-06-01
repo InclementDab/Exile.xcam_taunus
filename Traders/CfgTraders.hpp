@@ -289,8 +289,3 @@ class CfgExileArsenal
 	#include "Prices\ExilePrices.hpp"
 	
 };
-
-
-
-
-

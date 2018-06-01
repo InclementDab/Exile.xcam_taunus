@@ -15,7 +15,6 @@ _parameters = _this select 1;
 _requestingPlayer = _sessionID call ExileServer_system_session_getPlayerObject;
 
 _bambiuniforms = [
-		
 		"TRYK_U_B_BLK_T_WH",
 		"TRYK_U_B_BLK_T_BK",
 		"TRYK_U_B_RED_T_BR",
@@ -24,7 +23,6 @@ _bambiuniforms = [
 		"TRYK_U_B_BLK_T_BG_WH",
 		"TRYK_U_B_BLK_T_BG_BK",
 		"TRYK_U_B_RED_T_BG_BR"
-			
 ] call BIS_fnc_selectRandom;
 _bambifood = ["Exile_Item_Noodles","Exile_Item_SeedAstics","Exile_Item_Raisins","Exile_Item_Moobar"] call BIS_fnc_selectRandom;
 _bambidrink = ["Exile_Item_PlasticBottleCoffee","Exile_Item_PlasticBottleFreshWater"] call BIS_fnc_selectRandom;

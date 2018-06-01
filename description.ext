@@ -72,7 +72,7 @@ showHUD[] =
     true   // Vehicle Panel (Required for GPS)
 };
 
-#include "config\Config.cpp"
+#include "config.cpp"
 
 
 
