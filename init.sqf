@@ -1,0 +1,1 @@
+[] execVM "CDAH_crafting\logic\config.sqf";
