@@ -11,7 +11,12 @@
  
 
 #include "Traders\CfgTraders.hpp"
-#include "ExileServerOverrides\CfgExileCustomCode.hpp"
+#include "Traders\CfgTrading.hpp"
+#include "Traders\CfgTraderCategories.hpp"
+
+#include "Client\CfgExileCustomCode.hpp"
+
+#include "Config\CfgRemoteExec.hpp"
  
 class CfgClans
 {

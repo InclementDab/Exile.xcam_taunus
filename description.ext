@@ -1,7 +1,8 @@
 #define true 1
 #define false 0
 // Required for the XM8, do not remove!
-
+#include "RscDefines.hpp"
+#include "Client\TraderPlus\TraderPlus.hpp"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
@@ -71,10 +72,10 @@ showHUD[] =
     true   // Vehicle Panel (Required for GPS)
 };
 
-#include "config.cpp"
-#include "CfgRemoteExec.hpp"
-#include "RscDefines.hpp"
-#include "traders\TraderPlus.hpp"
+#include "config\Config.cpp"
+
+
+
 
 
 

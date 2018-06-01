@@ -1,3 +1,3 @@
-_GF = [] execVM "scripts\nightFog.sqf";
-
-[] execVM "scripts\Enigma\enigmaInit.sqf";
+_GF = [] execVM "client\weather\nightFog.sqf";
+[] execVM "client\weather\morningFog.sqf";
+[] execVM "client\enigma\enigmainit.sqf";

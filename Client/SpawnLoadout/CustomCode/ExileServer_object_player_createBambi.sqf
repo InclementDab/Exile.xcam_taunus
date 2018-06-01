@@ -101,12 +101,24 @@ if (_devFriendlyMode isEqualTo 1) then
 	forEach _devs;
 };
 _parachuteNetID = "";
+_bambiuniforms = [
+		"TRYK_U_B_BLK_T_WH",
+		"TRYK_U_B_BLK_T_BK",
+		"TRYK_U_B_RED_T_BR",
+		"TRYK_U_B_Denim_T_BG_WH",
+		"TRYK_U_B_Denim_T_BG_BK",
+		"TRYK_U_B_BLK_T_BG_WH",
+		"TRYK_U_B_BLK_T_BG_BK",
+		"TRYK_U_B_RED_T_BG_BR"
+] call BIS_fnc_selectRandom;
+_bambifood = ["Exile_Item_Noodles","Exile_Item_SeedAstics","Exile_Item_Raisins","Exile_Item_Moobar"] call BIS_fnc_selectRandom;
+_bambidrink = ["Exile_Item_PlasticBottleCoffee","Exile_Item_PlasticBottleFreshWater"] call BIS_fnc_selectRandom;
 if ((getNumber(configFile >> "CfgSettings" >> "BambiSettings" >> "parachuteSpawning")) isEqualTo 1) then
 {
 	_position set [2, getNumber(configFile >> "CfgSettings" >> "BambiSettings" >> "parachuteDropHeight")]; 
 	if ((getNumber(configFile >> "CfgSettings" >> "BambiSettings" >> "haloJump")) isEqualTo 1) then
 	{
-		_bambiPlayer addBackpackGlobal "B_Parachute";
+		_bambiPlayer addBackpackGlobal "B_Parachute";	
 		_bambiPlayer setPosATL _position;
 		_spawnType = 2;
 	}
@@ -122,57 +134,11 @@ if ((getNumber(configFile >> "CfgSettings" >> "BambiSettings" >> "parachuteSpawn
 }
 else
 {
-	_spawnType = 0;	
+	_spawnType = 0;
 };
-
-// Custom Loadout Starts Here. Uncomment the lines you want your players to have..
-
-	// Remove Anything already on the BambiSettings
-	removeAllAssignedItems _bambiPlayer;
-	removeGoggles _bambiPlayer;
-	removeHeadgear _bambiPlayer;
-	removeUniform _bambiPlayer;
-	//removeBackpackGlobal _bambiPlayer; // Only Uncomment This if Not Using Paracutes
-	
-	// Clothing
-	_bambiPlayer forceAddUniform "Exile_Uniform_ExileCustoms"; // Black Exile Overalls
-	//_bambiPlayer addVest "V_TacVest_gen_F"; // Change Vest Class Here
-	//_bambiPlayer addHeadgear "H_Beret_gen_F"; // Change Headgear Class Here
-	//_bambiPlayer addBackpack "B_ViperHarness_blk_F"; // Change Backpack Class Here
-	
-	// Navigation Items
-	//_bambiPlayer linkItem "ItemGPS"; // This Puts The GPS Into The Correct Slot
-	_bambiPlayer linkItem "Exile_Item_XM8"; // This Puts The XM8 Into The Correct Slot 
-	//_bambiPlayer linkItem "ItemCompass"; //This Puts The Compass Into The Correct Slot
-	_bambiPlayer linkItem "ItemMap"; //This Puts The Map Into The Correct Slot
-	//_bambiPlayer linkItem "ItemRadio"; //This Puts The Radio Into The Correct Slot
-	
-	// Food and Drink Items
-	_bambiPlayer addItem "Exile_Item_PlasticBottleCoffee"; // Change Drink Class Here
-	_bambiPlayer addItem "Exile_Item_EMRE"; // Change Food Class Here
-	
-	// Medical Items
-	_bambiPlayer addItem "Exile_Item_Bandage"; // Change Meds Class Here
-	//_bambiPlayer addItem "Exile_Item_Bandage"; // Change Meds Class Here
-	//_bambiPlayer addItem "Exile_Item_InstaDoc"; // Change Meds Class Here
-	
-	// Ammo - Add ammo before weapons
-	//_bambiPlayer addItemToVest "11Rnd_45ACP_Mag"; // Ammo For Weapon Listed Below
-	//_bambiPlayer addItemToVest "11Rnd_45ACP_Mag"; // Ammo For Weapon Listed Below
-	//_bambiPlayer addItemToVest "11Rnd_45ACP_Mag"; // Ammo For Weapon Listed Below
-	
-	// Weapons
-	//_bambiPlayer addWeapon "hgun_Pistol_heavy_01_F"; // Weapon
-	
-	// Weapons Attachments
-	//_bambiPlayer addHandgunItem "optic_MRD"; // Adds Attachment to Handgun | Change Attachment Class Here
-	//_bambiPlayer addHandgunItem "muzzle_snds_acp"; // Adds Attachment to Handgun | Change Attachment Class Here
-	//_bambiPlayer addPrimaryWeaponItem "optic_AMS_khk"; // Adds Attachment to Primary Weapon | Change Attachment Class Here
-	//_bambiPlayer addPrimaryWeaponItem "bipod_03_F_oli";// Adds Attachment to Primary Weapon | Change Attachment Class Here
-	//_bambiPlayer addPrimaryWeaponItem "muzzle_snds_B_khk_F"; // Adds Attachment to Primary Weapon | Change Attachment Class Here
-	
-// Custom Loadout Ends Here. Uncomment the lines you want your players to have..
-
+_bambiplayer forceadduniform _bambiuniforms;
+_bambiplayer addItem _bambifood;
+_bambiplayer addItem _bambidrink;	
 _bambiPlayer addMPEventHandler ["MPKilled", {_this call ExileServer_object_player_event_onMpKilled}];
 _bambiPlayer call ExileServer_object_player_database_insert;
 _bambiPlayer call ExileServer_object_player_database_update;

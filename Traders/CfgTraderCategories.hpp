@@ -1,4 +1,5 @@
-
+class CfgTraderCategories
+{
 	class Community
 	{
 		name = "Community Items";
@@ -2547,3 +2548,4 @@
 		};
 	};
 	
+};

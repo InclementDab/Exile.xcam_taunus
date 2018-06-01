@@ -19,7 +19,7 @@ private ['_code', '_function', '_file'];
 }
 forEach
 [
-	['Enigma_RevivePlyr', 'scripts\Enigma\Enigma_RevivePlyr.sqf']
+	['Enigma_RevivePlyr', 'Client\Enigma\Enigma_RevivePlyr.sqf']
 ];
 
 true
