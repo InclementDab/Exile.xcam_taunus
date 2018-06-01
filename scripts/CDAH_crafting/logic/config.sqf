@@ -46,6 +46,6 @@
 	}
 	forEach 
 	[
-		['fn_CDAH_setCraftTime', 													'CDAH_crafting\logic\fn_CDAH_setCraftTime.sqf']
+		['fn_CDAH_setCraftTime', 													'scripts\CDAH_crafting\logic\fn_CDAH_setCraftTime.sqf']
 	];
 	
