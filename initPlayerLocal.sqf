@@ -11,22 +11,31 @@ if (!hasInterface || isServer) exitWith {};
 // Mikes Bikes
 ///////////////////////////////////////////////////////////////////////////
 
-_bench = "Land_Workbench_01_F" createVehicleLocal [0,0,0];
-_bench setDir 357.824;
-_bench setPosATL [8086.228, 5928.661, 0.5];
-
 _trader = 
 [
-    "Exile_Trader_Bikes",
-    "Exile_Trader_Bikes",
+    "Trader_Hospital",
     "LOP_CHR_Civ_Worker_03",
     ["HubSittingChairA_idle1"],
-    [0, 0, 0.5],
-    90,
-	_bench
+    [6844.485, 11735.994, 0.5],
+    90
 ]
 call ExileClient_object_trader_create;
 
+
+
+///////////////////////////////////////////////////////////////////////////
+// Armory
+///////////////////////////////////////////////////////////////////////////
+
+_trader = 
+[
+    "Exile_Trader_Armory",
+    "LOP_CHR_Civ_Worker_03",
+    ["HubSittingChairA_idle1"],
+    [6850.485, 11735.994, 0.5],
+    90
+]
+call ExileClient_object_trader_create;
 
 /*
 
