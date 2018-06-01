@@ -11,7 +11,7 @@
  
 
 #include "Traders\CfgTraders.hpp"
-
+#include "ExileServerOverrides\CfgExileCustomCode.hpp"
  
 class CfgClans
 {
@@ -1751,12 +1751,7 @@ class CfgExileAnimals
 	 */
 	minimumLifetime = 5 * 60;
 };
-class CfgExileCustomCode 
-{
 
-	#Include "ExileServerOverrides\CfgExileCustomCode.cpp"
-	
-};
 class CfgExileEnvironment
 {
 	class Altis 
@@ -2687,12 +2682,11 @@ class CfgInteractionMenus
 				condition = "!(alive ExileClientInteractionObject)";
 				action = "_this call ExileClient_object_player_identifyBody";
 			};
-			
-			class HideCorpse: ExileAbstractAction
+			class Revive: ExileAbstractAction
 			{
-				title = "Hide Body";
-				condition = "!(alive ExileClientInteractionObject) && ('Exile_Melee_Shovel' isEqualTo (currentWeapon player))";
-				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
+				title = "Perform CPR";
+				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
+				action = "_this spawn Enigma_RevivePlyr";
 			};
 		};
 	};

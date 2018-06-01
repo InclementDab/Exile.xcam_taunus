@@ -933,7 +933,8 @@
 			"ACE_bloodIV_250",
 			"ACE_bloodIV_500",
 			"ACE_bloodIV",
-			"ACE_bodyBag"
+			"ACE_bodyBag",
+			"Exile_Item_Defibrillator"
 		};
 	};
 	

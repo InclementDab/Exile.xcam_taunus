@@ -67,6 +67,7 @@
 	class ACE_microDAGR								{ quality = 4; price = 15000; };
 	class ACE_M26_Clacker							{ quality = 4; price = 15000; };
 	class ACE_NVG_Gen4								{ quality = 4; price = 16000; };
+	class Exile_Item_Defibrillator					{ quality = 4; price = 13000; };
 
 	
 	// Quality 5 25000+

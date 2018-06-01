@@ -6,9 +6,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Prepare yourself";
+author = "Developed By InclementDeath and ZeroFoxy";
 onLoadName = "Join our Teamspeak: ts.dntsck.com!";
 onLoadMission= "Hardcore Exile Taunus";
+briefingName="Join our Teamspeak: ts.dntsck.com!";
 loadScreen = "logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
