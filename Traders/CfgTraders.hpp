@@ -16,7 +16,7 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"ACE_Medical"
+			"Medical"
 		};
 	};
 	
