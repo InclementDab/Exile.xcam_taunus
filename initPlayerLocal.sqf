@@ -3,6 +3,11 @@
  * www.exilemod.com
  */
 
+//Bones Super Advanced Repair System (SARS)
+Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
+
+
+ 
 if (!hasInterface || isServer) exitWith {};
 
 // 3 NPCs

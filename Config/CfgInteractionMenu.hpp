@@ -40,14 +40,6 @@ class CfgInteractionMenus
 				action = "false spawn ExileClient_object_lock_toggle";
 			};
 
-			// Repairs a vehicle to 100%. Requires Duckttape
-			class Repair: ExileAbstractAction
-			{
-				title = "Repair";
-				condition = "true";
-				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
-			};
-
 			// Hot-wires a vehicle
 			class Hotwire: ExileAbstractAction
 			{
@@ -80,6 +72,12 @@ class CfgInteractionMenus
 				condition = "call ExileClient_object_vehicle_interaction_show";
 				action = "_this call ExileClient_object_vehicle_drain";
 			};
+			class Repair: ExileAbstractAction //Bones Custom Vehicle Repairs
+			{
+				title = "Repair/Salvage";
+				condition = "true";
+				action = "_this call Bones_fnc_salvageAndRepairMenu";
+			};			
 		};
 	};
 
@@ -121,14 +119,6 @@ class CfgInteractionMenus
 				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
 			};
 
-			// Repairs a vehicle to 100%. Requires Duckttape
-			class Repair: ExileAbstractAction
-			{
-				title = "Repair";
-				condition = "true";
-				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
-			};
-
 			// Flips a vehicle so the player doesnt have to call an admin
 			// Check if vector up is fucked
 			class Flip: ExileAbstractAction
@@ -166,6 +156,12 @@ class CfgInteractionMenus
 				title = "Rotate Right";
 				condition = "call ExileClient_object_vehicle_interaction_show";
 				action = "[ExileClientInteractionObject,15] call ExileClient_object_vehicle_rotate";
+			};
+			class Repair: ExileAbstractAction // Bones Custom Air Repairs
+			{
+				title = "Repair/Salvage";
+				condition = "true";
+				action = "_this call Bones_fnc_salvageAndRepairMenu";
 			};
 		};
 	};

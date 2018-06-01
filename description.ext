@@ -45,7 +45,7 @@ wreckLimit = 2;
 wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 360;
 scriptedPlayer = 1;
-disabledAI = 0;
+disabledAI = 1;
 enableItemsDropping = 0;
 briefing = 0;
 debriefing = 0;
@@ -59,17 +59,17 @@ reviveForceRespawnDelay = 3;
 reviveBleedOutDelay = 120;
 debug = 1;
 
-showHUD[] =
+showHUD[] = 
 {
     true,   // Scripted HUD (same as showHUD command)
     true,   // Vehicle + soldier info
-    true,   // Vehicle radar
+    true,   // Vehicle radar 
     true,   // Vehicle compass
     true,   // Tank direction indicator
-    false,  // Commanding menu
+    true,  // Commanding menu
     false,  // Group Bar
     true,   // HUD Weapon Cursors
-    true   // Vehicle Panel (Required for GPS)
+    false   // Squad Radar
 };
 
 #include "config.cpp"

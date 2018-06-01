@@ -19,30 +19,30 @@ class SM_Zombz
 		CLIENT SETTINGS
 	*/
 	SM_NotificatonType = 1; // 1 for custom notification, 2 for mod notification.
-	SM_ZombieDamagePlayer = 0.15; // how much damage a zombie does to a player
+	SM_ZombieDamagePlayer = 0.4; // how much damage a zombie does to a player
 	SM_ZombieDamagePlayerStrength = 1; // strength in wich a zombie does to a player (based on damage)
 	SM_ZombieDamageCar = 0.02; // how much damage a zombie does to a car
 	SM_ZombieDamageCarStrength = 1.5; // strength in wich a zombie does to a car (based on damage)
 	SM_AttackSpeed = 0.8; // delay from each zombie attack
-	SM_BleedingEnabled = 1; // when a zombie attacks a player they can bleed
+	SM_BleedingEnabled = 0; // when a zombie attacks a player they can bleed
 	SM_BleedTime = 20; // how long a player will bleed if they are attacked by a zombie
 	SM_BleedChance = 25; // bleed chance.....
-	SM_ZombieTargetPosMemory = 7.5; // in seconds how long a zombie remembers the position it's walking to
-	SM_ZombieSoundDelayAggressive = 3; // seconds between each aggresive sound a zombie makes
-	SM_ZombieSoundDelayMoan = 420; // seconds between each moan sound a zombie makes
+	SM_ZombieTargetPosMemory = 20; // in seconds how long a zombie remembers the position it's walking to
+	SM_ZombieSoundDelayAggressive = 5; // seconds between each aggresive sound a zombie makes
+	SM_ZombieSoundDelayMoan = 30; // seconds between each moan sound a zombie makes
 	SM_ZombieEat = 30; // how long a zombie eats a target
 	SM_SoundDistance = 30; // how far a zombie sound travels
 	SM_ZombieEatSoundDelay = 7; // seconds between each eating sound
 	SM_ZombieSpeedIncreaseEnabled = true; // increase / decrease zombie speed based on distance
 	SM_ZombieSpeedDistance = 35; // distance to increase / decrease zombie speed
-	SM_ZombieSpeedMultiplyer = 1.5; // multiplier for zombie speed
+	SM_ZombieSpeedMultiplyer = 2.5; // multiplier for zombie speed
 	SM_ZombiesFastClose = true; // 1 = zombies walk fast close // 0 = zombies walk fast far away
 	SM_MultiplierDistanceFromTarget = 1.5; // random of 10, multiplier, if 5, then will be 7.5 meter wander distance from target.
 	SM_ZombieInBuildingSpeedDevidor = 2; // Devidor of default zombie speed, how fast a zombie moves in a building.
 	SM_FiredNearEVHEnabled = true; // if a player shoots near a zombie, the zombie will walk to that shot position
 	SM_SetVelocityOnHit = true; // moves the player / vehicle just slightly when hit.
 	SM_ExplodingHeadEnabled = true; // exploding heads
-	SM_Zombie_SpawnInGround = true; // when zombies spawn they spawn out of the ground
+	SM_Zombie_SpawnInGround = false; // when zombies spawn they spawn out of the ground
 
 	// How long it takes a idle zombie to recalculate finding a target (recommended 0.1-5 seconds)
 	// The higher the better performance (because it's not checking targets as frequent.)
@@ -93,11 +93,11 @@ class SM_Zombz
 		"FlatAreaCity",
 		"StrongpointArea"
 	};
-	SM_ZombieMaxDistanceTown = 45; // max distance to spawn zombies from a player in a town
+	SM_ZombieMaxDistanceTown = 75; // max distance to spawn zombies from a player in a town
 	SM_ZombieMinDistanceTown = 25; // min distance to spawn zombies from a player in a town
 	SM_SearchForTownRadius = 1000; // will search all towns near a player within 1000 meters.
-	SM_ZombiesPerPlayerInTown = 7; // How many zombies a player have in a town.
-	SM_ZombiesPerWaveTown = 2; // How many zombies to spawn on a player per wave in town.
+	SM_ZombiesPerPlayerInTown = 8; // How many zombies a player have in a town.
+	SM_ZombiesPerWaveTown = 3; // How many zombies to spawn on a player per wave in town.
 	SM_HordeMarkerColor = "ColorRed"; // used for SM_HordeMarkerStyle.
 	SM_HordeMarkerStyle = "hd_warning"; // if you have a marker you want to use, set SM_HordeMarkerType to 6.
 	SM_HordeMarkerText = ""; //"!!! --- HORDE --- !!!"; // pretty obvious...
@@ -108,7 +108,7 @@ class SM_Zombz
 	SM_ZombieSide = "east"; // side to create the zombie.
 	SM_HordeNotificationEnabled = false; // notification for hordes.
 	SM_HordeMarkerEnabled = false; // markers for hordes.
-	SM_ZombiesPerWave = 5; // zombies to spawn on a player per wave.
+	SM_ZombiesPerWave = 3; // zombies to spawn on a player per wave.
 	SM_HordeMaxDistance = 150; // max distance to spawn horde from a player.
 	SM_HordeMinDistance = 25; // min distance to spawn horde from a player.
 	SM_HordeMaxDistanceTown = 100; // max distance to spawn horde from a player, in a town.
@@ -152,7 +152,7 @@ class SM_Zombz
 	SM_RespawnDelayForPlayerEnabled = true; // Enables delaying of spawns for a player.
 	SM_RespawnDelayForPlayer = 300; // How long (in seconds) it waits to spawn more zombies for a player.
 	SM_RespawnDelayForPlayerTown = 420; // how long (in seconds) it waits to spawn more zombies for a player in a town.
-	SM_TownsOnly = true; // Makes it so zombies only spawn at towns.
+	SM_TownsOnly = false; // Makes it so zombies only spawn at towns.
 	SM_TownSearchEnabled = true; // enable the searching of towns. 
 
 	/*

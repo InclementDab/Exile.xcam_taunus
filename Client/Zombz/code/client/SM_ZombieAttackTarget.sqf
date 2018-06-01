@@ -60,7 +60,7 @@ else
 	//_target setDamage ((damage _target) + SM_ZombieDamagePlayer);
 	//call SM_SetBlur;
 	
-	_damageLocation = selectRandom ["body", "hand_l", "hand_r", "leg_l", "leg_r"];
+	_damageLocation = selectRandom ["body", "hand_l", "hand_r", "leg_l", "leg_r", "head"];
 	
 	[_target, SM_ZombieDamagePlayer, _damageLocation, "Stab"] call ace_medical_fnc_addDamageToUnit;
 	

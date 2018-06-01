@@ -73,11 +73,11 @@ ExileClientBleedOutCountDownDuration = _respawnDelay;
 ExileClientBleedOutCountDownEnd = time + _respawnDelay;
 player setVariable ["BleedoutCountDownEnd", ExileClientBleedOutCountDownEnd, true];
 // BIS count down GUI
-_layer = "BIS_fnc_respawnCounter" call bis_fnc_rscLayer;
-_layer cutText ["", "plain"];
+// _layer = "BIS_fnc_respawnCounter" call bis_fnc_rscLayer;
+// _layer cutText ["", "plain"];
 
 
-_layer cutRsc ["RscRespawnCounter", "plain"];
+// _layer cutRsc ["RscRespawnCounter", "plain"];
 
 // Force enable chat
 showChat true;

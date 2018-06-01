@@ -60,8 +60,17 @@ switch (toLower _type) do
 				_maxDistance = SM_ZombieMaxDistanceTown;
 				_zombieMinDistance = SM_ZombieSpawnMaxDistanceFromPositionTown;
 				_zombieMaxDistance = SM_ZombieSpawnMinDistanceFromPositionTown;
-				_zombiesToSpawn = SM_ZombiesPerWaveTown;
-				_maxZombies = SM_ZombiesPerPlayerInTown;
+				
+				if(daytime < 7 || daytime > 19) then {
+				_zombiesToSpawn = (SM_ZombiesPerWaveTown * 2)}
+				else {				
+				_zombiesToSpawn = SM_ZombiesPerWaveTown};
+				
+				if(daytime < 7 || daytime > 19) then {
+				_maxZombies = (SM_ZombiesPerPlayerTown * 2)}
+				else {				
+				_maxZombies = SM_ZombiesPerPlayerTown};
+				
 				_zombieClasses = SM_ZombieClassesTown;
 				_spawnDelay = SM_RespawnDelayForPlayerTown;
 
@@ -76,8 +85,17 @@ switch (toLower _type) do
 				_maxDistance = SM_ZombieMaxDistance;
 				_zombieMinDistance = SM_ZombieSpawnMinDistanceFromPosition;
 				_zombieMaxDistance = SM_ZombieSpawnMaxDistanceFromPosition;
-				_zombiesToSpawn = SM_ZombiesPerWave;
-				_maxZombies = SM_ZombiesPerPlayer;
+				
+				if(daytime < 7 || daytime > 19) then {
+				_zombiesToSpawn = (SM_ZombiesPerWave * 2)}
+				else {				
+				_zombiesToSpawn = SM_ZombiesPerWave};
+				
+				if(daytime < 7 || daytime > 19) then {
+				_maxZombies = (SM_ZombiesPerPlayer * 2)}
+				else {				
+				_maxZombies = SM_ZombiesPerPlayer};
+				
 				_zombieClasses = SM_ZombieClasses;
 				_spawnDelay = SM_RespawnDelayForPlayer;			
 			};
