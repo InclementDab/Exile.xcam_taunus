@@ -1,1 +1,1 @@
-[] execVM "CDAH_crafting\logic\config.sqf";
+[] execVM "scripts\CDAH_crafting\logic\config.sqf";
