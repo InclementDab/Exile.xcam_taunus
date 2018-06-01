@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7;
+		nextID=10;
 	};
 	class Camera
 	{
@@ -658,7 +658,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=630;
+		items=624;
 		class Item0
 		{
 			dataType="Marker";
@@ -668,6 +668,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=500;
 			b=500;
@@ -692,6 +693,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=1000;
 			b=1000;
@@ -717,6 +719,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=500;
 			b=500;
@@ -742,6 +745,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=500;
 			b=500;
@@ -761,18 +765,19 @@ class Mission
 		class Item8
 		{
 			dataType="Marker";
-			position[]={19004.607,627.43292,10862.587};
+			position[]={19004.607,627.43298,10862.587};
 			name="DornholzhausenTraderCity";
 			text="Dornholzhausen";
 			markerType="ELLIPSE";
 			type="ExileTraderZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=175;
 			b=175;
 			drawBorder=1;
 			id=12;
-			atlOffset=466.07294;
+			atlOffset=466.073;
 		};
 		class Item9
 		{
@@ -783,6 +788,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileTraderZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=175;
 			b=175;
@@ -2795,6 +2801,7 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
+			alpha=0;
 			fillName="Border";
 			a=500;
 			b=500;
@@ -12194,34 +12201,26 @@ class Mission
 		};
 		class Item590
 		{
-			dataType="Marker";
-			position[]={3527.4155,538.90021,18433.371};
-			name="marker_35";
-			type="loc_Bunker";
-			id=806;
-		};
-		class Item591
-		{
 			dataType="Layer";
 			name="Camp Ant";
 			id=843;
 			atlOffset=-271.75;
 		};
-		class Item592
+		class Item591
 		{
 			dataType="Layer";
 			name="Camp Falcon";
 			id=865;
 			atlOffset=-271.75;
 		};
-		class Item593
+		class Item592
 		{
 			dataType="Layer";
 			name="Camp Fortitude";
 			id=973;
 			atlOffset=-271.75;
 		};
-		class Item594
+		class Item593
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12237,7 +12236,7 @@ class Mission
 			id=985;
 			type="cwa_MASH";
 		};
-		class Item595
+		class Item594
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12253,7 +12252,7 @@ class Mission
 			id=986;
 			type="cwa_MASH";
 		};
-		class Item596
+		class Item595
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12269,7 +12268,7 @@ class Mission
 			id=992;
 			type="CampEast";
 		};
-		class Item597
+		class Item596
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12285,7 +12284,7 @@ class Mission
 			id=995;
 			type="cwa_MASH";
 		};
-		class Item598
+		class Item597
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12301,7 +12300,7 @@ class Mission
 			id=998;
 			type="CUP_metalcrate";
 		};
-		class Item599
+		class Item598
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12318,7 +12317,7 @@ class Mission
 			type="Land_FieldToilet_F";
 			atlOffset=-6.1035156e-005;
 		};
-		class Item600
+		class Item599
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12335,7 +12334,7 @@ class Mission
 			type="CampEast";
 			atlOffset=-6.1035156e-005;
 		};
-		class Item601
+		class Item600
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12394,7 +12393,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item602
+		class Item601
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12410,7 +12409,7 @@ class Mission
 			id=1010;
 			type="ClutterCutter_EP1";
 		};
-		class Item603
+		class Item602
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12449,7 +12448,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item604
+		class Item603
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12469,25 +12468,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="allowDamage";
 					expression="_this allowdamage _value;";
 					class Value
@@ -12505,10 +12485,10 @@ class Mission
 						};
 					};
 				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item605
+		class Item604
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12525,7 +12505,7 @@ class Mission
 			type="plp_ctp_PalletMetal";
 			atlOffset=0.013305664;
 		};
-		class Item606
+		class Item605
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12542,7 +12522,7 @@ class Mission
 			type="plp_ctp_PalletMetal";
 			atlOffset=0.013244629;
 		};
-		class Item607
+		class Item606
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12558,7 +12538,7 @@ class Mission
 			id=1026;
 			type="Land_Wreck_AFV_Wheeled_01_F";
 		};
-		class Item608
+		class Item607
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12575,7 +12555,7 @@ class Mission
 			type="Land_Army_hut_storrage_ruins";
 			atlOffset=6.1035156e-005;
 		};
-		class Item609
+		class Item608
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12592,7 +12572,7 @@ class Mission
 			type="Land_Army_hut2_ruins";
 			atlOffset=6.1035156e-005;
 		};
-		class Item610
+		class Item609
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12609,7 +12589,7 @@ class Mission
 			type="Land_Posed_ruins";
 			atlOffset=6.1035156e-005;
 		};
-		class Item611
+		class Item610
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12626,7 +12606,7 @@ class Mission
 			type="Land_Misc_Cargo1A_ruins_EP1";
 			atlOffset=-6.1035156e-005;
 		};
-		class Item612
+		class Item611
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12641,7 +12621,7 @@ class Mission
 			id=1032;
 			type="Land_WW2_Krater";
 		};
-		class Item613
+		class Item612
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12657,7 +12637,7 @@ class Mission
 			id=1035;
 			type="ClutterCutter_EP1";
 		};
-		class Item614
+		class Item613
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12673,7 +12653,7 @@ class Mission
 			id=1036;
 			type="ClutterCutter_EP1";
 		};
-		class Item615
+		class Item614
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12689,7 +12669,7 @@ class Mission
 			id=1037;
 			type="ClutterCutter_EP1";
 		};
-		class Item616
+		class Item615
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12705,7 +12685,7 @@ class Mission
 			id=1038;
 			type="ClutterCutter_EP1";
 		};
-		class Item617
+		class Item616
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12721,7 +12701,7 @@ class Mission
 			id=1039;
 			type="Land_Wreck_HMMWV_F";
 		};
-		class Item618
+		class Item617
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12737,7 +12717,7 @@ class Mission
 			id=1042;
 			type="JeepWreck2";
 		};
-		class Item619
+		class Item618
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12752,7 +12732,7 @@ class Mission
 			id=1043;
 			type="Land_WW2_Krater";
 		};
-		class Item620
+		class Item619
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12767,7 +12747,7 @@ class Mission
 			id=1044;
 			type="Land_WW2_Krater";
 		};
-		class Item621
+		class Item620
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12784,25 +12764,7 @@ class Mission
 			type="ClutterCutter_EP1";
 			atlOffset=-0.011474609;
 		};
-		class Item622
-		{
-			dataType="Marker";
-			position[]={16246.402,176.12547,7663.9087};
-			name="marker_36";
-			type="loc_Hospital";
-			angle=351.65726;
-			id=1053;
-		};
-		class Item623
-		{
-			dataType="Marker";
-			position[]={15870.414,123.09519,1980.4968};
-			name="marker_37";
-			type="loc_Hospital";
-			angle=51.239082;
-			id=1054;
-		};
-		class Item624
+		class Item621
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12858,7 +12820,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item625
+		class Item622
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12873,58 +12835,8 @@ class Mission
 			};
 			id=1056;
 			type="Land_A_Hospital";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
-		class Item626
-		{
-			dataType="Marker";
-			position[]={19545.035,99.410004,781.22803};
-			name="marker_38";
-			type="loc_Hospital";
-			angle=26.307318;
-			id=1062;
-		};
-		class Item627
-		{
-			dataType="Marker";
-			position[]={18987.771,168.67865,11364.19};
-			name="marker_39";
-			type="loc_Hospital";
-			angle=96.845413;
-			id=1063;
-		};
-		class Item628
-		{
-			dataType="Marker";
-			position[]={19252.293,162.11639,11421.317};
-			name="marker_40";
-			type="loc_Hospital";
-			angle=33.18745;
-			id=1064;
-		};
-		class Item629
+		class Item623
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12962,25 +12874,6 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute2
-				{
 					property="hideObject";
 					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
 					class Value
@@ -12998,7 +12891,7 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				nAttributes=2;
 			};
 		};
 	};
