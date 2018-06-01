@@ -31,7 +31,8 @@ try
 // Custom Loadout Starts Here. Uncomment the lines you want your players to have..
 	
 	// Clothing
-	_bambiPlayer forceAddUniform selectRandom ["TRYK_U_B_BLK_T_WH","TRYK_U_B_BLK_T_BK","TRYK_U_B_RED_T_BR","TRYK_U_B_Denim_T_BG_WH","TRYK_U_B_Denim_T_BG_BK","TRYK_U_B_BLK_T_BG_WH","TRYK_U_B_BLK_T_BG_BK","TRYK_U_B_RED_T_BG_BR"]
+	_clothing = selectRandom ["TRYK_U_B_BLK_T_WH","TRYK_U_B_BLK_T_BK","TRYK_U_B_RED_T_BR","TRYK_U_B_Denim_T_BG_WH","TRYK_U_B_Denim_T_BG_BK","TRYK_U_B_BLK_T_BG_WH","TRYK_U_B_BLK_T_BG_BK","TRYK_U_B_RED_T_BG_BR"];
+	_bambiPlayer forceAddUniform _clothing;
 	//_bambiPlayer addVest "V_TacVest_gen_F"; // Change Vest Class Here
 	//_bambiPlayer addHeadgear "H_Beret_gen_F"; // Change Headgear Class Here
 	//_bambiPlayer addBackpack "B_ViperHarness_blk_F"; // Change Backpack Class Here
@@ -39,7 +40,7 @@ try
 	// Navigation Items
 	//_bambiPlayer linkItem "ItemGPS"; // This Puts The GPS Into The Correct Slot
 	_bambiPlayer linkItem "Exile_Item_XM8"; // This Puts The XM8 Into The Correct Slot 
-	//_bambiPlayer linkItem "ItemCompass"; //This Puts The Compass Into The Correct Slot
+	_bambiPlayer linkItem "ItemCompass"; //This Puts The Compass Into The Correct Slot
 	_bambiPlayer linkItem "ItemMap"; //This Puts The Map Into The Correct Slot
 	//_bambiPlayer linkItem "ItemRadio"; //This Puts The Radio Into The Correct Slot
 	

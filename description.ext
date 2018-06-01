@@ -1,7 +1,7 @@
 #define true 1
 #define false 0
 // Required for the XM8, do not remove!
-#include "RscDefines.hpp"
+
 
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
@@ -72,23 +72,13 @@ showHUD[] =
 };
 
 #include "config.cpp"
+#include "CfgRemoteExec.hpp"
+#include "RscDefines.hpp"
+#include "infiSTAR\infiSTAR_AdminMenu.hpp"
+#include "infiSTAR\infiSTAR_defines.hpp"
+#include "infiSTAR\infiSTAR_chat.hpp"
+#include "infiSTAR\infiSTAR_KeyBinds.hpp"
+#include "traders\TraderPlus.hpp"
 
 
-
-class CfgRemoteExec
-{
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
-        class ExileServer_system_network_dispatchIncomingMessage { allowedTargets = 2; };
-		class fnc_AdminReq { allowedTargets = 2; };
-    };
-
-    class Commands
-    {
-		mode = 0;
-		jip = 0;
-    };
-};
 
