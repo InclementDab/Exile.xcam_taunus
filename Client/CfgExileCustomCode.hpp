@@ -23,6 +23,8 @@ class CfgExileCustomCode
 	
 	// Basic Exile Changes
 	ExileClient_gui_escape_abort = "Client\ExileChanges\CustomCode\ExileClient_gui_escape_abort.sqf";
+	ExileClient_gui_hud_renderStatsPanel = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_renderStatsPanel.sqf";
+	ExileClient_gui_hud_renderWeaponPanel = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_renderWeaponPanel.sqf";
 	
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened = "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";

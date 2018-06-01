@@ -67,7 +67,7 @@ class SM_Zombz
 
 	// Infection items: SM_Zombz_Item_immunity, SM_Zombz_Item_Cure
 	SM_InfectionIncrease = 0.25; // maximum ammount of infection to increase
-	SM_Infection = true; // enable / disable of infection when a player gets hit by a zombie
+	SM_Infection = false; // enable / disable of infection when a player gets hit by a zombie
 	SM_InfectionChance = 5; // chance to increase a random infection amount
 	SM_InfectionDamage = 0.01; // "multiplyer" for infection damage. 
 	SM_InfectionDelay = 2;	// how long in seconds it ticks the infection DOT
@@ -76,7 +76,7 @@ class SM_Zombz
 	/*
 		SERVER SETTINGS
 	*/
-	SM_NotificationEnabled = true; //Enable notification of killing zombies?
+	SM_NotificationEnabled = false; //Enable notification of killing zombies?
 	SM_ZombieGutsLength = 300; //How long zombie guts last.
 	SM_TownSearchTypes[] = //You're also able to put town names
 	{
@@ -96,8 +96,8 @@ class SM_Zombz
 	SM_ZombieMaxDistanceTown = 45; // max distance to spawn zombies from a player in a town
 	SM_ZombieMinDistanceTown = 25; // min distance to spawn zombies from a player in a town
 	SM_SearchForTownRadius = 1000; // will search all towns near a player within 1000 meters.
-	SM_ZombiesPerPlayerInTown = 15; // How many zombies a player have in a town.
-	SM_ZombiesPerWaveTown = 7; // How many zombies to spawn on a player per wave in town.
+	SM_ZombiesPerPlayerInTown = 7; // How many zombies a player have in a town.
+	SM_ZombiesPerWaveTown = 2; // How many zombies to spawn on a player per wave in town.
 	SM_HordeMarkerColor = "ColorRed"; // used for SM_HordeMarkerStyle.
 	SM_HordeMarkerStyle = "hd_warning"; // if you have a marker you want to use, set SM_HordeMarkerType to 6.
 	SM_HordeMarkerText = ""; //"!!! --- HORDE --- !!!"; // pretty obvious...
@@ -106,8 +106,8 @@ class SM_Zombz
 	SM_HordeNotificationText = "A zombie horde has spawned!";
 	SM_DespawnZombieOrKill = false; // eanbled just kills the zombie. disabled despawns the zombie. (on cleanup)
 	SM_ZombieSide = "east"; // side to create the zombie.
-	SM_HordeNotificationEnabled = true; // notification for hordes.
-	SM_HordeMarkerEnabled = true; // markers for hordes.
+	SM_HordeNotificationEnabled = false; // notification for hordes.
+	SM_HordeMarkerEnabled = false; // markers for hordes.
 	SM_ZombiesPerWave = 5; // zombies to spawn on a player per wave.
 	SM_HordeMaxDistance = 150; // max distance to spawn horde from a player.
 	SM_HordeMinDistance = 25; // min distance to spawn horde from a player.
@@ -139,20 +139,20 @@ class SM_Zombz
 	SM_ZombieCleanupDistance = 300; // cleanup zombies that are past this distance (from the controlling player)
 	SM_MaxZombies = 200; // max zombies to have on map.
 	SM_ZombiesPerPlayer = 10; // max zombies a player can have.
-	SM_ZombieHealth = 0.7; // health a zombie can have. ( 1 = dead )
+	SM_ZombieHealth = 0.5; // health a zombie can have. ( 1 = dead )
 	SM_GiveZombiePoptabs = true; // enable giving zombies poptabs?
-	SM_MaxPoptabs = 50; // max amount of poptabs to give zombies.
+	SM_MaxPoptabs = 750; // max amount of poptabs to give zombies.
 	SM_PopTabsChance = 65; // 100 - 65 = 35% chance.
 	SM_GivePlayerRespect = true; // enable giving players respect when they kill a zombie.
-	SM_MaxRespect = 50; // max amount of respect to give a player when they kill a zombie.
+	SM_MaxRespect = 25; // max amount of respect to give a player when they kill a zombie.
 	SM_ChanceOfLoot = 25; // chance of a zombie having loot.
-	SM_MaxItemDrop = 3; // maximum amount of loot to have on a zombie.
+	SM_MaxItemDrop = 2; // maximum amount of loot to have on a zombie.
 	SM_ShuffleArrayDelay = 300; // Time to randomize loot, and zombie spawn classes.
 	SM_Zombie_GlowingFace = true; // glowing zombie face.
 	SM_RespawnDelayForPlayerEnabled = true; // Enables delaying of spawns for a player.
 	SM_RespawnDelayForPlayer = 300; // How long (in seconds) it waits to spawn more zombies for a player.
 	SM_RespawnDelayForPlayerTown = 420; // how long (in seconds) it waits to spawn more zombies for a player in a town.
-	SM_TownsOnly = false; // Makes it so zombies only spawn at towns.
+	SM_TownsOnly = true; // Makes it so zombies only spawn at towns.
 	SM_TownSearchEnabled = true; // enable the searching of towns. 
 
 	/*
@@ -341,7 +341,7 @@ class SM_Zombz
 	SM_UserSafezoneCheckMarkerObjects = ""; //Object or marker type to check for
 	/* THESE ARE FOR VANILLA ARMA 3, EXILE SAFEZONES / BASES ARE AUTOMATICALLY DETECTED! */
 
-	
+	/*
 	//long configurable settings...
 
 	//GET YOUR LOOT HERE, GET YA LOOT, 50% OFF FIRST TIME!
@@ -351,14 +351,11 @@ class SM_Zombz
 		"hgun_ACPC2_F",
 		"hgun_Rook40_F"
 	};
-
+	*/
+	
 	//Will only use this if Exile is enabled.
 	SM_LootItemsExile[] =
 	{
-		"Exile_Item_Magazine04",
-		"Exile_Item_Magazine03",
-		"Exile_Item_Magazine02",
-		"Exile_Item_Magazine01",
 		"Exile_Item_Moobar",
 		"Exile_Item_Raisins",
 		"Exile_Item_PowerDrink",
@@ -371,15 +368,12 @@ class SM_Zombz
 		"Exile_Item_Dogfood",
 		"Exile_Item_CatFood",
 		"Exile_Item_MacasCheese",
-		"Exile_Item_ChristmasTinner",
 		"Exile_Item_SausageGravy",
 		"Exile_Item_Surstromming",
 		"Exile_Item_Cheathas",
 		"Exile_Item_GloriousKnakworst",
 		"Exile_Item_Matches",
-		"Exile_Item_CanOpener",
-		"Exile_Item_EMRE",
-		"Exile_Item_CookingPot"
+		"Exile_Item_CanOpener"
 	};
 
 	//Zombie classes used in towns, leave at {} to use default classes.
@@ -467,79 +461,11 @@ class SM_Zombz
 		"SM_Zombz_walker63",
 		"SM_Zombz_walker64",
 
-		"SM_Zombz_Crawler1",
-		"SM_Zombz_Crawler2",
-		"SM_Zombz_Crawler3",
-		"SM_Zombz_Crawler4",
-		"SM_Zombz_Crawler5",
-		"SM_Zombz_Crawler6",
-		"SM_Zombz_Crawler7",
-		"SM_Zombz_Crawler8",
-		"SM_Zombz_Crawler9",
-		"SM_Zombz_Crawler10",
-		"SM_Zombz_Crawler11",
-		"SM_Zombz_Crawler12",
-		"SM_Zombz_Crawler13",
-		"SM_Zombz_Crawler14",
-		"SM_Zombz_Crawler15",
-		"SM_Zombz_Crawler16",
-		"SM_Zombz_Crawler17",
-		"SM_Zombz_Crawler18",
-		"SM_Zombz_Crawler19",
-		"SM_Zombz_Crawler20",
-		"SM_Zombz_Crawler21",
-		"SM_Zombz_Crawler22",
-		"SM_Zombz_Crawler23",
-		"SM_Zombz_Crawler24",
-		"SM_Zombz_Crawler25",
-		"SM_Zombz_Crawler26",
-		"SM_Zombz_Crawler27",
-		"SM_Zombz_Crawler28",
-		"SM_Zombz_Crawler29",
-		"SM_Zombz_Crawler30",
-		"SM_Zombz_Crawler31",
-		"SM_Zombz_Crawler32",
-		"SM_Zombz_Crawler33",
-		"SM_Zombz_Crawler34",
-		"SM_Zombz_Crawler35",
-		"SM_Zombz_Crawler36",
-		"SM_Zombz_Crawler37",
-		"SM_Zombz_Crawler38",
-		"SM_Zombz_Crawler39",
-		"SM_Zombz_Crawler40",
-		"SM_Zombz_Crawler41",
-		"SM_Zombz_Crawler42",
-		"SM_Zombz_Crawler43",
-		"SM_Zombz_Crawler45",
-		"SM_Zombz_Crawler46",
-		"SM_Zombz_Crawler47",
-		"SM_Zombz_Crawler48",
-		"SM_Zombz_Crawler49",
-		"SM_Zombz_Crawler50",
-		"SM_Zombz_Crawler51",
-		"SM_Zombz_Crawler52",
-		"SM_Zombz_Crawler53",
-		"SM_Zombz_Crawler54",
-		"SM_Zombz_Crawler55",
-		"SM_Zombz_Crawler56",
-		"SM_Zombz_Crawler57",
-		"SM_Zombz_Crawler58",
-		"SM_Zombz_Crawler60",
-		"SM_Zombz_Crawler61",
-		"SM_Zombz_Crawler62",
-		"SM_Zombz_Crawler63",
-		"SM_Zombz_Crawler64",
-
 		"SM_Zombz_FemaleWalker1",
 		"SM_Zombz_FemaleWalker2",
 		"SM_Zombz_FemaleWalker3",
 		"SM_Zombz_FemaleWalker4",
-		"SM_Zombz_FemaleWalker5",
-		"SM_Zombz_FemaleCrawler1",
-		"SM_Zombz_FemaleCrawler2",
-		"SM_Zombz_FemaleCrawler3",
-		"SM_Zombz_FemaleCrawler4",
-		"SM_Zombz_FemaleCrawler5"
+		"SM_Zombz_FemaleWalker5"
 	};
 
 	// faces...
@@ -745,9 +671,6 @@ class SM_Zombz
 
 	class CfgCodeOverride
 	{
-		/*
-			Example:
-			SM_Util_log = "SM_Zombz\override\SM_Util_log.sqf";
-		*/
+		SM_ZombieAttackTarget = "Client\Zombz\code\client\SM_ZombieAttackTarget.sqf";
 	};
 };
