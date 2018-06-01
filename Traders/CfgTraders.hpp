@@ -324,6 +324,7 @@ class CfgTrading
 	};
 };
 
+
 class CfgExileArsenal
 {
 	
