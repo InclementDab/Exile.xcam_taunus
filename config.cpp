@@ -4990,16 +4990,10 @@ class CfgPlayer
 	// 0 == default exile auto run
 	useGradientAffectedAutoRun = 1;
 };
-/*
-	This config will allow you to override the default poptab storage for vehicles and containers. 
-	The current system takes the maxLoad of a vehicle * 10, and that gives you the max poptabs that can be stored.
-	This will allow you to override that max with your own value.
-	
-	To override, just add the vehicle/containers classname to this class, and define its max. Look at Exile_Container_Safe_Small as an example.
-*/
+
 class CfgPoptabStorage
 {
-	class Exile_Container_Safe_Small { max = 25000; };	
+	class Exile_Container_Safe_Small { max = 25000; };	// Overrides default poptab storage for vehicles and containers. Default maxload is vehicleStorage * 10
 };
 class CfgSimulation
 {
