@@ -60,8 +60,11 @@ class CfgRemoteExec
 		class SA_Set_Owner		{ allowedTargets=2; }; 
 		class SA_Hint			{ allowedTargets=1; }; 
 		class SA_Hide_Object_Global	{ allowedTargets=2; }; 
-		class ExileServer_lottery_network_request { allowedTargets = 2; }
-
+		class ExileServer_lottery_network_request { allowedTargets = 2; };
+		class SM_ZombieDoMove { allowedTargets = 1; };
+		class SM_Say3D { allowedTargets = 1; };
+		class SM_Network_HandleMessage { allowedTargets = 2; };
+		class vcm_serverask { allowedTargets = 2; };
 	};
 	class Commands
 	{
@@ -123,6 +126,5 @@ class CfgRemoteExec
 		class lock;
 		class setspeedmode;
 		class setunitpos;
-	
 	};
 };

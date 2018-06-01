@@ -76,9 +76,6 @@ player setVariable ["BleedoutCountDownEnd", ExileClientBleedOutCountDownEnd, tru
 _layer = "BIS_fnc_respawnCounter" call bis_fnc_rscLayer;
 _layer cutText ["", "plain"];
 
-// missionnamespace setvariable ["RscRespawnCounter_description", format ["<t size='2' align='center'>%1</t>",selectRandom _descriptions]];
-missionnamespace setvariable ["RscRespawnCounter_colorID", 0];
-missionnamespace setvariable ["RscRespawnCounter_Custom", _respawnDelay];
 
 _layer cutRsc ["RscRespawnCounter", "plain"];
 

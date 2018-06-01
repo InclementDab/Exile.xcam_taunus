@@ -25,7 +25,7 @@
 #include "Config\CfgExileLootSettings.hpp"
 #include "Config\CfgExileMobileXM8.hpp"
 #include "Config\CfgExileMusic.hpp"
-#include "Config\CfgExilePart.hpp"
+#include "Config\CfgExileParty.hpp"
 #include "Config\CfgExileRussianRoulette.hpp"
 #include "Config\CfgFlags.hpp"
 #include "Config\CfgGrinding.hpp"
@@ -35,7 +35,6 @@
 #include "Config\CfgLocker.hpp"
 #include "Config\CfgPlayer.hpp"
 #include "Config\CfgPoptabStorage.hpp"
-#include "Config\CfgRemoteExec.hpp"
 #include "Config\CfgSimulation.hpp"
 #include "Config\CfgSlothMachine.hpp"
 #include "Config\CfgTerritories.hpp"
@@ -43,7 +42,7 @@
 #include "Config\CfgVehicleTransport.hpp"
 #include "Config\CfgVirtualGarage.hpp"
 #include "Config\CfgXM8.hpp"
-#include "Config\ExileAbstractCraftingRecipe.hpp"
-#include "Config\ExileAbstractAction.hpp"
+
+#include "Config\SM_Zombz.hpp"
 
 

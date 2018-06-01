@@ -1,3 +1,13 @@
+class ExileAbstractAction
+{
+	title = "";
+	condition = "true";
+	action = "";
+	priority = 1.5;
+	showWindow = false;
+};
+
+
 class CfgInteractionMenus
 {
 	class Car 
@@ -28,6 +38,14 @@ class CfgInteractionMenus
 				title = "Unlock";
 				condition = "((locked ExileClientInteractionObject) isEqualTo 2) && ((locked ExileClientInteractionObject) != 1)";
 				action = "false spawn ExileClient_object_lock_toggle";
+			};
+
+			// Repairs a vehicle to 100%. Requires Duckttape
+			class Repair: ExileAbstractAction
+			{
+				title = "Repair";
+				condition = "true";
+				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
 			};
 
 			// Hot-wires a vehicle
@@ -103,14 +121,13 @@ class CfgInteractionMenus
 				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
 			};
 
-			/*
+			// Repairs a vehicle to 100%. Requires Duckttape
 			class Repair: ExileAbstractAction
 			{
 				title = "Repair";
 				condition = "true";
 				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
 			};
-			*/
 
 			// Flips a vehicle so the player doesnt have to call an admin
 			// Check if vector up is fucked
@@ -443,6 +460,14 @@ class CfgInteractionMenus
 				action = "['HotwireVehicle', _this select 0] call ExileClient_action_execute";
 			};
 
+			// Repairs a vehicle to 100%. Requires Duckttape
+			class Repair: ExileAbstractAction
+			{
+				title = "Repair";
+				condition = "true";
+				action = "['RepairVehicle', _this select 0] call ExileClient_action_execute";
+			};
+
 			// Fills fuel from a can into a car
 			class Refuel: ExileAbstractAction
 			{
@@ -512,11 +537,12 @@ class CfgInteractionMenus
 				condition = "!(alive ExileClientInteractionObject)";
 				action = "_this call ExileClient_object_player_identifyBody";
 			};
-			class Revive: ExileAbstractAction
+			
+			class HideCorpse: ExileAbstractAction
 			{
-				title = "Perform CPR";
-				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
-				action = "_this spawn Enigma_RevivePlyr";
+				title = "Hide Body";
+				condition = "!(alive ExileClientInteractionObject) && ('Exile_Melee_Shovel' isEqualTo (currentWeapon player))";
+				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
 			};
 		};
 	};
