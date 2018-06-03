@@ -7,6 +7,14 @@
 Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
 
+// ACE Unconcious Change
+
+["ace_unconscious", {
+    params ["_unit", "_isUnconscious"];
+    cutText ["",["PLAIN","BLACK"] select _isUnconscious,1];
+}] call CBA_fnc_addEventHandler;
+
+
  
 if (!hasInterface || isServer) exitWith {};
 

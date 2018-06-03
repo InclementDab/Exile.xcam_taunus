@@ -19,24 +19,24 @@ class SM_Zombz
 		CLIENT SETTINGS
 	*/
 	SM_NotificatonType = 1; // 1 for custom notification, 2 for mod notification.
-	SM_ZombieDamagePlayer = 0.4; // how much damage a zombie does to a player
+	SM_ZombieDamagePlayer = 1.0; // how much damage a zombie does to a player
 	SM_ZombieDamagePlayerStrength = 1; // strength in wich a zombie does to a player (based on damage)
 	SM_ZombieDamageCar = 0.02; // how much damage a zombie does to a car
 	SM_ZombieDamageCarStrength = 1.5; // strength in wich a zombie does to a car (based on damage)
-	SM_AttackSpeed = 0.8; // delay from each zombie attack
+	SM_AttackSpeed = 1.2; // delay from each zombie attack
 	SM_BleedingEnabled = 0; // when a zombie attacks a player they can bleed
 	SM_BleedTime = 20; // how long a player will bleed if they are attacked by a zombie
 	SM_BleedChance = 25; // bleed chance.....
-	SM_ZombieTargetPosMemory = 20; // in seconds how long a zombie remembers the position it's walking to
+	SM_ZombieTargetPosMemory = 30; // in seconds how long a zombie remembers the position it's walking to
 	SM_ZombieSoundDelayAggressive = 5; // seconds between each aggresive sound a zombie makes
 	SM_ZombieSoundDelayMoan = 30; // seconds between each moan sound a zombie makes
 	SM_ZombieEat = 30; // how long a zombie eats a target
-	SM_SoundDistance = 30; // how far a zombie sound travels
+	SM_SoundDistance = 20; // how far a zombie sound travels
 	SM_ZombieEatSoundDelay = 7; // seconds between each eating sound
-	SM_ZombieSpeedIncreaseEnabled = true; // increase / decrease zombie speed based on distance
+	SM_ZombieSpeedIncreaseEnabled = false; // increase / decrease zombie speed based on distance
 	SM_ZombieSpeedDistance = 35; // distance to increase / decrease zombie speed
 	SM_ZombieSpeedMultiplyer = 2.5; // multiplier for zombie speed
-	SM_ZombiesFastClose = true; // 1 = zombies walk fast close // 0 = zombies walk fast far away
+	SM_ZombiesFastClose = false; // 1 = zombies walk fast close // 0 = zombies walk fast far away
 	SM_MultiplierDistanceFromTarget = 1.5; // random of 10, multiplier, if 5, then will be 7.5 meter wander distance from target.
 	SM_ZombieInBuildingSpeedDevidor = 2; // Devidor of default zombie speed, how fast a zombie moves in a building.
 	SM_FiredNearEVHEnabled = true; // if a player shoots near a zombie, the zombie will walk to that shot position
@@ -55,7 +55,7 @@ class SM_Zombz
 
 	//Custom effects to display on screen when hit.
 	//This is to spice up the screen when you get hit, it's not VERY noticeable.
-	SM_CustomScreenEffects = true; // scratches, bites etc.. on screen when attacked.
+	SM_CustomScreenEffects = false; // scratches, bites etc.. on screen when attacked.
 	SM_ScreenEffects[] =
 	{
 		"\SM_Zombz\textures\badger\SM_BloodEffect_1.paa",
@@ -80,23 +80,51 @@ class SM_Zombz
 	SM_ZombieGutsLength = 300; //How long zombie guts last.
 	SM_TownSearchTypes[] = //You're also able to put town names
 	{
-		"NameCityCapital",
-		"NameLocal",
-		"NameCity",
-		"NameVillage",
-
-		"NameMarine",
-		"Airport",
-		"CityCenter",
-		"StrongpointArea",
-		"FlatAreaCitySmall",
-		"FlatAreaCity",
-		"StrongpointArea"
+		"Oberursel West",
+		"Oberursel Ost",
+		"Bad Homburg",
+		"Königstein",
+		"Kronberg",
+		"Rödelheim",
+		"Niederursel",
+		"Eschborn",
+		"Schwalbach",
+		"Neuenhain",
+		"Sandring",
+		"Wehrheim",
+		"Saalburgsiedlung",
+		"Neu-Anspach",
+		"Brombach",
+		"Hunoldstal",
+		"Treisberg",
+		"Finsternthal",
+		"Mauloff",
+		"Seelenberg",
+		"Schmitten",
+		"Niederreifenberg",
+		"Oberreifenberg",
+		"Wüstems",
+		"Fischbach",
+		"Schneidhain",
+		"Oberhöchstadt",
+		"Eppstein",
+		"Obernhain",
+		"Oberstedten",
+		"Dornholzhausen",
+		"Glashütten",
+		"Dorfweil",
+		"Arnoldsheim",
+		"Rettershof",
+		"Wintermühle",
+		"Taunusbrücke",
+		"Riedelbach",
+		"Truppenuebungsplatz",
+		"Weisskirchen"
 	};
-	SM_ZombieMaxDistanceTown = 75; // max distance to spawn zombies from a player in a town
-	SM_ZombieMinDistanceTown = 25; // min distance to spawn zombies from a player in a town
-	SM_SearchForTownRadius = 1000; // will search all towns near a player within 1000 meters.
-	SM_ZombiesPerPlayerInTown = 8; // How many zombies a player have in a town.
+	SM_ZombieMaxDistanceTown = 60; // max distance to spawn zombies from a player in a town
+	SM_ZombieMinDistanceTown = 20; // min distance to spawn zombies from a player in a town
+	SM_SearchForTownRadius = 100; // will search all towns near a player within 1000 meters.
+	SM_ZombiesPerPlayerInTown = 10; // How many zombies a player have in a town.
 	SM_ZombiesPerWaveTown = 3; // How many zombies to spawn on a player per wave in town.
 	SM_HordeMarkerColor = "ColorRed"; // used for SM_HordeMarkerStyle.
 	SM_HordeMarkerStyle = "hd_warning"; // if you have a marker you want to use, set SM_HordeMarkerType to 6.
@@ -108,7 +136,7 @@ class SM_Zombz
 	SM_ZombieSide = "east"; // side to create the zombie.
 	SM_HordeNotificationEnabled = false; // notification for hordes.
 	SM_HordeMarkerEnabled = false; // markers for hordes.
-	SM_ZombiesPerWave = 3; // zombies to spawn on a player per wave.
+	SM_ZombiesPerWave = 1; // zombies to spawn on a player per wave.
 	SM_HordeMaxDistance = 150; // max distance to spawn horde from a player.
 	SM_HordeMinDistance = 25; // min distance to spawn horde from a player.
 	SM_HordeMaxDistanceTown = 100; // max distance to spawn horde from a player, in a town.
@@ -117,9 +145,9 @@ class SM_Zombz
 	SM_HordeSpawnMinDistanceFromPosition = 5; // min meters to spread out horde zombies from their spawn position.
 	SM_HordeSpawnMaxDistanceFromPositionTown = 20; // max meters to spread out horde zombies from their spawn position, in a town.
 	SM_HordeSpawnMinDistanceFromPositionTown = 5; // min meters to spread out horde zombies from their spawn position, in a town.
-	SM_ZombieSpawnMaxDistanceFromPosition = 15; // max meters to spread out zombies from their spawn position.
-	SM_ZombieSpawnMinDistanceFromPosition = 5; // min meters to spread out zombies from their spawn position.
-	SM_ZombieSpawnMaxDistanceFromPositionTown = 10; // min meters to spread out zombies from their spawn position, in a town
+	SM_ZombieSpawnMaxDistanceFromPosition = 30; // max meters to spread out zombies from their spawn position.
+	SM_ZombieSpawnMinDistanceFromPosition = 10; // min meters to spread out zombies from their spawn position.
+	SM_ZombieSpawnMaxDistanceFromPositionTown = 20; // min meters to spread out zombies from their spawn position, in a town
 	SM_ZombieSpawnMinDistanceFromPositionTown = 5; // max meters to spread out zombies from their spawn position, in a town
 	SM_HordeMarkerCleanup = 120; // time it takes for the horde marker to cleanup.
 	SM_HordeSpawnDelay = 120; // in seconds how long it takes to do check to spawn hordes. (check horde chance)
@@ -129,19 +157,19 @@ class SM_Zombz
 	SM_MinZombiesInHorde = 10; // min zombies to spawn in a horde.
 	SM_MaxZombiesInHordeTown = 50; // max zombies to spawn in a horde, in a town.
 	SM_MinZombiesInHordeTown = 5; // min zombies to spawn in horde, in a town.
-	SM_ZombieCleanupDeath = 150; // how long it takes for a zombie body to get cleand up.
-	SM_ZombieWaveCount = 5; // how many players to spawn zombies on per wave.
+	SM_ZombieCleanupDeath = 120; // how long it takes for a zombie body to get cleand up.
+	SM_ZombieWaveCount = 1; // how many players to spawn zombies on per wave.
 	SM_ZombieItemCount = 5; // max amount of items to spawn on a zombie when it's killed.
-	SM_ZombieSpawnDelay = 60; // in seconds how long it takes to spawn more zombies.
-	SM_ZombieMaxDistance = 150; // max distance to spawn zombies from a player.
+	SM_ZombieSpawnDelay = 240; // in seconds how long it takes to spawn more zombies.
+	SM_ZombieMaxDistance = 100; // max distance to spawn zombies from a player.
 	SM_ZombieMinDistance = 25; // min distance to spawn zombies from a player.
-	SM_ZombieCleanup = 60; // in seconds when the cleanup runs.
+	SM_ZombieCleanup = 120; // in seconds when the cleanup runs.
 	SM_ZombieCleanupDistance = 300; // cleanup zombies that are past this distance (from the controlling player)
-	SM_MaxZombies = 200; // max zombies to have on map.
+	SM_MaxZombies = 300; // max zombies to have on map.
 	SM_ZombiesPerPlayer = 10; // max zombies a player can have.
 	SM_ZombieHealth = 0.5; // health a zombie can have. ( 1 = dead )
 	SM_GiveZombiePoptabs = true; // enable giving zombies poptabs?
-	SM_MaxPoptabs = 750; // max amount of poptabs to give zombies.
+	SM_MaxPoptabs = 500; // max amount of poptabs to give zombies.
 	SM_PopTabsChance = 65; // 100 - 65 = 35% chance.
 	SM_GivePlayerRespect = true; // enable giving players respect when they kill a zombie.
 	SM_MaxRespect = 25; // max amount of respect to give a player when they kill a zombie.
@@ -150,11 +178,12 @@ class SM_Zombz
 	SM_ShuffleArrayDelay = 300; // Time to randomize loot, and zombie spawn classes.
 	SM_Zombie_GlowingFace = true; // glowing zombie face.
 	SM_RespawnDelayForPlayerEnabled = true; // Enables delaying of spawns for a player.
-	SM_RespawnDelayForPlayer = 300; // How long (in seconds) it waits to spawn more zombies for a player.
-	SM_RespawnDelayForPlayerTown = 420; // how long (in seconds) it waits to spawn more zombies for a player in a town.
+	SM_RespawnDelayForPlayer = 240; // How long (in seconds) it waits to spawn more zombies for a player.
+	SM_RespawnDelayForPlayerTown = 30; // how long (in seconds) it waits to spawn more zombies for a player in a town.
 	SM_TownsOnly = false; // Makes it so zombies only spawn at towns.
 	SM_TownSearchEnabled = true; // enable the searching of towns. 
 
+		
 	/*
 		{
 	// 0	{1250,219},
@@ -204,59 +233,74 @@ class SM_Zombz
 	*/
 	SM_HordeZonesEnabled = false; // Zoning for hordes.
 	SM_HordeCanSpawnRandomly = false; // horde randomly spawn, if player is in zone, it will use zone config.
-	SM_ZombieZonesEnabled = false; // zombies spawn in zones, via the config below.
+	SM_ZombieZonesEnabled = true; // zombies spawn in zones, via the config below.
 	SM_ZombiesCanSpawnRandomly = false; // zombies randomly spawn, even if a player is not in a zone.
 	SM_HordeUseZombieZones = false; // horde zones will use the zombie zones (to make the config smaller) (will also use SM_MaxZombiesInHorde and SM_MinZombiesInHorde)
 	SM_DisableZombieSpawnsUntilInNewZoneEnabled = false; // disable spawning of new zombies until a player gets in a new zone. (Requires zones to be enabled!)
 	SM_ZombieZones[] =
 	{
-		// some place
 		{
-			{11250,21119},
-			300,
-			14, 
-			5,
-			30,
-			5,
+			{6086.311, 1601.508},
+			1200,
 			10,
+			20,
+			150,
+			0,
+			300,
 			"SM_Zombz_Marker4",
-			true,
-			true,
-			"ELLIPSE",
-			"Dizz is a testz",
-			"ColorRed",
-			0.1,
-			"SolidFull",
-			0.5,
-			15,
-			300,
-			{
-				"SM_Zombz_walker73",
-				"SM_Zombz_walker200",
-				"SM_Zombz_walker69"
-			}
-		},
-
-		//some other place
-		{
-			{6119,4120},
-			420,
-			14, 
-			5,
-			30,
-			5,
-			10,
-			"SM_Zombz_Marker1",
-			true,
-			true,
-			"ELLIPSE",
+			false,
+			false,
+			'ELLIPSE",
 			"",
 			"ColorRed",
-			0.1,
+			0,
 			"SolidFull",
-			0.5,
-			15,
+			0,
+			30,
+			30,
+			{}
+		}
+		
+		{
+			{5231.551, 2017.546},
 			300,
+			10,
+			20,
+			150,
+			0,
+			100,
+			"SM_Zombz_Marker4",
+			false,
+			false,
+			'ELLIPSE",
+			"",
+			"ColorRed",
+			0,
+			"SolidFull",
+			0,
+			30,
+			30,
+			{}
+		}
+		{
+			{7381.919, 5613.197},
+			1200,
+			10,
+			20,
+			150,
+			0,
+			100,
+			"SM_Zombz_Marker4",
+			false,
+			false,
+			'ELLIPSE",
+			"",
+			"ColorRed",
+			0,
+			"SolidFull",
+			0,
+			30,
+			30,
 			{}
 		}
 	};
@@ -330,12 +374,12 @@ class SM_Zombz
 
 
 	/* THESE ARE FOR VANILLA ARMA 3, EXILE SAFEZONES / BASES ARE AUTOMATICALLY DETECTED! */
-	SM_UserBaseCheck = false; // Custom base checking
+	SM_UserBaseCheck = true; // Custom base checking
 	SM_UserBaseCheckDistance = 50; // meters to check for custom base objects / plotpile
 	SM_UserBaseCheckType = 1; //1 = object // 2 = marker
 	SM_UserBaseCheckMarkerObjects = "";	//Object or marker type to check for
 
-	SM_UserSafezoneCheck = false; // custom safezone checking
+	SM_UserSafezoneCheck = true; // custom safezone checking
 	SM_UserSafezoneCheckDistance = 50; // meters to check for objects / markers
 	SM_UserSafezoneCheckType = 1; //1 = object // 2 = marker;
 	SM_UserSafezoneCheckMarkerObjects = ""; //Object or marker type to check for
