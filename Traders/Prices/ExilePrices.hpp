@@ -4,339 +4,328 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Civillian Clothing
 	///////////////////////////////////////////////////////////////////////////////
-	class U_C_Journalist 							{ quality = 1; price = 20; };
-	class U_C_Poloshirt_blue 						{ quality = 1; price = 20; };
-	class U_C_Poloshirt_burgundy 					{ quality = 1; price = 20; };
-	class U_C_Poloshirt_salmon 						{ quality = 1; price = 20; };
-	class U_C_Poloshirt_stripped 					{ quality = 1; price = 20; };
-	class U_C_Poloshirt_tricolour 					{ quality = 1; price = 20; };
-	class U_C_Poor_1 								{ quality = 1; price = 20; };
-	class U_C_Poor_2 								{ quality = 1; price = 20; };
-	class U_C_Poor_shorts_1 						{ quality = 1; price = 20; };
-	class U_C_Scientist 							{ quality = 1; price = 20; };
-	class U_OrestesBody 							{ quality = 1; price = 40; };
-	class U_Rangemaster 							{ quality = 1; price = 40; };
-	class U_NikosAgedBody 							{ quality = 1; price = 40; };
-	class U_NikosBody 								{ quality = 1; price = 40; };
-	class U_Competitor 								{ quality = 1; price = 40; };
+	class U_C_Journalist 							{ quality = 1; price = 250; };
+	class U_C_Poloshirt_blue 						{ quality = 1; price = 250; };
+	class U_C_Poloshirt_burgundy 					{ quality = 1; price = 250; };
+	class U_C_Poloshirt_salmon 						{ quality = 1; price = 250; };
+	class U_C_Poloshirt_stripped 					{ quality = 1; price = 250; };
+	class U_C_Poloshirt_tricolour 					{ quality = 1; price = 250; };
+	class U_C_Poor_1 								{ quality = 1; price = 250; };
+	class U_C_Poor_2 								{ quality = 1; price = 250; };
+	class U_C_Poor_shorts_1 						{ quality = 1; price = 250; };
+	class U_C_Scientist 							{ quality = 1; price = 250; };
+	class U_OrestesBody 							{ quality = 1; price = 375; };
+	class U_Rangemaster 							{ quality = 1; price = 375; };
+	class U_NikosAgedBody 							{ quality = 1; price = 375; };
+	class U_NikosBody 								{ quality = 1; price = 375; };
+	class U_Competitor 								{ quality = 1; price = 375; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Soldier Uniforms
 	///////////////////////////////////////////////////////////////////////////////
-	class U_B_CombatUniform_mcam 					{ quality = 2; price = 40; };
-	class U_B_CombatUniform_mcam_tshirt 			{ quality = 2; price = 40; };
-	class U_B_CombatUniform_mcam_vest 				{ quality = 2; price = 40; };
-	class U_B_CombatUniform_mcam_worn 				{ quality = 2; price = 40; };
-	class U_B_CTRG_1 								{ quality = 2; price = 40; };
-	class U_B_CTRG_2 								{ quality = 2; price = 40; };
-	class U_B_CTRG_3								{ quality = 2; price = 40; };
-	class U_I_CombatUniform 						{ quality = 2; price = 40; };
-	class U_I_CombatUniform_shortsleeve				{ quality = 2; price = 40; };
-	class U_I_CombatUniform_tshirt					{ quality = 2; price = 40; };
-	class U_I_OfficerUniform						{ quality = 2; price = 40; };
-	class U_O_CombatUniform_ocamo 					{ quality = 2; price = 40; };
-	class U_O_CombatUniform_oucamo 					{ quality = 2; price = 40; };
-	class U_O_OfficerUniform_ocamo 					{ quality = 3; price = 80; };
-	class U_B_SpecopsUniform_sgg 					{ quality = 3; price = 80; };
-	class U_O_SpecopsUniform_blk 					{ quality = 3; price = 80; };
-	class U_O_SpecopsUniform_ocamo 					{ quality = 3; price = 80; };
-	class U_I_G_Story_Protagonist_F 				{ quality = 3; price = 100; };
-	class Exile_Uniform_Woodland 					{ quality = 3; price = 150; };
+	class U_B_CombatUniform_mcam 					{ quality = 2; price = 750; };
+	class U_B_CombatUniform_mcam_tshirt 			{ quality = 2; price = 750; };
+	class U_B_CombatUniform_mcam_vest 				{ quality = 2; price = 750; };
+	class U_B_CombatUniform_mcam_worn 				{ quality = 2; price = 750; };
+	class U_B_CTRG_1 								{ quality = 2; price = 750; };
+	class U_B_CTRG_2 								{ quality = 2; price = 750; };
+	class U_B_CTRG_3								{ quality = 2; price = 750; };
+	class U_I_CombatUniform 						{ quality = 2; price = 750; };
+	class U_I_CombatUniform_shortsleeve				{ quality = 2; price = 750; };
+	class U_I_CombatUniform_tshirt					{ quality = 2; price = 750; };
+	class U_I_OfficerUniform						{ quality = 2; price = 750; };
+	class U_O_CombatUniform_ocamo 					{ quality = 2; price = 750; };
+	class U_O_CombatUniform_oucamo 					{ quality = 2; price = 750; };
+	class U_O_OfficerUniform_ocamo 					{ quality = 3; price = 1000; };
+	class U_B_SpecopsUniform_sgg 					{ quality = 3; price = 1000; };
+	class U_O_SpecopsUniform_blk 					{ quality = 3; price = 1000; };
+	class U_O_SpecopsUniform_ocamo 					{ quality = 3; price = 1000; };
+	class U_I_G_Story_Protagonist_F 				{ quality = 3; price = 1250; };
+	class Exile_Uniform_Woodland 					{ quality = 3; price = 1750; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Guerilla Uniforms
 	///////////////////////////////////////////////////////////////////////////////
-	class U_C_HunterBody_grn						{ quality = 2; price = 40; };
-	class U_IG_Guerilla1_1							{ quality = 2; price = 40; };
-	class U_IG_Guerilla2_1							{ quality = 2; price = 60; };
-	class U_IG_Guerilla2_2							{ quality = 2; price = 40; };
-	class U_IG_Guerilla2_3							{ quality = 2; price = 40; };
-	class U_IG_Guerilla3_1							{ quality = 2; price = 40; };
-	class U_BG_Guerilla2_1							{ quality = 2; price = 40; };
-	class U_IG_Guerilla3_2							{ quality = 2; price = 40; };
-	class U_BG_Guerrilla_6_1						{ quality = 2; price = 60; };
-	class U_BG_Guerilla1_1							{ quality = 2; price = 40; };
-	class U_BG_Guerilla2_2							{ quality = 2; price = 40; };
-	class U_BG_Guerilla2_3							{ quality = 2; price = 40; };
-	class U_BG_Guerilla3_1							{ quality = 2; price = 40; };
-	class U_BG_leader								{ quality = 3; price = 40; };
-	class U_IG_leader								{ quality = 3; price = 40; };
-	class U_I_G_resistanceLeader_F					{ quality = 3; price = 100; };
+	class U_C_HunterBody_grn						{ quality = 2; price = 350; };
+	class U_IG_Guerilla1_1							{ quality = 2; price = 350; };
+	class U_IG_Guerilla2_1							{ quality = 2; price = 450; };
+	class U_IG_Guerilla2_2							{ quality = 2; price = 350; };
+	class U_IG_Guerilla2_3							{ quality = 2; price = 350; };
+	class U_IG_Guerilla3_1							{ quality = 2; price = 350; };
+	class U_BG_Guerilla2_1							{ quality = 2; price = 350; };
+	class U_IG_Guerilla3_2							{ quality = 2; price = 350; };
+	class U_BG_Guerrilla_6_1						{ quality = 2; price = 450; };
+	class U_BG_Guerilla1_1							{ quality = 2; price = 350; };
+	class U_BG_Guerilla2_2							{ quality = 2; price = 350; };
+	class U_BG_Guerilla2_3							{ quality = 2; price = 350; };
+	class U_BG_Guerilla3_1							{ quality = 2; price = 350; };
+	class U_BG_leader								{ quality = 3; price = 350; };
+	class U_IG_leader								{ quality = 3; price = 350; };
+	class U_I_G_resistanceLeader_F					{ quality = 3; price = 500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ghillie Suits
 	///////////////////////////////////////////////////////////////////////////////
-	class U_B_FullGhillie_ard						{ quality = 4; price = 150; };
-	class U_B_FullGhillie_lsh						{ quality = 4; price = 150; };
-	class U_B_FullGhillie_sard						{ quality = 4; price = 150; };
-	class U_B_GhillieSuit							{ quality = 3; price = 100; };
-	class U_I_FullGhillie_ard						{ quality = 4; price = 150; };
-	class U_I_FullGhillie_lsh						{ quality = 4; price = 150; };
-	class U_I_FullGhillie_sard						{ quality = 4; price = 150; };
-	class U_I_GhillieSuit							{ quality = 3; price = 100; };
-	class U_O_FullGhillie_ard						{ quality = 6; price = 150; };
-	class U_O_FullGhillie_lsh						{ quality = 6; price = 150; };
-	class U_O_FullGhillie_sard						{ quality = 6; price = 150; };
-	class U_O_GhillieSuit							{ quality = 5; price = 100; };
-
-	///////////////////////////////////////////////////////////////////////////////
-	// Wet Suits
-	///////////////////////////////////////////////////////////////////////////////
-	class U_I_Wetsuit								{ quality = 3; price = 80; };
-	class U_O_Wetsuit								{ quality = 3; price = 80; };
-	class U_B_Wetsuit								{ quality = 3; price = 80; };
-	class U_B_survival_uniform						{ quality = 3; price = 80; };
+	class U_B_FullGhillie_ard						{ quality = 4; price = 12000; };
+	class U_B_FullGhillie_lsh						{ quality = 4; price = 12000; };
+	class U_B_FullGhillie_sard						{ quality = 4; price = 12000; };
+	class U_I_FullGhillie_ard						{ quality = 4; price = 12000; };
+	class U_I_FullGhillie_lsh						{ quality = 4; price = 12000; };
+	class U_I_FullGhillie_sard						{ quality = 4; price = 12000; };
+	class U_O_FullGhillie_ard						{ quality = 4; price = 12000; };
+	class U_O_FullGhillie_lsh						{ quality = 4; price = 12000; };
+	class U_O_FullGhillie_sard						{ quality = 4; price = 12000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Bandolliers
 	///////////////////////////////////////////////////////////////////////////////
-	class V_BandollierB_blk							{ quality = 1; price = 20; };
-	class V_BandollierB_cbr							{ quality = 1; price = 20; };
-	class V_BandollierB_khk							{ quality = 1; price = 20; };
-	class V_BandollierB_oli							{ quality = 1; price = 20; };
-	class V_BandollierB_rgr							{ quality = 1; price = 20; };
+	class V_BandollierB_blk							{ quality = 1; price = 250; };
+	class V_BandollierB_cbr							{ quality = 1; price = 250; };
+	class V_BandollierB_khk							{ quality = 1; price = 250; };
+	class V_BandollierB_oli							{ quality = 1; price = 250; };
+	class V_BandollierB_rgr							{ quality = 1; price = 250; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Chestrigs
 	///////////////////////////////////////////////////////////////////////////////
-	class V_Chestrig_blk 							{ quality = 1; price = 30; };
-	class V_Chestrig_khk 							{ quality = 1; price = 30; };
-	class V_Chestrig_oli 							{ quality = 1; price = 30; };
-	class V_Chestrig_rgr 							{ quality = 1; price = 30; };
+	class V_Chestrig_blk 							{ quality = 1; price = 350; };
+	class V_Chestrig_khk 							{ quality = 1; price = 350; };
+	class V_Chestrig_oli 							{ quality = 1; price = 350; };
+	class V_Chestrig_rgr 							{ quality = 1; price = 350; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Vests
 	///////////////////////////////////////////////////////////////////////////////
-	class V_Press_F									{ quality = 1; price = 10; };
-	class V_Rangemaster_belt						{ quality = 1; price = 6; };
-	class V_TacVest_blk								{ quality = 2; price = 50; };
-	class V_TacVest_blk_POLICE						{ quality = 3; price = 50; };
-	class V_TacVest_brn								{ quality = 2; price = 50; };
-	class V_TacVest_camo							{ quality = 2; price = 50; };
-	class V_TacVest_khk								{ quality = 2; price = 50; };
-	class V_TacVest_oli								{ quality = 2; price = 50; };
-	class V_TacVestCamo_khk							{ quality = 2; price = 50; };
-	class V_TacVestIR_blk							{ quality = 2; price = 50; };
-	class V_I_G_resistanceLeader_F					{ quality = 2; price = 50; };
+	class V_Press_F									{ quality = 1; price = 150; };
+	class V_Rangemaster_belt						{ quality = 1; price = 75; };
+	class V_TacVest_blk								{ quality = 2; price = 750; };
+	class V_TacVest_blk_POLICE						{ quality = 3; price = 750; };
+	class V_TacVest_brn								{ quality = 2; price = 750; };
+	class V_TacVest_camo							{ quality = 2; price = 750; };
+	class V_TacVest_khk								{ quality = 2; price = 750; };
+	class V_TacVest_oli								{ quality = 2; price = 750; };
+	class V_TacVestCamo_khk							{ quality = 2; price = 750; };
+	class V_TacVestIR_blk							{ quality = 2; price = 750; };
+	class V_I_G_resistanceLeader_F					{ quality = 2; price = 750; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Harnesses
 	///////////////////////////////////////////////////////////////////////////////
-	class V_HarnessO_brn							{ quality = 1; price = 40; };
-	class V_HarnessO_gry							{ quality = 1; price = 40; };
-	class V_HarnessOGL_brn							{ quality = 1; price = 30; };
-	class V_HarnessOGL_gry							{ quality = 1; price = 30; };
-	class V_HarnessOSpec_brn						{ quality = 1; price = 40; };
-	class V_HarnessOSpec_gry						{ quality = 1; price = 40; };
+	class V_HarnessO_brn							{ quality = 1; price = 175; };
+	class V_HarnessO_gry							{ quality = 1; price = 175; };
+	class V_HarnessOGL_brn							{ quality = 1; price = 175; };
+	class V_HarnessOGL_gry							{ quality = 1; price = 175; };
+	class V_HarnessOSpec_brn						{ quality = 1; price = 175; };
+	class V_HarnessOSpec_gry						{ quality = 1; price = 175; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Plate Carriers
 	///////////////////////////////////////////////////////////////////////////////
-	class V_PlateCarrier1_blk 						{ quality = 1; price = 80; };
-	class V_PlateCarrier1_rgr 						{ quality = 1; price = 80; };
-	class V_PlateCarrier2_rgr 						{ quality = 2; price = 100; };
-	class V_PlateCarrier3_rgr 						{ quality = 2; price = 100; };
-	class V_PlateCarrierGL_blk 						{ quality = 6; price = 500; };
-	class V_PlateCarrierGL_mtp 						{ quality = 6; price = 500; };
-	class V_PlateCarrierGL_rgr 						{ quality = 6; price = 500; };
-	class V_PlateCarrierH_CTRG 						{ quality = 2; price = 100; };
-	class V_PlateCarrierIA1_dgtl 					{ quality = 2; price = 80; };
-	class V_PlateCarrierIA2_dgtl 					{ quality = 2; price = 100; };
-	class V_PlateCarrierIAGL_dgtl 					{ quality = 3; price = 400; };
-	class V_PlateCarrierIAGL_oli 					{ quality = 3; price = 400; };
-	class V_PlateCarrierL_CTRG 						{ quality = 2; price = 100; };
-	class V_PlateCarrierSpec_blk 					{ quality = 5; price = 200; };
-	class V_PlateCarrierSpec_mtp 					{ quality = 5; price = 200; };
-	class V_PlateCarrierSpec_rgr 					{ quality = 5; price = 200; };
+	class V_PlateCarrier1_blk 						{ quality = 1; price = 225; };
+	class V_PlateCarrier1_rgr 						{ quality = 1; price = 225; };
+	class V_PlateCarrier2_rgr 						{ quality = 2; price = 300; };
+	class V_PlateCarrier3_rgr 						{ quality = 2; price = 300; };
+	class V_PlateCarrierGL_blk 						{ quality = 4; price = 12000; };
+	class V_PlateCarrierGL_mtp 						{ quality = 4; price = 12000; };
+	class V_PlateCarrierGL_rgr 						{ quality = 4; price = 12000; };
+	class V_PlateCarrierH_CTRG 						{ quality = 2; price = 1000; };
+	class V_PlateCarrierIA1_dgtl 					{ quality = 2; price = 800; };
+	class V_PlateCarrierIA2_dgtl 					{ quality = 2; price = 1000; };
+	class V_PlateCarrierIAGL_dgtl 					{ quality = 3; price = 4000; };
+	class V_PlateCarrierIAGL_oli 					{ quality = 3; price = 4000; };
+	class V_PlateCarrierL_CTRG 						{ quality = 3; price = 3000; };
+	class V_PlateCarrierSpec_blk 					{ quality = 4; price = 10000; };
+	class V_PlateCarrierSpec_mtp 					{ quality = 4; price = 10000; };
+	class V_PlateCarrierSpec_rgr 					{ quality = 4; price = 10000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Caps
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Cap_blk 								{ quality = 1; price = 6; };
-	class H_Cap_blk_Raven 							{ quality = 1; price = 6; };
-	class H_Cap_blu 								{ quality = 1; price = 6; };
-	class H_Cap_brn_SPECOPS 						{ quality = 1; price = 6; };
-	class H_Cap_grn 								{ quality = 1; price = 6; };
-	class H_Cap_headphones 							{ quality = 1; price = 6; };
-	class H_Cap_khaki_specops_UK 					{ quality = 1; price = 6; };
-	class H_Cap_oli 								{ quality = 1; price = 6; };
-	class H_Cap_press 								{ quality = 1; price = 6; };
-	class H_Cap_red 								{ quality = 1; price = 6; };
-	class H_Cap_tan 								{ quality = 1; price = 6; };
-	class H_Cap_tan_specops_US 						{ quality = 1; price = 6; };
+	class H_Cap_blk 								{ quality = 1; price = 60; };
+	class H_Cap_blk_Raven 							{ quality = 1; price = 60; };
+	class H_Cap_blu 								{ quality = 1; price = 60; };
+	class H_Cap_brn_SPECOPS 						{ quality = 1; price = 60; };
+	class H_Cap_grn 								{ quality = 1; price = 60; };
+	class H_Cap_headphones 							{ quality = 1; price = 60; };
+	class H_Cap_khaki_specops_UK 					{ quality = 1; price = 60; };
+	class H_Cap_oli 								{ quality = 1; price = 60; };
+	class H_Cap_press 								{ quality = 1; price = 60; };
+	class H_Cap_red 								{ quality = 1; price = 60; };
+	class H_Cap_tan 								{ quality = 1; price = 60; };
+	class H_Cap_tan_specops_US 						{ quality = 1; price = 60; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Glasses
 	///////////////////////////////////////////////////////////////////////////////
-	class G_Spectacles			 		{ quality = 1; price = 6; };
-	class G_Spectacles_Tinted			{ quality = 1; price = 6; };
-	class G_Combat			 			{ quality = 1; price = 6; };
-	class G_Lowprofile			 		{ quality = 1; price = 6; };
-	class G_Shades_Black			 	{ quality = 1; price = 6; };
-	class G_Shades_Green			 	{ quality = 1; price = 6; };
-	class G_Shades_Red			 		{ quality = 1; price = 6; };
-	class G_Squares			 			{ quality = 1; price = 6; };
-	class G_Squares_Tinted			 	{ quality = 1; price = 6; };
-	class G_Sport_BlackWhite			{ quality = 1; price = 6; };
-	class G_Sport_Blackyellow			{ quality = 1; price = 6; };
-	class G_Sport_Greenblack			{ quality = 1; price = 6; };
-	class G_Sport_Checkered			 	{ quality = 1; price = 6; };
-	class G_Sport_Red			 		{ quality = 1; price = 6; };
-	class G_Tactical_Black			 	{ quality = 1; price = 6; };
-	class G_Aviator			 			{ quality = 1; price = 6; };
-	class G_Lady_Mirror			 		{ quality = 1; price = 6; };
-	class G_Lady_Dark			 		{ quality = 1; price = 6; };
-	class G_Lady_Red			 		{ quality = 1; price = 6; };
-	class G_Lady_Blue			 		{ quality = 1; price = 6; };
-	class G_Diving			 			{ quality = 1; price = 6; };
-	class G_B_Diving			 		{ quality = 1; price = 6; };
-	class G_O_Diving			 		{ quality = 1; price = 6; };
-	class G_I_Diving			 		{ quality = 1; price = 6; };
-	class G_Goggles_VR			 		{ quality = 1; price = 6; };
-	class G_Balaclava_blk			 	{ quality = 2; price = 10; };
-	class G_Balaclava_oli			 	{ quality = 2; price = 10; };
-	class G_Balaclava_combat			{ quality = 2; price = 10; };
-	class G_Balaclava_lowprofile		{ quality = 2; price = 10; };
-	class G_Bandanna_blk			 	{ quality = 1; price = 6; };
-	class G_Bandanna_oli			 	{ quality = 1; price = 6; };
-	class G_Bandanna_khk			 	{ quality = 1; price = 6; };
-	class G_Bandanna_tan			 	{ quality = 1; price = 6; };
-	class G_Bandanna_beast			 	{ quality = 1; price = 6; };
-	class G_Bandanna_shades			 	{ quality = 1; price = 6; };
-	class G_Bandanna_sport			 	{ quality = 1; price = 6; };
-	class G_Bandanna_aviator			{ quality = 1; price = 6; };
-	class G_Shades_Blue			 		{ quality = 1; price = 6; };
-	class G_Sport_Blackred			 	{ quality = 1; price = 6; };
-	class G_Tactical_Clear			 	{ quality = 1; price = 6; };
-	class G_Balaclava_TI_blk_F			{ quality = 2; price = 15; };
-	class G_Balaclava_TI_tna_F			{ quality = 2; price = 15; };
-	class G_Balaclava_TI_G_blk_F		{ quality = 2; price = 15; };
-	class G_Balaclava_TI_G_tna_F		{ quality = 2; price = 15; };
-	class G_Combat_Goggles_tna_F		{ quality = 1; price = 6; };
+	class G_Spectacles			 		{ quality = 1; price = 60; };
+	class G_Spectacles_Tinted			{ quality = 1; price = 60; };
+	class G_Combat			 			{ quality = 1; price = 60; };
+	class G_Lowprofile			 		{ quality = 1; price = 60; };
+	class G_Shades_Black			 	{ quality = 1; price = 60; };
+	class G_Shades_Green			 	{ quality = 1; price = 60; };
+	class G_Shades_Red			 		{ quality = 1; price = 60; };
+	class G_Squares			 			{ quality = 1; price = 60; };
+	class G_Squares_Tinted			 	{ quality = 1; price = 60; };
+	class G_Sport_BlackWhite			{ quality = 1; price = 60; };
+	class G_Sport_Blackyellow			{ quality = 1; price = 60; };
+	class G_Sport_Greenblack			{ quality = 1; price = 60; };
+	class G_Sport_Checkered			 	{ quality = 1; price = 60; };
+	class G_Sport_Red			 		{ quality = 1; price = 60; };
+	class G_Tactical_Black			 	{ quality = 1; price = 60; };
+	class G_Aviator			 			{ quality = 1; price = 60; };
+	class G_Lady_Mirror			 		{ quality = 1; price = 60; };
+	class G_Lady_Dark			 		{ quality = 1; price = 60; };
+	class G_Lady_Red			 		{ quality = 1; price = 60; };
+	class G_Lady_Blue			 		{ quality = 1; price = 60; };
+	class G_Diving			 			{ quality = 1; price = 60; };
+	class G_B_Diving			 		{ quality = 1; price = 60; };
+	class G_O_Diving			 		{ quality = 1; price = 60; };
+	class G_I_Diving			 		{ quality = 1; price = 60; };
+	class G_Goggles_VR			 		{ quality = 1; price = 60; };
+	class G_Balaclava_blk			 	{ quality = 2; price = 100; };
+	class G_Balaclava_oli			 	{ quality = 2; price = 100; };
+	class G_Balaclava_combat			{ quality = 2; price = 100; };
+	class G_Balaclava_lowprofile		{ quality = 2; price = 100; };
+	class G_Bandanna_blk			 	{ quality = 1; price = 60; };
+	class G_Bandanna_oli			 	{ quality = 1; price = 60; };
+	class G_Bandanna_khk			 	{ quality = 1; price = 60; };
+	class G_Bandanna_tan			 	{ quality = 1; price = 60; };
+	class G_Bandanna_beast			 	{ quality = 1; price = 60; };
+	class G_Bandanna_shades			 	{ quality = 1; price = 60; };
+	class G_Bandanna_sport			 	{ quality = 1; price = 60; };
+	class G_Bandanna_aviator			{ quality = 1; price = 60; };
+	class G_Shades_Blue			 		{ quality = 1; price = 60; };
+	class G_Sport_Blackred			 	{ quality = 1; price = 60; };
+	class G_Tactical_Clear			 	{ quality = 1; price = 60; };
+	class G_Balaclava_TI_blk_F			{ quality = 2; price = 150; };
+	class G_Balaclava_TI_tna_F			{ quality = 2; price = 150; };
+	class G_Balaclava_TI_G_blk_F		{ quality = 2; price = 150; };
+	class G_Balaclava_TI_G_tna_F		{ quality = 2; price = 150; };
+	class G_Combat_Goggles_tna_F		{ quality = 1; price = 60; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Military Caps
 	///////////////////////////////////////////////////////////////////////////////
-	class H_MilCap_blue 							{ quality = 1; price = 8; };
-	class H_MilCap_dgtl 							{ quality = 1; price = 8; };
-	class H_MilCap_mcamo 							{ quality = 1; price = 8; };
-	class H_MilCap_ocamo 							{ quality = 1; price = 8; };
-	class H_MilCap_oucamo 							{ quality = 1; price = 8; };
-	class H_MilCap_rucamo 							{ quality = 1; price = 8; };
+	class H_MilCap_blue 							{ quality = 1; price = 80; };
+	class H_MilCap_dgtl 							{ quality = 1; price = 80; };
+	class H_MilCap_mcamo 							{ quality = 1; price = 80; };
+	class H_MilCap_ocamo 							{ quality = 1; price = 80; };
+	class H_MilCap_oucamo 							{ quality = 1; price = 80; };
+	class H_MilCap_rucamo 							{ quality = 1; price = 80; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Beanies
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Watchcap_blk 							{ quality = 1; price = 6; };
-	class H_Watchcap_camo 							{ quality = 1; price = 6; };
-	class H_Watchcap_khk 							{ quality = 1; price = 6; };
-	class H_Watchcap_sgg 							{ quality = 1; price = 6; };
+	class H_Watchcap_blk 							{ quality = 1; price = 60; };
+	class H_Watchcap_camo 							{ quality = 1; price = 60; };
+	class H_Watchcap_khk 							{ quality = 1; price = 60; };
+	class H_Watchcap_sgg 							{ quality = 1; price = 60; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Bandannas
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Bandanna_camo							{ quality = 1; price = 4; };
-	class H_Bandanna_cbr							{ quality = 1; price = 4; };
-	class H_Bandanna_gry							{ quality = 1; price = 4; };
-	class H_Bandanna_khk							{ quality = 1; price = 4; };
-	class H_Bandanna_khk_hs							{ quality = 1; price = 4; };
-	class H_Bandanna_mcamo							{ quality = 1; price = 4; };
-	class H_Bandanna_sgg							{ quality = 1; price = 4; };
-	class H_Bandanna_surfer							{ quality = 1; price = 4; };
+	class H_Bandanna_camo							{ quality = 1; price = 40; };
+	class H_Bandanna_cbr							{ quality = 1; price = 40; };
+	class H_Bandanna_gry							{ quality = 1; price = 40; };
+	class H_Bandanna_khk							{ quality = 1; price = 40; };
+	class H_Bandanna_khk_hs							{ quality = 1; price = 40; };
+	class H_Bandanna_mcamo							{ quality = 1; price = 40; };
+	class H_Bandanna_sgg							{ quality = 1; price = 40; };
+	class H_Bandanna_surfer							{ quality = 1; price = 40; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Boonie Hats
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Booniehat_dgtl							{ quality = 1; price = 6; };
-	class H_Booniehat_dirty							{ quality = 1; price = 6; };
-	class H_Booniehat_grn							{ quality = 1; price = 6; };
-	class H_Booniehat_indp							{ quality = 1; price = 6; };
-	class H_Booniehat_khk							{ quality = 1; price = 6; };
-	class H_Booniehat_khk_hs						{ quality = 1; price = 6; };
-	class H_Booniehat_mcamo							{ quality = 1; price = 6; };
-	class H_Booniehat_tan							{ quality = 1; price = 6; };
+	class H_Booniehat_dgtl							{ quality = 1; price = 60; };
+	class H_Booniehat_dirty							{ quality = 1; price = 60; };
+	class H_Booniehat_grn							{ quality = 1; price = 60; };
+	class H_Booniehat_indp							{ quality = 1; price = 60; };
+	class H_Booniehat_khk							{ quality = 1; price = 60; };
+	class H_Booniehat_khk_hs						{ quality = 1; price = 60; };
+	class H_Booniehat_mcamo							{ quality = 1; price = 60; };
+	class H_Booniehat_tan							{ quality = 1; price = 60; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hats
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Hat_blue								{ quality = 1; price = 6; };
-	class H_Hat_brown								{ quality = 1; price = 6; };
-	class H_Hat_camo								{ quality = 1; price = 6; };
-	class H_Hat_checker								{ quality = 1; price = 6; };
-	class H_Hat_grey								{ quality = 1; price = 6; };
-	class H_Hat_tan									{ quality = 1; price = 6; };
-	class H_StrawHat								{ quality = 1; price = 6; };
-	class H_StrawHat_dark							{ quality = 1; price = 6; };
-	class Exile_Headgear_SantaHat					{ quality = 1; price = 10; };
-	class Exile_Headgear_SafetyHelmet				{ quality = 1; price = 20; };
+	class H_Hat_blue								{ quality = 1; price = 60; };
+	class H_Hat_brown								{ quality = 1; price = 60; };
+	class H_Hat_camo								{ quality = 1; price = 60; };
+	class H_Hat_checker								{ quality = 1; price = 60; };
+	class H_Hat_grey								{ quality = 1; price = 60; };
+	class H_Hat_tan									{ quality = 1; price = 60; };
+	class H_StrawHat								{ quality = 1; price = 60; };
+	class H_StrawHat_dark							{ quality = 1; price = 60; };
+	class Exile_Headgear_SantaHat					{ quality = 1; price = 100; };
+	class Exile_Headgear_SafetyHelmet				{ quality = 1; price = 200; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Berets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Beret_02								{ quality = 2; price = 6; };
-	class H_Beret_blk								{ quality = 2; price = 6; };
-	class H_Beret_blk_POLICE						{ quality = 2; price = 6; };
-	class H_Beret_brn_SF							{ quality = 2; price = 6; };
-	class H_Beret_Colonel							{ quality = 3; price = 8; };
-	class H_Beret_grn								{ quality = 2; price = 6; };
-	class H_Beret_grn_SF							{ quality = 2; price = 6; };
-	class H_Beret_ocamo								{ quality = 2; price = 6; };
-	class H_Beret_red								{ quality = 2; price = 6; };
+	class H_Beret_02								{ quality = 2; price = 60; };
+	class H_Beret_blk								{ quality = 2; price = 60; };
+	class H_Beret_blk_POLICE						{ quality = 2; price = 60; };
+	class H_Beret_brn_SF							{ quality = 2; price = 60; };
+	class H_Beret_Colonel							{ quality = 3; price = 80; };
+	class H_Beret_grn								{ quality = 2; price = 60; };
+	class H_Beret_grn_SF							{ quality = 2; price = 60; };
+	class H_Beret_ocamo								{ quality = 2; price = 60; };
+	class H_Beret_red								{ quality = 2; price = 60; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Shemags
 	///////////////////////////////////////////////////////////////////////////////
-	class H_Shemag_khk								{ quality = 1; price = 10; };
-	class H_Shemag_olive							{ quality = 1; price = 10; };
-	class H_Shemag_olive_hs							{ quality = 1; price = 10; };
-	class H_Shemag_tan								{ quality = 1; price = 10; };
-	class H_ShemagOpen_khk							{ quality = 1; price = 10; };
-	class H_ShemagOpen_tan							{ quality = 1; price = 10; };
-	class H_TurbanO_blk								{ quality = 1; price = 10; };
+	class H_Shemag_khk								{ quality = 1; price = 100; };
+	class H_Shemag_olive							{ quality = 1; price = 100; };
+	class H_Shemag_olive_hs							{ quality = 1; price = 100; };
+	class H_Shemag_tan								{ quality = 1; price = 100; };
+	class H_ShemagOpen_khk							{ quality = 1; price = 100; };
+	class H_ShemagOpen_tan							{ quality = 1; price = 100; };
+	class H_TurbanO_blk								{ quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Light Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetB_light							{ quality = 2; price = 20; };
-	class H_HelmetB_light_black						{ quality = 2; price = 20; };
-	class H_HelmetB_light_desert					{ quality = 2; price = 20; };
-	class H_HelmetB_light_grass						{ quality = 2; price = 20; };
-	class H_HelmetB_light_sand						{ quality = 2; price = 20; };
-	class H_HelmetB_light_snakeskin					{ quality = 2; price = 20; };
+	class H_HelmetB_light							{ quality = 2; price = 200; };
+	class H_HelmetB_light_black						{ quality = 2; price = 200; };
+	class H_HelmetB_light_desert					{ quality = 2; price = 200; };
+	class H_HelmetB_light_grass						{ quality = 2; price = 200; };
+	class H_HelmetB_light_sand						{ quality = 2; price = 200; };
+	class H_HelmetB_light_snakeskin					{ quality = 2; price = 200; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetIA								{ quality = 3; price = 40; };
-	class H_HelmetIA_camo							{ quality = 3; price = 40; };
-	class H_HelmetIA_net							{ quality = 3; price = 40; };
-	class H_HelmetB									{ quality = 3; price = 60; };
-	class H_HelmetB_black							{ quality = 3; price = 60; };
-	class H_HelmetB_camo							{ quality = 3; price = 80; }; // This one is awesome!
-	class H_HelmetB_desert							{ quality = 3; price = 60; };
-	class H_HelmetB_grass							{ quality = 3; price = 60; };
-	class H_HelmetB_paint							{ quality = 3; price = 60; };
-	class H_HelmetB_plain_blk						{ quality = 3; price = 60; };
-	class H_HelmetB_sand							{ quality = 3; price = 60; };
-	class H_HelmetB_snakeskin						{ quality = 3; price = 60; };
+	class H_HelmetIA								{ quality = 3; price = 400; };
+	class H_HelmetIA_camo							{ quality = 3; price = 400; };
+	class H_HelmetIA_net							{ quality = 3; price = 400; };
+	class H_HelmetB									{ quality = 3; price = 600; };
+	class H_HelmetB_black							{ quality = 3; price = 600; };
+	class H_HelmetB_camo							{ quality = 3; price = 800; }; // This one is awesome!
+	class H_HelmetB_desert							{ quality = 3; price = 600; };
+	class H_HelmetB_grass							{ quality = 3; price = 600; };
+	class H_HelmetB_paint							{ quality = 3; price = 600; };
+	class H_HelmetB_plain_blk						{ quality = 3; price = 600; };
+	class H_HelmetB_sand							{ quality = 3; price = 600; };
+	class H_HelmetB_snakeskin						{ quality = 3; price = 600; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Spec Ops Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetSpecB								{ quality = 4; price = 80; };
-	class H_HelmetSpecB_blk							{ quality = 4; price = 80; };
-	class H_HelmetSpecB_paint1						{ quality = 4; price = 80; };
-	class H_HelmetSpecB_paint2						{ quality = 4; price = 80; };
+	class H_HelmetSpecB								{ quality = 4; price = 800; };
+	class H_HelmetSpecB_blk							{ quality = 4; price = 800; };
+	class H_HelmetSpecB_paint1						{ quality = 4; price = 800; };
+	class H_HelmetSpecB_paint2						{ quality = 4; price = 800; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Super Helmets
 	///////////////////////////////////////////////////////////////////////////////
-	class H_HelmetO_ocamo							{ quality = 5; price = 150; };
-	class H_HelmetO_oucamo							{ quality = 5; price = 150; };
-	class H_HelmetSpecO_blk							{ quality = 5; price = 100; };
-	class H_HelmetSpecO_ocamo						{ quality = 5; price = 100; };
-	class H_HelmetLeaderO_ocamo						{ quality = 5; price = 200; };
-	class H_HelmetLeaderO_oucamo					{ quality = 5; price = 200; };
+	class H_HelmetO_ocamo							{ quality = 5; price = 1500; };
+	class H_HelmetO_oucamo							{ quality = 5; price = 1500; };
+	class H_HelmetSpecO_blk							{ quality = 5; price = 1000; };
+	class H_HelmetSpecO_ocamo						{ quality = 5; price = 1000; };
+	class H_HelmetLeaderO_ocamo						{ quality = 5; price = 2000; };
+	class H_HelmetLeaderO_oucamo					{ quality = 5; price = 2000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pointer Attachments
@@ -345,96 +334,96 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Bitpod Attachments
 	///////////////////////////////////////////////////////////////////////////////
-	class bipod_01_F_blk	 						{ quality = 2; price = 10; };
-	class bipod_01_F_mtp	 						{ quality = 2; price = 10; };
-	class bipod_01_F_snd	 						{ quality = 2; price = 10; };
-	class bipod_02_F_blk	 						{ quality = 2; price = 10; };
-	class bipod_02_F_hex	 						{ quality = 2; price = 10; };
-	class bipod_02_F_tan	 						{ quality = 2; price = 10; };
-	class bipod_03_F_blk	 						{ quality = 2; price = 10; };
-	class bipod_03_F_oli	 						{ quality = 2; price = 10; };
+	class bipod_01_F_blk	 						{ quality = 2; price = 100; };
+	class bipod_01_F_mtp	 						{ quality = 2; price = 100; };
+	class bipod_01_F_snd	 						{ quality = 2; price = 100; };
+	class bipod_02_F_blk	 						{ quality = 2; price = 100; };
+	class bipod_02_F_hex	 						{ quality = 2; price = 100; };
+	class bipod_02_F_tan	 						{ quality = 2; price = 100; };
+	class bipod_03_F_blk	 						{ quality = 2; price = 100; };
+	class bipod_03_F_oli	 						{ quality = 2; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Muzzle Attachments
 	///////////////////////////////////////////////////////////////////////////////
-	class muzzle_snds_338_black 					{ quality = 5; price = 50; };
-	class muzzle_snds_338_green 					{ quality = 5; price = 50; };
-	class muzzle_snds_338_sand 						{ quality = 5; price = 50; };
-	class muzzle_snds_93mmg 						{ quality = 4; price = 50; };
-	class muzzle_snds_93mmg_tan 					{ quality = 4; price = 50; };
-	class muzzle_snds_acp 							{ quality = 1; price = 10; };
-	class muzzle_snds_B 							{ quality = 3; price = 20; };
-	class muzzle_snds_H 							{ quality = 2; price = 20; };
-	class muzzle_snds_H_MG 							{ quality = 2; price = 20; };
-	class muzzle_snds_H_SW 							{ quality = 2; price = 20; };
-	class muzzle_snds_L 							{ quality = 1; price = 10; };
-	class muzzle_snds_M 							{ quality = 1; price = 10; };
+	class muzzle_snds_338_black 					{ quality = 5; price = 500; };
+	class muzzle_snds_338_green 					{ quality = 5; price = 500; };
+	class muzzle_snds_338_sand 						{ quality = 5; price = 500; };
+	class muzzle_snds_93mmg 						{ quality = 4; price = 500; };
+	class muzzle_snds_93mmg_tan 					{ quality = 4; price = 500; };
+	class muzzle_snds_acp 							{ quality = 1; price = 100; };
+	class muzzle_snds_B 							{ quality = 3; price = 200; };
+	class muzzle_snds_H 							{ quality = 2; price = 200; };
+	class muzzle_snds_H_MG 							{ quality = 2; price = 200; };
+	class muzzle_snds_H_SW 							{ quality = 2; price = 200; };
+	class muzzle_snds_L 							{ quality = 1; price = 100; };
+	class muzzle_snds_M 							{ quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// UAVS
 	///////////////////////////////////////////////////////////////////////////////
-	class I_UavTerminal								{ quality = 4; price = 750; };
-	class I_UAV_01_backpack_F						{ quality = 4; price = 3000; };
+	class I_UavTerminal								{ quality = 4; price = 7500; };
+	class I_UAV_01_backpack_F						{ quality = 4; price = 30000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Static MGs
 	///////////////////////////////////////////////////////////////////////////////
-	class O_HMG_01_weapon_F 						{ quality = 4; price = 5000; };
-	class O_HMG_01_support_F 						{ quality = 4; price = 1000; };
+	class O_HMG_01_weapon_F 						{ quality = 4; price = 50000; };
+	class O_HMG_01_support_F 						{ quality = 4; price = 10000; };
 	// Does not seem to work with HMG01, only the lower version does
 	//class O_HMG_01_support_high_F 				{ quality = QUALITY_LEVEL_9000; price = 5000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Optic Attachments
 	///////////////////////////////////////////////////////////////////////////////
-	class optic_Aco									{ quality = 1; price = 70; };
-	class optic_ACO_grn								{ quality = 1; price = 70; };
-	class optic_ACO_grn_smg							{ quality = 1; price = 70; };
-	class optic_Aco_smg								{ quality = 1; price = 70; };
-	class optic_AMS									{ quality = 5; price = 300; };
-	class optic_AMS_khk								{ quality = 5; price = 300; };
-	class optic_AMS_snd								{ quality = 5; price = 300; };
-	class optic_Arco								{ quality = 1; price = 100; };
-	class optic_DMS									{ quality = 2; price = 150; };
-	class optic_Hamr								{ quality = 3; price = 200; };
-	class optic_Holosight							{ quality = 1; price = 50; };
-	class optic_Holosight_smg						{ quality = 1; price = 50; };
-	class optic_KHS_blk								{ quality = 4; price = 300; };
-	class optic_KHS_hex								{ quality = 4; price = 300; };
-	class optic_KHS_old								{ quality = 4; price = 300; };
-	class optic_KHS_tan								{ quality = 4; price = 300; };
-	class optic_LRPS								{ quality = 5; price = 300; };
-	class optic_MRCO								{ quality = 1; price = 100; };
-	class optic_MRD									{ quality = 1; price = 10; };
-	class optic_Nightstalker						{ quality = 6; price = 1000; };
-	class optic_NVS									{ quality = 4; price = 500; };
-	class optic_SOS									{ quality = 2; price = 200; };
+	class optic_Aco									{ quality = 1; price = 700; };
+	class optic_ACO_grn								{ quality = 1; price = 700; };
+	class optic_ACO_grn_smg							{ quality = 1; price = 700; };
+	class optic_Aco_smg								{ quality = 1; price = 700; };
+	class optic_AMS									{ quality = 5; price = 3000; };
+	class optic_AMS_khk								{ quality = 5; price = 3000; };
+	class optic_AMS_snd								{ quality = 5; price = 3000; };
+	class optic_Arco								{ quality = 1; price = 1000; };
+	class optic_DMS									{ quality = 2; price = 1500; };
+	class optic_Hamr								{ quality = 3; price = 2000; };
+	class optic_Holosight							{ quality = 1; price = 500; };
+	class optic_Holosight_smg						{ quality = 1; price = 500; };
+	class optic_KHS_blk								{ quality = 4; price = 3000; };
+	class optic_KHS_hex								{ quality = 4; price = 3000; };
+	class optic_KHS_old								{ quality = 4; price = 3000; };
+	class optic_KHS_tan								{ quality = 4; price = 3000; };
+	class optic_LRPS								{ quality = 5; price = 3000; };
+	class optic_MRCO								{ quality = 1; price = 1000; };
+	class optic_MRD									{ quality = 1; price = 100; };
+	class optic_Nightstalker						{ quality = 6; price = 10000; };
+	class optic_NVS									{ quality = 4; price = 5000; };
+	class optic_SOS									{ quality = 2; price = 2000; };
 	//class optic_tws									{ quality = QUALITY_LEVEL_9000; price = 1500; };
 	//class optic_tws_mg								{ quality = QUALITY_LEVEL_9000; price = 1500; };
-	class optic_Yorris								{ quality = 1; price = 10; };
+	class optic_Yorris								{ quality = 1; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hardware
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Item_Rope							{ quality = 1; price = 20; };
-	class Exile_Item_DuctTape						{ quality = 1; price = 300; };
-	class Exile_Item_ExtensionCord					{ quality = 1; price = 40; };
-	class Exile_Item_FuelCanisterEmpty				{ quality = 1; price = 40; };
-	class Exile_Item_JunkMetal						{ quality = 1; price = 400; };
-	class Exile_Item_LightBulb						{ quality = 1; price = 20; };
-	class Exile_Item_MetalBoard						{ quality = 1; price = 600; };
-	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
-	class Exile_Item_SafeKit						{ quality = 4; price = 25000; };
-	class Exile_Item_CodeLock						{ quality = 1; price = 5000; };
-	//class Exile_Item_Laptop						{ quality = 2; price = 9000; };
-	//class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
-	class Exile_Item_CamoTentKit					{ quality = 1; price = 250; };
-	class Exile_Item_MetalPole						{ quality = 1; price = 800; };
-	class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
-	//class Exile_Item_MetalWire					{ quality = 1; price = 100; };
-	//class Exile_Item_Cement						{ quality = 1; price = 20; };
-	//class Exile_Item_Sand							{ quality = 1; price = 20; };
-	//class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
+	class Exile_Item_Rope							{ quality = 1; price = 200; };
+	class Exile_Item_DuctTape						{ quality = 1; price = 3000; };
+	class Exile_Item_ExtensionCord					{ quality = 1; price = 400; };
+	class Exile_Item_FuelCanisterEmpty				{ quality = 1; price = 400; };
+	class Exile_Item_JunkMetal						{ quality = 1; price = 4000; };
+	class Exile_Item_LightBulb						{ quality = 1; price = 200; };
+	class Exile_Item_MetalBoard						{ quality = 1; price = 6000; };
+	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 12000; };
+	class Exile_Item_SafeKit						{ quality = 4; price = 75000; };
+	class Exile_Item_CodeLock						{ quality = 1; price = 20000; };
+	//class Exile_Item_Laptop						{ quality = 2; price = 90000; };
+	//class Exile_Item_BaseCameraKit				{ quality = 2; price = 50000; };
+	class Exile_Item_CamoTentKit					{ quality = 1; price = 2500; };
+	class Exile_Item_MetalPole						{ quality = 1; price = 8000; };
+	class Exile_Item_MetalScrews					{ quality = 1; price = 1000; };
+	//class Exile_Item_MetalWire					{ quality = 1; price = 1000; };
+	//class Exile_Item_Cement						{ quality = 1; price = 200; };
+	//class Exile_Item_Sand							{ quality = 1; price = 200; };
+	//class Exile_Item_CarWheel						{ quality = 1; price = 10000; };
 	
 	// Added in 1.0.3, but not used
 	//class Exile_Item_SprayCan_Black				{ quality = 2; price = 20; };
@@ -517,8 +506,8 @@
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Item_Matches 						{ quality = 1; price = 60; };
 	class Exile_Item_CookingPot						{ quality = 2; price = 80; };
-	class Exile_Melee_Axe							{ quality = 2; price = 100; };
-	class Exile_Melee_SledgeHammmer					{ quality = 3; price = 500; };
+	class Exile_Melee_Axe							{ quality = 2; price = 1000; };
+	class Exile_Melee_SledgeHammmer					{ quality = 3; price = 5000; };
 	class Exile_Item_CanOpener						{ quality = 1; price = 80; };
 	class Exile_Item_Handsaw						{ quality = 2; price = 500; };
 	class Exile_Item_Pliers							{ quality = 2; price = 350; };
@@ -538,33 +527,20 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Navigation
 	///////////////////////////////////////////////////////////////////////////////
-	class ItemWatch									{ quality = 1; price = 2; };
-	class ItemGPS									{ quality = 2; price = 40; };
-	class ItemMap									{ quality = 1; price = 6; };
-	class ItemCompass								{ quality = 1; price = 6; };
-	class ItemRadio									{ quality = 1; price = 40; };
-	class Binocular									{ quality = 1; price = 40; };
-	class Rangefinder								{ quality = 3; price = 200; };
-	class Laserdesignator							{ quality = 6; price = 750; };
-	class Laserdesignator_02						{ quality = 6; price = 750; };
-	class Laserdesignator_03						{ quality = 6; price = 750; };
-	class NVGoggles									{ quality = 2; price = 100; };
-	class NVGoggles_INDEP							{ quality = 2; price = 100; };
-	class NVGoggles_OPFOR							{ quality = 2; price = 100; };
-	class Exile_Item_XM8							{ quality = 2; price = 20; };
-	class Exile_Item_MobilePhone					{ quality = 6; price = 500; };
+	class ItemWatch									{ quality = 1; price = 20; };
+	class ItemGPS									{ quality = 2; price = 4000; };
+	class ItemMap									{ quality = 1; price = 60; };
+	class ItemCompass								{ quality = 1; price = 60; };
+	class ItemRadio									{ quality = 1; price = 400; };
+	class Binocular									{ quality = 1; price = 400; };
+	class Exile_Item_XM8							{ quality = 2; price = 200; };
+	class Exile_Item_MobilePhone					{ quality = 6; price = 5000; };
 
-	///////////////////////////////////////////////////////////////////////////////
-	// Watch out for a Walter fart! He has gas!
-	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Headgear_GasMask					{ quality = 4; price = 500; };
 
-	///////////////////////////////////////////////////////////////////////////////
-	// Rebreather
-	///////////////////////////////////////////////////////////////////////////////
-	class V_RebreatherB								{ quality = 2; price = 250; };
-	class V_RebreatherIA							{ quality = 2; price = 250; };
-	class V_RebreatherIR							{ quality = 2; price = 250; };
+
+// TYLER FINISHED HERE
+
+
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pilot Stuff
