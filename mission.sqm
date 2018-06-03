@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1337;
+		nextID=1339;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=33;
+		nextID=41;
 	};
 	class Camera
 	{
-		pos[]={5808.6987,272.41998,1940.3015};
-		dir[]={-0.71322399,-0.695243,0.089163743};
-		up[]={-0.68987322,0.71877354,0.086244844};
-		aside[]={0.12404969,2.8230716e-008,0.99227703};
+		pos[]={5783.5488,307.32669,1937.2751};
+		dir[]={-0.21377395,-0.28140518,-0.93547797};
+		up[]={-0.062691078,0.9595874,-0.27433586};
+		aside[]={-0.97487319,-2.9802322e-008,0.22277737};
 	};
 };
 binarizationWanted=0;
@@ -505,7 +505,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -546,7 +546,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -614,13 +614,13 @@ class Mission
 		month=6;
 		day=24;
 		hour=4;
-		minute=10;
+		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
 	class Entities
 	{
-		items=621;
+		items=620;
 		class Item0
 		{
 			dataType="Marker";
@@ -14168,35 +14168,6 @@ class Mission
 			type="hd_warning";
 			colorName="ColorRed";
 			id=1330;
-		};
-		class Item620
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5780.8545,247.42143,1929.425};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=1336;
-					type="rhsusf_army_ocp_aa";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1335;
 		};
 	};
 };
