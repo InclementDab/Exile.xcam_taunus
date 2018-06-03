@@ -42,7 +42,7 @@ class SM_Zombz
 	SM_FiredNearEVHEnabled = true; // if a player shoots near a zombie, the zombie will walk to that shot position
 	SM_SetVelocityOnHit = true; // moves the player / vehicle just slightly when hit.
 	SM_ExplodingHeadEnabled = true; // exploding heads
-	SM_Zombie_SpawnInGround = false; // when zombies spawn they spawn out of the ground
+	SM_Zombie_SpawnInGround = true; // when zombies spawn they spawn out of the ground
 
 	// How long it takes a idle zombie to recalculate finding a target (recommended 0.1-5 seconds)
 	// The higher the better performance (because it's not checking targets as frequent.)
@@ -250,7 +250,7 @@ class SM_Zombz
 			"SM_Zombz_Marker4",
 			false,
 			false,
-			'ELLIPSE",
+			"ELLIPSE",
 			"",
 			"ColorRed",
 			0,
@@ -259,8 +259,7 @@ class SM_Zombz
 			30,
 			30,
 			{}
-		}
-		
+		}	
 		{
 			{5231.551, 2017.546},
 			300,
@@ -272,7 +271,7 @@ class SM_Zombz
 			"SM_Zombz_Marker4",
 			false,
 			false,
-			'ELLIPSE",
+			"ELLIPSE",
 			"",
 			"ColorRed",
 			0,
@@ -293,7 +292,7 @@ class SM_Zombz
 			"SM_Zombz_Marker4",
 			false,
 			false,
-			'ELLIPSE",
+			"ELLIPSE",
 			"",
 			"ColorRed",
 			0,
@@ -359,7 +358,7 @@ class SM_Zombz
 			30,
 			5,
 			10,
-			"SM_Zombz_Marker4",
+			"SM_Zombz_Marker4"
 			true,
 			true,
 			"ELLIPSE",
