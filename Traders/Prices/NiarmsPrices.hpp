@@ -417,7 +417,6 @@
 	class hlc_smg_mp5a2                        { quality = 2; price = 900; };
 	class hlc_smg_mp5a3                        { quality = 2; price = 900; };
 	class hlc_smg_mp5a4                        { quality = 2; price = 900; };
-	class hlc_smg_mp5k                         { quality = 2; price = 900; };
 	class hlc_smg_mp5k_PDW                     { quality = 2; price = 900; };
 	class hlc_smg_mp5n                         { quality = 2; price = 900; };
 	class hlc_smg_mp5sd5                       { quality = 2; price = 900; };

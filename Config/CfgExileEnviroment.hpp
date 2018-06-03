@@ -51,7 +51,6 @@ class CfgExileEnvironment
 		{
 			// Temperature in °C for the time of day, per hour
 			// Add the first index to the last index, so it is 25 indizes!
-			daytimeTemperature[] = 
 		
 			// Temperature change in °C when it is 100% overcast
 			overcast = -2;
