@@ -358,7 +358,7 @@ class SM_Zombz
 			30,
 			5,
 			10,
-			"SM_Zombz_Marker4"
+			"SM_Zombz_Marker4",
 			true,
 			true,
 			"ELLIPSE",
