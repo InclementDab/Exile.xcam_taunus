@@ -563,3 +563,36 @@ switch (_keyCode) do
 };
 _stopPropagation
 
+{
+	_x params ["_item","_settings"];
+	if (_item in (assignedItems player) && {_keyCode in (actionKeys "nightVision")}) exitWith
+	{
+		ace_nightvision_effectScaling = _settings select 0;
+		ace_nightvision_fogScaling = _settings select 1;
+		ace_nightvision_noiseScaling = _settings select 2;
+		ace_nightvision_aimDownSightsBlur = _settings select 3;
+	};
+} forEach
+[
+	[
+		"ACE_NVG_Gen1",
+		[1.3,1.5,1.5,0.75]
+	],
+	[
+		"ACE_NVG_Gen2",
+		[1.15,1.3,1.3,0.6]
+	],
+	[
+		"NVGoggles",
+		[1,1.1,1.1,0.5]
+	],
+	[
+		"ACE_NVG_Gen4",
+		[0.85,0.95,0.95,0.4]
+	],
+	[
+		"ACE_NVG_Wide",
+		[0.85,0.95,0.95,0.4]
+	]
+];
+

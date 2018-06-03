@@ -368,7 +368,7 @@ class SM_Zombz
 			"SolidFull",
 			0.5,
 			{}
-		}
+		},
 	};
 
 
