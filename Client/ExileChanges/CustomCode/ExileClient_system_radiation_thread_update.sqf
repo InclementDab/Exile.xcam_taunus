@@ -75,6 +75,7 @@ else
 				};
 			};
 			
+			/*
 			_level1mask = "skn_m04_gas_mask_bare_dry" || "skn_m04_gas_mask_bare_blk";
 			_gasuniform = "skn_u_nbc_indep_blk";
 			
@@ -97,21 +98,22 @@ else
 			if (_gasuniform && _maskstatus in (assignedItems player))
 			{
 				_damage = _damage * 0
+			*/
 			
 			
 			
-			
-			if (_x in (assingedItems player))
-				forEach {
+			if ((assignedItems player) isEqualTo _x) then {_damage = _damage * 0.5}
+				forEach [
 					"skn_m04_gas_mask_bare_dry",
 					"skn_m04_gas_mask_bare_blk"
-				} then {_damage = _damage * 0.5};
-				
-				
+			];
 			
+			if ((assignedItems player) isEqualTo _x) then {_damage = _damage * 0.5}
+				forEach [
+					"skn_u_nbc_indep_blk"
+			];
 			
-			
-
+			player setDamage ((damage player) + _damage);
 			
 			
 			

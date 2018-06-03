@@ -461,3 +461,18 @@
 	class hlc_rifle_M1903A1_unertl            { quality = 2; price = 1000; };
 	class hlc_rifle_bcmblackjack			 { quality = 2; price = 900; };
 	class hlc_rifle_g3a3vris			 	 { quality = 2; price = 900; };
+	
+	
+	/////////////////////////////////////////////////////////////////////////////////
+	//    NIArms Pistols
+	/////////////////////////////////////////////////////////////////////////////////
+	class hlc_pistol_P226WestGerman			 	 { quality = 2; price = 2000; };
+	class hlc_pistol_mk25d					 	 { quality = 2; price = 2000; };
+	class hlc_pistol_p226r					 	 { quality = 2; price = 2250; };
+	class hlc_pistol_p226r_elite			 	 { quality = 2; price = 2500; };
+	class hlc_pistol_p229r			 			 { quality = 2; price = 2250; };
+	class hlc_pistol_p229r_elite			 	 { quality = 2; price = 2500; };
+	class hlc_smg_mp5k							 { quality = 3; price = 4200; };
+	
+	
+	

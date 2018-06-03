@@ -202,9 +202,18 @@
 	
 	//WEAPONS
 	//PISTOL
-	class rhs_weap_pya								{ quality = 3; price = 100; };
-	class rhs_weap_makarov_pmm						{ quality = 3; price = 100; };
-	class rhsusf_weap_m1911a1						{ quality = 3; price = 100; };
+	class rhs_weap_pya								{ quality = 2; price = 1000; };
+	class rhs_weap_makarov_pmm						{ quality = 2; price = 1000; };
+	class rhsusf_weap_m1911a1						{ quality = 2; price = 1000; };
+	class RHS_weap_rsp30_white						{ quality = 1; price = 150; };
+	class RHS_weap_rsp30_green						{ quality = 1; price = 150; };
+	class RHS_weap_rsp30_red						{ quality = 1; price = 150; };
+	class rhs_weap_pp2000_folded					{ quality = 3; price = 3000 };
+	class rhs_weap_pb_6p9							{ quality = 3; price = 4000 };
+	class rhsusf_weap_m9							{ quality = 2; price = 2000 };
+	class rhs_weap_savz61_folded					{ quality = 2; price = 2700 };
+	class rhs_weap_pya								{ quality = 2; price = 2200 };
+	
 	
 	//LMG
 	//US

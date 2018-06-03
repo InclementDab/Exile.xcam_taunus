@@ -9,6 +9,45 @@ class CfgTraderCategories
 			// Add your items here <3
 		};
 	};
+	
+	
+	class CivilianPistols
+	{
+		name = "Civilian Pistols";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"Exile_Weapon_SA61",
+			"rhs_weap_pya",
+			"rhs_weap_makarov_pmm",
+			"rhsusf_weap_m1911a1",
+			"Exile_Weapon_Taurus",
+			"BWA3_P8",
+			"rhsusf_weap_glock17g4"
+		};
+	};
+
+
+	
+	
+	class AntiRadiation
+	{
+		name = "Anti-Radiation Gear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"skn_m04_gas_mask_bare_dry",
+			"skn_m04_gas_mask_blk",					
+			"skn_m04_gas_mask_blu",
+			"skn_m04_gas_mask_gre",			
+			"skn_m50_gas_mask_hood",						
+			"skn_m50_gas_mask_hood_wd",
+			"skn_m10_balaclava_blue_dry",				
+			"skn_m10_balaclava_red_dry",					
+			"skn_m10_balaclava_white_dry",				
+			"skn_m10_balaclava_yellow_dry"
+		};
+	};
 
 	class Uniforms
 	{
@@ -127,6 +166,9 @@ class CfgTraderCategories
 			"U_B_CTRG_Soldier_urb_1_F",
 			"U_B_CTRG_Soldier_urb_2_F",
 			"U_B_CTRG_Soldier_urb_3_F",
+			
+			// START RHS
+			
 			"rhs_uniform_cu_ocp",
 			"rhs_uniform_cu_ucp",
 			"rhs_uniform_cu_ocp_101st",
@@ -141,6 +183,9 @@ class CfgTraderCategories
 			"rhs_uniform_m88_patchless",
 			"rhs_uniform_mflora_patchless",
 			"rhs_uniform_vdv_mflora",
+			
+			// START TRYK
+			
 			"TRYK_U_B_OD_OD_CombatUniform",
 			"TRYK_U_B_OD_OD_R_CombatUniform",
 			"TRYK_U_B_TANTAN_CombatUniform",
@@ -493,6 +538,9 @@ class CfgTraderCategories
 			"V_DeckCrew_white_F",
 			"V_DeckCrew_brown_F",
 			"V_DeckCrew_violet_F",
+			
+			// START RHS
+			
 			"rhs_6sh92_headset",
 			"rhs_6sh92_radio",
 			"rhs_6sh92_vog",
@@ -547,6 +595,9 @@ class CfgTraderCategories
 			"rhsusf_iotv_ucp_Teamleader",
 			"rhsusf_iotv_ocp_Grenadier",
 			"rhsusf_iotv_ucp_Grenadier",
+			
+			// START TRYK
+			
 			"TRYK_V_PlateCarrier_JSDF",
 			"TRYK_V_ArmorVest_AOR1",
 			"TRYK_V_ArmorVest_AOR2",
@@ -721,6 +772,9 @@ class CfgTraderCategories
 			"H_Cap_tan_Syndikat_F",
 			"H_Cap_blk_Syndikat_F",
 			"H_Cap_grn_Syndikat_F",
+			
+			// START RHS
+			
 			"rhs_6b27m_digi",
 			"rhs_6b27m_digi_bala",
 			"rhs_6b27m_digi_ess",
@@ -733,6 +787,9 @@ class CfgTraderCategories
 			"rhs_6b27m_ml_bala",
 			"rhs_6b27m_ml_ess",
 			"rhs_6b27m_ML_ess_bala",
+			
+			// START TRYK
+			
 			"TRYK_ESS_CAP",
 			"TRYK_ESS_CAP_OD",
 			"TRYK_ESS_CAP_tan",
@@ -872,11 +929,6 @@ class CfgTraderCategories
 			"G_Lady_Dark",
 			"G_Lady_Red",
 			"G_Lady_Blue",
-			"G_Diving",
-			"G_B_Diving",
-			"G_O_Diving",
-			"G_I_Diving",
-			"G_Goggles_VR",
 			"G_Balaclava_blk",
 			"G_Balaclava_oli",
 			"G_Balaclava_combat",
@@ -896,8 +948,7 @@ class CfgTraderCategories
 			"G_Balaclava_TI_tna_F",
 			"G_Balaclava_TI_G_blk_F",
 			"G_Balaclava_TI_G_tna_F",
-			"G_Combat_Goggles_tna_F",
-			"Exile_Headgear_GasMask"
+			"G_Combat_Goggles_tna_F"
 		};
 	};
 
@@ -917,7 +968,10 @@ class CfgTraderCategories
 			"ACE_HandFlare_White",
 			"ACE_HandFlare_Red",
 			"ACE_HandFlare_Green",
-			"ACE_HandFlare_Yellow"
+			"ACE_HandFlare_Yellow",
+			"RHS_weap_rsp30_white",
+			"RHS_weap_rsp30_green",
+			"RHS_weap_rsp30_red"
 		};
 	};
 	
@@ -974,13 +1028,16 @@ class CfgTraderCategories
 			"bipod_03_F_blk",
 			"bipod_03_F_oli",
 			"bipod_01_F_khk",
+			
+			// START RHS
+			
 			"rhsusf_acc_harris_bipod"
 		};
 	};
 
 	class MuzzleAttachments
 	{
-		name = "Muzzle Attachments";
+		name = "Barrel Attachments";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemmuzzle_ca.paa";
 		items[] =
 		{
@@ -996,7 +1053,9 @@ class CfgTraderCategories
 			"muzzle_snds_H_SW",
 			"muzzle_snds_L",
 			"muzzle_snds_M",
+			
 			//Apex
+			
 			"muzzle_snds_H_khk_F",
 			"muzzle_snds_H_snd_F",
 			"muzzle_snds_58_blk_F",
@@ -1023,6 +1082,9 @@ class CfgTraderCategories
 			"hlc_muzzle_snds_a6AUG",
 			"hlc_muzzle_snds_fal",
 			"hlc_muzzle_snds_g3",
+			
+			// START RHS
+			
 			"rhsusf_acc_rotex5_grey",
 			"rhsusf_acc_rotex5_tan",
 			"rhsusf_acc_nt4_black",
@@ -1134,6 +1196,9 @@ class CfgTraderCategories
 			"hlc_optic_goshawk",
 			"hlc_optic_kobra",
 			"hlc_optic_suit",
+			
+			// START RHS
+			
 			"rhsusf_acc_eotech_552",
 			"rhsusf_acc_LEUPOLDMK4",
 			"rhsusf_acc_ELCAN",
@@ -1902,22 +1967,22 @@ class CfgTraderCategories
 		items[] =
 		{
 			"hgun_ACPC2_F",
-			"hgun_P07_F",
 			"hgun_Pistol_heavy_01_F",
 			"hgun_Pistol_heavy_02_F",
-			"hgun_Pistol_Signal_F",
-			"hgun_Rook40_F",
-			"Exile_Weapon_Colt1911",
-			"Exile_Weapon_Makarov",
-			"Exile_Weapon_Taurus",
-			"Exile_Weapon_TaurusGold",
-			//Apex
-			"hgun_Pistol_01_F",
-			"hgun_P07_khk_F",
-			"Exile_Weapon_SA61",
 			"rhs_weap_pya",
-			"rhs_weap_makarov_pmm",
-			"rhsusf_weap_m1911a1"
+			"rhs_weap_savz61_folded",
+			"hlc_smg_mp5k",
+			"rhsusf_weap_m9",
+			"bwa3_mp7",
+			"rhs_weap_pp2000_folded",
+			"rhs_weap_pb_6p9",
+			"hlc_pistol_P226WestGerman",
+			"hlc_pistol_mk25d",
+			"hlc_pistol_p226r",
+			"hlc_pistol_p226r_elite",
+			"hlc_pistol_p229r",
+			"hlc_pistol_p229r_elite"
+
 		};
 	};
 
@@ -1951,8 +2016,6 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"arifle_MX_SW_Black_F",
-			"arifle_MX_SW_F",
 			"LMG_Mk200_F",
 			"LMG_Zafir_F",
 			"LMG_03_F",

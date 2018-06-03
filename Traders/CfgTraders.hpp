@@ -6,7 +6,7 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"PointerAttachments" // Placeholder
+			"CivilianPistols"
 		};
 	};
 	
@@ -20,6 +20,16 @@ class CfgTraders
 		};
 	};
 	
+	class Black_Market
+	{
+		name = "BLACK MARKET DEALER";
+		showWeaponFilter = 0;
+		categories[] =
+		{
+			"AntiRadiation",
+			"LightMachineGuns"
+		};
+	};
 
 	/**
 	 * Weapons, scopes, silencers, ammo
@@ -38,7 +48,6 @@ class CfgTraders
 			"Pistols",
 			"Shotguns",
 			"SubMachineGuns",
-			"LightMachineGuns",
 			"AssaultRifles",
 			"SniperRifles"
 		};
