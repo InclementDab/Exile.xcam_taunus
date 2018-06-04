@@ -174,6 +174,46 @@ class CfgTraderCategories
 	};
 
 	
+	class CivilianHeadgear
+	{
+		name = "Civilian Headgear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"H_Cap_oli",
+			"H_Cap_press",
+			"H_Cap_red",
+			"H_Cap_tan",
+			"H_Hat_blue",
+			"H_Hat_brown",
+			"H_Hat_camo",
+			"H_Hat_checker",
+			"H_Hat_grey",
+			"H_Hat_tan",
+			"H_StrawHat",
+			"H_StrawHat_dark",
+			"H_Cap_blk",
+			"H_Cap_blk_Raven",
+			"H_Cap_blu",
+			"H_Cap_brn_SPECOPS",
+			"H_Cap_grn",
+			"H_Bandanna_camo",
+			"H_Bandanna_cbr",
+			"H_Bandanna_gry",
+			"H_Bandanna_khk",
+			"H_Bandanna_khk_hs",
+			"H_Bandanna_mcamo",
+			"H_Bandanna_sgg",
+			"H_Bandanna_surfer",
+			"TRYK_H_woolhat",
+			"TRYK_H_woolhat_CW",
+			"TRYK_H_woolhat_WH",
+			"TRYK_H_woolhat_br",
+			"TRYK_H_woolhat_cu",
+			"TRYK_H_woolhat_tan"
+		};
+	};
+	
 	
 	class AntiRadiation
 	{
@@ -672,17 +712,8 @@ class CfgTraderCategories
 		{
 			"Exile_Headgear_SantaHat",
 			"Exile_Headgear_SafetyHelmet",
-			"H_Cap_blk",
-			"H_Cap_blk_Raven",
-			"H_Cap_blu",
-			"H_Cap_brn_SPECOPS",
-			"H_Cap_grn",
 			"H_Cap_headphones",
 			"H_Cap_khaki_specops_UK",
-			"H_Cap_oli",
-			"H_Cap_press",
-			"H_Cap_red",
-			"H_Cap_tan",
 			"H_Cap_tan_specops_US",
 			"H_Watchcap_blk",
 			"H_Watchcap_camo",
@@ -694,14 +725,6 @@ class CfgTraderCategories
 			"H_MilCap_ocamo",
 			"H_MilCap_oucamo",
 			"H_MilCap_rucamo",
-			"H_Bandanna_camo",
-			"H_Bandanna_cbr",
-			"H_Bandanna_gry",
-			"H_Bandanna_khk",
-			"H_Bandanna_khk_hs",
-			"H_Bandanna_mcamo",
-			"H_Bandanna_sgg",
-			"H_Bandanna_surfer",
 			"H_Booniehat_dgtl",
 			"H_Booniehat_dirty",
 			"H_Booniehat_grn",
@@ -710,14 +733,6 @@ class CfgTraderCategories
 			"H_Booniehat_khk_hs",
 			"H_Booniehat_mcamo",
 			"H_Booniehat_tan",
-			"H_Hat_blue",
-			"H_Hat_brown",
-			"H_Hat_camo",
-			"H_Hat_checker",
-			"H_Hat_grey",
-			"H_Hat_tan",
-			"H_StrawHat",
-			"H_StrawHat_dark",
 			"H_Beret_02",
 			"H_Beret_blk",
 			"H_Beret_blk_POLICE",
@@ -911,12 +926,6 @@ class CfgTraderCategories
 			"TRYK_H_Bandana_wig_g",
 			"TRYK_H_wig",
 			"TRYK_H_headset2",
-			"TRYK_H_woolhat",
-			"TRYK_H_woolhat_CW",
-			"TRYK_H_woolhat_WH",
-			"TRYK_H_woolhat_br",
-			"TRYK_H_woolhat_cu",
-			"TRYK_H_woolhat_tan",
 			"TRYK_H_headsetcap",
 			"TRYK_H_headsetcap_blk",
 			"TRYK_H_headsetcap_od",
@@ -2425,14 +2434,15 @@ class CfgTraderCategories
 		};
 	};
 
-	class Bikes
+	class MikesBikes
 	{
-		name = "Bikes";
+		name = "Wheelie Bois";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
 			"Exile_Bike_OldBike",
-			"Exile_Bike_MountainBike"
+			"Exile_Bike_MountainBike",
+			"Exile_Bike_QuadBike_Black"
 		};
 	};
 
@@ -2443,7 +2453,6 @@ class CfgTraderCategories
 		items[] =
 		{
 			"Exile_Car_Kart_Black",
-			"Exile_Bike_QuadBike_Black",
 			"Exile_Car_OldTractor_Red",
 			"Exile_Car_TowTractor_White",
 			"Exile_Car_Tractor_Red",
