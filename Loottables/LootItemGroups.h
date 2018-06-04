@@ -533,8 +533,7 @@
 20, hlc_50rnd_762x51_MDIM_G3
 20, hlc_50rnd_762x51_M_FAL
 20, hlc_50rnd_762x51_M_G3
-20, hlc_5Rnd_792_AP_Kar98
-20, hlc_5Rnd_792_T_Kar98
+20, rhsgref_5Rnd_792x57_kar98k
 
 > RifleAttachments
 24, muzzle_snds_M
