@@ -32,7 +32,7 @@ class CfgTraderCategories
 	{
 		name = "Hunting Rifles";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
-		items [] =
+		items[] =
 		{
 			"Exile_Weapon_LeeEnfield",
 			"hlc_rifle_M1903A1",
@@ -48,7 +48,7 @@ class CfgTraderCategories
 		items[] =
 		{
 			"TRYK_U_B_Sage_Tshirt",
-			"TRYK_U_B_BLK_TAN_1"
+			"TRYK_U_B_BLK_TAN_1",
 			"TRYK_shirts_PAD",
 			"TRYK_shirts_OD_PAD",
 			"TRYK_shirts_TAN_PAD",
@@ -194,9 +194,9 @@ class CfgTraderCategories
 		};
 	};
 
-	class Uniforms
+	class MilitaryUniforms
 	{
-		name = "Uniforms";
+		name = "Military Uniforms";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] =
 		{
@@ -492,9 +492,9 @@ class CfgTraderCategories
 		};
 	};
 
-	class Vests
+	class MilitaryVests
 	{
-		name = "Vests";
+		name = "Military Vests";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\vest_ca.paa";
 		items[] =
 		{
@@ -664,7 +664,7 @@ class CfgTraderCategories
 		};
 	};
 
-	class Headgear
+	class MilitaryHeadgear
 	{
 		name = "Headgear";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
