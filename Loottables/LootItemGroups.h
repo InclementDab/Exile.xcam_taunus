@@ -122,6 +122,10 @@
 12, hlc_smg_mp5sd5
 18, hlc_smg_mp5a3
 18, hlc_smg_mp5sd6
+19, rhsusf_weap_MP7A2",
+12,	rhsusf_weap_MP7A2_desert",
+15,	rhsusf_weap_MP7A2_aor1",
+17,	rhsusf_weap_MP7A2_winter"
 
 > SMGAmmo
 10, 30Rnd_45ACP_Mag_SMG_01					// Vermin SMG
@@ -384,7 +388,7 @@
 17, hlc_rifle_FAL5000_RH
 15, hlc_rifle_FAL5061Rail
 1, hlc_rifle_honeybadger
-30, hlc_rifle_Kar98
+30, rhs_weap_kar98k
 
 > RifleAmmo
 20, 20Rnd_556x45_UW_mag						// SDAR
