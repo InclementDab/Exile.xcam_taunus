@@ -334,21 +334,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
-		{
-			className="WW2_Objects_c_Structures_IF_Buildings_c";
-			name="WW2_Objects_c_Structures_IF_Buildings_c";
-		};
-		class Item33
-		{
-			className="WW2_Objects_c_Misc_IF_EditorMapSizeAndIcon_c";
-			name="WW2_Objects_c_Misc_IF_EditorMapSizeAndIcon_c";
-		};
-		class Item34
-		{
-			className="WW2_Objects_c_Misc_IF_EditorPreview_c";
-			name="WW2_Objects_c_Misc_IF_EditorPreview_c";
-		};
 		class Item35
 		{
 			className="A3_Structures_F_Argo";
@@ -449,11 +434,6 @@ class AddonsMetaData
 		{
 			className="CUP_CAStructures_E_Misc_Misc_Garbage";
 			name="CUP_CAStructures_E_Misc_Misc_Garbage";
-		};
-		class Item52
-		{
-			className="WW2_Objects_c_Misc_IF_CoreData_c";
-			name="WW2_Objects_c_Misc_IF_CoreData_c";
 		};
 		class Item53
 		{
@@ -7940,23 +7920,6 @@ class Mission
 			type="Land_Warehouse_03_F";
 			atlOffset=0.81922913;
 		};
-		class Item326
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15566.724,227.12579,12302.922};
-				angles[]={0,1.4353667,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=495;
-			type="Land_WW2_Setka_Tank";
-			atlOffset=4.5776367e-005;
-		};
 		class Item327
 		{
 			dataType="Object";
@@ -8132,22 +8095,6 @@ class Mission
 			id=508;
 			type="CUP_A2_Road_OA_dirt7_W7_A0_401_R1000";
 		};
-		class Item338
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15567.627,226.91309,12293.657};
-				angles[]={0,1.4353667,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=510;
-			type="Land_WW2_Setka_Tank";
-		};
 		class Item339
 		{
 			dataType="Object";
@@ -8228,38 +8175,6 @@ class Mission
 			id=515;
 			type="UAZWreck";
 		};
-		class Item344
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15542.087,227.37994,12290.236};
-				angles[]={6.245204,3.0228601,6.2252488};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=516;
-			type="Land_WW2_Rus_Plash_Palatka";
-		};
-		class Item345
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15536.761,227.77191,12292.707};
-				angles[]={6.2491999,3.9795442,6.2252517};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=517;
-			type="Land_WW2_Rus_Plash_Palatka";
-		};
 		class Item346
 		{
 			dataType="Object";
@@ -8292,22 +8207,6 @@ class Mission
 			id=519;
 			type="ACamp";
 			atlOffset=6.1035156e-005;
-		};
-		class Item348
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={15543.877,227.5815,12299.789};
-				angles[]={6.261188,3.8771496,6.2172828};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=520;
-			type="Land_WW2_Rus_Plash_Palatka";
 		};
 		class Item349
 		{
@@ -12178,21 +12077,6 @@ class Mission
 			type="Land_Misc_Cargo1A_ruins_EP1";
 			atlOffset=-6.1035156e-005;
 		};
-		class Item589
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3528.1497,538.9328,18424.41};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=1032;
-			type="Land_WW2_Krater";
-		};
 		class Item590
 		{
 			dataType="Object";
@@ -12224,36 +12108,6 @@ class Mission
 			};
 			id=1042;
 			type="JeepWreck2";
-		};
-		class Item592
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3511.5835,539.23895,18434.902};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=1043;
-			type="Land_WW2_Krater";
-		};
-		class Item593
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3531.4229,538.60516,18450.359};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=1044;
-			type="Land_WW2_Krater";
 		};
 		class Item594
 		{
