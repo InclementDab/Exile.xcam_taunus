@@ -31,7 +31,7 @@ class CfgTraderCategories
 	class HuntingRifles	
 	{
 		name = "Hunting Rifles";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa"
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items [] =
 		{
 			"Exile_Weapon_LeeEnfield",
