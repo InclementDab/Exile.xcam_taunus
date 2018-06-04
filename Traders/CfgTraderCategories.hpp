@@ -2425,14 +2425,15 @@ class CfgTraderCategories
 		};
 	};
 
-	class Bikes
+	class MikesBikes
 	{
-		name = "Bikes";
+		name = "Wheelie Bois";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
 			"Exile_Bike_OldBike",
-			"Exile_Bike_MountainBike"
+			"Exile_Bike_MountainBike",
+			"Exile_Bike_QuadBike_Black"
 		};
 	};
 
@@ -2443,7 +2444,6 @@ class CfgTraderCategories
 		items[] =
 		{
 			"Exile_Car_Kart_Black",
-			"Exile_Bike_QuadBike_Black",
 			"Exile_Car_OldTractor_Red",
 			"Exile_Car_TowTractor_White",
 			"Exile_Car_Tractor_Red",
