@@ -243,72 +243,6 @@ class SM_Zombz
 	SM_ZombiesCanSpawnRandomly = false; // zombies randomly spawn, even if a player is not in a zone.
 	SM_HordeUseZombieZones = false; // horde zones will use the zombie zones (to make the config smaller) (will also use SM_MaxZombiesInHorde and SM_MinZombiesInHorde)
 	SM_DisableZombieSpawnsUntilInNewZoneEnabled = false; // disable spawning of new zombies until a player gets in a new zone. (Requires zones to be enabled!)
-	SM_ZombieZones[] =
-	{
-		{
-			{6086.311, 1601.508},
-			1200,
-			10,
-			20,
-			150,
-			0,
-			300,
-			"SM_Zombz_Marker4",
-			false,
-			false,
-			"ELLIPSE",
-			"",
-			"ColorRed",
-			0,
-			"SolidFull",
-			50,
-			30,
-			30,
-			{}
-		},
-		{
-			{5231.551, 2017.546},
-			300,
-			10,
-			20,
-			150,
-			0,
-			100,
-			"SM_Zombz_Marker4",
-			false,
-			false,
-			"ELLIPSE",
-			"",
-			"ColorRed",
-			0,
-			"SolidFull",
-			50,
-			30,
-			30,
-			{}
-		},
-		{
-			{7381.919, 5613.197},
-			1200,
-			10,
-			20,
-			150,
-			0,
-			100,
-			"SM_Zombz_Marker4",
-			false,
-			false,
-			"ELLIPSE",
-			"",
-			"ColorRed",
-			0,
-			"SolidFull",
-			50,
-			30,
-			30,
-			{}
-		},
-	};
 
 
 	/* HORDE ZONE CONFIGURATION */
@@ -354,28 +288,6 @@ class SM_Zombz
 		16 - marker alpha. ( from 0 to 1 )
 		17 - horde classes to spawn at the zone, use {} for default classes.
 	*/
-	SM_HordeZones[] = 
-	{
-		// some place
-		{
-			{11250,21119},
-			300,
-			5,
-			30,
-			5,
-			10,
-			"SM_Zombz_Marker4",
-			true,
-			true,
-			"ELLIPSE",
-			"Dizz is a horde zone!",
-			"ColorGreen",
-			0.1,
-			"SolidFull",
-			0.5,
-			{}
-		},
-	};
 
 
 	/* THESE ARE FOR VANILLA ARMA 3, EXILE SAFEZONES / BASES ARE AUTOMATICALLY DETECTED! */
