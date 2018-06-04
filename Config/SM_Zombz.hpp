@@ -80,6 +80,10 @@ class SM_Zombz
 	SM_ZombieGutsLength = 300; //How long zombie guts last.
 	SM_TownSearchTypes[] = //You're also able to put town names
 	{
+		"Item0"
+	};
+	
+	/*
 		"Oberursel West",
 		"Oberursel Ost",
 		"Bad Homburg",
@@ -120,7 +124,9 @@ class SM_Zombz
 		"Riedelbach",
 		"Truppenuebungsplatz",
 		"Weisskirchen"
-	};
+	*/
+	
+	
 	SM_ZombieMaxDistanceTown = 60; // max distance to spawn zombies from a player in a town
 	SM_ZombieMinDistanceTown = 20; // min distance to spawn zombies from a player in a town
 	SM_SearchForTownRadius = 100; // will search all towns near a player within 1000 meters.
@@ -255,7 +261,7 @@ class SM_Zombz
 			"ColorRed",
 			0,
 			"SolidFull",
-			0,
+			50,
 			30,
 			30,
 			{}
@@ -276,7 +282,7 @@ class SM_Zombz
 			"ColorRed",
 			0,
 			"SolidFull",
-			0,
+			50,
 			30,
 			30,
 			{}
@@ -297,7 +303,7 @@ class SM_Zombz
 			"ColorRed",
 			0,
 			"SolidFull",
-			0,
+			50,
 			30,
 			30,
 			{}

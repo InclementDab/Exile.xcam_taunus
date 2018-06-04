@@ -25,15 +25,17 @@ _thirstLabel = _display displayCtrl 1305;
 _thirstLabel ctrlShow (ExileHudMode isEqualTo 0); 
 _thirstValue = _display displayCtrl 1304;
 _thirstValue  ctrlShow (ExileHudMode isEqualTo 0);
+
+_environmentTemperatureLabel = _display displayCtrl 1309;
+_environmentTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
+_environmentTemperatureValue = _display displayCtrl 1308;
+_environmentTemperatureValue ctrlShow (ExileHudMode isEqualTo 1);
+_bodyTemperatureLabel = _display displayCtrl 1311;
+_bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
+_bodyTemperatureValue = _display displayCtrl 1310;
+_bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 1);
+
 _healthLabel = _display displayCtrl 1307;
 _healthLabel ctrlShow false;
 _healthValue = _display displayCtrl 1306;
-_healthValue ctrlShow (ExileHudMode isEqualTo 1);
-_environmentTemperatureLabel = _display displayCtrl 1309;
-_environmentTemperatureLabel ctrlShow (ExileHudMode isEqualTo 2);
-_environmentTemperatureValue = _display displayCtrl 1308;
-_environmentTemperatureValue ctrlShow (ExileHudMode isEqualTo 2);
-_bodyTemperatureLabel = _display displayCtrl 1311;
-_bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 2);
-_bodyTemperatureValue = _display displayCtrl 1310;
-_bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 2);
+_healthValue ctrlShow (ExileHudMode isEqualTo 2);

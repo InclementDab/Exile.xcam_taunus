@@ -27,6 +27,17 @@ class CfgTraderCategories
 		};
 	};
 
+	
+	class Community
+	{
+		name = "Civilian Clothing";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"TRYK_U_B_Sage_Tshirt",
+			"TRYK_U_B_BLK_TAN_1"
+		};
+	};
 
 	
 	
@@ -232,7 +243,6 @@ class CfgTraderCategories
 			"TRYK_U_B_MARPAT_Desert2_Tshirt",
 			"TRYK_U_B_3c",
 			"TRYK_U_B_3cr",
-			"TRYK_U_B_Sage_Tshirt",
 			"TRYK_U_B_BLK3CD",
 			"TRYK_U_B_BLK3CD_Tshirt",
 			"TRYK_U_B_BLK",
@@ -247,7 +257,6 @@ class CfgTraderCategories
 			"TRYK_U_B_C02_Tsirt",
 			"TRYK_U_B_OD_BLK",
 			"TRYK_U_B_OD_BLK_2",
-			"TRYK_U_B_BLK_TAN_1",
 			"TRYK_U_B_BLK_TAN_2",
 			"TRYK_U_B_wh_tan_Rollup_CombatUniform",
 			"TRYK_U_B_wh_OD_Rollup_CombatUniform",
