@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1398;
+		nextID=1399;
 	};
 	class MarkerIDProvider
 	{
-		nextID=50;
+		nextID=51;
 	};
 	class LayerIndexProvider
 	{
-		nextID=63;
+		nextID=73;
 	};
 	class Camera
 	{
-		pos[]={15580.892,520.04907,15719.493};
-		dir[]={0.75230867,-0.63912606,-0.15988381};
-		up[]={0.62517154,0.76909536,-0.13286379};
-		aside[]={-0.20788378,-1.7881393e-007,-0.97815996};
+		pos[]={3689.8464,337.41605,2972.6206};
+		dir[]={0.78057808,-0.57224786,0.25145969};
+		up[]={0.54468203,0.82008082,0.1754669};
+		aside[]={0.30662751,-5.5879354e-009,-0.95182943};
 	};
 };
 binarizationWanted=0;
@@ -596,7 +596,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=616;
+		items=617;
 		class Item0
 		{
 			dataType="Marker";
@@ -13212,7 +13212,7 @@ class Mission
 				};
 			};
 			id=1133;
-			atlOffset=-156.6239;
+			atlOffset=86.381699;
 		};
 		class Item575
 		{
@@ -14027,7 +14027,7 @@ class Mission
 			name="mikesBikes1_3";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=179.68518;
+			angle=179.68515;
 			id=1357;
 			atlOffset=0.014129639;
 		};
@@ -14249,14 +14249,14 @@ class Mission
 							{
 								class data
 								{
+									nil=1;
 									class type
 									{
 										type[]=
 										{
-											"STRING"
+											"ANY"
 										};
 									};
-									value="";
 								};
 							};
 						};
@@ -16034,14 +16034,14 @@ class Mission
 							{
 								class data
 								{
+									nil=1;
 									class type
 									{
 										type[]=
 										{
-											"STRING"
+											"ANY"
 										};
 									};
-									value="";
 								};
 							};
 						};
@@ -20112,7 +20112,7 @@ class Mission
 					};
 					id=1389;
 					type="SM_Zombz_Zone";
-					atlOffset=-0.030952454;
+					atlOffset=-0.030960083;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21025,14 +21025,14 @@ class Mission
 							{
 								class data
 								{
+									nil=1;
 									class type
 									{
 										type[]=
 										{
-											"STRING"
+											"ANY"
 										};
 									};
-									value="";
 								};
 							};
 						};
@@ -22096,14 +22096,14 @@ class Mission
 							{
 								class data
 								{
+									nil=1;
 									class type
 									{
 										type[]=
 										{
-											"STRING"
+											"ANY"
 										};
 									};
-									value="";
 								};
 							};
 						};
@@ -22246,6 +22246,18 @@ class Mission
 			};
 			id=1392;
 			atlOffset=50.546112;
+		};
+		class Item616
+		{
+			dataType="Marker";
+			position[]={3815.6531,259.56,3013.6289};
+			name="ContaminationZone1";
+			markerType="ELLIPSE";
+			type="ExileContaminatedZone";
+			alpha=0;
+			a=4000;
+			b=4000;
+			id=1398;
 		};
 	};
 };
