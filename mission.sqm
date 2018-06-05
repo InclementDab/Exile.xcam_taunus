@@ -22255,8 +22255,8 @@ class Mission
 			markerType="ELLIPSE";
 			type="ExileContaminatedZone";
 			alpha=0;
-			a=4000;
-			b=4000;
+			a=5000;
+			b=5000;
 			id=1398;
 		};
 	};

@@ -88,6 +88,7 @@ if !(alive player) then
 				_controlSuicide ctrlSetText "Respawn";
 				_controlSuicide ctrlSetEventHandler ["ButtonClick", "[] call ExileClient_gui_escape_respawn"];
 				_controlSuicide ctrlCommit 0;
+			};
 
 			_controlAbort ctrlEnable false;
 			_controlAbort ctrlSetText format ["(Please wait (%1s)", ceil(_abortTime - diag_tickTime)];

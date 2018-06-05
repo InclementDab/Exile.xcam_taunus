@@ -25,6 +25,9 @@ class CfgExileCustomCode
 	ExileClient_gui_escape_abort = "Client\ExileChanges\CustomCode\ExileClient_gui_escape_abort.sqf";
 	ExileClient_gui_hud_toggleStatsBar = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_toggleStatsBar.sqf";
 	ExileClient_system_radiation_thread_update = "Client\ExileChanges\CustomCode\ExileClient_system_radiation_thread_update.sqf";
+	ExileClient_gui_hud_renderStatsPanel = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_renderStatsPanel.sqf";
+	ExileClient_object_player_stats_reset = "Client\ExileChanges\CustomCode\ExileClient_object_player_stats_reset.sqf";
+	ExileClient_object_player_stats_update = "Client\ExileChanges\CustomCode\ExileClient_object_player_stats_update.sqf";
 	
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened = "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";

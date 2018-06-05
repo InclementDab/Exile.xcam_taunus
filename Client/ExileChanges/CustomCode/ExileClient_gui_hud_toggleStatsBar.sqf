@@ -13,7 +13,7 @@ private["_display", "_hungerLabel", "_hungerValue", "_thirstLabel", "_thirstValu
 disableSerialization;
 _display = uiNamespace getVariable "RscExileHUD";
 ExileHudMode = ExileHudMode + 1;
-if (ExileHudMode isEqualTo 2) then 
+if (ExileHudMode isEqualTo 3) then 
 {
 	ExileHudMode = 0;
 };
@@ -24,7 +24,7 @@ _hungerValue ctrlShow (ExileHudMode isEqualTo 0);
 _thirstLabel = _display displayCtrl 1305;
 _thirstLabel ctrlShow (ExileHudMode isEqualTo 0); 
 _thirstValue = _display displayCtrl 1304;
-_thirstValue  ctrlShow (ExileHudMode isEqualTo 0);
+_thirstValue ctrlShow (ExileHudMode isEqualTo 0);
 
 _environmentTemperatureLabel = _display displayCtrl 1309;
 _environmentTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
@@ -35,7 +35,9 @@ _bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
 _bodyTemperatureValue = _display displayCtrl 1310;
 _bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 1);
 
-_healthLabel = _display displayCtrl 1307;
-_healthLabel ctrlShow false;
-_healthValue = _display displayCtrl 1306;
-_healthValue ctrlShow (ExileHudMode isEqualTo 2);
+
+
+_bphighValue = _display displayCtrl 1302;
+_bphighValue ctrlShow (ExileHudMode isEqualTo 2);
+_bplowValue = _display displayCtrl 1304;
+_bplowValue ctrlShow (ExileHudMode isEqualTo 2);
