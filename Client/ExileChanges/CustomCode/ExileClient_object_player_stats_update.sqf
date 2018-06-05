@@ -9,6 +9,9 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
+#include "\z\ace\addons\medical\script_component.hpp";
+
+ 
 private["_timeElapsed", "_hungerFactor", "_thirstFactor", "_bloodAlcohol", "_effectAttribute", "_effectValue", "_effectDuration", "_effectStartTime", "_effectValueRemaining", "_endEffect", "_effectToApply", "_hunger", "_thirst"];
 if (isNil "ExileLastStatUpdate") then 
 { 
@@ -22,7 +25,7 @@ if (diag_tickTime - ExileClientLastTemperatureUpdateAt >= 5) then
 };
 ExileClientPlayerLoad = loadAbs player;
 ExileClientPlayerOxygen = getOxygenRemaining player * 100;
-ExileClientPlayerAttributes set [0, player getVariable [QGVAR(heartRate), 80]];
+ExileClientPlayerAttributes set [0, (player getVariable [QGVAR(bloodVolume), 100])];
 ExileClientPlayerAttributes set [1, (1 - getFatigue player) * 100];
 ExileClientPlayerIsAbleToBreathe = isAbleToBreathe player;
 ExileClientPlayerIsInfantry = (vehicle player) isEqualTo player;

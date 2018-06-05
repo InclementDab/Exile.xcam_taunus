@@ -17,6 +17,12 @@ if (ExileHudMode isEqualTo 3) then
 {
 	ExileHudMode = 0;
 };
+
+_healthLabel = _display displayCtrl 1307;
+_healthLabel ctrlShow (ExileHudMode isEqualTo 0);
+_healthValue = _display displayCtrl 1306;
+_healthValue ctrlShow (ExileHudMode isEqualTo 0);
+
 _hungerLabel = _display displayCtrl 1303;
 _hungerLabel ctrlShow (ExileHudMode isEqualTo 1);
 _hungerValue = _display displayCtrl 1302;
@@ -34,10 +40,4 @@ _bodyTemperatureLabel = _display displayCtrl 1311;
 _bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 2);
 _bodyTemperatureValue = _display displayCtrl 1310;
 _bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 2);
-
-_healthLabel = _display displayCtrl 1307;
-_healthLabel ctrlShow (ExileHudMode isEqualTo 0);
-_healthValue = _display displayCtrl 1306;
-_healthValue ctrlShow (ExileHudMode isEqualTo 0);
-
 

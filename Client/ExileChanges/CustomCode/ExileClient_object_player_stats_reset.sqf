@@ -9,7 +9,7 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-ExileClientPlayerEffectNames = ["Health", "Stamina", "Hunger", "Thirst", "Blood Alcohol", "Temperature", "Wetness", "BPHigh", "BPLow"];
+ExileClientPlayerEffectNames = ["Health", "Stamina", "Hunger", "Thirst", "Blood Alcohol", "Temperature", "Wetness"];
 ExileClientPlayerEffects = [];
 ExileClientPlayerAttributes = 
 [
@@ -19,9 +19,8 @@ ExileClientPlayerAttributes =
 	100, 
 	0, 
 	37, 
-	0,
-	120,
-	80
+	0
+	
 ];
 ExileClientPlayerAttributesASecondAgo = 
 [

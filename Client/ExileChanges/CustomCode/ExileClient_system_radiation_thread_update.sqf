@@ -9,6 +9,8 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
+#include "\z\ace\addons\medical\script_component.hpp"; 
+
 private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
@@ -39,45 +41,98 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") the
 				_damage = 1/(2*60) * 2;
 			};
 		};
-		player setDamage ((damage player) + _damage);
+		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - _damage;
+		player setVariable [QGVAR(bloodVolume), _damage];
 	};
 }
 else
 {
 	{
+		{
+			_radiationFactor = 1;
+			if (_x in (assignedItems player)) exitWith 
+			{ 
+				_radiationFactor = 0.75;
+			} foreach {
+				"skn_m04_gas_mask_bare_dry",
+				"skn_m04_gas_mask_bare_blk",
+				"skn_m04_gas_mask_blu",
+				"skn_m04_gas_mask_gre"
+			};
+		
+			if (_x in (assignedItems player)) exitWith 
+			{
+				_radiationFactor = 0.5;
+			} foreach {
+				"skn_m50_gas_mask_hood",
+				"skn_m50_gas_mask_hood_wd"
+			};
+			
+			if (_x in (assignedItems player)) exitWith 
+			{
+				_radiationFactor = 0.25;
+			} foreach {
+				"skn_m10_balaclava_blue_dry",
+				"skn_m10_balaclava_red_dry",
+				"skn_m10_balaclava_white_dry",
+				"skn_m10_balaclava_yellow_dry"
+			};
+		};
+		
+		{
+			if (_x in (assignedItems player)) exitWith 
+			{
+				_radiationFactor = 0.75;
+			} foreach {
+				"skn_u_nbc_indep_blk"
+			};
+			if (_x in (assignedItems player)) exitWith 
+			{
+				_radiationFactor = 0.5;
+			} foreach {
+				"skn_u_nbc_bluf_mtp",
+				"skn_u_nbc_bluf_wd"
+			};
+			if (_x in (assignedItems player)) exitWith 
+			{
+				_radiationFactor = 0.25;
+			} foreach {
+				"skn_u_nbc_opf_red",
+				"skn_u_nbc_opf_white",
+				"skn_u_nbc_opf_yellow"
+			};
+		};
+		
+		
+		
 		_distance = (_x select 0) distance (getPosATL player);
 		if (_distance < (_x select 2)) exitWith
 		{
 			if (_distance < (_x select 1)) then 
 			{
-				ExilePlayerRadiation = 1; 
+				ExilePlayerRadiation = 1 * _radiationFactor; 
 			}
 			else 
 			{
-				ExilePlayerRadiation = 1 - ((_distance - (_x select 1)) / ((_x select 2) - (_x select 1)));
+				ExilePlayerRadiation = (1 - ((_distance - (_x select 1)) / ((_x select 2) - (_x select 1)))) * _radiationFactor;
 			};
 			if (ExilePlayerRadiation > 0.7) then 
 			{
 				playSound [format ["Exile_Sound_GeigerCounter_High0%1", 1 + (floor random 3)], true];
-				_damage = 1/(1*60) * 2;
 			}
 			else 
 			{
 				if (ExilePlayerRadiation > 0.3) then 
 				{
 					playSound [format ["Exile_Sound_GeigerCounter_Medium0%1", 1 + (floor random 3)], true];
-					_damage = 1/(3*60) * 2;
 				}
 				else 
 				{
 					playSound [format ["Exile_Sound_GeigerCounter_Low0%1", 1 + (floor random 3)], true];
-					_damage = 1/(5*60) * 2;
 				};
 			};
-			if !("Exile_Headgear_GasMask" in (assignedItems player)) then 
-			{
-				player setDamage ((damage player) + _damage);
-			};
+			_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.025);
+			player setVariable [QGVAR(bloodVolume), _damage];
 		};
 	}
 	forEach ExileContaminatedZones;
@@ -87,8 +142,8 @@ if !(ExilePlayerRadiation isEqualTo ExilePlayerRadiationLastCheck) then
 	ExilePostProcessing_RadiationColor ppEffectAdjust 
 	[
 		1,
-		linearConversion [0, 1, ExilePlayerRadiation, 1, 0.45],
-		linearConversion [0, 1, ExilePlayerRadiation, 0, -0.05],
+		linearConversion [0, 1, ExilePlayerRadiation * 0.5, 1, 0.45],
+		linearConversion [0, 1, ExilePlayerRadiation * 0.5, 0, -0.05],
 		[0,0,0,0],
 		[1.5,1.3,1,1 - ExilePlayerRadiation],
 		[0.8,0.5,0.9,0],

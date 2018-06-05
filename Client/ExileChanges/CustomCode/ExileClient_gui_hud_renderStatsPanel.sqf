@@ -45,7 +45,7 @@ if (diag_tickTime - ExileHudStatsRenderedAt >= 0.25) then
 	};
 	_health = round (ExileClientPlayerAttributes select 0);
 	_healthValueControl = _display displayCtrl 1306;
-	_healthValueControl ctrlSetText format ["%1%2", _health, " BPM"];
+	_healthValueControl ctrlSetText format ["%1%2", _health, "%"];
 	_healthLabelControl = _display displayCtrl 1307;
 	if (_health > 25) then
 	{

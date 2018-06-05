@@ -215,22 +215,37 @@ class CfgTraderCategories
 	};
 	
 	
-	class AntiRadiation
+	class AntiRadiationMasks
 	{
-		name = "Anti-Radiation Gear";
+		name = "Anti-Radiation Masks";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] =
 		{
 			"skn_m04_gas_mask_bare_dry",
-			"skn_m04_gas_mask_blk",					
+			"skn_m04_gas_mask_bare_blk",
 			"skn_m04_gas_mask_blu",
-			"skn_m04_gas_mask_gre",			
-			"skn_m50_gas_mask_hood",						
+			"skn_m04_gas_mask_gre",
+			"skn_m50_gas_mask_hood",
 			"skn_m50_gas_mask_hood_wd",
-			"skn_m10_balaclava_blue_dry",				
-			"skn_m10_balaclava_red_dry",					
-			"skn_m10_balaclava_white_dry",				
+			"skn_m10_balaclava_blue_dry",
+			"skn_m10_balaclava_red_dry",
+			"skn_m10_balaclava_white_dry",
 			"skn_m10_balaclava_yellow_dry"
+		};
+	};
+	
+	class AntiRadiationSuits
+	{
+		name = "Anti-Radiation Suits";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"skn_u_nbc_indep_blk",
+			"skn_u_nbc_bluf_mtp",
+			"skn_u_nbc_bluf_wd",
+			"skn_u_nbc_opf_red",
+			"skn_u_nbc_opf_white",
+			"skn_u_nbc_opf_yellow"
 		};
 	};
 
