@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1399;
+		nextID=1400;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=73;
+		nextID=78;
 	};
 	class Camera
 	{
-		pos[]={3689.8464,337.41605,2972.6206};
-		dir[]={0.78057808,-0.57224786,0.25145969};
-		up[]={0.54468203,0.82008082,0.1754669};
-		aside[]={0.30662751,-5.5879354e-009,-0.95182943};
+		pos[]={6874.8848,864.94495,11777.257};
+		dir[]={-0.2781302,-0.69471824,-0.66333795};
+		up[]={-0.2686317,0.71927851,-0.640683};
+		aside[]={-0.9222182,-8.1490725e-009,0.38667589};
 	};
 };
 binarizationWanted=0;
@@ -120,6 +120,11 @@ addons[]=
 	"rhsusf_c_troops",
 	"ace_compat_rhs_usf3",
 	"TRYK_Uniform",
+	"hlcweapons_SG550",
+	"bwa3_headgear",
+	"BWA3_Comp_ACE",
+	"rhs_c_troops",
+	"maa_Uniform",
 	"A3_Structures_F_Civ_Constructions",
 	"SM_Zombz"
 };
@@ -127,7 +132,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=55;
+		items=60;
 		class Item0
 		{
 			className="exile_client";
@@ -468,6 +473,36 @@ class AddonsMetaData
 		};
 		class Item54
 		{
+			className="hlcweapons_SG550";
+			name="hlcweapons_SG550";
+			author="toadie";
+		};
+		class Item55
+		{
+			className="bwa3_headgear";
+			name="Bundeswehr - Hats and Helmets";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/inhalt/download";
+		};
+		class Item56
+		{
+			className="BWA3_Comp_ACE";
+			name="BWA3_Comp_ACE";
+		};
+		class Item57
+		{
+			className="rhs_c_troops";
+			name="AFRF Infantry & Equipment";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item58
+		{
+			className="maa_Uniform";
+			name="maa_Uniform";
+		};
+		class Item59
+		{
 			className="SM_Zombz";
 			name="SM_Zombz";
 		};
@@ -481,7 +516,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -522,7 +557,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -13253,7 +13288,7 @@ class Mission
 			side="Independent";
 			class Entities
 			{
-				items=3;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -13276,7 +13311,7 @@ class Mission
 						};
 					};
 					id=1275;
-					type="Exile_Trader_CommunityCustoms";
+					type="Black_Market";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13434,6 +13469,123 @@ class Mission
 							};
 						};
 						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6874.4321,862.18408,11775.915};
+						angles[]={0,6.0592599,0};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						ignoreByDynSimulGrid=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="hlc_rifle_SG551LB_TAC";
+								class primaryMuzzleMag
+								{
+									name="hlc_30Rnd_556x45_EPR_sg550";
+									ammoLeft=30;
+								};
+							};
+							class uniform
+							{
+								typeName="TRYK_U_B_BLK_OD";
+								isBackpack=0;
+							};
+							goggles="BWA3_G_Combat_Black";
+							headgear="rhs_beanie_green";
+						};
+					};
+					id=1399;
+					type="Exile_Trader_CommunityCustoms";
+					atlOffset=-6.1035156e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="enableStamina";
+							expression="_this enablestamina _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 			};
@@ -14027,7 +14179,7 @@ class Mission
 			name="mikesBikes1_3";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=179.68515;
+			angle=179.68513;
 			id=1357;
 			atlOffset=0.014129639;
 		};
@@ -19043,6 +19195,7 @@ class Mission
 					};
 					id=1386;
 					type="SM_Zombz_Zone";
+					atlOffset=0.49523163;
 					class CustomAttributes
 					{
 						class Attribute0
