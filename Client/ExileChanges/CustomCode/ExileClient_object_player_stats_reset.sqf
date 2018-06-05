@@ -31,9 +31,7 @@ ExileClientPlayerAttributesASecondAgo =
 	ExileClientPlayerAttributes select 3,
 	ExileClientPlayerAttributes select 4,
 	ExileClientPlayerAttributes select 5,
-	ExileClientPlayerAttributes select 6,
-	ExileClientPlayerAttributes select 7,
-	ExileClientPlayerAttributes select 8
+	ExileClientPlayerAttributes select 6
 ];
 ExileClientPlayerLastHpRegenerationAt = diag_tickTime;
 ExileClientPlayerIsSpawned = false;			

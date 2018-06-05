@@ -22,10 +22,8 @@ if (diag_tickTime - ExileClientLastTemperatureUpdateAt >= 5) then
 };
 ExileClientPlayerLoad = loadAbs player;
 ExileClientPlayerOxygen = getOxygenRemaining player * 100;
-ExileClientPlayerAttributes set [0, (1 - damage player) * 100];
+ExileClientPlayerAttributes set [0, player getVariable [QGVAR(heartRate), 80]];
 ExileClientPlayerAttributes set [1, (1 - getFatigue player) * 100];
-ExileClientPlayerAttributes set [7, ((_x call ACE_medical_fnc_getBloodPressure) select 0)];
-ExileClientPlayerAttributes set [8, ((_x call ACE_medical_fnc_getBloodPressure) select 1)];
 ExileClientPlayerIsAbleToBreathe = isAbleToBreathe player;
 ExileClientPlayerIsInfantry = (vehicle player) isEqualTo player;
 ExileClientPlayerVelocity = player call BIS_fnc_absSpeed;
@@ -144,6 +142,7 @@ _hunger = ExileClientPlayerAttributes select 2;
 _thirst = ExileClientPlayerAttributes select 3;
 if (diag_tickTime - ExileClientPlayerLastHpRegenerationAt >= 60) then
 {
+	/* disable starving and dehydrating for now
 	if (_hunger >= ExileClientHungerRegen) then
 	{
 		if (_thirst >= ExileClientThirstRegen) then
@@ -152,6 +151,7 @@ if (diag_tickTime - ExileClientPlayerLastHpRegenerationAt >= 60) then
 			ExileClientPlayerLastHpRegenerationAt = diag_tickTime;
 		};	
 	};
+	*/
 };
 if ("Exile_Headgear_GasMask" in (assignedItems player)) then 
 {

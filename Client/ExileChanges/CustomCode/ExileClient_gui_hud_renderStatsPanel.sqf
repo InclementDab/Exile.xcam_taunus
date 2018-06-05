@@ -9,7 +9,7 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-private["_display", "_hunger", "_hungerValueControl", "_hungerLabelControl", "_thirst", "_thirstValueControl", "_thirstLabelControl", "_health", "_healthValueControl", "_healthLabelControl", "_bodyTemperature", "_bodyTemperatureValueControl", "_bodyTemperatureLabelControl", "_environmentTemperatureValueControl", "_bphighValueControl", "_bphigh", "_bplowValueControl", "_bplow"];
+private["_display", "_hunger", "_hungerValueControl", "_hungerLabelControl", "_thirst", "_thirstValueControl", "_thirstLabelControl", "_health", "_healthValueControl", "_healthLabelControl", "_bodyTemperature", "_bodyTemperatureValueControl", "_bodyTemperatureLabelControl", "_environmentTemperatureValueControl"];
 disableSerialization;
 if (diag_tickTime - ExileHudStatsRenderedAt >= 0.25) then
 {
@@ -43,11 +43,9 @@ if (diag_tickTime - ExileHudStatsRenderedAt >= 0.25) then
 		_thirstLabelControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
 		_thirstValueControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
 	};
-	
-	
 	_health = round (ExileClientPlayerAttributes select 0);
 	_healthValueControl = _display displayCtrl 1306;
-	_healthValueControl ctrlSetText format ["%1%2", _health, "%"];
+	_healthValueControl ctrlSetText format ["%1%2", _health, " BPM"];
 	_healthLabelControl = _display displayCtrl 1307;
 	if (_health > 25) then
 	{
@@ -59,32 +57,6 @@ if (diag_tickTime - ExileHudStatsRenderedAt >= 0.25) then
 		_healthLabelControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
 		_healthValueControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
 	};
-	
-	_bphigh = round (ExileClientPlayerAttributes select 7);
-	_bphigh = _display displayCtrl 1302;
-	_bphighValueControl ctrlSetText format ["%1%2", _bphigh, ""];
-	if (_bphigh > 90) then
-	{
-		_bphighValueControl ctrlSetTextColor [1, 1, 1, 1];
-	}
-	else 
-	{
-		_bphighValueControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
-	};
-	
-	_bplow = round (ExileClientPlayerAttributes select 8);
-	_bplow = _display displayCtrl 1304;
-	_bplowValueControl ctrlSetText format ["%1%2", _bplow, ""];
-	if (_bplow > 60) then
-	{
-		_bplowValueControl ctrlSetTextColor [1, 1, 1, 1];
-	}
-	else 
-	{
-		_bplowValueControl ctrlSetTextColor [221/255, 38/255, 38/255, 1];
-	};
-	
-	
 	_bodyTemperature = [ExileClientPlayerAttributes select 5, 1] call ExileClient_util_math_round;
 	_bodyTemperatureValueControl = _display displayCtrl 1310;
 	_bodyTemperatureValueControl ctrlSetText format ["%1%2", _bodyTemperature, "°C"];

@@ -18,26 +18,26 @@ if (ExileHudMode isEqualTo 3) then
 	ExileHudMode = 0;
 };
 _hungerLabel = _display displayCtrl 1303;
-_hungerLabel ctrlShow (ExileHudMode isEqualTo 0);
+_hungerLabel ctrlShow (ExileHudMode isEqualTo 1);
 _hungerValue = _display displayCtrl 1302;
-_hungerValue ctrlShow (ExileHudMode isEqualTo 0);
+_hungerValue ctrlShow (ExileHudMode isEqualTo 1);
 _thirstLabel = _display displayCtrl 1305;
-_thirstLabel ctrlShow (ExileHudMode isEqualTo 0); 
+_thirstLabel ctrlShow (ExileHudMode isEqualTo 1); 
 _thirstValue = _display displayCtrl 1304;
-_thirstValue ctrlShow (ExileHudMode isEqualTo 0);
+_thirstValue ctrlShow (ExileHudMode isEqualTo 1);
 
 _environmentTemperatureLabel = _display displayCtrl 1309;
-_environmentTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
+_environmentTemperatureLabel ctrlShow (ExileHudMode isEqualTo 2);
 _environmentTemperatureValue = _display displayCtrl 1308;
-_environmentTemperatureValue ctrlShow (ExileHudMode isEqualTo 1);
+_environmentTemperatureValue ctrlShow (ExileHudMode isEqualTo 2);
 _bodyTemperatureLabel = _display displayCtrl 1311;
-_bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 1);
+_bodyTemperatureLabel ctrlShow (ExileHudMode isEqualTo 2);
 _bodyTemperatureValue = _display displayCtrl 1310;
-_bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 1);
+_bodyTemperatureValue ctrlShow (ExileHudMode isEqualTo 2);
+
+_healthLabel = _display displayCtrl 1307;
+_healthLabel ctrlShow (ExileHudMode isEqualTo 0);
+_healthValue = _display displayCtrl 1306;
+_healthValue ctrlShow (ExileHudMode isEqualTo 0);
 
 
-
-_bphighValue = _display displayCtrl 1302;
-_bphighValue ctrlShow (ExileHudMode isEqualTo 2);
-_bplowValue = _display displayCtrl 1304;
-_bplowValue ctrlShow (ExileHudMode isEqualTo 2);
