@@ -13,7 +13,7 @@ private["_display", "_hungerLabel", "_hungerValue", "_thirstLabel", "_thirstValu
 disableSerialization;
 _display = uiNamespace getVariable "RscExileHUD";
 ExileHudMode = ExileHudMode + 1;
-if (ExileHudMode isEqualTo 3) then 
+if (ExileHudMode isEqualTo 2) then 
 {
 	ExileHudMode = 0;
 };

@@ -74,11 +74,57 @@ else
 					_damage = 1/(5*60) * 2;
 				};
 			};
+			
+			/*
+			_level1mask = "skn_m04_gas_mask_bare_dry" || "skn_m04_gas_mask_bare_blk";
+			_gasuniform = "skn_u_nbc_indep_blk";
+			
+			if (_level1mask in (assignedItems player))
+			{
+				_damage = _damage * 0.6
+				_maskStaus = true
+			};
+			if (_level2mask in (assignedItems player))
+			{
+				_damage = _damage * 0.45
+				_maskStaus = true
+			};
+			if (_level3mask in (assignedItems player))
+			{
+				_damage = _damage * 0.25
+				_maskStaus = true
+			};
+			
+			if (_gasuniform && _maskstatus in (assignedItems player))
+			{
+				_damage = _damage * 0
+			*/
+			
+			
+			
+			if ((assignedItems player) isEqualTo _x) then {_damage = _damage * 0.5}
+				forEach [
+					"skn_m04_gas_mask_bare_dry",
+					"skn_m04_gas_mask_bare_blk"
+			];
+			
+			if ((assignedItems player) isEqualTo _x) then {_damage = _damage * 0.5}
+				forEach [
+					"skn_u_nbc_indep_blk"
+			];
+			
+			player setDamage ((damage player) + _damage);
+			
+			
+			
 			if !("Exile_Headgear_GasMask" in (assignedItems player)) then 
 			{
 				player setDamage ((damage player) + _damage);
 			};
+		
+		
 		};
+		
 	}
 	forEach ExileContaminatedZones;
 };

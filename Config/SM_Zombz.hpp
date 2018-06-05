@@ -139,7 +139,7 @@ class SM_Zombz
 	SM_HordeMarkerType = 1; // 1-5 https://puu.sh/rUpoG/f0e0e59919.png
 	SM_HordeNotificationText = "A zombie horde has spawned!";
 	SM_DespawnZombieOrKill = false; // eanbled just kills the zombie. disabled despawns the zombie. (on cleanup)
-	SM_ZombieSide = "west"; // side to create the zombie.
+	SM_ZombieSide = "east"; // side to create the zombie.
 	SM_HordeNotificationEnabled = false; // notification for hordes.
 	SM_HordeMarkerEnabled = false; // markers for hordes.
 	SM_ZombiesPerWave = 1; // zombies to spawn on a player per wave.
@@ -183,7 +183,7 @@ class SM_Zombz
 	SM_MaxItemDrop = 2; // maximum amount of loot to have on a zombie.
 	SM_ShuffleArrayDelay = 300; // Time to randomize loot, and zombie spawn classes.
 	SM_Zombie_GlowingFace = true; // glowing zombie face.
-	SM_RespawnDelayForPlayerEnabled = true; // Enables delaying of spawns for a player.
+	SM_RespawnDelayForPlayerEnabled = false; // Enables delaying of spawns for a player.
 	SM_RespawnDelayForPlayer = 240; // How long (in seconds) it waits to spawn more zombies for a player.
 	SM_RespawnDelayForPlayerTown = 30; // how long (in seconds) it waits to spawn more zombies for a player in a town.
 	SM_TownsOnly = false; // Makes it so zombies only spawn at towns.
