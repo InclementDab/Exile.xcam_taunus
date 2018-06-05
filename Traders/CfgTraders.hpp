@@ -26,7 +26,8 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"AntiRadiation",
+			"AntiRadiationMasks",
+			"AntiRadiationSuits",
 			"LightMachineGuns"
 		};
 	};
