@@ -13311,7 +13311,7 @@ class Mission
 						};
 					};
 					id=1275;
-					type="Black_Market";
+					type="Exile_Trader_CommunityCustoms";
 					class CustomAttributes
 					{
 						class Attribute0

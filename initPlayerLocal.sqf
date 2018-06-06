@@ -48,7 +48,7 @@ if (!hasInterface || isServer) exitWith {};
 
 // 3 NPCs
 private _npcs = [
-["Exile_Trader_CommunityCustoms", ["c5efe_MichalLoop"], "Trader_Hospital", "GreekHead_A3_05", [[],[],[],["TRYK_U_B_fleece_UCP",[]],[],[],"","rhs_googles_yellow",[],["","","","","",""]], [6878.48, 11773.8, 862.117], [0, 1, 0], [0, 0, 1]],
+["Exile_Trader_CommunityCustoms", ["c5efe_MichalLoop"], "Trader_Black_Market", "GreekHead_A3_05", [[],[],[],["TRYK_U_B_fleece_UCP",[]],[],[],"","rhs_googles_yellow",[],["","","","","",""]], [6878.48, 11773.8, 862.117], [0, 1, 0], [0, 0, 1]],
 ["Exile_Trader_Armory", [], "Exile_Trader_Armory", "WhiteHead_11", [["srifle_DMR_06_olive_F","","","",[],[],""],[],[],["U_Rangemaster",[]],["V_Rangemaster_belt",[]],[],"H_Cap_headphones","G_Shades_Black",[],["","","","","",""]], [6876.29, 11773.4, 862.163], [0.0784068, -0.996921, 0], [0, 0, 1]],
 ["Exile_Trader_Equipment", [], "Exile_Trader_Equipment", "WhiteHead_06", [["arifle_MX_GL_Black_F","","","",[],[],""],[],[],["U_BG_Guerrilla_6_1",[]],["V_I_G_resistanceLeader_F",[]],[],"H_Watchcap_khk","rhs_googles_yellow",[],["","","","","",""]], [6873.69, 11772.9, 862.223], [0.534824, -0.844963, 0], [0, 0, 1]]
 ];

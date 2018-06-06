@@ -20,7 +20,7 @@ class CfgTraders
 		};
 	};
 	
-	class Black_Market
+	class Trader_Black_Market
 	{
 		name = "BLACK MARKET DEALER";
 		showWeaponFilter = 0;
@@ -297,5 +297,17 @@ class CfgExileArsenal
 	#include "Prices\NiarmsPrices.hpp"
 	#include "Prices\RhsPrices.hpp"
 	#include "Prices\ExilePrices.hpp"
+	#include "Prices\CbrnPrices.hpp"
+	#include "Prices\Miscprices.hpp"
+	#include "Prices\ExtendedFPrices.hpp"
 	
+};
+
+class CfgTraderCategories
+{
+	#include "CfgWeaponTrading.hpp"
+	#include "CfgVehicleTrading.hpp"
+	#include "CfgEquipmentTrading.hpp"
+	#include "CfgClothingTrading.hpp"
+	#include "CfgWeaponAttachments.hpp"
 };
