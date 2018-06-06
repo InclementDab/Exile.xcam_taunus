@@ -16,7 +16,7 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"Medical"
+			"CivilianMedical"
 		};
 	};
 	
@@ -184,26 +184,23 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells Community Items
-	 */ 
-	class Exile_Trader_CommunityCustoms
+	class MikesBikes
 	{
-		name = "COMMUNITY";
+		name = "Mike's Bikes";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Community"
+			"MikesBikes"
 		};
 	};
 
-	class Exile_Trader_CommunityCustoms2
+	class ArmorTrader
 	{
-		name = "COMMUNITY";
+		name = "Armor Trader";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Community2"
+			"MilitaryArmor"
 		};
 	};
 
