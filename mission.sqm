@@ -606,6 +606,29 @@ class Intro
 class Mission
 {
 	assetType="Free";
+	class Intel
+	{
+		briefingName="(CLOSED BETA) Join our Teamspeak! ts.dntsck.com";
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2039;
+		month=6;
+		day=24;
+		hour=4;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
 	class Entities
 	{
 		items=612;
