@@ -18,7 +18,6 @@ class EFM_beam_wood_v_2m										{ quality = 1; price = 50; };
 class EFM_concrete_barrier_new									{ quality = 1; price = 50; };
 class EFM_concrete_wall_big_pillar_new							{ quality = 1; price = 50; };
 class EFM_concrete_wall_big_half_new							{ quality = 1; price = 50; };
-class EFM_concrete_wall_big_new									{ quality = 1; price = 50; };
 class EFM_concrete_wall_big_new_camo_opfor						{ quality = 1; price = 50; };
 class EFM_concrete_wall_big_new									{ quality = 1; price = 50; };
 class EFM_concrete_wall_pillar_new								{ quality = 1; price = 50; };
@@ -88,7 +87,5 @@ class EFM_wood_wall_2m_half_beam_single_filled_c_opfor			{ quality = 1; price = 
 class EFM_wood_wall_2m_single									{ quality = 1; price = 50; };
 class EFM_wood_wall_2m_single_filled							{ quality = 1; price = 50; };
 class EFM_wood_wall_2m_half_beam_single							{ quality = 1; price = 50; };
-class EFM_wood_wall_2m_half_beam_single_c_blufor				{ quality = 1; price = 50; };
-class EFM_wood_wall_2m_half_beam_single_c_opfo					{ quality = 1; price = 50; };
 class EFM_wood_wall_2m_half_beam_single_filled					{ quality = 1; price = 50; };
 class EFM_wood_wall_2m_support									{ quality = 1; price = 50; };

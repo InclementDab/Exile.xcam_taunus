@@ -12,11 +12,9 @@
 #include "\z\ace\addons\medical\script_component.hpp";
 
 
-private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage","_radiationMaskFactor","_radiationSuitFactor","_radiationFactor"];
+private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
-_radiationMaskFactor = 100;
-_radiationSuitFactor= 100;
 _markerPos = _this select 0;
 _markerDist1 = _this select 1;
 _markerDist2 = _this select 2;
@@ -50,52 +48,65 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") the
 		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - _damage;
 		player setVariable [QGVAR(bloodVolume), _damage];
 	};
-}
+} 
 else
+{
 	{
+		params ["_radiationFactor", "_radiationMaskFactor", "_radiationSuitFactor"];
 		{
-		_radiationMaskFactor = if (_x in (assignedItems player)) exitWith {0.75} forEach 
-		[
+		if (_x in (assignedItems player)) then {
+			_radiationMaskFactor = 0.75 };
+		} forEach [
 			"skn_m04_gas_mask_bare_dry",
 			"skn_m04_gas_mask_bare_blk",
 			"skn_m04_gas_mask_blu",
 			"skn_m04_gas_mask_gre"
 		];
 		
-		_radiationMaskFactor = if (_x in (assignedItems player)) exitWith {0.50} forEach 
-		[
+		{
+		if (_x in (assignedItems player)) then {
+			_radiationMaskFactor = 0.50 };
+		} forEach [
 			"skn_m50_gas_mask_hood",
 			"skn_m50_gas_mask_hood_wd"
 		];
-	
-		_radiationMaskFactor = if (_x in (assignedItems player)) exitWith {0.25} forEach 
-		[
+		
+		{
+		if (_x in (assignedItems player)) then {
+			_radiationMaskFactor = 0.25 };
+		} forEach [
 			"skn_m10_balaclava_blue_dry",
 			"skn_m10_balaclava_red_dry",
 			"skn_m10_balaclava_white_dry",
 			"skn_m10_balaclava_yellow_dry"
-		];
+		];		
 		
 		
-		
-		_radiationSuitFactor = if (_x in (assignedItems player)) exitWith {0.75} forEach 
-		[
+		{
+		if (_x in (assignedItems player)) then {
+			_radiationSuitFactor = 0.75 };
+		} forEach [
 			"skn_u_nbc_indep_blk"
 		];
 		
-		_radiationSuitFactor = if (_x in (assignedItems player)) exitWith {0.50} forEach 
-		[
+		{
+		if (_x in (assignedItems player)) then {
+			_radiationSuitFactor = 0.50 };
+		} forEach [
 			"skn_u_nbc_bluf_mtp",
 			"skn_u_nbc_bluf_wd"
 		];
-			
-		_radiationSuitFactor = if (_x in (assignedItems player)) exitWith {0.25} forEach 
-		[
+		
+		{
+		if (_x in (assignedItems player)) then {
+			_radiationSuitFactor = 0.25 };
+		} forEach [
 			"skn_u_nbc_opf_red",
 			"skn_u_nbc_opf_white",
 			"skn_u_nbc_opf_yellow"
 		];
-		};
+		
+
 		_radiationFactor = _radiationMaskFactor * _radiationSuitFactor;
 		_distance = (_markerPos) distance (getPosATL player);
 		if (_distance < (_markerDist2)) exitWith
@@ -123,10 +134,13 @@ else
 					playSound [format ["Exile_Sound_GeigerCounter_Low0%1", 1 + (floor random 3)], true];
 				};
 			};
-			_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.025);
-			player setVariable [QGVAR(bloodVolume), _damage];
-		};
+		};		
+		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.025);
+		player setVariable [QGVAR(bloodVolume), _damage];
 	} forEach ExileContaminatedZones;
+}; 	
+
+
 
 if !(ExilePlayerRadiation isEqualTo ExilePlayerRadiationLastCheck) then 
 {

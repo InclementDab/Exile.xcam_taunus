@@ -32,6 +32,7 @@
 #include "Config\CfgInteractionMenu.hpp"
 #include "Config\CfgInteractionModels.hpp"
 #include "Config\CfgLocker.hpp"
+#include "Config\CfgMarkers.hpp"
 #include "Config\CfgPlayer.hpp"
 #include "Config\CfgPoptabStorage.hpp"
 #include "Config\CfgSimulation.hpp"

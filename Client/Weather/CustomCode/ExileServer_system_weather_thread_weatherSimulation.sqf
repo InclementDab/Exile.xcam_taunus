@@ -9,11 +9,17 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-private["_interval", "_keyframes", "_keyframeName", "_keyframeConfig"];
+private["_interval", "_keyframes", "_keyframeName", "_keyframeConfig", "_morningKeyFrames"];
 _interval = round(getNumber (configFile >> "CfgSettings" >> "Weather" >> "interval") * 60);
 _keyframes = getArray (configFile >> "CfgSettings" >> "Weather" >> "keyframes");
-_keyframeName = if ((daytime > 4) && (daytime < 10)) then { selectRandom _morningKeyframes} else { selectRandom _keyframes };
-_keyframeConfig = configFile >> "CfgSettings" >> "Weather" >> _keyframeName;
+
+_keyframeName = configFile >> "CfgSettings" >> "Weather" >> _keyframeName;
+_morningKeyframes = configFile >> "CfgSettings" >> "Weather" >> _morningKeyframes;
+_keyframeConfig = if ((daytime > 4) && (daytime < 10)) then { 
+						selectRandom _morningKeyframes
+					} else { 
+						selectRandom _keyframes 
+					};
 _interval setFog getNumber (_keyframeConfig >> "fogValue"); 
 _interval setFog 
 [
