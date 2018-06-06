@@ -13,8 +13,8 @@ private["_interval", "_keyframes", "_keyframeName", "_keyframeConfig", "_morning
 _interval = round(getNumber (configFile >> "CfgSettings" >> "Weather" >> "interval") * 60);
 _keyframes = getArray (configFile >> "CfgSettings" >> "Weather" >> "keyframes");
 
-_keyframeName = configFile >> "CfgSettings" >> "Weather" >> _keyframeName;
-_morningKeyframes = configFile >> "CfgSettings" >> "Weather" >> _morningKeyframes;
+_keyframeName = configFile >> "CfgSettings" >> "Weather" >> "keyframeName";
+_morningKeyframes = configFile >> "CfgSettings" >> "Weather" >> "morningKeyframes";
 _keyframeConfig = if ((daytime > 4) && (daytime < 10)) then { 
 						selectRandom _morningKeyframes
 					} else { 

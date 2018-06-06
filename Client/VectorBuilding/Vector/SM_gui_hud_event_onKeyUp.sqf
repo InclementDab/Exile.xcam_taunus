@@ -573,7 +573,7 @@ switch (_keyCode) do
 		ace_nightvision_noiseScaling = _settings select 2;
 		ace_nightvision_aimDownSightsBlur = _settings select 3;
 	};
-} forEach {
+} forEach [
 	[
 		"ACE_NVG_Gen1",
 		[1.3,1.5,1.5,0.75]
@@ -594,5 +594,5 @@ switch (_keyCode) do
 		"ACE_NVG_Wide",
 		[0.85,0.95,0.95,0.4]
 	]
-};
+];
 
