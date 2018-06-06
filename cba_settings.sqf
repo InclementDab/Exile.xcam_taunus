@@ -39,7 +39,7 @@ force ace_captives_requireSurrenderAi = false;
 // ACE Common
 force ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 0;
-force ace_common_checkPBOsCheckAll = true;
+force ace_common_checkPBOsCheckAll = false;
 force ace_common_checkPBOsWhitelist = "[]";
 ace_common_displayTextColor = [0,0,0,0.1];
 ace_common_displayTextFontColor = [1,1,1,1];
@@ -73,7 +73,7 @@ ace_goggles_showInThirdPerson = false;
 
 // ACE Hearing
 force ace_hearing_autoAddEarplugsToUnits = false;
-ace_hearing_disableEarRinging = true;
+force ace_hearing_disableEarRinging = true;
 force ace_hearing_earplugsVolume = 0.5;
 force ace_hearing_enableCombatDeafness = false;
 force ace_hearing_enabledForZeusUnits = false;
@@ -102,7 +102,7 @@ ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = false;
 
 // ACE Logistics
-force ace_cargo_enable = false;
+force ace_cargo_enable = true;
 force ace_cargo_paradropTimeCoefficent = 2.5;
 force ace_refuel_hoseLength = 20;
 force ace_refuel_rate = 2;
@@ -162,7 +162,7 @@ force ace_medical_delayUnconCaptive = 1;
 force ace_medical_enableAdvancedWounds = false;
 force ace_medical_enableFor = 0;
 force ace_medical_enableOverdosing = true;
-force ace_medical_enableRevive = 1;
+force ace_medical_enableRevive = 0;
 force ace_medical_enableScreams = true;
 force ace_medical_enableUnconsciousnessAI = 0;
 force ace_medical_enableVehicleCrashes = true;
@@ -186,7 +186,7 @@ force ace_medical_moveUnitsFromGroupOnUnconscious = false;
 force ace_medical_painCoefficient = 1;
 ace_medical_painEffectType = 0;
 force ace_medical_painIsOnlySuppressed = true;
-force ace_medical_playerDamageThreshold = 4;
+force ace_medical_playerDamageThreshold = 2;
 force ace_medical_preventInstaDeath = true;
 force ace_medical_remoteControlledAI = true;
 force ace_medical_useCondition_PAK = 0;
