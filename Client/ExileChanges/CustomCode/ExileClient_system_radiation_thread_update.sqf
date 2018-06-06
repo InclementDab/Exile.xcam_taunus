@@ -9,11 +9,17 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-#include "\z\ace\addons\medical\script_component.hpp"; 
+#include "\z\ace\addons\medical\script_component.hpp";
 
-private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
+
+private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage","_radiationMaskFactor","_radiationSuitFactor","_radiationFactor"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
+_radiationMaskFactor = 100;
+_radiationSuitFactor= 100;
+_markerPos = _this select 0;
+_markerDist1 = _this select 1;
+_markerDist2 = _this select 2;
 if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") then 
 {
 	_markerPos = getMarkerPos "ExilePlayArea";
@@ -46,7 +52,8 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") the
 	};
 }
 else
-{
+	{
+		{
 		_radiationMaskFactor = if (_x in (assignedItems player)) exitWith {0.75} forEach 
 		[
 			"skn_m04_gas_mask_bare_dry",
@@ -88,18 +95,18 @@ else
 			"skn_u_nbc_opf_white",
 			"skn_u_nbc_opf_yellow"
 		];
-		
+		};
 		_radiationFactor = _radiationMaskFactor * _radiationSuitFactor;
-		_distance = (_x select 0) distance (getPosATL player);
-		if (_distance < (_x select 2)) exitWith
+		_distance = (_markerPos) distance (getPosATL player);
+		if (_distance < (_markerDist2)) exitWith
 		{
-			if (_distance < (_x select 1)) then 
+			if (_distance < (_markerDist1)) then 
 			{
 				ExilePlayerRadiation = 1 * _radiationFactor; 
 			}
 			else 
 			{
-				ExilePlayerRadiation = ((1 - ((_distance - (_x select 1)) / ((_x select 2) - (_x select 1)))) * _radiationFactor);
+				ExilePlayerRadiation = ((1 - ((_distance - (_markerDist1)) / ((_markerDist2) - (_markerDist1)))) * _radiationFactor);
 			};
 			if (ExilePlayerRadiation > 0.7) then 
 			{
