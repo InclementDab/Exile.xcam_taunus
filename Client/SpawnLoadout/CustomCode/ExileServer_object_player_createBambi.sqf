@@ -78,7 +78,7 @@ _bambiPlayer setVariable ["ExileHunger", 100];
 _bambiPlayer setVariable ["ExileThirst", 100];
 _bambiPlayer setVariable ["ExileTemperature", 37];
 _bambiPlayer setVariable ["ExileWetness", 0];
-_bambiPlayer setVariable ["ExileAlcohol", 0]; 
+_bambiPlayer setVariable ["ExileAlcohol", 0];
 _bambiPlayer setVariable ["ExileName", _name]; 
 _bambiPlayer setVariable ["ExileOwnerUID", getPlayerUID _requestingPlayer]; 
 _bambiPlayer setVariable ["ExileIsBambi", true];
