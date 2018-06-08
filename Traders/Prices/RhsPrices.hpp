@@ -3,7 +3,7 @@
 	///////////////////////////////////////////////////////////////////////////////
 	
 	//UNIFORMS
-	class rhs_uniform_cu_ocp						{ quality = 3; price = 50; };
+	class rhs_uniform_cu_ocp						{ quality = 3; price = 150; };
 	class rhs_uniform_cu_ucp						{ quality = 3; price = 50; };
 	class rhs_uniform_cu_ocp_101st                  { quality = 3; price = 50; };
 	class rhs_uniform_emr_patchless					{ quality = 2; price = 50; };
