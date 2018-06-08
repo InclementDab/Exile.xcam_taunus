@@ -14,7 +14,9 @@
 
 private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
-ExilePlayerRadiation = (player getVariable ["ExileRadiation", 2000]);
+ExilePlayerRadiation = 0;
+
+waitUntil !(isNil player)
 
 if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") then 
 {
@@ -125,7 +127,7 @@ else
 					playSound [format ["Exile_Sound_GeigerCounter_Low0%1", 1 + (floor random 3)], true];
 				};
 			};
-			_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00011);
+			_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00044);
 			player setVariable [QGVAR(bloodVolume), _damage];
 		};			
 	} forEach ExileContaminatedZones;
@@ -138,15 +140,15 @@ if !(ExilePlayerRadiation isEqualTo ExilePlayerRadiationLastCheck) then
 	ExilePostProcessing_RadiationColor ppEffectAdjust 
 	[
 		1,
-		linearConversion [0, 1, (ExilePlayerRadiation*.0015), 1, 0.45],
-		linearConversion [0, 1, (ExilePlayerRadiation*.0015), 0, -0.05],
+		linearConversion [0, 1, (ExilePlayerRadiation*.00022), 1, 0.45],
+		linearConversion [0, 1, (ExilePlayerRadiation*.00022), 0, -0.05],
 		[0,0,0,0],
-		[1.5,1.3,1,1 - (ExilePlayerRadiation*.0015)],
+		[1.5,1.3,1,1 - (ExilePlayerRadiation*.00022)],
 		[0.8,0.5,0.9,0],
 		[0,0,0,0,0,0,4]
 	];
 	ExilePostProcessing_RadiationColor ppEffectCommit 2;
-	ExilePostProcessing_RadiationChroma ppEffectAdjust [0.02 * (ExilePlayerRadiation*.0015),0.02 * (ExilePlayerRadiation*.0015),true];
+	ExilePostProcessing_RadiationChroma ppEffectAdjust [0.02 * (ExilePlayerRadiation*.00022),0.02 * (ExilePlayerRadiation*.00022),true];
 	ExilePostProcessing_RadiationChroma ppEffectCommit 2;		
 	ExilePostProcessing_RadiationFilm ppEffectAdjust [ExilePlayerRadiation,8.39,8,0.9,0.9,true];
 	ExilePostProcessing_RadiationFilm ppEffectCommit 2;

@@ -13822,7 +13822,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={12735.13,132.73242,2612.4607};
-			name="SpawnSchwalbachIcon";
+			name="Schwalbach";
 			type="ExileSpawnZone";
 			id=1340;
 			atlOffset=-2.9052124;
@@ -13831,7 +13831,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={17621.857,162.16895,7792.3135};
-			name="SpawnOberuselOstIcon";
+			name="Oberursel Ost";
 			type="ExileSpawnZone";
 			id=1341;
 			atlOffset=-0.96916199;
@@ -13840,7 +13840,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={3309.342,539.02698,18314.598};
-			name="SpawnFinsternthalIcon";
+			name="Finsternthal";
 			type="ExileSpawnZone";
 			id=1342;
 			atlOffset=-0.9630127;
@@ -13849,7 +13849,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={11141.354,377.78711,18099.336};
-			name="SpawnNeuAnspachIcon";
+			name="Neu-Anspach";
 			type="ExileSpawnZone";
 			id=1343;
 			atlOffset=-0.96289063;
@@ -13858,7 +13858,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={2409.3896,441.60443,12183.897};
-			name="SpawnOberemsIcon";
+			name="Oberems";
 			type="ExileSpawnZone";
 			id=1345;
 		};

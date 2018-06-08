@@ -3,6 +3,7 @@
 // Required for the XM8, do not remove!
 #include "RscDefines.hpp"
 #include "Client\TraderPlus\TraderPlus.hpp"
+#include "Client\Spawnselect\SpawnSelect.hpp"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
@@ -11,11 +12,12 @@ author = "Prepare for hell";
 onLoadName = "Join our Teamspeak: ts.dntsck.com!";
 onLoadMission= "Extreme Hardcore Exile Taunus";
 briefingName="Join our Teamspeak: ts.dntsck.com!";
-loadScreen = "assets\logo.paa";
+loadScreen = "mpmissions\Exile.xcam_taunus\assets\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
+enableDebugConsole[] = {"76561198247958888"};
 
 class Header
 {
@@ -52,9 +54,9 @@ class Mission
 };
 
 ///////////////////////////////////////////////////////////////////////////////
-// Exile Settings - Do not change these!
+// Exile Settings
 ///////////////////////////////////////////////////////////////////////////////
-forceRotorLibSimulation = 2;
+forceRotorLibSimulation = 1;
 skipLobby = 1;
 joinUnassigned = 1;
 respawn = "BASE";
@@ -77,7 +79,6 @@ enableItemsDropping = 0;
 briefing = 0;
 debriefing = 0;
 allowFunctionsLog = 1;
-enableDebugConsole = 1;
 allowFunctionsRecompile = 0;
 showSquadRadar = 0;
 showUAVFeed = 0;
@@ -85,6 +86,7 @@ reviveDelay = 6;
 reviveForceRespawnDelay = 3;
 reviveBleedOutDelay = 120;
 debug = 1;
+
 
 showHUD[] = 
 {
@@ -100,6 +102,7 @@ showHUD[] =
 };
 
 #include "config.cpp"
+
 
 
 

@@ -249,7 +249,6 @@ if (getNumber(missionConfigFile >> "CfgSimulation" >> "enableDynamicSimulation")
 		(_player getVariable ["ExileClanData", []]),
 		(_player getVariable ["ExileTemperature", 0]),
 		(_player getVariable ["ExileWetness", 0])
-		(_player getVariable ["ExileRadiation", 0])
 	]
 ] 
 call ExileServer_system_network_send_to;

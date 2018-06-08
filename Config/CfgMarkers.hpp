@@ -4,7 +4,7 @@ class CfgMarkers
 	{
 		scope=0;
 		name="Exile Mission Icon (Easy)";
-		icon="assets\mission_easy_civ.paa";
+		icon="mpmissions\exile.xcam_taunus\assets\mission_easy_civ.paa";
 		color[]={1,1,1,1};
 		size=32;
 		shadow=0;

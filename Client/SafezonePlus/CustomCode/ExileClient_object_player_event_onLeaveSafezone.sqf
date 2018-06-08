@@ -42,6 +42,6 @@ if (alive player) then
 	/*
 		SM_SafezonePlus
 	*/
-	["SafeZonePlus protection disabled!"] spawn ExileClient_gui_baguette_show;
+	["Thank you for visiting!"] spawn ExileClient_gui_baguette_show;
 };
 true

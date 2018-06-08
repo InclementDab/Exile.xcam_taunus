@@ -47,6 +47,9 @@ ExileClientSafeZoneESPEventHandler = addMissionEventHandler ["Draw3D", {20 call 
 /*
 	SM_SafezonePlus
 */
-["SafeZonePlus protection enabled!"] spawn ExileClient_gui_baguette_show;
+["Welcome to Feldberg"] spawn ExileClient_gui_baguette_show;
 ExileClientSafeZoneUpdateThreadHandle = [1, ExileClient_object_player_thread_safeZone, [], true] call ExileClient_system_thread_addtask;
 true
+
+
+

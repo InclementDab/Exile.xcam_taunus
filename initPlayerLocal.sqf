@@ -6,14 +6,14 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
     params ["_unit", "_isUnconscious"];
 	if (_isUnconscious) then	
 	{
-		cutText ["", "BLACK FADED", 1.5];
-		1.5 fadeSound 0.08;	
+		player cutText ["", "BLACK FADED", 1.5];
+		player 1.5 fadeSound 0.08;	
 	}
 	else
 	{
-		titleCut ["", "BLACK IN", 4]; 
-		4 fadeSound 1;
-		["DynamicBlur", 400] spawn {
+		player titleCut ["", "BLACK IN", 4]; 
+		player 4 fadeSound 1;
+		player ["DynamicBlur", 400] spawn {
 		params ["_name", "_priority", "_handle"];
 		while {
 			_handle = ppEffectCreate [_name, _priority];
