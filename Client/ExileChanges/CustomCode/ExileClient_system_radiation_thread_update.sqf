@@ -16,7 +16,7 @@ private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
 
-waitUntil !(isNil player)
+waitUntil !(isNil player);
 
 if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") then 
 {

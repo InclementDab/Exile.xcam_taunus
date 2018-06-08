@@ -3,16 +3,15 @@
 // Required for the XM8, do not remove!
 #include "RscDefines.hpp"
 #include "Client\TraderPlus\TraderPlus.hpp"
-#include "Client\Spawnselect\SpawnSelect.hpp"
 
 ///////////////////////////////////////////////////////////////////////////////
-// Server Settings - Modify at will
+// Server Settings
 ///////////////////////////////////////////////////////////////////////////////
 author = "Prepare for hell";
 onLoadName = "Join our Teamspeak: ts.dntsck.com!";
 onLoadMission= "Extreme Hardcore Exile Taunus";
 briefingName="Join our Teamspeak: ts.dntsck.com!";
-loadScreen = "mpmissions\Exile.xcam_taunus\assets\logo.paa";
+loadScreen = "assets\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;

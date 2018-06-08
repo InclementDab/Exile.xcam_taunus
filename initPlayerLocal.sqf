@@ -2,18 +2,18 @@
 //Bones Super Advanced Repair System (SARS)
 Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
-["ace_unconscious", {
+player ["ace_unconscious", {
     params ["_unit", "_isUnconscious"];
 	if (_isUnconscious) then	
 	{
-		player cutText ["", "BLACK FADED", 1.5];
-		player 1.5 fadeSound 0.08;	
+		cutText ["", "BLACK FADED", 1.5];
+		1.5 fadeSound 0.08;	
 	}
 	else
 	{
-		player titleCut ["", "BLACK IN", 4]; 
-		player 4 fadeSound 1;
-		player ["DynamicBlur", 400] spawn {
+		titleCut ["", "BLACK IN", 4]; 
+		4 fadeSound 1;
+		["DynamicBlur", 400] spawn {
 		params ["_name", "_priority", "_handle"];
 		while {
 			_handle = ppEffectCreate [_name, _priority];
@@ -33,7 +33,7 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 			ppEffectDestroy _handle;
 		};
 	};
-}] call CBA_fnc_addEventHandler;
+}, player] call CBA_fnc_targetEvent;
 
 
 

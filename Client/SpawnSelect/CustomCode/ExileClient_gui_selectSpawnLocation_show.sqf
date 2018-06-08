@@ -92,7 +92,7 @@ ExileClientSpawnLocation = "";
 				if (markerAlpha _marker != 0) then
 				{
 					ExileClientMarkersHidden pushBack [_marker, markerAlpha _marker];
-					_marker setMarkerAlphaLocal 0;
+					_marker setMarkerAlphaLocal 255;
 				};
 
 				ExileClientSpawnLocationsNoCheck pushBack [getMarkerPos _marker, markerText _marker, _marker];
@@ -104,7 +104,7 @@ ExileClientSpawnLocation = "";
 		} forEach allMapMarkers;
 
 		private _playerUID = getPlayerUID player;
-		private _requiredLevel = 1;
+		private _requiredLevel = 2;
 		{
 			private _flag = _x;
 			private _buildRights = _flag getVariable ["ExileTerritoryBuildRights", []];

@@ -15,10 +15,10 @@ class CfgExileCustomCode
 	ExileClient_gui_traderDialog_updateInventoryListBox = "Client\TraderPlus\CustomCode\ExileClient_gui_traderDialog_updateInventoryListBox.sqf";
 	
 	// Spawn Select	
-	ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick = "Client\SpawnSelect\ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick.sqf";
-	ExileClient_gui_selectSpawnLocation_show = "Client\SpawnSelect\ExileClient_gui_selectSpawnLocation_show.sqf";
-	ExileServer_object_player_createBambi = "Client\SpawnSelect\ExileServer_object_player_createBambi.sqf";
-	ExileServer_object_player_network_createPlayerRequest = "Client\SpawnSelect\ExileServer_object_player_network_createPlayerRequest.sqf";
+	ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick = "Client\SpawnSelect\CustomCode\ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick.sqf";
+	ExileClient_gui_selectSpawnLocation_show = "Client\SpawnSelect\CustomCode\ExileClient_gui_selectSpawnLocation_show.sqf";
+	ExileServer_object_player_createBambi = "Client\SpawnSelect\CustomCode\ExileServer_object_player_createBambi.sqf";
+	ExileServer_object_player_network_createPlayerRequest = "Client\SpawnSelect\CustomCode\ExileServer_object_player_network_createPlayerRequest.sqf";
 	
 	// Enigma
 	ExileClient_object_player_death_startBleedingOut = "Client\Enigma\CustomCode\ExileClient_object_player_death_startBleedingOut.sqf";
