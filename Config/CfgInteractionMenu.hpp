@@ -564,4 +564,20 @@ class CfgInteractionMenus
 			};
 		};
 	};
+	
+	class Civilian
+	{
+		targetType = 2;
+		target = "O_Soldier_unarmed_F";
+
+		class Actions 
+		{
+			class ReceiveMission: ExileAbstractAction
+			{
+				title = "Receive Mission";
+				condition = "(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['DMSInteractionEnabled', true])";
+				action = "_this call DMS_MissionInteract";
+			};
+		};
+	};
 };

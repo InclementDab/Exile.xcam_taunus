@@ -35,6 +35,8 @@ player ["ace_unconscious", {
 	};
 }, player] call CBA_fnc_targetEvent;
 
+[]execVM "Client\headless\init.sqf";
+
 
 
 
