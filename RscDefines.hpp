@@ -908,13 +908,14 @@ class RscExileSelectSpawnLocationDialog
 		class SpawnGround: SM_SpawnSelect_RscExilePrimaryButton
 		{
 			idc = 18;
-			text = "Ground";
-			x = "safeZoneX + (60 + 500) * pixelW";
+			text = "Spawn";
+			x = "safeZoneX + (60 + 766) * pixelW";
 			y = "safeZoneY + safeZoneH - (60 + 15 + 60) * pixelH";
 			w = "265 * pixelW";
 			h = "60 * pixelH";
 			onButtonClick = "[0] call ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick";
 		};
+		/*
 		class Halo: SM_SpawnSelect_RscExilePrimaryButton
 		{
 			idc = 19;
@@ -935,6 +936,7 @@ class RscExileSelectSpawnLocationDialog
 			h = "60 * pixelH";
 			onButtonClick = "[1] call ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick";
 		};
+		*/
 		class Random: SM_SpawnSelect_RscExilePrimaryButton
 		{
 			idc = 21;

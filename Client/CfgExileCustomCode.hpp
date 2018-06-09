@@ -23,18 +23,24 @@ class CfgExileCustomCode
 	// Enigma
 	ExileClient_object_player_death_startBleedingOut = "Client\Enigma\CustomCode\ExileClient_object_player_death_startBleedingOut.sqf";
 	
-	// Basic Exile Changes
-	ExileClient_gui_escape_abort = "Client\ExileChanges\CustomCode\ExileClient_gui_escape_abort.sqf";
-	ExileClient_gui_hud_toggleStatsBar = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_toggleStatsBar.sqf";
-	ExileClient_system_radiation_thread_update = "Client\ExileChanges\CustomCode\ExileClient_system_radiation_thread_update.sqf";
-	ExileClient_gui_hud_renderStatsPanel = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_renderStatsPanel.sqf";
-	ExileClient_object_player_stats_reset = "Client\ExileChanges\CustomCode\ExileClient_object_player_stats_reset.sqf";
-	ExileClient_object_player_stats_update = "Client\ExileChanges\CustomCode\ExileClient_object_player_stats_update.sqf";
-	ExileClient_gui_hud_renderWaypoints = "Client\ExileChanges\CustomCode\ExileClient_gui_hud_renderWaypoints.sqf";
-	ExileServer_object_player_database_load = "Client\ExileChanges\CustomCode\ExileServer_object_player_database_load.sqf";
-	ExileServer_object_player_database_update = "Client\ExileChanges\CustomCode\ExileServer_object_player_database_update.sqf";
-	ExileServer_object_player_event_onMpKilled = "Client\ExileChanges\CustomCode\ExileServer_object_player_event_onMpKilled.sqf";
+	// Gui Changes
+	ExileClient_gui_escape_abort = "Client\Gui\CustomCode\ExileClient_gui_escape_abort.sqf";
+	ExileClient_gui_hud_toggleStatsBar = "Client\Gui\CustomCode\ExileClient_gui_hud_toggleStatsBar.sqf";
+	ExileClient_gui_hud_renderStatsPanel = "Client\Gui\CustomCode\ExileClient_gui_hud_renderStatsPanel.sqf";
+	ExileClient_gui_hud_renderWaypoints = "Client\Gui\CustomCode\ExileClient_gui_hud_renderWaypoints.sqf";
+
 	
+	// Radiation Zone
+	ExileClient_system_radiation_thread_update = "Client\RadiationZone\CustomCode\ExileClient_system_radiation_thread_update.sqf";
+	
+	// Player Stats
+	ExileServer_object_player_database_load = "Client\PlayerStats\CustomCode\ExileServer_object_player_database_load.sqf";
+	ExileServer_object_player_database_update = "Client\PlayerStats\CustomCode\ExileServer_object_player_database_update.sqf";
+	ExileServer_object_player_event_onMpKilled = "Client\PlayerStats\CustomCode\ExileServer_object_player_event_onMpKilled.sqf";
+	ExileClient_object_player_stats_reset = "Client\PlayerStats\CustomCode\ExileClient_object_player_stats_reset.sqf";
+	ExileClient_object_player_stats_update = "Client\PlayerStats\CustomCode\ExileClient_object_player_stats_update.sqf";
+
+
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened = "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";
 	ExileClient_object_player_event_onEnterSafezone = "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onEnterSafezone.sqf";
@@ -48,4 +54,11 @@ class CfgExileCustomCode
 	ExileClient_gui_constructionMode_update = "Client\VectorBuilding\Vector\SM_gui_constructionMode_update.sqf";
 	ExileClient_gui_hud_event_onKeyUp = "Client\VectorBuilding\Vector\SM_gui_hud_event_onKeyUp.sqf";
 	ExileClient_construction_thread = "Client\VectorBuilding\Vector\SM_construction_thread.sqf";	
+
+	// Weather
+	ExileClient_object_player_stats_updateTemperature = "Client\Weather\CustomCode\ExileClient_object_player_stats_updateTemperature.sqf";
+	ExileServer_system_weather_initialize = "Client\Weather\CustomCode\ExileServer_system_weather_initialize.sqf";
+	ExileClient_system_snow_thread_update = "Client\Weather\CustomCode\ExileClient_system_snow_thread_update.sqf";
+	
+	
 };

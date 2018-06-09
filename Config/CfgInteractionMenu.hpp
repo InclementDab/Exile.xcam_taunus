@@ -540,6 +540,12 @@ class CfgInteractionMenus
 				condition = "!(alive ExileClientInteractionObject) && ('Exile_Melee_Shovel' isEqualTo (currentWeapon player))";
 				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
 			};
+			class Revive: ExileAbstractAction
+			{
+			title = "Attempt to Revive";
+			condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
+			action = "_this spawn Enigma_RevivePlyr";
+			};
 		};
 	};
 	
