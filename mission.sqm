@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=231;
+		nextID=246;
 	};
 	class Camera
 	{
-		pos[]={133.8604,473.45447,20432.08};
+		pos[]={130.66193,493.04373,20423.939};
 		dir[]={-0.054547824,-0.75675535,0.65142745};
 		up[]={-0.063146472,0.65369493,0.75411904};
 		aside[]={0.99651742,1.0081567e-007,0.083443113};
@@ -30310,7 +30310,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42397;
+			angle=225.42395;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -103585,6 +103585,7 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
+			atlOffset=0.16000366;
 		};
 		class Item1304
 		{
@@ -105790,11 +105791,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={131.65527,462.98889,20439.529};
-				angles[]={6.0514274,0,0.018000545};
+				position[]={131.655,462.98892,20439.529};
+				angles[]={6.0514231,0,0.017994344};
 			};
 			id=10412;
 			type="Werthles_moduleWHM";
+			atlOffset=3.0517578e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -106035,9 +106037,32 @@ class Mission
 			{
 				position[]={136.101,463.13547,20439.801};
 			};
+			name="HeadlessA";
 			isPlayable=1;
+			description="HeadlessA";
 			id=10413;
 			type="HeadlessClient_F";
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=1;
+		};
+		class Links
+		{
+			items=1;
+			class Item0
+			{
+				linkID=0;
+				item0=10412;
+				item1=10413;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
 		};
 	};
 };
