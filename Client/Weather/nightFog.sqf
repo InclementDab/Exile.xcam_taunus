@@ -43,7 +43,7 @@ private ["_obj","_pos","_inVehicle"];
 				player setVariable ["playerfog", floor time + 5];
                 2 call doofog;
             } else {
-				if ((player distance2d (getMarkerPos ContaminationZone)) < 5000) then {
+				if ((player distance2d (getMarkerPos "ContaminationZone")) < 5000) then {
 				player setVariable ["playerfog", floor time + 5];
 				5 call doofog;
 				};

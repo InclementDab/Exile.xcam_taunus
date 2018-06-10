@@ -1,8 +1,7 @@
 #define true 1
 #define false 0
-// Required for the XM8, do not remove!
-#include "RscDefines.hpp"
-#include "Client\TraderPlus\TraderPlus.hpp"
+
+#include "Config.cpp"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings
@@ -11,12 +10,12 @@ author = "Prepare for hell";
 onLoadName = "Join our Teamspeak: ts.dntsck.com!";
 onLoadMission= "Extreme Hardcore Exile Taunus";
 briefingName="Join our Teamspeak: ts.dntsck.com!";
-loadScreen = "assets\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
 enableDebugConsole[] = {"76561198247958888"};
+loadScreen = "assets\logo.paa";
 
 class Header
 {
@@ -25,7 +24,7 @@ class Header
     maxPlayers = 42;
 };
 
-class Mission
+class Missions
 {
 	class Intel
 	{
@@ -51,6 +50,7 @@ class Mission
 		forecastFogDecay=0.013;
 	};
 };
+
 
 ///////////////////////////////////////////////////////////////////////////////
 // Exile Settings
@@ -100,7 +100,7 @@ showHUD[] =
     false   // Squad Radar
 };
 
-#include "config.cpp"
+
 
 
 

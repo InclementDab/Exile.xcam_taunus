@@ -2,7 +2,7 @@
 //Bones Super Advanced Repair System (SARS)
 Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
-player ["ace_unconscious", {
+["ace_unconscious", {
     params ["_unit", "_isUnconscious"];
 	if (_isUnconscious) then	
 	{
@@ -33,11 +33,11 @@ player ["ace_unconscious", {
 			ppEffectDestroy _handle;
 		};
 	};
-}, player] call CBA_fnc_targetEvent;
+}] call CBA_fnc_localEvent;
 
 []execVM "Client\headless\init.sqf";
 
-if ("item_radio" in (assignedItems player))
+if ("itemRadio" in (assignedItems player))
 {
 	player setVariable ["RadioToggle", true];
 } else {
