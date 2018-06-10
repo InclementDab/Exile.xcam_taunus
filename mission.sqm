@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10414;
+		nextID=10417;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=246;
+		nextID=291;
 	};
 	class Camera
 	{
-		pos[]={130.66193,493.04373,20423.939};
-		dir[]={-0.054547824,-0.75675535,0.65142745};
-		up[]={-0.063146472,0.65369493,0.75411904};
-		aside[]={0.99651742,1.0081567e-007,0.083443113};
+		pos[]={127.69067,472.49683,20435.693};
+		dir[]={0.097173035,-0.87154776,0.48058847};
+		up[]={0.17272845,0.49030808,0.85426086};
+		aside[]={0.98016679,2.1333108e-007,-0.19818623};
 	};
 };
 binarizationWanted=0;
@@ -169,15 +169,13 @@ addons[]=
 	"CUP_StandaloneTerrains_Core_Faction",
 	"A3_Structures_F_Mil_BagFence",
 	"ace_concertina_wire",
-	"taunus_misc",
-	"Werthles_WHK",
-	"A3_Characters_F"
+	"taunus_misc"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=83;
+		items=82;
 		class Item0
 		{
 			className="exile_client";
@@ -681,11 +679,6 @@ class AddonsMetaData
 			className="taunus_misc";
 			name="taunus_misc";
 		};
-		class Item82
-		{
-			className="Werthles_WHK";
-			name="Werthles_WHK";
-		};
 	};
 };
 randomSeed=9785690;
@@ -804,14 +797,14 @@ class Mission
 		year=2039;
 		month=6;
 		day=24;
-		hour=14;
-		minute=28;
+		hour=13;
+		minute=-13;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
 	class Entities
 	{
-		items=1386;
+		items=1384;
 		class Item0
 		{
 			dataType="Marker";
@@ -30310,7 +30303,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42395;
+			angle=225.4239;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -105785,284 +105778,6 @@ class Mission
 			id=10411;
 			type="Land_PortableLight_double_F";
 			atlOffset=-0.027374268;
-		};
-		class Item1384
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={131.655,462.98892,20439.529};
-				angles[]={6.0514231,0,0.017994344};
-			};
-			id=10412;
-			type="Werthles_moduleWHM";
-			atlOffset=3.0517578e-005;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="Werthles_moduleWHM_Ignores";
-					expression="_this setVariable ['Ignores',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="Werthles_moduleWHM_Debug";
-					expression="_this setVariable ['Debug',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="Werthles_moduleWHM_UseServer";
-					expression="_this setVariable ['UseServer',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="Werthles_moduleWHM_Wait";
-					expression="_this setVariable ['Wait',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=30;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="Werthles_moduleWHM_NoDebug";
-					expression="_this setVariable ['NoDebug',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="Werthles_moduleWHM_Advanced";
-					expression="_this setVariable ['Advanced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="Werthles_moduleWHM_Units";
-					expression="_this setVariable ['Units',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="Werthles_moduleWHM_Pause";
-					expression="_this setVariable ['Pause',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="Werthles_moduleWHM_Delay";
-					expression="_this setVariable ['Delay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=30;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="Werthles_moduleWHM_DebugOnly";
-					expression="_this setVariable ['DebugOnly',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="Werthles_moduleWHM_Repeating";
-					expression="_this setVariable ['Repeating',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="Werthles_moduleWHM_Report";
-					expression="_this setVariable ['Report',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=12;
-			};
-		};
-		class Item1385
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={136.101,463.13547,20439.801};
-			};
-			name="HeadlessA";
-			isPlayable=1;
-			description="HeadlessA";
-			id=10413;
-			type="HeadlessClient_F";
-		};
-	};
-	class Connections
-	{
-		class LinkIDProvider
-		{
-			nextID=1;
-		};
-		class Links
-		{
-			items=1;
-			class Item0
-			{
-				linkID=0;
-				item0=10412;
-				item1=10413;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
 		};
 	};
 };
