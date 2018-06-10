@@ -1,19 +1,19 @@
 // Ground Fog - TorturedChunk - Kaysi - mmmyum @ OpenDayZ.net
 
 //Modify By CNSU
-waitUntil {!isNull player};                                                                                                                                                                                                                                                                                                                                                                                     
+waitUntil {!isNull player};
 doofog = {
 private ["_obj","_pos","_inVehicle"];
         _inVehicle = (vehicle player != player);
- 
+
         if (_inVehicle) then {
             _obj = (vehicle player);
         } else {
             _obj = player;
         };
- 
+
         _pos = position _obj;
-		
+
 		private _fogs = [];
 		for "_i" from 1 to _this do {
         private _fog = "#particlesource" createVehicleLocal _pos;
@@ -27,23 +27,23 @@ private ["_obj","_pos","_inVehicle"];
         _fog setDropInterval 0.01;
 		_fogs pushBack _fog;
 		};
-		
+
         _this setVariable ["playerfog", floor time + 5];
 
         sleep 120;
 		{
 		deleteVehicle _x;
 		} forEach _fogs;
-		
+
     };
 [] spawn {
     while {true} do {
         if (player getVariable ["playerfog", -1] < time) then {
-            if(daytime < 7 || daytime > 19) then { 
+            if(daytime < 7 || daytime > 19) then {
 				player setVariable ["playerfog", floor time + 5];
                 2 call doofog;
-            } else { 
-				if ((player distance2d (getMarkerPos ExileContaminatedZone1)) < 5000) then {
+            } else {
+				if ((player distance2d (getMarkerPos ContaminationZone)) < 5000) then {
 				player setVariable ["playerfog", floor time + 5];
 				5 call doofog;
 				};
