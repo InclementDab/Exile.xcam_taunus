@@ -37,7 +37,12 @@ player ["ace_unconscious", {
 
 []execVM "Client\headless\init.sqf";
 
-
+if ("item_radio" in (assignedItems player))
+{
+	player setVariable ["RadioToggle", true];
+} else {
+	player setVariable ["RadioToggle", false];
+};
 
 
 // START THE EXILE OUTPUT. EVERYTHING ABOVE THIS LINE IS WRITTEN BY US
