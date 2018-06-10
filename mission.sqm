@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=10413;
+		nextID=10414;
 	};
 	class MarkerIDProvider
 	{
@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=216;
+		nextID=231;
 	};
 	class Camera
 	{
-		pos[]={154.94833,499.40387,20423.805};
+		pos[]={133.8604,473.45447,20432.08};
 		dir[]={-0.054547824,-0.75675535,0.65142745};
 		up[]={-0.063146472,0.65369493,0.75411904};
 		aside[]={0.99651742,1.0081567e-007,0.083443113};
@@ -170,7 +170,8 @@ addons[]=
 	"A3_Structures_F_Mil_BagFence",
 	"ace_concertina_wire",
 	"taunus_misc",
-	"Werthles_WHK"
+	"Werthles_WHK",
+	"A3_Characters_F"
 };
 class AddonsMetaData
 {
@@ -810,7 +811,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1385;
+		items=1386;
 		class Item0
 		{
 			dataType="Marker";
@@ -30309,7 +30310,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42398;
+			angle=225.42397;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -103616,6 +103617,7 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
+			atlOffset=0.16000366;
 		};
 		class Item1306
 		{
@@ -103664,6 +103666,7 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1309
 		{
@@ -103680,6 +103683,7 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1310
 		{
@@ -106023,6 +106027,17 @@ class Mission
 				};
 				nAttributes=12;
 			};
+		};
+		class Item1385
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={136.101,463.13547,20439.801};
+			};
+			isPlayable=1;
+			id=10413;
+			type="HeadlessClient_F";
 		};
 	};
 };
