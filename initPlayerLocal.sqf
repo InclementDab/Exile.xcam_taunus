@@ -35,14 +35,14 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 	};
 }] call CBA_fnc_localEvent;
 
-[]execVM "Client\headless\init.sqf";
-
-if ("itemRadio" in (assignedItems player))
+if ("itemRadio" in (assignedItems player)) then
 {
-	player setVariable ["RadioToggle", true];
+	player setVariable ["RadioToggle", true, true];
 } else {
-	player setVariable ["RadioToggle", false];
+	player setVariable ["RadioToggle", false, true];
 };
+
+[] execVM "client\radio\player_initRadio.sqf";
 
 
 // START THE EXILE OUTPUT. EVERYTHING ABOVE THIS LINE IS WRITTEN BY US

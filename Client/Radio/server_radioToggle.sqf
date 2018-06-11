@@ -4,20 +4,20 @@
  *
  * Arguments:
  * 0: State <BOOLEAN>
+ * 1: Unit <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * [true] call Server_RadioToggle;
+ * [true, player] call Server_RadioToggle;
  *
  * Public: Yes
  */
-params ["state", "player"];
 
-_this select 1 setVariable ["radioToggle", _this select 0];
+player setVariable ["RadioToggle", _this, true];
 
-if (_this select 0) then {
+if (_this) then {
 	hint "Radio Enabled"; 
 	playSound "RadioOn";
 } else {

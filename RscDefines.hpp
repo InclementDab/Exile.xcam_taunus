@@ -16,6 +16,18 @@ class RscCombo;
 class RscControlsGroupNoHScrollbars;
 class RscText;
 class RscStructuredText;
+class RscPicture;
+
+class ExileBackgroundPicture: RscPicture
+{
+	idc=66000;
+	x="safezoneX";
+	y="safezoneY";
+	w="safezoneW";
+	h="safezoneW * 4/3";
+	text="assets\loadingscreen.paa";
+};
+
 class RscExileXM8PictureButton: RscPictureButton
 {
 	type = 11;
