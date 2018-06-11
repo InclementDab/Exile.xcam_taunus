@@ -1,14 +1,20 @@
-class CfgSounds 
+
+
+
+class CfgSounds
 {
-	class radioOn
+	class Radio
 	{
-		name = "";
-		sound[] = {"\assets\Radio_on.wav", 1, 1};
-	};
-	
-	class radioOff
-	{
-		name = "";
-		sound[] = {"\assets\Radio_off.wav", 1, 1};
+		sounds[] = { RadioEnable, RadioDisable };
+		
+		class RadioEnable {
+			name = "RadioEnable";
+			sound[] = {"\assets\Radio_on.wss", db-10, 1};
+		};
+		
+		class RadioDisable {
+			name = "RadioDisable";
+			sound[] = {"\assets\Radio_off.wss", db-10, 1};
+		};
 	};
 };

@@ -11,7 +11,7 @@
 
 
 #include "Traders\CfgTraders.hpp"
-#include "Traders\CfgTrading.hpp"
+#include "Traders\CfgTraderCategories.hpp"
 
 #include "Client\CfgExileCustomCode.hpp"
 

@@ -1,3 +1,6 @@
+class CfgTraderCategories
+{
+
 	class Community
 	{
 		name = "Community Items";
@@ -838,4 +841,814 @@
 			"3Rnd_HE_Grenade_shell"
 		};
 	};
+	
+		class PointerAttachments
+	{
+		name = "Pointer Attachments";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"acc_pointer_IR",
+			"ACE_acc_pointer_red",
+			"ACE_acc_pointer_green_IR",
+			"ACE_acc_pointer_green",
+			"ACE_SpareBarrel",
+			"acc_flashlight",
+			"rhsusf_acc_anpeq15side",
+			"rhsusf_acc_anpeq15",
+			"rhsusf_acc_anpeq15A",
+			"rhsusf_acc_anpeq15_light"
+		};
+	};
+	
+	class BipodAttachments
+	{
+		name = "Bipods";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
+		items[] =
+		{
+			"bipod_01_F_blk",
+			"bipod_01_F_mtp",
+			"bipod_01_F_snd",
+			"bipod_02_F_blk",
+			"bipod_02_F_hex",
+			"bipod_02_F_tan",
+			"bipod_03_F_blk",
+			"bipod_03_F_oli",
+			"bipod_01_F_khk",
+			
+			// START RHS
+			
+			"rhsusf_acc_harris_bipod"
+		};
+	};
+
+	class MuzzleAttachments
+	{
+		name = "Barrel Attachments";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemmuzzle_ca.paa";
+		items[] =
+		{
+			"muzzle_snds_338_black",
+			"muzzle_snds_338_green",
+			"muzzle_snds_338_sand",
+			"muzzle_snds_93mmg",
+			"muzzle_snds_93mmg_tan",
+			"muzzle_snds_acp",
+			"muzzle_snds_B",
+			"muzzle_snds_H",
+			"muzzle_snds_H_MG",
+			"muzzle_snds_H_SW",
+			"muzzle_snds_L",
+			"muzzle_snds_M",
+			
+			//Apex
+			
+			"muzzle_snds_H_khk_F",
+			"muzzle_snds_H_snd_F",
+			"muzzle_snds_58_blk_F",
+			"muzzle_snds_m_khk_F",
+			"muzzle_snds_m_snd_F",
+			"muzzle_snds_B_khk_F",
+			"muzzle_snds_B_snd_F",
+			"muzzle_snds_58_wdm_F",
+			"muzzle_snds_65_TI_blk_F",
+			"muzzle_snds_65_TI_hex_F",
+			"muzzle_snds_65_TI_ghex_F",
+			"muzzle_snds_H_MG_blk_F",
+			"muzzle_snds_H_MG_khk_F",
+			"hlc_muzzle_300blk_KAC",
+			"hlc_muzzle_545SUP_AK",
+			"hlc_muzzle_556NATO_KAC",
+			"hlc_muzzle_762SUP_AK",
+			"hlc_muzzle_Agendasix",
+			"hlc_muzzle_Agendasix10mm",
+			"hlc_muzzle_Tundra",
+			"hlc_muzzle_snds_AUG",
+			"hlc_muzzle_snds_HK33",
+			"hlc_muzzle_snds_M14",
+			"hlc_muzzle_snds_a6AUG",
+			"hlc_muzzle_snds_fal",
+			"hlc_muzzle_snds_g3",
+			
+			// START RHS
+			
+			"rhsusf_acc_rotex5_grey",
+			"rhsusf_acc_rotex5_tan",
+			"rhsusf_acc_nt4_black",
+			"rhsusf_acc_nt4_tan",
+			"rhsusf_acc_SF3P556",
+			"rhsusf_acc_SFMB556",
+			"rhsusf_acc_SR25S",
+			"rhsusf_acc_M2010S",
+			"rhs_acc_dtk4short",
+			"rhs_acc_dtk4long",
+			"rhs_acc_dtk4screws",
+			"rhs_acc_tgpa",
+			"rhs_acc_pbs1",
+			"rhs_acc_dtk3",
+			"rhs_acc_dtk1",
+			"rhs_acc_dtk",
+			"rhs_acc_dtk1l",
+			"rhs_acc_ak5"
+		};
+	};
+	
+	class OpticAttachments
+	{
+		name = "Scopes";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemoptic_ca.paa";
+		items[] =
+		{
+			"optic_Aco",
+			"optic_ACO_grn",
+			"optic_ACO_grn_smg",
+			"optic_Aco_smg",
+			"optic_AMS",
+			"optic_AMS_khk",
+			"optic_AMS_snd",
+			"optic_Arco",
+			"optic_DMS",
+			"optic_Hamr",
+			"optic_Holosight",
+			"optic_Holosight_smg",
+			"optic_KHS_blk",
+			"optic_KHS_hex",
+			"optic_KHS_old",
+			"optic_KHS_tan",
+			"optic_LRPS",
+			"optic_MRCO",
+			"optic_MRD",
+			"optic_Nightstalker",
+			"optic_NVS",
+			"optic_SOS",
+			//"optic_tws",
+			//"optic_tws_mg",
+			"optic_Yorris",
+			//Apex
+			"optic_Arco_blk_F",
+			"optic_Arco_ghex_F",
+			"optic_DMS_ghex_F",
+			"optic_Hamr_khk_F",
+			"optic_ERCO_blk_F",
+			"optic_ERCO_khk_F",
+			"optic_ERCO_snd_F",
+			"optic_SOS_khk_F",
+			"optic_LRPS_tna_F",
+			"optic_LRPS_ghex_F",
+			"optic_Holosight_blk_F",
+			"optic_Holosight_khk_F",
+			"optic_Holosight_smg_blk_F",
+			"HLC_Optic_1p29",
+			"HLC_Optic_G36Dualoptic15x",
+			"HLC_Optic_G36Dualoptic15x2d",
+			"HLC_Optic_G36Export15x",
+			"HLC_Optic_G36Export15x2d",
+			"HLC_Optic_G36Export35x",
+			"HLC_Optic_G36Export35x2d",
+			"HLC_Optic_G36dualoptic35x",
+			"HLC_Optic_G36dualoptic35x2d",
+			"HLC_Optic_PSO1",
+			"HLC_Optic_ZFSG1",
+			"hlc_optic_Kern",
+			"hlc_optic_Kern2d",
+			"hlc_optic_LRT_m14",
+			"hlc_optic_PVS4FAL",
+			"hlc_optic_PVS4G3",
+			"hlc_optic_PVS4M14",
+			"hlc_optic_accupoint_g3",
+			"hlc_optic_artel_m14",
+			"hlc_optic_goshawk",
+			"hlc_optic_kobra",
+			"hlc_optic_suit",
+			
+			// START RHS
+			
+			"rhsusf_acc_eotech_552",
+			"rhsusf_acc_LEUPOLDMK4",
+			"rhsusf_acc_ELCAN",
+			"rhsusf_acc_ELCAN_pip",
+			"rhsusf_acc_ACOG",
+			"rhsusf_acc_ACOG_pip",
+			"rhs_acc_1pn93_2",
+			"rhsusf_acc_ACOG2",
+			"rhsusf_acc_ACOG_USMC",
+			"rhsusf_acc_ACOG2_USMC",
+			"rhsusf_acc_ACOG3_USMC",
+			"rhsusf_acc_LEUPOLDMK4_2",
+			"rhsusf_acc_EOTECH",
+			"rhs_acc_1p29",
+			"rhs_acc_1p78",
+			"rhs_acc_pkas",
+			"rhs_acc_1p63",
+			"rhs_acc_ekp1",
+			"rhs_acc_pso1m2",
+			"rhs_acc_pgo7v",
+			"rhs_acc_1pn93_1"
+		};
+	};
+	
+	
+	// Civilian
+
+	class Smokes
+	{
+		name = "Smokes";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"SmokeShell",
+			"SmokeShellBlue",
+			"SmokeShellGreen",
+			"SmokeShellOrange",
+			"SmokeShellPurple",
+			"SmokeShellRed",
+			"SmokeShellYellow",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_SmokeYellow_Grenade_shell",
+			"3Rnd_Smoke_Grenade_shell",
+			"3Rnd_SmokeBlue_Grenade_shell",
+			"3Rnd_SmokeGreen_Grenade_shell",
+			"3Rnd_SmokeOrange_Grenade_shell",
+			"3Rnd_SmokePurple_Grenade_shell",
+			"3Rnd_SmokeRed_Grenade_shell",
+			"3Rnd_SmokeYellow_Grenade_shell"
+		};
+	};
+
+	class Flares
+	{
+		name = "Flares";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_Chemlight_HiOrange",
+			"ACE_Chemlight_HiRed",
+			"ACE_Chemlight_HiYellow",
+			"ACE_Chemlight_HiWhite",
+			"ACE_Chemlight_Orange",
+			"ACE_Chemlight_White",
+			"ACE_Chemlight_IR",
+			"ACE_HandFlare_White",
+			"ACE_HandFlare_Red",
+			"ACE_HandFlare_Green",
+			"ACE_HandFlare_Yellow",
+			"RHS_weap_rsp30_white",
+			"RHS_weap_rsp30_green",
+			"RHS_weap_rsp30_red"
+		};
+	};
+	
+	class CivilianMedical
+	{
+		name = "Medical Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_personalAidKit",
+			"ACE_morphine",
+			"ACE_fieldDressing",
+			"ACE_bloodIV_250"
+		};
+	};
+	
+	class Hardware
+	{
+		name = "Hardware";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+
+			"Exile_Item_DuctTape",
+			"Exile_Item_ExtensionCord",
+			"Exile_Item_FuelCanisterEmpty",
+			"Exile_Item_JunkMetal",
+			"Exile_Item_LightBulb",
+			"Exile_Item_MetalBoard",
+			"Exile_Item_MetalPole",
+			"Exile_Item_SafeKit",
+			"Exile_Item_CamoTentKit",
+			"Exile_Item_CodeLock",
+			"Exile_Item_MetalScrews"
+
+			/*
+			--Not for Sale--
+			"Exile_Item_MetalWire",
+			"Exile_Item_Laptop",
+			"Exile_Item_BaseCameraKit",
+			"Exile_Item_MetalHedgehogKit",
+			"Exile_Item_Cement",
+			"Exile_Item_Sand",
+			"Exile_Item_MobilePhone",
+			--Unused--
+			"Exile_Item_SprayCan_Black",
+			"Exile_Item_SprayCan_Red",
+			"Exile_Item_SprayCan_Green",
+			"Exile_Item_SprayCan_White",
+			"Exile_Item_SprayCan_Blue",
+			"Exile_Item_CordlessScrewdriver",
+			"Exile_Item_FireExtinguisher",
+			"Exile_Item_OilCanister",
+			"Exile_Item_Hammer",
+			"Exile_Item_Carwheel",
+			"Exile_Item_SleepingMat",
+			"Exile_Item_Defibrillator",
+			"Exile_Item_Wrench",
+			"Exile_Item_Rope"
+		*/
+		};
+	};
+
+	class Food
+	{
+		name = "Fast Food";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_EMRE",
+			"Exile_Item_GloriousKnakworst",
+			"Exile_Item_Surstromming",
+			"Exile_Item_SausageGravy",
+			"Exile_Item_Catfood",
+			"Exile_Item_ChristmasTinner",
+			"Exile_Item_BBQSandwich",
+			"Exile_Item_MacasCheese",
+			"Exile_Item_Dogfood",
+			"Exile_Item_BeefParts",
+			"Exile_Item_Cheathas",
+			"Exile_Item_Noodles",
+			"Exile_Item_SeedAstics",
+			"Exile_Item_Raisins",
+			"Exile_Item_Moobar",
+			"Exile_Item_InstantCoffee"
+			
+			// Hunted Animals
+			// Note: Adding these to the trader will defeat the purpose of hunting!
+			/*
+			"Exile_Item_SheepSteak_Cooked",
+			"Exile_Item_AlsatianSteak_Cooked",
+			"Exile_Item_CatSharkFilet_Cooked",
+			"Exile_Item_FinSteak_Cooked",
+			"Exile_Item_GoatSteak_Cooked",
+			"Exile_Item_TurtleFilet_Cooked",
+			"Exile_Item_TunaFilet_Cooked",
+			"Exile_Item_RabbitSteak_Cooked",
+			"Exile_Item_ChickenFilet_Cooked",
+			"Exile_Item_RoosterFilet_Cooked",
+			"Exile_Item_MulletFilet_Cooked",
+			"Exile_Item_SalemaFilet_Cooked",
+			"Exile_Item_MackerelFilet_Cooked",
+			"Exile_Item_OrnateFilet_Cooked",
+			"Exile_Item_SnakeFilet_Cooked",
+			"Exile_Item_CatSharkFilet_Raw",
+			"Exile_Item_TunaFilet_Raw",
+			"Exile_Item_AlsatianSteak_Raw",
+			"Exile_Item_TurtleFilet_Raw",
+			"Exile_Item_SheepSteak_Raw",
+			"Exile_Item_FinSteak_Raw",
+			"Exile_Item_GoatSteak_Raw",
+			"Exile_Item_ChickenFilet_Raw",
+			"Exile_Item_RoosterFilet_Raw",
+			"Exile_Item_MackerelFilet_Raw",
+			"Exile_Item_MulletFilet_Raw",
+			"Exile_Item_OrnateFilet_Raw",
+			"Exile_Item_RabbitSteak_Raw",
+			"Exile_Item_SalemaFilet_Raw",
+			"Exile_Item_SnakeFilet_Raw"
+			*/
+		};
+	};
+	
+	class NonVeganFood
+	{
+		name = "Non-Vegan Food";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_CatSharkFilet_Raw",
+			"Exile_Item_TunaFilet_Raw",
+			"Exile_Item_AlsatianSteak_Raw",
+			"Exile_Item_TurtleFilet_Raw",
+			"Exile_Item_SheepSteak_Raw",
+			"Exile_Item_FinSteak_Raw",
+			"Exile_Item_GoatSteak_Raw",
+			"Exile_Item_ChickenFilet_Raw",
+			"Exile_Item_RoosterFilet_Raw",
+			"Exile_Item_MackerelFilet_Raw",
+			"Exile_Item_MulletFilet_Raw",
+			"Exile_Item_OrnateFilet_Raw",
+			"Exile_Item_RabbitSteak_Raw",
+			"Exile_Item_SalemaFilet_Raw",
+			"Exile_Item_SnakeFilet_Raw"
+		};
+	};
+	
+	class Drinks
+	{
+		name = "Drinks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_PlasticBottleCoffee",
+			"Exile_Item_PowerDrink",
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_Beer",
+			"Exile_Item_EnergyDrink",
+			"Exile_Item_ChocolateMilk",
+			"Exile_Item_MountainDupe",
+			"Exile_Item_PlasticBottleEmpty"
+		};
+	};
+
+	class NavigationEquipment
+	{
+		name = "Navigation Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_MapTools",
+			"ACE_Flashlight_MX991",
+			"ACE_Flashlight_XL50",
+			"ACE_VectorDay",
+			"ACE_SpottingScope",
+			"ACE_Tripod",
+			"ACE_NVG_Gen1",
+			"ACE_NVG_Gen2",
+			"ACE_Altimeter",
+			"ACE_microDAGR"
+		};
+	};
+
+	class SurvivalTools
+	{
+		name = "Survival Tools";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_Matches",
+			"Exile_Item_CookingPot",
+			"Exile_Item_CanOpener",
+			"Exile_Item_Handsaw",
+			"Exile_Item_Pliers",
+			"Exile_Item_Grinder",
+			"Exile_Item_Foolbox",
+			"Exile_Item_CordlessScrewdriver",
+			"Exile_Item_FireExtinguisher",
+			"Exile_Item_Hammer",
+			"Exile_Item_OilCanister",
+			"Exile_Item_Screwdriver",
+			"Exile_Item_Shovel",
+			"Exile_Item_Wrench",
+			"Exile_Item_SleepingMat",
+			"Exile_Item_ToiletPaper",
+			"Exile_Item_BurlapSack",			
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"Exile_Item_XM8",
+			"ACE_RangeCard",
+			"ACE_CableTie"			
+		};
+	};
+
+
+	// Military
+	
+	class MilitaryMedical
+	{
+		name = "Hospital";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_personalAidKit",
+			"ACE_morphine",
+			"ACE_epinephrine",
+			"ACE_fieldDressing",
+			"ACE_bloodIV_250",
+			"ACE_bloodIV_500",
+			"ACE_bloodIV",
+			"ACE_bodyBag",
+			"Exile_Item_Defibrillator"
+		};
+	};
+
+
+	class MilitaryEquipment
+	{
+		name = "Military Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"B_Parachute",
+			"ACE_NonSteerableParachute",
+			"ACE_DAGR",
+			"ACE_Kestrel4500",
+			"ACE_ATragMX",
+			"ACE_HuntIR_monitor",
+			"ACE_HuntIR_M203",
+			"ACE_IR_Strobe_Item",
+			"ACE_DefusalKit",
+			"ACE_Cellphone",
+			"ACE_Clacker",
+			"ACE_CableTie",
+			"ACE_MapTools",
+			"ACE_Flashlight_MX991",
+			"ACE_RangeCard",
+			"ACE_Flashlight_XL50",
+			"ACE_VectorDay",
+			"ACE_SpottingScope",
+			"ACE_Tripod",
+			"ACE_NVG_Gen1",
+			"ACE_NVG_Gen2",
+			"lerca_1200_black",
+			"ACE_Vector",
+			"ACE_Altimeter",
+			"RHS_pdu4",
+			"ACE_microDAGR",
+			"ACE_M26_Clacker",
+			"ACE_NVG_Gen4",
+			"ACE_NVG_Wide"		
+		};
+	};
+	
+	
+	// Civilian
+
+	class MikesBikes
+	{
+		name = "Wheelie Bois";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"RDS_MMT_Civ_01",
+			"RDS_Old_Bike_Civ_01",
+			"C_Quadbike_01_F",
+			"NDS_6x6_ATV_CIV",
+			"RDS_JAWA353_Civ_01",
+			"RDS_tt650_Civ_01"
+		};
+	};
+
+	class CivilianCars
+	{
+		name = "Cars";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Car_Kart_Black",
+			"Exile_Car_OldTractor_Red",
+			"Exile_Car_TowTractor_White",
+			"Exile_Car_Tractor_Red",
+			"Exile_Car_UAZ_Green",
+			"Exile_Car_UAZ_Open_Green",
+			"Exile_Car_Octavius_White",
+			"Exile_Car_Golf_Red",
+			"Exile_Car_LandRover_Green",
+			"Exile_Car_LandRover_Ambulance_Green",
+			"Exile_Car_Lada_Green",
+			"Exile_Car_Volha_White",
+			"Exile_Car_Hatchback_Rusty1",
+			"Exile_Car_Hatchback_Rusty2",
+			"Exile_Car_Hatchback_Rusty3",
+			"Exile_Car_Hatchback_Sport_Red",
+			"Exile_Car_SUV_Red",
+			"Exile_Car_SUVXL_Black",
+			"Exile_Car_SUV_Armed_Black",
+			"Exile_Car_Offroad_Rusty1",
+			"Exile_Car_Offroad_Rusty2",
+			"Exile_Car_Offroad_Rusty3",
+			"Exile_Car_Offroad_Repair_Civillian",
+			"Exile_Car_Offroad_Armed_Guerilla01",
+			"Exile_Car_BRDM2_HQ",
+			"Exile_Car_BTR40_MG_Green",
+			"Exile_Car_BTR40_Green",
+			"Exile_Car_HMMWV_M134_Green",
+			"Exile_Car_HMMWV_M2_Green",
+			"Exile_Car_HMMWV_MEV_Green",
+			"Exile_Car_HMMWV_UNA_Green",
+			"Exile_Car_Strider",
+			"Exile_Car_Hunter",
+			"Exile_Car_Ifrit",
+			"Exile_Car_ProwlerLight",
+			"Exile_Car_ProwlerUnarmed",
+			"Exile_Car_QilinUnarmed",
+			"Exile_Car_MB4WD",
+			"Exile_Car_MB4WDOpen",
+			
+			// RHS
+			
+			"rhsusf_rg33_d",
+			"rhsusf_rg33_usmc_d",
+			
+			// RDS Civ Pack
+			
+			"RDS_Ikarus_Civ_01",
+			"RDS_Ikarus_Civ_02",
+			"RDS_Lada_Civ_01",
+			"RDS_Lada_Civ_02",
+			"RDS_Lada_Civ_03",
+			"RDS_Lada_Civ_04",
+			"RDS_Lada_Civ_05",
+			"RDS_S1203_Civ_01",
+			"RDS_S1203_Civ_02",
+			"RDS_S1203_Civ_03",
+			"RDS_Gaz24_Civ_01",
+			"RDS_Gaz24_Civ_02",
+			"RDS_Gaz24_Civ_03",
+			"RDS_Golf4_Civ_01",
+			"RDS_Octavia_Civ_01",
+			"RDS_Zetor6945_Base"
+
+		};
+	};
+
+	class CivilianTrucks
+	{
+		name = "Trucks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Car_Van_Black",
+			"Exile_Car_Van_Box_Black",
+			"Exile_Car_Van_Fuel_Black",
+			"Exile_Car_Ural_Open_Worker",
+			"Exile_Car_Ural_Covered_Worker",
+			"Exile_Car_V3S_Covered",
+			"Exile_Car_Zamak",
+			"Exile_Car_Tempest",
+			"Exile_Car_HEMMT",
+			"Exile_Car_Ikarus_Blue",
+			"RHS_UAZ_MSV_01",
+			"rhs_uaz_open_MSV_01",
+			"rhs_uaz_vdv",
+			"RHS_Ural_Open_Civ_01",
+			"RHS_Ural_Open_Civ_02",
+			"RHS_Ural_Open_Civ_03",
+			"RHS_Ural_MSV_01",
+			"RHS_Ural_Fuel_MSV_01",
+			"RHS_Ural_Open_MSV_01",
+			"rhs_Ural_Flat_MSV_01"
+		};
+	};
+
+	class CivilianChoppers
+	{
+		name = "Helicopters";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Chopper_Hummingbird_Green",
+			"Exile_Chopper_Hummingbird_Civillian_Wasp",
+			"Exile_Chopper_Huey_Green",
+			"Exile_Chopper_Huey_Armed_Green",
+			"Exile_Chopper_Taru_Black",
+			"Exile_Chopper_Taru_Covered_Black",
+			"Exile_Chopper_Taru_Transport_Black",
+			"Exile_Chopper_Orca_BlackCustom",
+			"Exile_Chopper_Mohawk_FIA",
+			"Exile_Chopper_Huron_Black",
+			"Exile_Chopper_Hellcat_Green",
+			"RHS_CH_47F",
+			"rhs_CH_47F_10",
+			"rhs_ka60_c",
+			"rhs_ka60_grey",
+			"B_Heli_Transport_01_F",
+			"RHS_UH60M",
+			"rhs_UH60M_MEV2_d",
+			"rhs_Mi8mt_vvs",
+			"rhs_Mi8mt_cargo_vvs",
+			"rhs_UH1Y_unarmed",
+			"GR_AW101_1",
+			"GR_AW101_2",
+			"GR_Bell412_1",
+			"GR_Bell412_2",
+			"GR_Bell412_3",	
+			"GR_Mi_171_1",
+			"GR_Mi_171_2",
+			"GR_Mi8_1",
+			"GR_Mi8_2",				
+			"GR_UH1N_1",
+			"GR_UH1N_2",
+			"GR_UH1N_3",
+			"GR_UH1D_1",				
+			"GR_UH1H_1",
+			"GR_UH1H_2",
+			"GR_UH1H_3",
+			"GR_UH1H_4",
+			"GR_UH1H_5",
+			"GR_UH1H_6",
+			"GR_UH1H_7",			
+			"GR_UH60_1"
+		};
+	};
+
+	class CivilianPlanes
+	{
+		name = "Planes";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Plane_Cessna",
+			"Exile_Plane_AN2_Green",
+			"Exile_Plane_Ceasar",
+			"Exile_Plane_BlackfishInfantry",
+			"Exile_Plane_BlackfishVehicle"
+		};
+	};
+
+
+
+	// Military
+
+	class MilitaryTransport
+	{
+		name = "Military Transport";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"NDS_6x6_ATV_MIL",
+			"NDS_6x6_ATV_MIL2",
+			"NDS_6x6_ATV_MIL_LR",
+			"NDS_6x6_ATV_MIL_LR2",
+			"rhs_tigr_vdv",
+			"rhs_tigr_ffv_3camo_vdv",
+			"rhs_tigr_ffv_vdv",
+			"rhs_tigr_m_test",
+			"rhs_gaz66_r142_vmf",
+			"rhs_gaz66_repair_vmf",
+			"rhs_gaz66_vmf",
+			"rhs_gaz66_flat_vdv",
+			"rhs_gaz66o_vdv",
+			"rhs_gaz66o_flat_vdv",
+			"rhs_gaz66_ammo_vmf",
+			"rhsusf_m1025_w",
+			"rhsusf_m1025_w_m2",
+			"rhsusf_m998_w_2dr",
+			"rhsusf_m998_w_4dr",
+			"rhsusf_m998_w_s_2dr_fulltop",
+			"rhsusf_m998_d_s_2dr_fulltop",
+			"rhsusf_m998_w_s_2dr_halftop",
+			"rhsusf_m998_d_s_2dr_halftop",
+			"rhsusf_m998_d_s_4dr_fulltop",
+			"rhsusf_m998_w_s_4dr_fulltop",
+			"rhsusf_m998_d_s_4dr_halftop",
+			"rhsusf_m998_w_s_4dr_halftop",
+			"rhsusf_M1078A1P2_wd_fmtv_usarmy",
+			"rhsusf_M1078A1P2_d_fmtv_usarmy",
+			"rhsusf_M1078A1P2_wd_open_fmtv_usarmy",
+			"rhsusf_M1078A1P2_d_open_fmtv_usarmy",
+			"rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy",
+			"rhsusf_M1078A1P2_d_flatbed_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_d_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_wd_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_d_open_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy",
+			"rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy"
+
+		};
+	};
+	
+	class UAVs
+	{
+		name = "Unmanned Aerial Vehicles";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\gps_ca.paa";
+		items[] =
+		{
+			//"I_UavTerminal",
+			//"I_UAV_01_backpack_F"
+		};
+	};
+
+	class StaticMGs
+	{
+		name = "Static Machine Guns";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"O_HMG_01_support_F",
+			//"O_HMG_01_support_high_F", // Does not seem to work with HMG01, only the lower version does
+			"O_HMG_01_weapon_F"
+		};
+	};
+	
+	class MilitaryArmor
+	{
+		name = "Armor Trader";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"rhsusf_m1a1aim_tuski_d"
+		};
+	};
+
+};
+
+
+
 

@@ -6,10 +6,8 @@
  * Public: y tho
  */
 
-if (!hasInterface && isServer) exitWith 
-{
-	Diag_log "Compiling Radio Function";
-};
+
+Diag_log "Compiling Radio Function";
 
 private ['_code', '_function', '_file'];
 
@@ -25,6 +23,5 @@ forEach
 	['Server_RadioToggle', 'Client\Radio\server_radioToggle.sqf']
 ];
 
-true
 
 

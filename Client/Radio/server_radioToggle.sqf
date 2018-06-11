@@ -15,12 +15,14 @@
  * Public: Yes
  */
 
-player setVariable ["RadioToggle", _this, true];
+params [["_state", false, [true]]];
 
-if (_this) then {
+player setVariable ["RadioToggle", _state];
+
+if (_state) then {
 	hint "Radio Enabled"; 
-	playSound "RadioOn";
+	playsound "RadioEnable";
 } else {
 	hint "Radio Disabled";
-	playSound "RadioOff";
+	playsound "RadioDisable";
 };
