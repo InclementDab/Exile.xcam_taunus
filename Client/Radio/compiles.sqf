@@ -7,8 +7,6 @@
  */
 
 
-Diag_log "Compiling Radio Function";
-
 private ['_code', '_function', '_file'];
 
 {
@@ -20,8 +18,8 @@ private ['_code', '_function', '_file'];
 }
 forEach
 [
-	['Server_RadioToggle', 'Client\Radio\server_radioToggle.sqf']
+	['RadioToggle', 'Client\Radio\RadioToggle.sqf']
 ];
 
-
+true
 

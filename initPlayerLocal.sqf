@@ -36,14 +36,5 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 }] call CBA_fnc_localEvent;
 
 
-
-if ("itemRadio" in (assignedItems player)) then
-{
-	player setVariable ["RadioToggle", true];
-	} else {
-	player setVariable ["RadioToggle", false];
-};
-
-[] execVM "client\radio\player_initRadio.sqf"; // Radio Toggle Button
 [] execVM "traders\initPlayerLocal.sqf"; // 3Den Exile Output
 

@@ -20,9 +20,9 @@ params [["_state", false, [true]]];
 player setVariable ["RadioToggle", _state];
 
 if (_state) then {
-	hint "Radio Enabled"; 
+	["Radio Enabled", true] call ace_common_fnc_displayText; 
 	playsound "RadioEnable";
 } else {
-	hint "Radio Disabled";
+	["Radio Disabled", true] call ace_common_fnc_displayText;
 	playsound "RadioDisable";
 };
