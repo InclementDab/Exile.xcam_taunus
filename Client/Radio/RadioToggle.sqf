@@ -15,6 +15,8 @@
  * Public: Yes
  */
 
+if (hasInterface) exitWith { 
+
 params [["_state", false, [true]]];
 
 player setVariable ["RadioToggle", _state];
@@ -25,4 +27,5 @@ if (_state) then {
 } else {
 	["Radio Disabled", true] call ace_common_fnc_displayText;
 	playsound "RadioDisable";
+};
 };

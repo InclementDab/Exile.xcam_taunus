@@ -7,40 +7,40 @@
  * Public: Yes
  */
 
+ 
 if (hasInterface) then {
+	[] execVM "Client\radio\compiles.sqf";
 	
-if ("itemRadio" in (assignedItems player)) then
-{
-	player setVariable ["RadioToggle", true];
-	} else {
-	player setVariable ["RadioToggle", false];
-};
+	if ("itemRadio" in (assignedItems player)) then
+	{
+		player setVariable ["RadioToggle", true];
+		} else {
+		player setVariable ["RadioToggle", false];
+	};
 
-[] execVM "Client\radio\compiles.sqf";
 
-call {
-	private ["_condition","_classname","_name","_icon","_statement","_action"];
-	_condition = {("ItemRadio" in (assignedItems player)) && !(player getVariable "RadioToggle")};
-	_classname = "EnableRadio";
-	_name = "Enable Radio";
-	_icon = "assets\ACE_Interaction_Radio_Icon.paa";
-	_statement = {[true] call RadioToggle};
-	_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
-	[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
-};
+	
+		private ["_condition","_classname","_name","_icon","_statement","_action"];
+		_condition = {("ItemRadio" in (assignedItems player)) && !(player getVariable ["RadioToggle", false]) && {[player, objNull, []] call ace_common_fnc_canInteractWith}};
+		_classname = "EnableRadio";
+		_name = "Enable Radio";
+		_icon = "assets\ACE_Interaction_Radio_Icon.paa";
+		_statement = {[true] call RadioToggle};
+		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
+		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
+	
 
-call {
-	private ["_condition","_classname","_name","_icon","_statement","_action"];
-	_condition = {("ItemRadio" in (assignedItems player)) && (player getVariable "RadioToggle")};
-	_classname = "DisableRadio";
-	_name = "Disable Radio";
-	_icon = "assets\ACE_Interaction_Radio_Icon.paa";
-	_statement = {[false] call RadioToggle};
-	_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
-	[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
-};
-
+	
+		private ["_condition","_classname","_name","_icon","_statement","_action"];
+		_condition = {("ItemRadio" in (assignedItems player)) && (player getVariable ["RadioToggle", false]) && {[player, objNull, []] call ace_common_fnc_canInteractWith}};
+		_classname = "DisableRadio";
+		_name = "Disable Radio";
+		_icon = "assets\ACE_Interaction_Radio_Icon.paa";
+		_statement = {[false] call RadioToggle};
+		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
+		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
+		
 } else {
 	
-	Diag_log "Initializing Radio Toggle";
+	Diag_Log "Tyler has a massive cock";
 };

@@ -105,11 +105,15 @@ else
 			"skn_u_nbc_opf_white",
 			"skn_u_nbc_opf_yellow"
 		];
-
-		_distance = (_x select 0) distance (getPosATL player);
+		
+		
+		private _radiationFactor = (_radiationMaskFactor * _radiationSuitFactor);
+		_distance = (getPosATL player) distance2d (_x select 0);
 		if (_distance < (_x select 2)) exitWith
 		{
-			ExilePlayerRadiation = (3150 - (.000125 * _distance^2)) * (_radiationMaskFactor * _radiationSuitFactor);
+			ExilePlayerRadiation = ((3000 * _radiationFactor) - (.000205 * _distance^1.99));
+			
+			if (ExilePlayerRadiation < 0) then {ExilePlayerRadiation = 0};
 
 			if (ExilePlayerRadiation > 700) then
 			{

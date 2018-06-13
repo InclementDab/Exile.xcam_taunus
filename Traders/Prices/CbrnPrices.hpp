@@ -27,3 +27,8 @@ class skn_u_nbc_opf_blue						{ quality = 4; price = 32000; };
 class skn_u_nbc_opf_red							{ quality = 4; price = 32000; };
 class skn_u_nbc_opf_white						{ quality = 4; price = 32000; };
 class skn_u_nbc_opf_yellow						{ quality = 4; price = 32000; };
+
+// Sex Vests
+
+class skn_o_elbv_worn_no_bp						{ quality = 3; price = 20000; }; // ONLY FOR SALE //
+class skn_o_elbv_worn							{ quality = 3; price = 20000; }; // ONLY FOR SALE //
