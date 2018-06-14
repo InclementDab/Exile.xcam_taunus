@@ -61,5 +61,10 @@ class CfgExileCustomCode
 	ExileClient_util_world_findCoastPosition = "Client\World\CustomCode\ExileClient_util_world_findCoastPosition.sqf";
 	ExileServer_world_spawnVehicles = "Client\World\CustomCode\ExileServer_world_spawnVehicles.sqf";
 	
+	// CDAH
+	ExileClient_gui_crafting_show = "Client\CDAH\CustomCode\ExileClient_gui_crafting_show.sqf";
+	ExileClient_object_item_craft = "Client\CDAH\CustomCode\ExileClient_object_item_craft.sqf";
+	ExileServer_object_vehicle_carefulCreateVehicle = "Client\CDAH\CustomCode\ExileServer_object_vehicle_carefulCreateVehicle.sqf";
+	ExileClient_action_execute = "Client\CDAH\CustomCode\ExileClient_action_execute.sqf";
 	
 };

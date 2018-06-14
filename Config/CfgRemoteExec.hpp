@@ -6,7 +6,8 @@ class CfgRemoteExec
 		jip = 0;
 		class fnc_AdminReq { allowedTargets=2; };
 		class fn_xm8apps_server { allowedTargets=2; };
-		class ExileServer_system_network_dispatchIncomingMessage { allowedTargets=2; };
+		class CDAH_fnc_CDAH_Workshop_Gui { allowedTargets=0; };
+		class ExileClient_system_network_dispatchIncomingMessage { allowedTargets=1; };
 		class achilles_fnc_changeside_local;
 		class achilles_fnc_spawn_remote;
 		class achilles_fnc_breachstun;

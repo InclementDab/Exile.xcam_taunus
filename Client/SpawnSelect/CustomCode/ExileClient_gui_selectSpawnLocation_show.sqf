@@ -86,7 +86,7 @@ ExileClientSpawnLocation = "";
 					_marker setMarkerAlphaLocal 0;
 				};
 			};
-
+			/*
 			if ((getMarkerType _marker) == "ExileSpawnZone") then
 			{
 				if (markerAlpha _marker != 0) then
@@ -101,6 +101,7 @@ ExileClientSpawnLocation = "";
 					ExileClientSpawnLocations pushBack [getMarkerPos _marker, markerText _marker];
 				};
 			};
+			*/
 		} forEach allMapMarkers;
 
 		private _playerUID = getPlayerUID player;

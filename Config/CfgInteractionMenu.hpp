@@ -77,7 +77,13 @@ class CfgInteractionMenus
 				title = "Repair/Salvage";
 				condition = "true";
 				action = "_this call Bones_fnc_salvageAndRepairMenu";
-			};			
+			};
+			class Rearm: ExileAbstractAction
+			{
+				title = "Rearm";
+				condition = "!(magazinesAllTurrets _this isEqualto [])"; //condition = "!(_this magazinesAllTurrets isEqualto [])";
+				action = "['RearmVehicle', _this select 0] call ExileClient_action_execute";
+			};
 		};
 	};
 
@@ -163,9 +169,15 @@ class CfgInteractionMenus
 				condition = "true";
 				action = "_this call Bones_fnc_salvageAndRepairMenu";
 			};
+			class Rearm: ExileAbstractAction
+			{
+				title = "Rearm";
+				condition = "!(magazinesAllTurrets _this isEqualto [])"; //condition = "!(_this magazinesAllTurrets isEqualto [])";
+				action = "['RearmVehicle', _this select 0] call ExileClient_action_execute";
+			};
 		};
 	};
-
+	
 	class Safe
 	{
 		targetType = 2;

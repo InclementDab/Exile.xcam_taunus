@@ -45,5 +45,5 @@ if ("itemRadio" in (assignedItems player)) then
 };
 
 
-#include "traders\initPlayerLocal.sqf"
+#include "traders\initTraders.sqf"
 

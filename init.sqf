@@ -4,6 +4,7 @@
 [] execVM "client\weather\nightFog.sqf";
 [] execVM "client\enigma\enigmainit.sqf";
 [] execVM "client\world\timeAccel.sqf";
+[] execVM "client\CDAH\logic\config.sqf";
 
 waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 waitUntil {ExileClientPlayerIsSpawned};

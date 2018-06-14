@@ -17,123 +17,89 @@ ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
 
 
-if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") then
+
+private _radiationMaskFactor = 1;
+private _radiationSuitFactor = 1;
 {
-	_markerPos = getMarkerPos "ExilePlayArea";
-	_markerDist1 = ((getMarkerSize "ExilePlayArea") select 0) * 1.25;
-	_markerDist2 = ((getMarkerSize "ExilePlayArea") select 0);
-	_distance = _markerPos distance2D (getPosASL player);
-	if (_distance > _markerDist2) exitWith
+if (_x in (headgear player)) then {
+	_radiationMaskFactor = 0.50 }
+} forEach [
+	"skn_m04_gas_mask_bare_dry",
+	"skn_m04_gas_mask_bare_blk",
+	"skn_m04_gas_mask_blu",
+	"skn_m04_gas_mask_gre"
+];
+
+{
+if (_x in (headgear player)) then {
+	_radiationMaskFactor = 0.25 }
+} forEach [
+	"skn_m50_gas_mask_hood",
+	"skn_m50_gas_mask_hood_wd"
+];
+
+{
+if (_x in (headgear player)) then {
+	_radiationMaskFactor = 0.1 }
+} forEach [
+	"skn_m10_balaclava_blue_dry",
+	"skn_m10_balaclava_red_dry",
+	"skn_m10_balaclava_white_dry",
+	"skn_m10_balaclava_yellow_dry"
+];
+
+
+{
+if (_x in (uniform player)) then {
+	_radiationSuitFactor = 0.50 }
+} forEach [
+	"skn_u_nbc_indep_blk"
+];
+
+{
+if (_x in (uniform player)) then {
+	_radiationSuitFactor = 0.25 }
+} forEach [
+	"skn_u_nbc_bluf_mtp",
+	"skn_u_nbc_bluf_wd"
+];
+
+{
+if (_x in (uniform player)) then {
+	_radiationSuitFactor = 0.1 }
+} forEach [
+	"skn_u_nbc_opf_red",
+	"skn_u_nbc_opf_white",
+	"skn_u_nbc_opf_yellow"
+];
+			
+ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) - (.000205 * _distance^1.99));
+			
+{
+	_distance = (_x select 0) distance (getPosATL player);
+	if (_distance < (_x select 2)) exitWith
 	{
-		ExilePlayerRadiation = 1 - ((_distance - _markerDist1) / (_markerDist2 - _markerDist1));
-		if (ExilePlayerRadiation > 0.7) then
+		if (ExilePlayerRadiation < 0) then {ExilePlayerRadiation = 0};
+		if (ExilePlayerRadiation > 700) then
 		{
 			playSound [format ["Exile_Sound_GeigerCounter_High0%1", 1 + (floor random 3)], true];
-			_damage = 1/(2*60) * 2;
 		}
 		else
 		{
-			if (ExilePlayerRadiation > 0.3) then
+			if (ExilePlayerRadiation > 350) then
 			{
 				playSound [format ["Exile_Sound_GeigerCounter_Medium0%1", 1 + (floor random 3)], true];
-				_damage = 1/(2*60) * 2;
 			}
 			else
 			{
 				playSound [format ["Exile_Sound_GeigerCounter_Low0%1", 1 + (floor random 3)], true];
-				_damage = 1/(2*60) * 2;
 			};
 		};
-		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - _damage;
+		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00044);
 		player setVariable [QGVAR(bloodVolume), _damage];
-	};
-}
-else
-{
-	{
-		_distance = (_x select 0) distance (getPosATL player);
-		if (_distance < (_x select 2)) exitWith
-		{
-			private _radiationMaskFactor = 1;
-			private _radiationSuitFactor = 1;
-			{
-			if (_x in (headgear player)) then {
-				_radiationMaskFactor = 0.50 };
-			} forEach [
-				"skn_m04_gas_mask_bare_dry",
-				"skn_m04_gas_mask_bare_blk",
-				"skn_m04_gas_mask_blu",
-				"skn_m04_gas_mask_gre"
-			];
-
-			{
-			if (_x in (headgear player)) then {
-				_radiationMaskFactor = 0.25 };
-			} forEach [
-				"skn_m50_gas_mask_hood",
-				"skn_m50_gas_mask_hood_wd"
-			];
-
-			{
-			if (_x in (headgear player)) then {
-				_radiationMaskFactor = 0.1 };
-			} forEach [
-				"skn_m10_balaclava_blue_dry",
-				"skn_m10_balaclava_red_dry",
-				"skn_m10_balaclava_white_dry",
-				"skn_m10_balaclava_yellow_dry"
-			];
-
-
-			{
-			if (_x in (uniform player)) then {
-				_radiationSuitFactor = 0.50 };
-			} forEach [
-				"skn_u_nbc_indep_blk"
-			];
-
-			{
-			if (_x in (uniform player)) then {
-				_radiationSuitFactor = 0.25 };
-			} forEach [
-				"skn_u_nbc_bluf_mtp",
-				"skn_u_nbc_bluf_wd"
-			];
-
-			{
-			if (_x in (uniform player)) then {
-				_radiationSuitFactor = 0.1 };
-			} forEach [
-				"skn_u_nbc_opf_red",
-				"skn_u_nbc_opf_white",
-				"skn_u_nbc_opf_yellow"
-			];
-			
-			ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) - (.000205 * _distance^1.99));
-			
-			// if (ExilePlayerRadiation < 0) then {ExilePlayerRadiation = 0};
-
-			if (ExilePlayerRadiation > 700) then
-			{
-				playSound [format ["Exile_Sound_GeigerCounter_High0%1", 1 + (floor random 3)], true];
-			}
-			else
-			{
-				if (ExilePlayerRadiation > 350) then
-				{
-					playSound [format ["Exile_Sound_GeigerCounter_Medium0%1", 1 + (floor random 3)], true];
-				}
-				else
-				{
-					playSound [format ["Exile_Sound_GeigerCounter_Low0%1", 1 + (floor random 3)], true];
-				};
-			};
-			_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00044);
-			player setVariable [QGVAR(bloodVolume), _damage];
-			hint format ["Radiation %1", ExilePlayerRadiation];
-		};
-	} forEach ExileContaminatedZones;
-};
+		hint format ["Radiation %1", ExilePlayerRadiation];
+	}; 
+} forEach ExileContaminatedZones;
 
 
 
