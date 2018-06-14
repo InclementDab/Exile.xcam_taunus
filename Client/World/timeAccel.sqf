@@ -1,6 +1,11 @@
-while ((dayTime > 6) && (dayTime < 18)) do
+
+while {true} do
 {
-	setTimeMultiplier 6;
-} else {
-	setTimeMultiplier 12;
+	if ((dayTime > 6) && (dayTime < 18)) then
+	{
+		setTimeMultiplier 6;
+	} else {
+		setTimeMultiplier 12;
+	};
+	sleep 1800;
 };

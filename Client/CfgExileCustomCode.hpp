@@ -67,4 +67,8 @@ class CfgExileCustomCode
 	ExileServer_object_vehicle_carefulCreateVehicle = "Client\CDAH\CustomCode\ExileServer_object_vehicle_carefulCreateVehicle.sqf";
 	ExileClient_action_execute = "Client\CDAH\CustomCode\ExileClient_action_execute.sqf";
 	
+	// Weather
+	ExileServer_system_weather_thread_weatherSimulation = "Client\Weather\CustomCode\ExileServer_system_weather_thread_weatherSimulation.sqf";
+	ExileServer_system_weather_initialize = "Client\Weather\CustomCode\ExileServer_system_weather_initialize.sqf";
+	
 };
