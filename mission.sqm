@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=336;
+		nextID=351;
 	};
 	class Camera
 	{
 		pos[]={136.99118,471.93506,20441.494};
-		dir[]={-0.5828259,-0.56286484,0.58609122};
-		up[]={-0.39689437,0.82654899,0.39911765};
-		aside[]={0.70908123,4.8009679e-007,0.70513117};
+		dir[]={-0.45730221,-0.69359171,-0.55660862};
+		up[]={-0.44030187,0.72036743,-0.53591692};
+		aside[]={-0.77266884,4.5401976e-007,0.63481432};
 	};
 };
 binarizationWanted=0;
@@ -28422,10 +28422,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={3815.6531,259.56,3013.6289};
-			name="ContaminationZone";
+			name="ExileContaminationZone";
 			markerType="ELLIPSE";
 			type="ExileContaminatedZone";
-			alpha=0;
+			alpha=0.52117932;
 			a=5000;
 			b=5000;
 			id=1398;
@@ -30372,7 +30372,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42381;
+			angle=225.4238;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -103647,7 +103647,6 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
-			atlOffset=0.16000366;
 		};
 		class Item1304
 		{
@@ -103680,7 +103679,6 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
-			atlOffset=0.16000366;
 		};
 		class Item1306
 		{
@@ -103729,7 +103727,6 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1309
 		{
@@ -103746,7 +103743,6 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1310
 		{
@@ -106278,11 +106274,10 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.64026,463.19519,20440.467};
+				position[]={130.64,463.19559,20440.467};
 			};
 			id=10429;
 			type="ALiVE_sys_data";
-			atlOffset=-0.00042724609;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -106452,7 +106447,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="true";
+							value="false";
 						};
 					};
 				};
