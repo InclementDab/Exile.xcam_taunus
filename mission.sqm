@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10433;
+		nextID=10437;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=321;
+		nextID=336;
 	};
 	class Camera
 	{
-		pos[]={131.61131,471.5405,20434.695};
-		dir[]={0.026357686,-0.8403275,0.54144084};
-		up[]={0.040859189,0.54207939,0.83933389};
-		aside[]={0.99881709,-3.9115548e-008,-0.048622716};
+		pos[]={136.99118,471.93506,20441.494};
+		dir[]={-0.5828259,-0.56286484,0.58609122};
+		up[]={-0.39689437,0.82654899,0.39911765};
+		aside[]={0.70908123,4.8009679e-007,0.70513117};
 	};
 };
 binarizationWanted=0;
@@ -173,7 +173,8 @@ addons[]=
 	"alive_main",
 	"alive_sys_weather",
 	"alive_sys_data",
-	"alive_sys_playeroptions"
+	"alive_sys_playeroptions",
+	"A3_Modules_F_Intel"
 };
 class AddonsMetaData
 {
@@ -713,6 +714,9 @@ randomSeed=9785690;
 class ScenarioData
 {
 	author="InclementDazzle™";
+	overViewPicture="assets\logo.paa";
+	overViewPictureLocked="assets\logo.paa";
+	loadScreen="assets\loadingscreen.paa";
 	disabledAI=1;
 };
 class CustomAttributes
@@ -763,6 +767,44 @@ class CustomAttributes
 		name="Scenario";
 		class Attribute0
 		{
+			property="EnableTargetDebug";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute2
+		{
 			property="cba_settings_hasSettingsFile";
 			expression="false";
 			class Value
@@ -780,7 +822,7 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=1;
+		nAttributes=3;
 	};
 };
 class Intro
@@ -832,7 +874,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1389;
+		items=1390;
 		class Item0
 		{
 			dataType="Marker";
@@ -30330,7 +30372,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42387;
+			angle=225.42381;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -106115,7 +106157,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=1;
 						};
 					};
 				};
@@ -106172,7 +106214,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=5;
+							value=0;
 						};
 					};
 				};
@@ -107132,6 +107174,115 @@ class Mission
 					};
 				};
 				nAttributes=36;
+			};
+		};
+		class Item1389
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={154.093,463.05142,20436.783};
+			};
+			id=10436;
+			type="ModuleCreateDiaryRecord_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCreateDiaryRecord_F_PresetTitle";
+					expression="_this setVariable ['PresetTitle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Situation";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCreateDiaryRecord_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="ACE Help";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCreateDiaryRecord_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Give user ACE help here.";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCreateDiaryRecord_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCreateDiaryRecord_F_Subject";
+					expression="_this setVariable ['Subject',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Help";
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 	};
