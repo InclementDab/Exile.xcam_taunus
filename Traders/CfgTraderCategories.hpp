@@ -26,7 +26,7 @@ class CfgTraderCategories
 			"Exile_Weapon_Taurus",
 			"BWA3_P8",
 			"rhsusf_weap_glock17g4",
-			"rhs_weap_savz61_folded",
+			"rhs_weap_savz61_folded"
 			
 		};
 	};
