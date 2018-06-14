@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10417;
+		nextID=10429;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=291;
+		nextID=306;
 	};
 	class Camera
 	{
-		pos[]={127.69067,472.49683,20435.693};
-		dir[]={0.097173035,-0.87154776,0.48058847};
-		up[]={0.17272845,0.49030808,0.85426086};
-		aside[]={0.98016679,2.1333108e-007,-0.19818623};
+		pos[]={136.73981,469.14926,20439.086};
+		dir[]={0.6484713,-0.24905407,-0.71935952};
+		up[]={0.16677111,0.96848172,-0.18500237};
+		aside[]={-0.74276274,-2.218876e-007,-0.66956776};
 	};
 };
 binarizationWanted=0;
@@ -169,13 +169,15 @@ addons[]=
 	"CUP_StandaloneTerrains_Core_Faction",
 	"A3_Structures_F_Mil_BagFence",
 	"ace_concertina_wire",
-	"taunus_misc"
+	"taunus_misc",
+	"alive_main",
+	"alive_sys_weather"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=82;
+		items=84;
 		class Item0
 		{
 			className="exile_client";
@@ -679,6 +681,18 @@ class AddonsMetaData
 			className="taunus_misc";
 			name="taunus_misc";
 		};
+		class Item82
+		{
+			className="ALiVE_main";
+			name="alive_main";
+			author="ALiVE Mod Team";
+		};
+		class Item83
+		{
+			className="ALiVE_sys_weather";
+			name="alive_sys_weather";
+			author="ALiVE Mod Team";
+		};
 	};
 };
 randomSeed=9785690;
@@ -794,17 +808,17 @@ class Mission
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
-		year=2039;
-		month=6;
+		year=2009;
+		month=8;
 		day=24;
-		hour=13;
-		minute=-13;
+		hour=6;
+		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
 	class Entities
 	{
-		items=1384;
+		items=1387;
 		class Item0
 		{
 			dataType="Marker";
@@ -2792,7 +2806,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="zeus";
 						};
 					};
 				};
@@ -20145,8 +20159,8 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={11547.684,213.36858,6461.9604};
-						angles[]={6.2711854,0,6.2292366};
+						position[]={11547.684,213.36856,6461.96};
+						angles[]={6.2711778,0,6.2292371};
 					};
 					id=1368;
 					type="SM_Zombz_Zone";
@@ -20350,14 +20364,14 @@ class Mission
 							{
 								class data
 								{
-									nil=1;
 									class type
 									{
 										type[]=
 										{
-											"ANY"
+											"STRING"
 										};
 									};
+									value="";
 								};
 							};
 						};
@@ -30303,7 +30317,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.4239;
+			angle=225.42389;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -105778,6 +105792,430 @@ class Mission
 			id=10411;
 			type="Land_PortableLight_double_F";
 			atlOffset=-0.027374268;
+		};
+		class Item1384
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={129.17171,462.99844,20439.504};
+				angles[]={6.0495319,0,6.2272439};
+			};
+			id=10417;
+			type="ALiVE_require";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ALiVE_require_ALiVE_GC_THRESHHOLD";
+					expression="_this setVariable ['ALiVE_GC_THRESHHOLD',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="100";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ALiVE_require_ALiVE_GC_INTERVAL";
+					expression="_this setVariable ['ALiVE_GC_INTERVAL',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="300";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ALiVE_require_ALiVE_DISABLEADMINACTIONS";
+					expression="_this setVariable ['ALiVE_DISABLEADMINACTIONS',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ALiVE_require_ALiVE_Versioning";
+					expression="_this setVariable ['ALiVE_Versioning',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="warning";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ALiVE_require_debug";
+					expression="_this setVariable ['debug',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ALiVE_require_ALiVE_PAUSEMODULES";
+					expression="_this setVariable ['ALiVE_PAUSEMODULES',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ALiVE_require_ALiVE_GC_INDIVIDUALTYPES";
+					expression="_this setVariable ['ALiVE_GC_INDIVIDUALTYPES',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ALiVE_require_ALiVE_TABLET_MODEL";
+					expression="_this setVariable ['ALiVE_TABLET_MODEL',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Tablet01";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ALiVE_require_ALiVE_DISABLEMARKERS";
+					expression="_this setVariable ['ALiVE_DISABLEMARKERS',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ALiVE_require_ALiVE_DISABLESAVE";
+					expression="_this setVariable ['ALiVE_DISABLESAVE',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="ALiVE_require_ALiVE_AI_DISTRIBUTION";
+					expression="_this setVariable ['ALiVE_AI_DISTRIBUTION',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				nAttributes=11;
+			};
+		};
+		class Item1385
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={131.22736,462.85443,20438.992};
+				angles[]={6.0514274,0,0.018000545};
+			};
+			id=10418;
+			type="ALiVE_sys_weather";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ALiVE_sys_weather_weather_cycle_variance_setting";
+					expression="_this setVariable ['weather_cycle_variance_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0.2;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ALiVE_sys_weather_weather_debug_cycle_setting";
+					expression="_this setVariable ['weather_debug_cycle_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=60;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ALiVE_sys_weather_weather_real_location_setting";
+					expression="_this setVariable ['weather_real_location_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Germany/Taunus";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ALiVE_sys_weather_weather_initial_setting";
+					expression="_this setVariable ['weather_initial_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=5;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ALiVE_sys_weather_weather_debug_setting";
+					expression="_this setVariable ['weather_debug_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="false";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ALiVE_sys_weather_weather_cycle_delay_setting";
+					expression="_this setVariable ['weather_cycle_delay_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1800;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ALiVE_sys_weather_weather_override_setting";
+					expression="_this setVariable ['weather_override_setting',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=5;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item1386
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={126.759,463.48911,20441.061};
+			};
+			id=10425;
+			type="ModuleCuratorAddEditableObjects";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorAddEditableObjects_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="zeus";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorAddEditableObjects_AddCrew";
+					expression="_this setVariable ['AddCrew',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 	};
 };

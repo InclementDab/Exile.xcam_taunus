@@ -56,11 +56,6 @@ class CfgExileCustomCode
 	ExileClient_gui_constructionMode_update = "Client\VectorBuilding\Vector\SM_gui_constructionMode_update.sqf";
 	ExileClient_gui_hud_event_onKeyUp = "Client\VectorBuilding\Vector\SM_gui_hud_event_onKeyUp.sqf";
 	ExileClient_construction_thread = "Client\VectorBuilding\Vector\SM_construction_thread.sqf";	
-
-	// Weather
-	ExileClient_object_player_stats_updateTemperature = "Client\Weather\CustomCode\ExileClient_object_player_stats_updateTemperature.sqf";
-	ExileServer_system_weather_initialize = "Client\Weather\CustomCode\ExileServer_system_weather_initialize.sqf";
-	ExileClient_system_snow_thread_update = "Client\Weather\CustomCode\ExileClient_system_snow_thread_update.sqf";
 	
 	// World
 	ExileClient_util_world_findCoastPosition = "Client\World\CustomCode\ExileClient_util_world_findCoastPosition.sqf";
