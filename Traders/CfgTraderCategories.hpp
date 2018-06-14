@@ -25,7 +25,9 @@ class CfgTraderCategories
 			"rhsusf_weap_m1911a1",
 			"Exile_Weapon_Taurus",
 			"BWA3_P8",
-			"rhsusf_weap_glock17g4"
+			"rhsusf_weap_glock17g4",
+			"rhs_weap_savz61_folded",
+			
 		};
 	};
 
@@ -37,7 +39,35 @@ class CfgTraderCategories
 		{
 			"Exile_Weapon_LeeEnfield",
 			"hlc_rifle_M1903A1",
-			"rhs_weap_kar98k"
+			"rhs_weap_kar98k",
+			"rhs_weap_akm",
+			"Exile_Weapon_M16A4",
+			"Exile_Weapon_M16A2",
+			"Exile_Weapon_M4",
+			"arifle_AKM_F",
+			"arifle_AKM_FL_F",
+			"Exile_Weapon_AK47",
+			"Exile_Weapon_AKS_Gold",
+			"arifle_AKS_F",
+			"hlc_rifle_ak47",
+			"hlc_rifle_akm",
+			"hlc_rifle_akm_MTK",
+			"hlc_rifle_aks74",
+			"hlc_rifle_aks74_GL",
+			"hlc_rifle_aks74_MTK",
+			"hlc_rifle_aks74u",
+			"hlc_rifle_aks74u_MTK",
+			"rhs_weap_m16a4",
+			"rhs_weap_m16a4_carryhandle",
+			"rhs_weap_m16a4_carryhandle_grip",
+			"rhs_weap_m16a4_carryhandle_grip_pmag",
+			"rhs_weap_m16a4_carryhandle_M203",
+			"rhs_weap_m16a4_carryhandle_pmag",
+			"rhs_weap_m16a4_grip",
+			"rhs_weap_akm",
+			"rhs_weap_akm_gp25",
+			 "rhs_weap_akms_gp25",
+			 "hlc_rifle_M14"
 		};
 	};
 	
@@ -74,14 +104,9 @@ class CfgTraderCategories
 			"Exile_Weapon_AK107_GL",
 			"Exile_Weapon_AK74",
 			"Exile_Weapon_AK74_GL",
-			"Exile_Weapon_AK47",
-			"Exile_Weapon_AKS_Gold",
 			//Apex
 			"arifle_AK12_F",
 			"arifle_AK12_GL_F",
-			"arifle_AKM_F",
-			"arifle_AKM_FL_F",
-			"arifle_AKS_F",
 			"arifle_ARX_blk_F",
 			"arifle_ARX_ghex_F",
 			"arifle_ARX_hex_F",
@@ -108,9 +133,6 @@ class CfgTraderCategories
 			"arifle_MX_GL_khk_F",
 			"arifle_MXC_khk_F",
 			"arifle_MXM_khk_F",
-			"Exile_Weapon_M4",
-			"Exile_Weapon_M16A4",
-			"Exile_Weapon_M16A2",
 			"HLC_Rifle_g3ka4_GL",
 			"hlc_barrel_carbine",
 			"hlc_barrel_hbar",
@@ -142,7 +164,6 @@ class CfgTraderCategories
 			"hlc_rifle_G36V",
 			"hlc_rifle_G36VAG36",
 			"hlc_rifle_LAR",
-			"hlc_rifle_M14",
 			"hlc_rifle_M14DMR",
 			"hlc_rifle_M21",
 			"hlc_rifle_MG36",
@@ -158,7 +179,6 @@ class CfgTraderCategories
 			"hlc_rifle_aek971_mtk",
 			"hlc_rifle_ak12",
 			"hlc_rifle_ak12gl",
-			"hlc_rifle_ak47",
 			"hlc_rifle_ak74",
 			"hlc_rifle_ak74_MTK",
 			"hlc_rifle_ak74_dirty",
@@ -166,14 +186,7 @@ class CfgTraderCategories
 			"hlc_rifle_ak74m",
 			"hlc_rifle_ak74m_MTK",
 			"hlc_rifle_ak74m_gl",
-			"hlc_rifle_akm",
-			"hlc_rifle_akm_MTK",
 			"hlc_rifle_akmgl",
-			"hlc_rifle_aks74",
-			"hlc_rifle_aks74_GL",
-			"hlc_rifle_aks74_MTK",
-			"hlc_rifle_aks74u",
-			"hlc_rifle_aks74u_MTK",
 			"hlc_rifle_aku12",
 			"hlc_rifle_amt",
 			"hlc_rifle_aug",
@@ -234,13 +247,6 @@ class CfgTraderCategories
 			"hlc_rifle_stgw57_RIS",
 			"hlc_rifle_stgw57_commando",
 			"hlc_rifle_vendimus",
-			"rhs_weap_m16a4",
-			"rhs_weap_m16a4_carryhandle",
-			"rhs_weap_m16a4_carryhandle_grip",
-			"rhs_weap_m16a4_carryhandle_grip_pmag",
-			"rhs_weap_m16a4_carryhandle_M203",
-			"rhs_weap_m16a4_carryhandle_pmag",
-			"rhs_weap_m16a4_grip",
 			"rhs_weap_m4",
 			"rhs_weap_m4_grip2",
 			"rhs_weap_m4_carryhandle",
@@ -285,12 +291,7 @@ class CfgTraderCategories
 			"rhs_weap_ak74m_gp25_npz",
 			"rhs_weap_ak74m_npz",
 			"rhs_weap_ak74m_plummag",
-			"rhs_weap_ak74m_plummag_npz",
-			"rhs_weap_akm",
-			"rhs_weap_akm_gp25",
-			"rhs_weap_akms",
-			"rhs_weap_akms_gp25"
-
+			"rhs_weap_ak74m_plummag_npz"
 		};
 	};
 
@@ -471,7 +472,6 @@ class CfgTraderCategories
 			"hgun_Pistol_heavy_01_F",
 			"hgun_Pistol_heavy_02_F",
 			"rhs_weap_pya",
-			"rhs_weap_savz61_folded",
 			"hlc_smg_mp5k",
 			"rhsusf_weap_m9",
 			"bwa3_mp7",
