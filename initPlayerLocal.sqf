@@ -1,4 +1,6 @@
 
+
+99.5 cutText ["", "BLACK IN", 2];
 //Bones Super Advanced Repair System (SARS)
 Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
@@ -35,6 +37,13 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 	};
 }] call CBA_fnc_localEvent;
 
+if ("itemRadio" in (assignedItems player)) then
+{
+	player setVariable ["RadioToggle", true, false];
+} else {
+	player setVariable ["RadioToggle", false, false];
+};
 
-[] execVM "traders\initPlayerLocal.sqf"; // 3Den Exile Output
+
+#include "traders\initPlayerLocal.sqf"
 

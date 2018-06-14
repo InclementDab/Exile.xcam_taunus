@@ -632,6 +632,6 @@ class SM_Zombz
 
 	class CfgCodeOverride
 	{
-		SM_ZombieAttackTarget = "Client\Zombz\code\client\SM_ZombieAttackTarget.sqf";
+		SM_ZombieAttackTarget = "Client\Zombz\Overrides\client\SM_ZombieAttackTarget.sqf";
 	};
 };

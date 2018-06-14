@@ -42,13 +42,14 @@ if (_month == 11 || _month == 12 || _month == 1) then //The previous conditions 
 	_season = "Winter";
 };
 
-_mapOverride = true; //Set true if you want the season to stay the same for specific maps, you can add more below. 
+_mapOverride = false; //Set true if you want the season to stay the same for specific maps, you can add more below. 
 
 if (_mapOverride) then
 {
 	switch (worldName) do {
 		case "tanoa": { _season = "Summer"; };
 		case "namalsk": { _season = "Fall"; };
+		case "xcam_taunus": { _season = "Winter"; };
 	};
 };
 

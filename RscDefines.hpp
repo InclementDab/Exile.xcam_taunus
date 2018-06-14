@@ -922,7 +922,7 @@ class RscExileSelectSpawnLocationDialog
 			idc = 18;
 			text = "Spawn";
 			x = "safeZoneX + (60 + 766) * pixelW";
-			y = "safeZoneY + safeZoneH - (60 + 15 + 60) * pixelH";
+			y = "safeZoneY + safeZoneH - (60 + 15 + 121) * pixelH";
 			w = "265 * pixelW";
 			h = "60 * pixelH";
 			onButtonClick = "[0] call ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick";
@@ -954,7 +954,7 @@ class RscExileSelectSpawnLocationDialog
 			idc = 21;
 			text = "Random";
 			x = "safeZoneX + (60 + 766) * pixelW";
-			y = "safeZoneY + safeZoneH - (60 + 15 + 121) * pixelH";
+			y = "safeZoneY + safeZoneH - (60 + 15 + 60) * pixelH";
 			w = "265 * pixelW";
 			h = "60 * pixelH";
 			onButtonClick = "[3] call ExileClient_gui_selectSpawnLocation_event_onSpawnButtonClick";

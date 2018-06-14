@@ -10,7 +10,7 @@
  */
  
 private["_enableSnow","_surfaceTypes","_posASL"];
-_enableSnow = false;
+_enableSnow = true;
 _posASL = (getPosASL player select 2);
 /*
 if (rain < 0.01) then 

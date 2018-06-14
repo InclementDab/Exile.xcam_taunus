@@ -24,7 +24,6 @@ class CfgExileCustomCode
 	ExileClient_object_player_death_startBleedingOut = "Client\Enigma\CustomCode\ExileClient_object_player_death_startBleedingOut.sqf";
 	
 	// Gui Changes
-	ExileClient_gui_escape_abort = "Client\Gui\CustomCode\ExileClient_gui_escape_abort.sqf";
 	ExileClient_gui_hud_toggleStatsBar = "Client\Gui\CustomCode\ExileClient_gui_hud_toggleStatsBar.sqf";
 	ExileClient_gui_hud_renderStatsPanel = "Client\Gui\CustomCode\ExileClient_gui_hud_renderStatsPanel.sqf";
 	ExileClient_gui_hud_renderWaypoints = "Client\Gui\CustomCode\ExileClient_gui_hud_renderWaypoints.sqf";
@@ -32,6 +31,9 @@ class CfgExileCustomCode
 	
 	// Radiation Zone
 	ExileClient_system_radiation_thread_update = "Client\RadiationZone\CustomCode\ExileClient_system_radiation_thread_update.sqf";
+	
+	// Radio
+	ExileServer_system_network_send_broadcast = "Client\Radio\CustomCode\ExileServer_system_network_send_broadcast.sqf";
 	
 	// Player Stats
 	ExileServer_object_player_database_load = "Client\PlayerStats\CustomCode\ExileServer_object_player_database_load.sqf";
@@ -59,6 +61,10 @@ class CfgExileCustomCode
 	ExileClient_object_player_stats_updateTemperature = "Client\Weather\CustomCode\ExileClient_object_player_stats_updateTemperature.sqf";
 	ExileServer_system_weather_initialize = "Client\Weather\CustomCode\ExileServer_system_weather_initialize.sqf";
 	ExileClient_system_snow_thread_update = "Client\Weather\CustomCode\ExileClient_system_snow_thread_update.sqf";
+	
+	// World
+	ExileClient_util_world_findCoastPosition = "Client\World\CustomCode\ExileClient_util_world_findCoastPosition.sqf";
+	ExileServer_world_spawnVehicles = "Client\World\CustomCode\ExileServer_world_spawnVehicles.sqf";
 	
 	
 };

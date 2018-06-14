@@ -19,7 +19,7 @@ private ["_obj","_pos","_inVehicle"];
         private _fog = "#particlesource" createVehicleLocal _pos;
         _fog setParticleParams [
         ["\A3\Data_F\ParticleEffects\Universal\universal.p3d" , 16, 12, 13, 0], "", "Billboard", 1, 10,
-            [0, 0, -6], [0, 0, 0], 1, 1.275, 1, 0,
+            [0, 0, -6], [0, 0, 0.1], 1, 1.275, 1, 0,
             [7,6], [[1, 1, 1, 0], [1, 1, 1, 0.04], [1, 1, 1, 0]], [1000], 1, 0, "", "", _obj
         ];
         _fog setParticleRandom [3, [55, 55, 0.2], [0, 0, -0.1], 2, 0.45, [0, 0, 0, 0.1], 0, 0];
@@ -41,11 +41,11 @@ private ["_obj","_pos","_inVehicle"];
         if (player getVariable ["playerfog", -1] < time) then {
             if(daytime < 7 || daytime > 19) then {
 				player setVariable ["playerfog", floor time + 5];
-                2 call doofog;
+                1 call doofog;
             } else {
 				if ((player distance2d (getMarkerPos "ContaminationZone")) < 5000) then {
 				player setVariable ["playerfog", floor time + 5];
-				5 call doofog;
+				3 call doofog;
 				};
 			};
         };
