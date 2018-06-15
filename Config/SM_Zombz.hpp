@@ -79,9 +79,7 @@ class SM_Zombz
 	SM_NotificationEnabled = false; //Enable notification of killing zombies?
 	SM_ZombieGutsLength = 300; //How long zombie guts last.
 	SM_TownSearchTypes[] = //You're also able to put town names
-	{
-		"Item0"
-	};
+	{};
 	
 	/*
 		"Oberursel West",

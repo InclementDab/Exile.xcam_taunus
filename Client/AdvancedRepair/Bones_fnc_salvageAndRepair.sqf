@@ -33,12 +33,15 @@ if (!local _vehicle) exitwith
 	ExileClientActionDelayShown = false;
 	ExileClientActionDelayAbort = false;
 };
-if (ExileClientPlayerIsInCombat) exitWith
+
+/*
+if (ExileClientPlayerIsInCombat) exitWith //you can use a wrench in combat ;)
 {
 	["ErrorTitleOnly", ["You are in combat!"]] call ExileClient_gui_toaster_addTemplateToast;
 	ExileClientActionDelayShown = false;
 	ExileClientActionDelayAbort = false;
 };
+*/
 if (vehicle player isEqualTo _vehicle) exitWith 
 {
 	["ErrorTitleOnly", ["Are you serious?"]] call ExileClient_gui_toaster_addTemplateToast;
@@ -61,7 +64,7 @@ if (_action == 'replaceCarWheel') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 0;
 	_duration = 10;
@@ -87,7 +90,7 @@ if (_action == 'salvageCarWheel') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 1;
 	_duration = 10;
@@ -113,7 +116,7 @@ if (_action == 'Replace Main Rotor') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 0;
 	_duration = 20;
@@ -127,7 +130,7 @@ if (_action == 'Salvage Main Rotor') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 1;
 	_duration = 20;
@@ -141,7 +144,7 @@ if (_action == 'Replace Tail Rotor') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 0;
 	_duration = 10;
@@ -155,7 +158,7 @@ if (_action == 'Salvage Tail Rotor') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 1;
 	_duration = 10;
@@ -181,7 +184,7 @@ if (_action == 'replaceGlass') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Screwdriver","ScrewDriver"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 0;
 	_duration = 10;
@@ -195,9 +198,7 @@ if (_action == 'replaceEngine') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Screwdriver","ScrewDriver"],
-	["Exile_Item_Pliers", "Pliers"],
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_additionalParts = ["hitEngine1","hitEngine2","hitEngine3","hitEngine4"];
 	{
@@ -214,7 +215,9 @@ if (_action == 'repairEngine') then
 	["Exile_Item_DuctTape","Duct Tape"]
 	];
 	_itemsNeeded = 
-	[];
+	[
+	["Exile_Item_Foolbox", "Tool Box"]
+	];
 	_additionalParts = ["hitEngine1","hitEngine2","hitEngine3","hitEngine4"];
 	{
 	_partsToActOn pushback _x;
@@ -231,9 +234,7 @@ if (_action == 'salvageEngine') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Screwdriver","ScrewDriver"],
-	["Exile_Item_Pliers", "Pliers"],
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_additionalParts = ["hitEngine1","hitEngine2","hitEngine3","hitEngine4"];
 	{
@@ -251,7 +252,7 @@ if (_action == 'replaceFuel') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 0;
 	_duration = 10;
@@ -277,7 +278,7 @@ if (_action == 'salvageFuel') then
 	];
 	_itemsNeeded = 
 	[
-	["Exile_Item_Wrench","Wrench"]
+	["Exile_Item_Foolbox", "Tool Box"]
 	];
 	_itemAction = 1;
 	_duration = 10;

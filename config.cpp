@@ -17,6 +17,7 @@
 
 #include "RscDefines.hpp"
 
+#include "Config\CfgCDAH.hpp"
 #include "Config\CfgRemoteExec.hpp"
 #include "Config\CfgClans.hpp"
 #include "Config\CfgCraftingRecipies.hpp"

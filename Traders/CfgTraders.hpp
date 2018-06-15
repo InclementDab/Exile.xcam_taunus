@@ -3,7 +3,7 @@ class CfgTraders
 	class Trader_Civilian_Weapons
 	{
 		name = "CIVILIAN WEAPONS";
-		showWeaponFilter = 0;
+		showWeaponFilter = 1;
 		categories[] =
 		{
 			"CivilianPistols"
@@ -23,14 +23,16 @@ class CfgTraders
 	class Trader_Black_Market
 	{
 		name = "BLACK MARKET DEALER";
-		showWeaponFilter = 0;
+		showWeaponFilter = 1;
 		categories[] =
 		{
 			"AntiRadiationMasks",
 			"AntiRadiationSuits",
-			"LightMachineGuns"
+			"LightMachineGuns",
+			"CivilianPistols"
 		};
 	};
+
 
 	/**
 	 * Weapons, scopes, silencers, ammo
@@ -116,7 +118,10 @@ class CfgTraders
 		categories[] = 
 		{
 			"Hardware",
-			"Tools"
+			"Tools",
+			"ExtendedBaseMod",
+			"ExtendedFMod",
+			"SurvivalTools"
 		};
 	};
 
@@ -138,39 +143,16 @@ class CfgTraders
 	/**
 	 * Sells choppers and planes
 	 */
-	class Exile_Trader_Aircraft
+	class Trader_Civilian_Aircraft
 	{
 		name = "AIRCRAFT";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Choppers", 
-			"Planes",
-			"RHSPlanes",
-			"RHSHelicopters"
-		};
-	};
-
-	/**
-	 * Sells ships and boats
-	 */ 
-	class Exile_Trader_Boat
-	{
-		name = "BOAT";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Boats"
-		};
-	};
-
-	class Exile_Trader_Diving
-	{
-		name = "DIVERS";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Diving"
+			"CivilianCars", 
+			"CivilianPlanes",
+			"CivilianChoppers",
+			"CivilianTrucks"
 		};
 	};
 	
@@ -297,6 +279,7 @@ class CfgExileArsenal
 	#include "Prices\CbrnPrices.hpp"
 	#include "Prices\Miscprices.hpp"
 	#include "Prices\ExtendedFPrices.hpp"
+	#include "Prices\ExtendedBaseMod.hpp"
 	
 };
 

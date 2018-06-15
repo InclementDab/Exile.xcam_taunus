@@ -12,73 +12,65 @@
 #include "\z\ace\addons\medical\script_component.hpp";
 
 
-private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage"];
+private["_markerPos", "_markerDist1", "_markerDist2", "_distance", "_damage", "_radiationMaskFactor", "_radiationSuitFactor"];
 ExilePlayerRadiationLastCheck = ExilePlayerRadiation;
 ExilePlayerRadiation = 0;
 
 
-
-private _radiationMaskFactor = 1;
-private _radiationSuitFactor = 1;
+if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") then
 {
-if (_x in (headgear player)) then {
-	_radiationMaskFactor = 0.50 }
-} forEach [
-	"skn_m04_gas_mask_bare_dry",
-	"skn_m04_gas_mask_bare_blk",
-	"skn_m04_gas_mask_blu",
-	"skn_m04_gas_mask_gre"
-];
-
-{
-if (_x in (headgear player)) then {
-	_radiationMaskFactor = 0.25 }
-} forEach [
-	"skn_m50_gas_mask_hood",
-	"skn_m50_gas_mask_hood_wd"
-];
-
-{
-if (_x in (headgear player)) then {
-	_radiationMaskFactor = 0.1 }
-} forEach [
-	"skn_m10_balaclava_blue_dry",
-	"skn_m10_balaclava_red_dry",
-	"skn_m10_balaclava_white_dry",
-	"skn_m10_balaclava_yellow_dry"
-];
-
-
-{
-if (_x in (uniform player)) then {
-	_radiationSuitFactor = 0.50 }
-} forEach [
-	"skn_u_nbc_indep_blk"
-];
-
-{
-if (_x in (uniform player)) then {
-	_radiationSuitFactor = 0.25 }
-} forEach [
-	"skn_u_nbc_bluf_mtp",
-	"skn_u_nbc_bluf_wd"
-];
-
-{
-if (_x in (uniform player)) then {
-	_radiationSuitFactor = 0.1 }
-} forEach [
-	"skn_u_nbc_opf_red",
-	"skn_u_nbc_opf_white",
-	"skn_u_nbc_opf_yellow"
-];
-			
-ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) - (.000205 * _distance^1.99));
-			
-{
-	_distance = (_x select 0) distance (getPosATL player);
-	if (_distance < (_x select 2)) exitWith
+	_distance = player distance2d (getMarkerPos "marker_42");
+	if (_distance < 4000) exitWith
 	{
+		_radiationMaskFactor = 1;
+		_radiationSuitFactor = 1;
+		{ 
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.65 };
+		} forEach [
+			"skn_m04_gas_mask_bare_dry",
+			"skn_m04_gas_mask_bare_blk",
+			"skn_m04_gas_mask_blu",
+			"skn_m04_gas_mask_gre"
+		];
+
+		{ 
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.45 };
+		} forEach [
+			"skn_m50_gas_mask_hood",
+			"skn_m50_gas_mask_hood_wd"
+		];
+
+		{ 
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.2 };
+		} forEach [
+			"skn_m10_balaclava_blue_dry",
+			"skn_m10_balaclava_red_dry",
+			"skn_m10_balaclava_white_dry",
+			"skn_m10_balaclava_yellow_dry"
+		];
+
+		{ 
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.65 };
+		} forEach [
+			"skn_u_nbc_indep_blk" 
+		];
+
+		{ 
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.45 };
+		} forEach [
+			"skn_u_nbc_bluf_mtp",
+			"skn_u_nbc_bluf_wd"
+		];
+
+		{ 
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.2 };
+		} forEach [
+			"skn_u_nbc_opf_red",
+			"skn_u_nbc_opf_white",
+			"skn_u_nbc_opf_yellow"
+		];
+		
+		ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) - (.00020371 * (_distance^1.99)));
 		if (ExilePlayerRadiation < 0) then {ExilePlayerRadiation = 0};
 		if (ExilePlayerRadiation > 700) then
 		{
@@ -99,7 +91,7 @@ ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) -
 		player setVariable [QGVAR(bloodVolume), _damage];
 		hint format ["Radiation %1", ExilePlayerRadiation];
 	}; 
-} forEach ExileContaminatedZones;
+};
 
 
 

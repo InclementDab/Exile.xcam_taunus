@@ -1,4 +1,4 @@
-
+// Extended Fortifications Prices. Needs to be revisited
 
 class EFM_beam_wood_angular_bearer_01							{ quality = 1; price = 50; };
 class EFM_beam_wood_h_1_5m										{ quality = 1; price = 50; };

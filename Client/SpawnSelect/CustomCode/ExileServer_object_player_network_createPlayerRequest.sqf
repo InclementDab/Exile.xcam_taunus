@@ -25,7 +25,7 @@ try
 	private _bambiuniforms = selectRandom ["TRYK_shirts_PAD","TRYK_shirts_OD_PAD","TRYK_shirts_OD_PAD_BK","TRYK_shirts_PAD_BK","TRYK_shirts_TAN_PAD_BLU3","TRYK_shirts_BLK_PAD","TRYK_shirts_TAN_PAD_BK","TRYK_shirts_BLK_PAD_BK","TRYK_shirts_OD_PAD_BLW","TRYK_shirts_PAD_BLW","TRYK_shirts_TAN_PAD_BLW","TRYK_shirts_BLK_PAD_BLW","TRYK_shirts_PAD_YEL","TRYK_shirts_OD_PAD_YEL","TRYK_shirts_TAN_PAD_YEL","TRYK_shirts_BLK_PAD_YEL","TRYK_shirts_PAD_RED2","TRYK_shirts_OD_PAD_RED2","TRYK_shirts_TAN_PAD_RED2","TRYK_shirts_BLK_PAD_RED2","TRYK_shirts_PAD_BLU3","TRYK_shirts_OD_PAD_BLU3","TRYK_shirts_BLK_PAD_BLU3","TRYK_shirts_DENIM_R","TRYK_shirts_DENIM_BL","TRYK_shirts_DENIM_BK","TRYK_shirts_DENIM_BK","TRYK_shirts_DENIM_WH","TRYK_shirts_DENIM_BWH","TRYK_shirts_DENIM_RED2","TRYK_shirts_DENIM_WHB","TRYK_shirts_DENIM_ylb","TRYK_shirts_DENIM_od","TRYK_shirts_DENIM_R_Sleeve","TRYK_shirts_DENIM_BL_Sleeve","TRYK_shirts_DENIM_BK_Sleeve","TRYK_shirts_DENIM_WH_Sleeve","U_IG_leader","TRYK_shirts_DENIM_BWH_Sleeve"];
 	private _bambifood = selectRandom ["Exile_Item_Noodles","Exile_Item_SeedAstics","Exile_Item_Raisins","Exile_Item_Moobar"];
 
-	_bambiPlayer forceAddUniform _bambiUniform;
+	_bambiPlayer forceAddUniform _bambiuniforms;
 	_bambiPlayer addItem _bambifood;
 	
 

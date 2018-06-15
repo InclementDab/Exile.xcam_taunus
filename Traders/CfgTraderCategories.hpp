@@ -26,7 +26,12 @@ class CfgTraderCategories
 			"Exile_Weapon_Taurus",
 			"BWA3_P8",
 			"rhsusf_weap_glock17g4",
-			"rhs_weap_savz61_folded"
+			"rhs_weap_savz61_folded",
+			"CSW_FN57",
+			"CSW_M500",
+			"CSW_M26C",
+			"CSW_Desert_Eagle"
+			
 			
 		};
 	};
@@ -66,8 +71,8 @@ class CfgTraderCategories
 			"rhs_weap_m16a4_grip",
 			"rhs_weap_akm",
 			"rhs_weap_akm_gp25",
-			 "rhs_weap_akms_gp25",
-			 "hlc_rifle_M14"
+			"rhs_weap_akms_gp25",
+			"hlc_rifle_M14"
 		};
 	};
 	
@@ -291,7 +296,17 @@ class CfgTraderCategories
 			"rhs_weap_ak74m_gp25_npz",
 			"rhs_weap_ak74m_npz",
 			"rhs_weap_ak74m_plummag",
-			"rhs_weap_ak74m_plummag_npz"
+			"rhs_weap_ak74m_plummag_npz",
+			"CSW_FNC2000",
+			"CSW_FNC",
+			"CSW_LVOA_C_Black",
+			"CSW_LVOA_C_Sand",
+			"CSW_LVOA_C_Green",
+			"CSW_LVOA_C_Block",
+			"CSW_LVOA_C_Black_TOB",
+			"CSW_LVOA_C_Sand_TOB",
+			"CSW_LVOA_C_Green_TOB",
+			"CSW_LVOA_C_Block_TOB"
 		};
 	};
 
@@ -329,7 +344,8 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"Exile_Weapon_M1014"
+			"Exile_Weapon_M1014",
+			"CSW_M870"
 		};
 	};
 
@@ -794,7 +810,14 @@ class CfgTraderCategories
 			"rhs_45Rnd_545X39_AK_Green",
 			"rhs_100Rnd_762x54mmR",
 			"rhs_100Rnd_762x54mmR_green",
-			"rhs_10Rnd_762x54mmR_7N1"
+			"rhs_10Rnd_762x54mmR_7N1",
+			"CSW_7Rnd_127x33_AE",
+			"CSW_5Rnd_127x41_Magnum",
+			"CSW_M870_8Rnd_buck",
+			"CSW_M870_8Rnd_slug",
+			"CSW_20Rnd_57x28_SS190",
+			"CSW_20Rnd_57x28_SS198",
+			"CSW_Taser_Probe_Mag"
 
 		};
 	};
@@ -1646,7 +1669,240 @@ class CfgTraderCategories
 			"rhsusf_m1a1aim_tuski_d"
 		};
 	};
-
+	
+	
+	class ExtendedBaseMod
+	{
+		name = "ExtendedBaseMod";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
+		// OPA extendedbase start traderlist
+		"Land_HBarrier_1_F_Kit",
+		"Land_HBarrier_3_F_Kit",
+		"Land_HBarrier_5_F_Kit",
+		"Land_BagBunker_Tower_F_Kit",
+		"CamoNet_OPFOR_open_F_Kit",
+		"CamoNet_INDP_open_F_Kit",
+		"CamoNet_BLUFOR_open_F_Kit",
+		///////////////////////// V0.0.2
+		"Land_CncBarrier_F_Kit",
+		"Land_Stone_4m_F_Kit",
+		"Land_Stone_Gate_F_Kit",
+		"PierLadder_F_Kit",
+		"Land_WaterCooler_01_new_F_Kit",
+		///////////////////////// V0.0.3
+		"Land_Pallet_MilBoxes_F_Kit",
+		"Land_Cargo20_military_green_F_Kit",
+		"Land_BagFence_Corner_F_Kit",
+		"Land_BagFence_Long_F_Kit",
+		"Land_HBarrierTower_F_Kit",
+		"Land_Metal_wooden_rack_F_Kit",
+		"Land_BagBunker_Small_F_Kit",
+		"Land_Bunker_F_Kit",
+		"Land_HBarrierWall_corner_F_Kit",
+		"Land_HBarrierWall6_F_Kit",
+		"Land_HBarrierWall4_F_Kit",
+		"Land_RampConcrete_F_Kit",
+		///////////////////////// V0.0.4
+		"Land_Wall_IndCnc_4_F_Kit",
+		"Land_City2_4m_F_Kit",
+		"Land_City2_8m_F_Kit",
+		"Land_HelipadCivil_F_Kit",
+		"Land_Rack_F_Kit",
+		///////////////////////// V0.1.0
+		"Land_City_Gate_F_Kit",
+		"Land_BarGate_F_Kit",
+		"Land_Icebox_F_Kit",
+		"Land_Sign_WarningMilitaryArea_F_Kit",
+		"Land_Mil_WallBig_4m_F_Kit",
+		"Land_Cargo_Patrol_V2_F_Kit",
+		///////////////////////// V0.1.1
+		"Land_Pier_small_F_Kit",
+		"Land_Wall_Tin_4_Kit",
+		///////////////////////// V0.1.2
+		"Land_Tank_rust_F_Kit",
+		"Land_ShelvesMetal_F_Kit",
+		"Land_Cargo_Tower_V2_F_Kit",
+		"Land_FuelStation_Feed_F_Kit",
+		"Land_BagBunker_Large_F_Kit",
+		"ShootingPos_F_Kit",
+		///////////////////////// V0.1.3
+		"Land_cargo_house_slum_F_Kit",
+		"Land_Cargo40_light_green_F_Kit",
+		"Land_Cargo_House_V2_F_Kit",
+		"Land_LampHalogen_F_Kit",
+		///////////////////////// V0.1.4
+		"Land_LampAirport_F_Kit",
+		"Land_CncShelter_F_Kit",
+		"Land_Wall_IndCnc_2deco_F_Kit",
+		"Land_CncWall4_F_Kit",
+		"Land_FuelStation_Shed_F_Kit",
+		"Land_Shed_Small_F_Kit",		
+		"Land_Razorwire_F_Kit",
+		///////////////////////// V0.1.5
+		"Land_u_Addon_01_V1_F_Kit", //brokenshed
+		"Land_Cargo20_sand_F_Kit",
+		"Land_GH_Stairs_F_Kit",
+		"Land_i_Garage_V2_F_Kit",
+		"Land_GH_Platform_F_Kit",
+		"Land_TentDome_F_Kit",
+		"Land_TentHangar_V1_F_Kit",
+		///////////////////////// V0.1.6
+		"Land_CncWall1_F_Kit",
+		"Land_CncBarrierMedium_F_Kit",
+		"Land_Crash_barrier_F_Kit",
+		"Land_Shed_Big_F_Kit",
+		"Land_TouristShelter_01_F_Kit",
+		"Land_Water_source_F_Kit",
+		"Land_Sign_WarningMilitaryVehicles_F_Kit",
+		"Land_Sign_WarningMilAreaSmall_F_Kit",
+		"Land_Concrete_SmallWall_8m_F_Kit",
+		"Land_Concrete_SmallWall_4m_F_Kit",
+		///////////////////////// V0.1.7
+		"Land_PortableLight_double_F_Kit",
+		"Land_Radar_Small_F_Kit",
+		"Land_Cargo_addon02_V2_F_Kit", //Slumplane
+		"Land_TableDesk_F_Kit",
+		"Land_ToiletBox_F_Kit",
+		"Land_Pier_Box_F_Kit"
+		// OPA extendedbase end traderlist
+		
+		};
+	};
+	
+	
+	class ExtendedFMod
+	{
+		name = "Extended Fortifications";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
+		"EFM_beam_wood_angular_bearer_01",
+		"EFM_beam_wood_h_1_5m",
+		"EFM_beam_wood_h_1_5m_railing",
+		"EFM_beam_wood_h_1m_railing",
+		"EFM_beam_wood_h_2m",
+		"EFM_beam_wood_h_2m_railing",
+		"EFM_beam_wood_h_3m",
+		"EFM_beam_wood_h_3m_railing",
+		"EFM_beam_wood_h_4m",
+		"EFM_beam_wood_h_4m_railing",
+		"EFM_beam_wood_v_0_5m",
+		"EFM_beam_wood_v_1_5m",
+		"EFM_beam_wood_v_2_75m",
+		"EFM_beam_wood_v_2m",
+		"EFM_concrete_barrier_new",
+		"EFM_concrete_wall_big_pillar_new",
+		"EFM_concrete_wall_big_half_new",
+		"EFM_concrete_wall_big_new_camo_opfor",
+		"EFM_concrete_wall_big_new",
+		"EFM_concrete_wall_pillar_new",
+		"EFM_concrete_wall_half_new",
+		"EFM_concrete_wall_new_camo_blufor",
+		"EFM_concrete_wall_new_camo_opfor",
+		"EFM_concrete_wall_new",
+		"EFM_coverage_camo_net_1_5m_blufor",
+		"EFM_coverage_camo_net_1_5m_opfor",
+		"EFM_coverage_camo_net_2m_blufor",
+		"EFM_coverage_camo_net_2m_opfor",
+		"EFM_coverage_concrete_2_7m",
+		"EFM_coverage_concrete_2m",
+		"EFM_ladder_metal_1_7m",
+		"EFM_ladder_metal_2_7m",
+		"EFM_ladder_metal_3_7m",
+		"EFM_coverage_plywood_2_7m",
+		"EFM_coverage_plywood_2_7m_fortified_A",
+		"EFM_coverage_plywood_2_7m_fortified_beam",
+		"EFM_coverage_plywood_2m_beam",
+		"EFM_coverage_plywood_2m",
+		"EFM_coverage_plywood_2m_fortified_A",
+		"EFM_rack_wood_big_new",
+		"EFM_revetment_wall_0_80x0_60x0_90m",
+		"EFM_revetment_wall_0_80x0_60x0_90m_soil_double",
+		"EFM_revetment_wall_0_80x0_60x0_90m_soil",
+		"EFM_revetment_wall_0_80x0_60x0_90m_soil_c_blufor",
+		"EFM_revetment_wall_0_80x0_60x0_90m_soil_c_opfor",
+		"EFM_revetment_wall_1_60x0_60x0_90m",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double_c_blufor",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double_c_opfor",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil_c_blufor",
+		"EFM_revetment_wall_1_60x0_60x0_90m_soil_c_opfor",
+		"EFM_stair_wood_1_7m",		
+		"EFM_stair_wood_2_7m",
+		"EFM_stair_wood_3_5m",
+		"EFM_support_hole_dirt",
+		"EFM_support_hole_soil",
+		"EFM_mobile_barrier_A",
+		"EFM_mobile_barrier_B",
+		"EFM_mobile_dragons_teeth_small",
+		"EFM_mobile_dragons_teeth_small_orange",
+		"EFM_pole_B_01_yellow",
+		"EFM_pole_B_02_black",
+		"EFM_pole_B_03_black_white",
+		"EFM_tetrapod_line",
+		"EFM_tetrapod_line_wet",
+		"EFM_tetrapod_pile_big",
+		"EFM_tetrapod_pile_big_wet",
+		"EFM_tetrapod_single",
+		"EFM_tetrapod_single_wet",
+		"EFM_ground_surface_2x2m_soil",
+		"EFM_ground_surface_4x4m_soil",
+		"EFM_ground_surface_8x4m_soil",
+		"EFM_ground_surface_2x2m_dirt", 
+		"EFM_ground_surface_4x4m_dirt",
+		"EFM_ground_surface_8x4m_dirt",
+		"EFM_wood_wall_2m_door",
+		"EFM_wood_wall_2m_half_single",
+		"EFM_wood_wall_2m_half_beam_single_c_blufor",
+		"EFM_wood_wall_2m_half_beam_single_c_opfor",
+		"EFM_wood_wall_2m_half_single_filled",
+		"EFM_wood_wall_2m_half_beam_single_filled_c_blufor",
+		"EFM_wood_wall_2m_half_beam_single_filled_c_opfor",
+		"EFM_wood_wall_2m_single",
+		"EFM_wood_wall_2m_single_filled",
+		"EFM_wood_wall_2m_half_beam_single",
+		"EFM_wood_wall_2m_half_beam_single_filled",
+		"EFM_wood_wall_2m_support"		
+		};
+	};
+	
+	class AntiRadiationMasks
+	{
+		name = "Anti-Radiation Masks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"skn_m04_gas_mask_bare_dry",
+			"skn_m04_gas_mask_blk",
+			"skn_m04_gas_mask_blu",
+			"skn_m04_gas_mask_gre",
+			"skn_m50_gas_mask_hood",
+			"skn_m50_gas_mask_hood_wd",
+			"skn_m10_balaclava_blue_dry",
+			"skn_m10_balaclava_red_dry",
+			"skn_m10_balaclava_white_dry",
+			"skn_m10_balaclava_yellow_dry"
+		};
+	};
+	
+	class AntiRadiationSuits
+	{
+		name = "Anti-Radiation Masks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"skn_u_nbc_indep_blk",
+			"skn_u_nbc_bluf_mtp",
+			"skn_u_nbc_bluf_wd",
+			"skn_u_nbc_opf_blue",
+			"skn_u_nbc_opf_red",
+			"skn_u_nbc_opf_white",
+			"skn_u_nbc_opf_yellow"
+		};
+	};
 };
 
 

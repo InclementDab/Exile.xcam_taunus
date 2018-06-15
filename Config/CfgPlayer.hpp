@@ -18,13 +18,13 @@ class CfgPlayer
 	// https://community.bistudio.com/wiki/Arma_3_Stamina
 	// Set to -1 if you want to use Arma 3 default value
 	// setCustomAimCoef
-	customAimCoefficient = 0.5;
+	customAimCoefficient = -1;
 
 	// 0 or 1
 	enableFatigue = 0;
 	enableStamina = 0;
 
-	disableMapDrawing = 1;
+	disableMapDrawing = 0;
 	
 	// Use the current gradient to affect the players movement when autorunning.
 	// 0 == default exile auto run

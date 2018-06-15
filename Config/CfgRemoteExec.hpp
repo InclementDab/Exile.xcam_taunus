@@ -7,7 +7,7 @@ class CfgRemoteExec
 		class fnc_AdminReq { allowedTargets=2; };
 		class fn_xm8apps_server { allowedTargets=2; };
 		class CDAH_fnc_CDAH_Workshop_Gui { allowedTargets=0; };
-		class ExileClient_system_network_dispatchIncomingMessage { allowedTargets=1; };
+		class ExileClient_system_network_dispatchIncomingMessage { allowedTargets = 1; };
 		class ExileServer_system_network_dispatchIncomingMessage { allowedTargets = 2; };
 		class achilles_fnc_changeside_local;
 		class achilles_fnc_spawn_remote;
@@ -67,6 +67,7 @@ class CfgRemoteExec
 		class SM_Say3D { allowedTargets = 1; };
 		class SM_Network_HandleMessage { allowedTargets = 2; };
 		class vcm_serverask { allowedTargets = 2; };
+		class bis_fnc_debugconsoleexec { allowedTargets = 1; };
 	};
 	class Commands
 	{

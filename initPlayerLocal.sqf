@@ -1,6 +1,6 @@
 
+#include "traders\initTraders.sqf"
 
-99.5 cutText ["", "BLACK IN", 2];
 //Bones Super Advanced Repair System (SARS)
 Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
@@ -37,13 +37,27 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 	};
 }] call CBA_fnc_localEvent;
 
-if ("itemRadio" in (assignedItems player)) then
+
+
+
+waitUntil {!isNil "ExileClientPlayerIsSpawned"};
+waitUntil {ExileClientPlayerIsSpawned};
+
+if ("ItemRadio" in (assignedItems player)) then
 {
-	player setVariable ["RadioToggle", true, false];
+	player setVariable ["RadioToggle", true, true];
 } else {
-	player setVariable ["RadioToggle", false, false];
+	player setVariable ["RadioToggle", false, true];
 };
 
+[] execVM "client\weather\nightFog.sqf";
+99.5 cutText ["", "BLACK IN", 4];
 
-#include "traders\initTraders.sqf"
+waitUntil { uiSleep 0.5; !isNull(findDisplay 46); };
+Sleep 15;
+
+
+[] execVM "client\spawnselect\showPlayerLocation.sqf";
+
+
 

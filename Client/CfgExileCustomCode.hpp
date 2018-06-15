@@ -53,9 +53,9 @@ class CfgExileCustomCode
 	ExileClient_object_player_thread_safeZone = "Client\SafezonePlus\CustomCode\ExileClient_object_player_thread_safeZone.sqf";
 	
 	// Vector Building
-	ExileClient_gui_constructionMode_update = "Client\VectorBuilding\Vector\SM_gui_constructionMode_update.sqf";
-	ExileClient_gui_hud_event_onKeyUp = "Client\VectorBuilding\Vector\SM_gui_hud_event_onKeyUp.sqf";
-	ExileClient_construction_thread = "Client\VectorBuilding\Vector\SM_construction_thread.sqf";	
+	ExileClient_gui_constructionMode_update = "Client\VectorBuilding\CustomCode\SM_gui_constructionMode_update.sqf";
+	ExileClient_gui_hud_event_onKeyUp = "Client\VectorBuilding\CustomCode\SM_gui_hud_event_onKeyUp.sqf";
+	ExileClient_construction_thread = "Client\VectorBuilding\CustomCode\SM_construction_thread.sqf";	
 	
 	// World
 	ExileClient_util_world_findCoastPosition = "Client\World\CustomCode\ExileClient_util_world_findCoastPosition.sqf";

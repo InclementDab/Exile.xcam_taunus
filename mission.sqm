@@ -28421,13 +28421,13 @@ class Mission
 		class Item583
 		{
 			dataType="Marker";
-			position[]={3815.6531,259.56,3013.6289};
-			name="ContaminationZone";
+			position[]={3815.6531,3013.6289,259.56};
+			name="ExileContaminatedZone";
 			markerType="ELLIPSE";
 			type="ExileContaminatedZone";
 			alpha=0;
-			a=5000;
-			b=5000;
+			a=4000;
+			b=4000;
 			id=1398;
 		};
 		class Item584

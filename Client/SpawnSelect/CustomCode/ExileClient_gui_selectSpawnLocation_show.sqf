@@ -83,10 +83,11 @@ ExileClientSpawnLocation = "";
 				if (markerAlpha _marker != 0 && {((getMarkerType _marker) != "ExileSpawnZone")} && {(_marker != ExileClientLastDeathMarker)} && {!(_marker in SM_SpawnSelect_whitelistedMarkers)}) then
 				{
 					ExileClientMarkersHidden pushBack [_marker, markerAlpha _marker];
-					_marker setMarkerAlphaLocal 0;
+					_marker setMarkerAlphaLocal 255;
 				};
 			};
-			/*
+			
+			
 			if ((getMarkerType _marker) == "ExileSpawnZone") then
 			{
 				if (markerAlpha _marker != 0) then
@@ -94,14 +95,15 @@ ExileClientSpawnLocation = "";
 					ExileClientMarkersHidden pushBack [_marker, markerAlpha _marker];
 					_marker setMarkerAlphaLocal 255;
 				};
-
+				
 				ExileClientSpawnLocationsNoCheck pushBack [getMarkerPos _marker, markerText _marker, _marker];
 				if (_marker call _isReady) then
 				{
 					ExileClientSpawnLocations pushBack [getMarkerPos _marker, markerText _marker];
 				};
 			};
-			*/
+			
+			
 		} forEach allMapMarkers;
 
 		private _playerUID = getPlayerUID player;

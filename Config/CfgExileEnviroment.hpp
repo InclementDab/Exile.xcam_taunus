@@ -28,7 +28,7 @@ class CfgExileEnvironment
 			enable = 1;
 			contaminatedZones[] = 
 			{
-				{{3815.7771, 3013.0271, 0}, 2000, 4000}
+				{{3815.7771, 259.0, 3013.0271}, 2000, 4000}
 			};
 		};
 
