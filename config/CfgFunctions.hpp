@@ -4,14 +4,10 @@ class CfgFunctions
 	{
 		class Bootstrap
 		{
-			file="ExileMission\bootstrap";
+			file="bootstrap";
 			class preInit
 			{
 				preInit=1;
-			};
-			class postInit
-			{
-				postInit=0;
 			};
 		};
 	};
