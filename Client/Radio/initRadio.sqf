@@ -8,17 +8,10 @@
  */
 
  
-if (hasInterface) then {
-	[] execVM "Client\radio\compiles.sqf";
+if (hasInterface) then 
+{
+		// [] execVM "Client\radio\compiles.sqf";
 	
-	if ("itemRadio" in (assignedItems player)) then
-	{
-		player setVariable ["RadioToggle", true];
-		} else {
-		player setVariable ["RadioToggle", false];
-	};
-
-
 	
 		private ["_condition","_classname","_name","_icon","_statement","_action"];
 		_condition = {("ItemRadio" in (assignedItems player)) && !(player getVariable ["RadioToggle", false]) && {[player, objNull, []] call ace_common_fnc_canInteractWith}};
@@ -39,6 +32,13 @@ if (hasInterface) then {
 		_statement = {[false] call RadioToggle};
 		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
 		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
+		
+		if ("ItemRadio" in (assignedItems player)) then
+		{
+			[true] call RadioToggle;
+		} else {
+			[false] call RadioToggle;
+		};
 		
 } else {
 	

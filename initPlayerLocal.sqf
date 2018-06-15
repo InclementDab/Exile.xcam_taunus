@@ -39,25 +39,16 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 
 
 
+[] execVM "client\weather\nightFog.sqf";
+
+hint "Player hasnt Spawned";
 
 waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 waitUntil {ExileClientPlayerIsSpawned};
 
-if ("ItemRadio" in (assignedItems player)) then
-{
-	player setVariable ["RadioToggle", true, true];
-} else {
-	player setVariable ["RadioToggle", false, true];
-};
+hint "Player is Spawned";
 
-[] execVM "client\weather\nightFog.sqf";
-99.5 cutText ["", "BLACK IN", 4];
-
-waitUntil { uiSleep 0.5; !isNull(findDisplay 46); };
-Sleep 15;
-
-
-[] execVM "client\spawnselect\showPlayerLocation.sqf";
+[] execVM "client\radio\initRadio.sqf";
 
 
 

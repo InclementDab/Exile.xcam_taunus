@@ -17,6 +17,7 @@
 
 #include "RscDefines.hpp"
 
+#include "Config\CfgAdminToolkit.hpp"
 #include "Config\CfgCDAH.hpp"
 #include "Config\CfgRemoteExec.hpp"
 #include "Config\CfgClans.hpp"
@@ -35,7 +36,6 @@
 #include "Config\CfgInteractionMenu.hpp"
 #include "Config\CfgInteractionModels.hpp"
 #include "Config\CfgLocker.hpp"
-#include "Config\CfgMarkers.hpp"
 #include "Config\CfgPatches.hpp"
 #include "Config\CfgPlayer.hpp"
 #include "Config\CfgPoptabStorage.hpp"

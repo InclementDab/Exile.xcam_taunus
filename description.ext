@@ -6,20 +6,21 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings
 ///////////////////////////////////////////////////////////////////////////////
-author = "Prepare for hell";
+author = "InclementDeath";
 onLoadName = "Join our Teamspeak: ts.dntsck.com!";
-onLoadMission= "Extreme Hardcore Exile Taunus";
-briefingName="Join our Teamspeak: ts.dntsck.com!";
+onLoadMission= "Hardcore Exile Taunus";
+briefingName="Hardcore Exile Taunus";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
 enableDebugConsole[] = {"76561198247958888"};
+admin[] = {"76561198247958888"};
 loadScreen = "assets\logo.paa";
 
 class Header
 {
-    gameType = Survive; // Do NOT change this
+    gameType = Survive;
     minPlayers = 1;
     maxPlayers = 42;
 };
@@ -28,7 +29,7 @@ class Missions
 {
 	class Intel
 	{
-		briefingName="(CLOSED BETA) Join our Teamspeak! ts.dntsck.com";
+		briefingName="(OPEN BETA) Join our Teamspeak for join info! ts.dntsck.com";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
