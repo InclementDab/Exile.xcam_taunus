@@ -30,6 +30,7 @@
 #include "Config\CfgExileMusic.hpp"
 #include "Config\CfgExileParty.hpp"
 #include "Config\CfgExileRussianRoulette.hpp"
+#include "Config\CfgFunctions.hpp"
 #include "Config\CfgFlags.hpp"
 #include "Config\CfgGrinding.hpp"
 #include "Config\CfgHacking.hpp"

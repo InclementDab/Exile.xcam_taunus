@@ -10,15 +10,14 @@
  * None
  *
  * Example:
- * [true, player] call Server_RadioToggle;
+ * [player, true] call Server_RadioToggle;
  *
  * Public: Yes
  */
 
-if (hasInterface) exitWith 
-{ 
-	params [["_state", false, [true]]];
-	player setVariable ["RadioToggle", _state];
+
+	params ["_unit", ["_state", false, [true]]];
+	_unit setVariable ["RadioToggle", _state];
 	
 	if (_state) then 
 	{
@@ -28,4 +27,3 @@ if (hasInterface) exitWith
 		["Radio Disabled", true] call ace_common_fnc_displayText;
 		playsound "RadioDisable";
 	};
-};

@@ -43,11 +43,14 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 
 hint "Player hasnt Spawned";
 
+waitUntil {player == player};
 waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 waitUntil {ExileClientPlayerIsSpawned};
 
+
 hint "Player is Spawned";
 
+[] execVM "intro.sqf";
 [] execVM "client\radio\initRadio.sqf";
 
 

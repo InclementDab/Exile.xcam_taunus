@@ -79,13 +79,15 @@ enableItemsDropping = 0;
 briefing = 0;
 debriefing = 0;
 allowFunctionsLog = 1;
-allowFunctionsRecompile = 0;
+allowFunctionsRecompile = 1;  // CHANGE TO 0 ON SERVER LAUNCH
 showSquadRadar = 0;
 showUAVFeed = 0;
 reviveDelay = 6;
 reviveForceRespawnDelay = 3;
 reviveBleedOutDelay = 120;
 debug = 1;
+
+
 
 
 showHUD[] = 

@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class Bootstrap
 		{
-			file="Exile.xcam_taunus\bootstrap";
+			file="ExileMission\bootstrap";
 			class preInit
 			{
 				preInit=1;

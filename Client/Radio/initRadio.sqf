@@ -18,7 +18,7 @@ if (hasInterface) then
 		_classname = "EnableRadio";
 		_name = "Enable Radio";
 		_icon = "assets\ACE_Interaction_Radio_Icon.paa";
-		_statement = {[true] call RadioToggle};
+		_statement = {[player, true] call RadioToggle};
 		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
 		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
 	
@@ -29,15 +29,15 @@ if (hasInterface) then
 		_classname = "DisableRadio";
 		_name = "Disable Radio";
 		_icon = "assets\ACE_Interaction_Radio_Icon.paa";
-		_statement = {[false] call RadioToggle};
+		_statement = {[player, false] call RadioToggle};
 		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
 		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
 		
 		if ("ItemRadio" in (assignedItems player)) then
 		{
-			[true] call RadioToggle;
+			[player, true] call RadioToggle;
 		} else {
-			[false] call RadioToggle;
+			[player, false] call RadioToggle;
 		};
 		
 } else {
