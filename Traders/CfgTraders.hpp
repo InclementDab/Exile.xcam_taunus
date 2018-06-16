@@ -2,14 +2,16 @@ class CfgExileArsenal
 {
 	
 	#include "Prices\AcePrices.hpp"
-	#include "Prices\TrykPrices.hpp"
-	#include "Prices\NiarmsPrices.hpp"
-	#include "Prices\RhsPrices.hpp"
-	#include "Prices\ExilePrices.hpp"
+	#include "Prices\BwaPrices.hpp"
 	#include "Prices\CbrnPrices.hpp"
-	#include "Prices\Miscprices.hpp"
+	#include "Prices\CSWPrices.hpp"
+	#include "Prices\ExilePrices.hpp"
 	#include "Prices\ExtendedBaseMod.hpp"
+	#include "Prices\Miscprices.hpp"
+	#include "Prices\NiarmsPrices.hpp"
 	#include "Prices\RDSprices.hpp"
+	#include "Prices\RhsPrices.hpp"
+	#include "Prices\TrykPrices.hpp"
 	
 };
 

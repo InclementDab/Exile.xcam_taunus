@@ -611,11 +611,6 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item70
-		{
-			className="road_barrier_items";
-			name="road_barrier_items";
-		};
 		class Item71
 		{
 			className="A3_Structures_F_Exp_Industrial";
