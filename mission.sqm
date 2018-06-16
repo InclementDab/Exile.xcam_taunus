@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10461;
+		nextID=10464;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=444;
+		nextID=462;
 	};
 	class Camera
 	{
-		pos[]={18409.373,426.52347,19454.057};
-		dir[]={0.030403512,-0.44222039,0.89640939};
-		up[]={0.01499208,0.89690036,0.44198489};
-		aside[]={0.99944526,-4.88144e-007,-0.033898849};
+		pos[]={18426.023,413.45111,19465.148};
+		dir[]={-0.2482685,-0.33612928,0.90852553};
+		up[]={-0.088609003,0.94181073,0.32426402};
+		aside[]={0.96465486,-5.2223913e-007,0.26360607};
 	};
 };
 binarizationWanted=0;
@@ -29127,7 +29127,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42371;
+			angle=225.42365;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -100864,7 +100864,6 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
-			atlOffset=0.16000366;
 		};
 		class Item1171
 		{
@@ -100897,7 +100896,6 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
-			atlOffset=0.16000366;
 		};
 		class Item1173
 		{
@@ -100946,7 +100944,6 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1176
 		{
@@ -100963,7 +100960,6 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1177
 		{
@@ -104477,7 +104473,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="BLU_G_F";
+							value="LOP_UN";
 						};
 					};
 				};
@@ -104966,7 +104962,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="[""LOP_UN""]";
 						};
 					};
 				};
@@ -105061,7 +105057,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="BLU_F";
+							value="NONE";
 						};
 					};
 				};
