@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=354;
+		nextID=372;
 	};
 	class Camera
 	{
-		pos[]={132.89676,464.83691,20441.148};
-		dir[]={-0.68968147,-0.63825762,-0.34201545};
-		up[]={-0.57181114,0.76982313,-0.28356367};
-		aside[]={-0.44427741,4.3184264e-007,0.89589351};
+		pos[]={130.97676,464.23956,20438.896};
+		dir[]={-0.34066412,-0.53467506,0.77336544};
+		up[]={-0.21555182,0.84503585,0.48933849};
+		aside[]={0.91515732,-5.1222742e-008,0.40312263};
 	};
 };
 binarizationWanted=0;
@@ -159,7 +159,6 @@ addons[]=
 	"alive_sys_weather",
 	"alive_sys_data",
 	"alive_sys_playeroptions",
-	"alive_sys_profile",
 	"alive_mil_placement",
 	"alive_mil_opcom",
 	"A3_Props_F_Exp_Industrial_HeavyEquipment",
@@ -181,7 +180,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=89;
+		items=88;
 		class Item0
 		{
 			className="exile_client";
@@ -683,44 +682,38 @@ class AddonsMetaData
 		};
 		class Item82
 		{
-			className="ALiVE_sys_profile";
-			name="alive_sys_profile";
-			author="ALiVE Mod Team";
-		};
-		class Item83
-		{
 			className="ALiVE_mil_placement";
 			name="alive_mil_placement";
 			author="ALiVE Mod Team";
 		};
-		class Item84
+		class Item83
 		{
 			className="ALiVE_mil_OPCOM";
 			name="alive_mil_opcom";
 			author="ALiVE Mod Team";
 		};
-		class Item85
+		class Item84
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item86
+		class Item85
 		{
 			className="A3_Props_F_Argo";
 			name="Arma 3 Malden - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item87
+		class Item86
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item88
+		class Item87
 		{
 			className="A3_Structures_F_Households";
 			name="Arma 3 - Houses";
@@ -893,7 +886,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1261;
+		items=1260;
 		class Item0
 		{
 			dataType="Group";
@@ -23957,7 +23950,6 @@ class Mission
 					};
 					id=1386;
 					type="SM_Zombz_Zone";
-					atlOffset=0.49523163;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29121,7 +29113,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.4238;
+			angle=225.42378;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -100858,7 +100850,6 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
-			atlOffset=0.16000366;
 		};
 		class Item1171
 		{
@@ -100891,7 +100882,6 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
-			atlOffset=0.16000366;
 		};
 		class Item1173
 		{
@@ -100940,7 +100930,6 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1176
 		{
@@ -100957,7 +100946,6 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
-			atlOffset=0.16000366;
 		};
 		class Item1177
 		{
@@ -103064,8 +103052,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={129.17171,462.99844,20439.504};
-				angles[]={6.0495319,0,6.2272439};
+				position[]={130.76425,463.40784,20441.328};
+				angles[]={6.0438619,0,0.01799392};
 			};
 			id=10417;
 			type="ALiVE_require";
@@ -103181,7 +103169,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -103489,11 +103477,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.64026,463.19519,20440.467};
+				position[]={130.37117,463.43472,20441.467};
+				angles[]={6.0438619,2.215471,0.01799392};
 			};
 			id=10429;
 			type="ALiVE_sys_data";
-			atlOffset=-0.00042724609;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104392,229 +104380,6 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={131.293,463.16211,20440.281};
-			};
-			id=10437;
-			type="ALiVE_sys_profile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ALiVE_sys_profile_smoothSpawn";
-					expression="_this setVariable ['smoothSpawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0.3";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ALiVE_sys_profile_spawnRadius";
-					expression="_this setVariable ['spawnRadius',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="500";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ALiVE_sys_profile_seaTransport";
-					expression="_this setVariable ['seaTransport',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ALiVE_sys_profile_activeLimiter";
-					expression="_this setVariable ['activeLimiter',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="144";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ALiVE_sys_profile_spawnTypeJetRadius";
-					expression="_this setVariable ['spawnTypeJetRadius',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ALiVE_sys_profile_speedModifier";
-					expression="_this setVariable ['speedModifier',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ALiVE_sys_profile_spawnTypeHeliRadius";
-					expression="_this setVariable ['spawnTypeHeliRadius',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1500";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ALiVE_sys_profile_debug";
-					expression="_this setVariable ['debug',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="false";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ALiVE_sys_profile_persistent";
-					expression="_this setVariable ['persistent',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ALiVE_sys_profile_syncronised";
-					expression="_this setVariable ['syncronised',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="ADD";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="ALiVE_sys_profile_virtualcombat_speedmodifier";
-					expression="_this setVariable ['virtualcombat_speedmodifier',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				nAttributes=11;
-			};
-		};
-		class Item1257
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
 				position[]={132.13699,463.28299,20440.715};
 				angles[]={6.0438657,0,0.017994344};
 			};
@@ -104675,7 +104440,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="0.2";
 						};
 					};
 				};
@@ -104694,7 +104459,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="OPF_F";
+							value="BLU_F";
 						};
 					};
 				};
@@ -104808,7 +104573,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="200";
+							value="100";
 						};
 					};
 				};
@@ -104941,7 +104706,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Random";
+							value="Specops";
 						};
 					};
 				};
@@ -104979,7 +104744,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="2500";
 						};
 					};
 				};
@@ -105024,7 +104789,7 @@ class Mission
 				nAttributes=21;
 			};
 		};
-		class Item1258
+		class Item1257
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -105304,7 +105069,7 @@ class Mission
 				nAttributes=14;
 			};
 		};
-		class Item1259
+		class Item1258
 		{
 			dataType="Layer";
 			name="ALIVE  Markers";
@@ -105319,9 +105084,9 @@ class Mission
 					name="TAOR_1";
 					markerType="RECTANGLE";
 					type="rectangle";
+					alpha=0;
 					a=2500;
 					b=1700;
-					alpha=0;
 					id=10442;
 					atlOffset=-29.828156;
 				};
@@ -105332,9 +105097,9 @@ class Mission
 					name="TAOR_2";
 					markerType="ELLIPSE";
 					type="ellipse";
+					alpha=0;
 					a=1700;
 					b=1800;
-					alpha=0;
 					id=10443;
 					atlOffset=-14.295593;
 				};
@@ -105345,9 +105110,9 @@ class Mission
 					name="blacklist_1";
 					markerType="RECTANGLE";
 					type="rectangle";
+					alpha=0;
 					a=12000;
 					b=10000;
-					alpha=0;
 					id=10444;
 					atlOffset=-0.00025939941;
 				};
@@ -105358,9 +105123,9 @@ class Mission
 					name="blacklist_2";
 					markerType="RECTANGLE";
 					type="rectangle";
+					alpha=0;
 					a=7000;
 					b=5000;
-					alpha=0;
 					id=10445;
 					atlOffset=-14.210999;
 				};
@@ -105368,7 +105133,7 @@ class Mission
 			id=10446;
 			atlOffset=-45.084259;
 		};
-		class Item1260
+		class Item1259
 		{
 			dataType="Layer";
 			name="Trader City Feldberg";
@@ -107798,16 +107563,16 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=7;
+			nextID=2;
 		};
 		class Links
 		{
-			items=7;
+			items=2;
 			class Item0
 			{
 				linkID=0;
-				item0=10429;
-				item1=10417;
+				item0=10425;
+				item1=127;
 				class CustomData
 				{
 					type="Sync";
@@ -107816,58 +107581,8 @@ class Mission
 			class Item1
 			{
 				linkID=1;
-				item0=10431;
-				item1=10417;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item2
-			{
-				linkID=2;
-				item0=10425;
-				item1=127;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item3
-			{
-				linkID=3;
-				item0=10437;
-				item1=10417;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item4
-			{
-				linkID=4;
 				item0=10438;
-				item1=10437;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item5
-			{
-				linkID=5;
-				item0=10439;
-				item1=10437;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item6
-			{
-				linkID=6;
-				item0=10439;
-				item1=10438;
+				item1=10439;
 				class CustomData
 				{
 					type="Sync";
