@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10449;
+		nextID=10450;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=372;
+		nextID=390;
 	};
 	class Camera
 	{
-		pos[]={130.97676,464.23956,20438.896};
-		dir[]={-0.34066412,-0.53467506,0.77336544};
-		up[]={-0.21555182,0.84503585,0.48933849};
-		aside[]={0.91515732,-5.1222742e-008,0.40312263};
+		pos[]={18421.037,412.15314,19471.158};
+		dir[]={-0.019960966,-0.67947948,0.73342764};
+		up[]={-0.018485513,0.73369205,0.6792317};
+		aside[]={0.99963427,-5.4613338e-008,0.027205676};
 	};
 };
 binarizationWanted=0;
@@ -29113,7 +29113,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42378;
+			angle=225.42377;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -100850,6 +100850,7 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
+			atlOffset=0.16000366;
 		};
 		class Item1171
 		{
@@ -103052,7 +103053,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.76425,463.40784,20441.328};
+				position[]={131.13289,463.5741,20441.982};
 				angles[]={6.0438619,0,0.01799392};
 			};
 			id=10417;
@@ -103477,8 +103478,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.37117,463.43472,20441.467};
-				angles[]={6.0438619,2.215471,0.01799392};
+				position[]={133.48146,463.94363,20443.369};
+				angles[]={6.0495319,2.2154684,0.012000273};
 			};
 			id=10429;
 			type="ALiVE_sys_data";
@@ -103499,7 +103500,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="None";
+							value="group";
 						};
 					};
 				};
@@ -103682,7 +103683,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.94299,463.51917,20441.771};
+				position[]={130.51007,464.02667,20443.883};
+				angles[]={6.0438619,0,0.01799392};
 			};
 			id=10431;
 			type="ALiVE_SYS_playeroptions";
@@ -104368,7 +104370,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="20000";
+							value="6000";
 						};
 					};
 				};
@@ -104380,8 +104382,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={132.13699,463.28299,20440.715};
-				angles[]={6.0438657,0,0.017994344};
+				position[]={18419.922,400,19478.689};
 			};
 			id=10438;
 			type="ALiVE_mil_placement";
@@ -104402,7 +104403,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="TAOR_1;TAOR_2;";
+							value="TAOR_1,TAOR_2";
 						};
 					};
 				};
@@ -104478,7 +104479,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="blacklist_1;blacklist_2;";
+							value="blacklist_1,blacklist_2";
 						};
 					};
 				};
@@ -104794,7 +104795,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={131.97099,463.3381,20440.953};
+				position[]={18410.303,400,19476.146};
 			};
 			id=10439;
 			type="ALiVE_mil_OPCOM";
@@ -104910,7 +104911,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0.9";
+							value="0.5";
 						};
 					};
 				};
