@@ -36,16 +36,21 @@ private ["_obj","_pos","_inVehicle"];
 		} forEach _fogs;
 
     };
-[] spawn {
-    while {true} do {
-        if (player getVariable ["playerfog", -1] < time) then {
-            if(daytime < 7 || daytime > 19) then {
+[] spawn 
+{
+    while {true} do 
+	{
+        if (player getVariable ["playerfog", -1] < time) then 
+		{
+            if(daytime < 8 || daytime > 19) then 
+			{
 				player setVariable ["playerfog", floor time + 5];
-                1 call doofog;
+                2 call doofog;
             } else {
-				if ((player distance2d (getMarkerPos "ContaminationZone")) < 5000) then {
+				if ((player distance2d (getMarkerPos "ContaminationZone")) < 5000) then 
+				{
 				player setVariable ["playerfog", floor time + 5];
-				3 call doofog;
+				4 call doofog;
 				};
 			};
         };

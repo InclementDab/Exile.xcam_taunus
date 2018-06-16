@@ -1,9 +1,6 @@
 
 #include "traders\initTraders.sqf"
 
-//Bones Super Advanced Repair System (SARS)
-Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
-
 ["ace_unconscious", {
     params ["_unit", "_isUnconscious"];
 	if (_isUnconscious) then	
@@ -41,14 +38,10 @@ Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\
 
 [] execVM "client\weather\nightFog.sqf";
 
-hint "Player hasnt Spawned";
-
 waitUntil {player == player};
 waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 waitUntil {ExileClientPlayerIsSpawned};
 
-
-hint "Player is Spawned";
 
 [] execVM "intro.sqf";
 [] execVM "client\radio\initRadio.sqf";

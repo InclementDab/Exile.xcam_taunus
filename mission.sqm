@@ -105321,6 +105321,7 @@ class Mission
 					type="rectangle";
 					a=2500;
 					b=1700;
+					alpha=0;
 					id=10442;
 					atlOffset=-29.828156;
 				};
@@ -105333,6 +105334,7 @@ class Mission
 					type="ellipse";
 					a=1700;
 					b=1800;
+					alpha=0;
 					id=10443;
 					atlOffset=-14.295593;
 				};
@@ -105345,6 +105347,7 @@ class Mission
 					type="rectangle";
 					a=12000;
 					b=10000;
+					alpha=0;
 					id=10444;
 					atlOffset=-0.00025939941;
 				};
@@ -105357,6 +105360,7 @@ class Mission
 					type="rectangle";
 					a=7000;
 					b=5000;
+					alpha=0;
 					id=10445;
 					atlOffset=-14.210999;
 				};

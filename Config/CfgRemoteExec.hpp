@@ -67,7 +67,7 @@ class CfgRemoteExec
 		class SM_Say3D { allowedTargets = 1; };
 		class SM_Network_HandleMessage { allowedTargets = 2; };
 		class vcm_serverask { allowedTargets = 2; };
-		class bis_fnc_debugconsoleexec { allowedTargets = 1; };
+		class AdminToolkit_network_receiveRequest { allowedTargets = 2; };
 	};
 	class Commands
 	{

@@ -122,10 +122,11 @@ _processedTextF  = "";
 	//store finished block
 	_processedTextF  = _processedTextF + _blockTextF;
 	
-}
-forEach _blocks;
-uiSleep 2;
-90 cutFadeOut 3;
+} forEach _blocks;
+
+uiSleep 3;
+90 cutFadeOut 1;
+
 
 
 

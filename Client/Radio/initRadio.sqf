@@ -9,10 +9,7 @@
 
  
 if (hasInterface) then 
-{
-		// [] execVM "Client\radio\compiles.sqf";
-	
-	
+{	
 		private ["_condition","_classname","_name","_icon","_statement","_action"];
 		_condition = {("ItemRadio" in (assignedItems player)) && !(player getVariable ["RadioToggle", false]) && {[player, objNull, []] call ace_common_fnc_canInteractWith}};
 		_classname = "EnableRadio";
@@ -35,9 +32,9 @@ if (hasInterface) then
 		
 		if ("ItemRadio" in (assignedItems player)) then
 		{
-			[player, true] call RadioToggle;
+			player setVariable ["RadioToggle", true, true];
 		} else {
-			[player, false] call RadioToggle;
+			player setVariable ["RadioToggle", false, true];
 		};
 		
 } else {

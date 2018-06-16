@@ -31,21 +31,5 @@
  Time_UAVs							= 200;
  Time_Supply_Vehicles 				= 120;
  Time_Uncategorised					= 15;
- 
- // don't change below
- private ['_code', '_function', '_file'];
 
-	{
-		_code = '';
-		_function = _x select 0;
-		_file = _x select 1;
-
-		_code = compileFinal preprocessFileLineNumbers _file;
-
-		missionNamespace setVariable [_function, _code];
-	}
-	forEach 
-	[
-		['fn_CDAH_setCraftTime', 													'client\CDAH\logic\fn_CDAH_setCraftTime.sqf']
-	];
 	

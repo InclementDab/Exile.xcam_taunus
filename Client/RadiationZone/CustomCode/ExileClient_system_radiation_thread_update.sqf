@@ -25,7 +25,7 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		_radiationMaskFactor = 1;
 		_radiationSuitFactor = 1;
 		{ 
-			if (_x == (goggles player)) then { _radiationMaskFactor = 0.65 };
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.5 };
 		} forEach [
 			"skn_m04_gas_mask_bare_dry",
 			"skn_m04_gas_mask_bare_blk",
@@ -34,14 +34,14 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		];
 
 		{ 
-			if (_x == (goggles player)) then { _radiationMaskFactor = 0.45 };
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.25 };
 		} forEach [
 			"skn_m50_gas_mask_hood",
 			"skn_m50_gas_mask_hood_wd"
 		];
 
 		{ 
-			if (_x == (goggles player)) then { _radiationMaskFactor = 0.2 };
+			if (_x == (goggles player)) then { _radiationMaskFactor = 0.05 };
 		} forEach [
 			"skn_m10_balaclava_blue_dry",
 			"skn_m10_balaclava_red_dry",
@@ -50,27 +50,27 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		];
 
 		{ 
-			if (_x == (uniform player)) then { _radiationSuitFactor = 0.65 };
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.5 };
 		} forEach [
 			"skn_u_nbc_indep_blk" 
 		];
 
 		{ 
-			if (_x == (uniform player)) then { _radiationSuitFactor = 0.45 };
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.25 };
 		} forEach [
 			"skn_u_nbc_bluf_mtp",
 			"skn_u_nbc_bluf_wd"
 		];
 
 		{ 
-			if (_x == (uniform player)) then { _radiationSuitFactor = 0.2 };
+			if (_x == (uniform player)) then { _radiationSuitFactor = 0.05 };
 		} forEach [
 			"skn_u_nbc_opf_red",
 			"skn_u_nbc_opf_white",
 			"skn_u_nbc_opf_yellow"
 		];
 		
-		ExilePlayerRadiation = ((3000 * (_radiationMaskFactor * _radiationSuitFactor)) - (.00020371 * (_distance^1.99)));
+		ExilePlayerRadiation = (3000 - (.00020371 * (_distance^1.99))) * (_radiationMaskFactor * _radiationSuitFactor);
 		if (ExilePlayerRadiation < 0) then {ExilePlayerRadiation = 0};
 		if (ExilePlayerRadiation > 700) then
 		{

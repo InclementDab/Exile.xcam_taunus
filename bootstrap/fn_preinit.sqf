@@ -19,8 +19,13 @@ private ['_code', '_function', '_file'];
 forEach
 [
 	['RadioToggle', 'Client\Radio\RadioToggle.sqf'],
-	['Enigma_RevivePlyr', 'Client\Enigma\Enigma_RevivePlyr.sqf']
+	['Enigma_RevivePlyr', 'Client\Enigma\Enigma_RevivePlyr.sqf'],
+	['fn_CDAH_setCraftTime', 'client\CDAH\logic\fn_CDAH_setCraftTime.sqf']
 ];
+
+
+
+Bones_fnc_salvageAndRepairMenu = compileFinal preprocessFileLineNumbers "Client\AdvancedRepair\Bones_fnc_salvageAndRepairMenu.sqf";
 
 true
 
