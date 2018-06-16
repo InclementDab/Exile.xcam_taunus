@@ -1,9 +1,9 @@
 class CfgTraderCategories
 {
 
-	class Community
+	class Template
 	{
-		name = "Community Items";
+		name = "Name Here";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] =
 		{
@@ -52,7 +52,6 @@ class CfgTraderCategories
 			"arifle_AKM_F",
 			"arifle_AKM_FL_F",
 			"Exile_Weapon_AK47",
-			"Exile_Weapon_AKS_Gold",
 			"arifle_AKS_F",
 			"hlc_rifle_ak47",
 			"hlc_rifle_akm",
@@ -64,21 +63,1300 @@ class CfgTraderCategories
 			"hlc_rifle_aks74u_MTK",
 			"rhs_weap_m16a4",
 			"rhs_weap_m16a4_carryhandle",
-			"rhs_weap_m16a4_carryhandle_grip",
-			"rhs_weap_m16a4_carryhandle_grip_pmag",
-			"rhs_weap_m16a4_carryhandle_M203",
 			"rhs_weap_m16a4_carryhandle_pmag",
-			"rhs_weap_m16a4_grip",
 			"rhs_weap_akm",
 			"rhs_weap_akm_gp25",
 			"rhs_weap_akms_gp25",
-			"hlc_rifle_M14"
+			"hlc_rifle_M14",
+			"rhs_weap_m70ab2_fold",
+			"rhs_weap_m70b1",
+			"rhs_weap_m70b1n",
+			"rhs_weap_m70b3n",
+			"rhs_weap_m70b3n_pbg40",
+			"rhs_weap_m92",
+			"rhs_weap_m92_fold",
+			"rhs_weap_m76",
+			"rhs_weap_m21a",
+			"rhs_weap_m21a_pr",
+			"rhs_weap_m21a_pr_pbg40",
+			"rhs_weap_m21a_fold",
+			"rhs_weap_m21a_pbg40",
+			"rhs_weap_m21s",
+			"rhs_weap_m21s_pr",
+			"rhs_weap_m21s_fold",
+			"rhs_weap_m82a1",
+			"rhs_weap_minimi_para_railed",
+			"rhs_weap_g36c",
+			"rhs_weap_g36kv",
+			"rhs_weap_g36kv_ag36",
+			"rhs_weap_m84"
 		};
 	};
 	
+	class Smokes
+	{
+		name = "Smokes";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"SmokeShell",
+			"SmokeShellBlue",
+			"SmokeShellGreen",
+			"SmokeShellOrange",
+			"SmokeShellPurple",
+			"SmokeShellRed",
+			"SmokeShellYellow",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_SmokeYellow_Grenade_shell",
+			"3Rnd_Smoke_Grenade_shell",
+			"3Rnd_SmokeBlue_Grenade_shell",
+			"3Rnd_SmokeGreen_Grenade_shell",
+			"3Rnd_SmokeOrange_Grenade_shell",
+			"3Rnd_SmokePurple_Grenade_shell",
+			"3Rnd_SmokeRed_Grenade_shell",
+			"3Rnd_SmokeYellow_Grenade_shell"
+		};
+	};
+
+	class Flares
+	{
+		name = "Flares";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_Chemlight_HiOrange",
+			"ACE_Chemlight_HiRed",
+			"ACE_Chemlight_HiYellow",
+			"ACE_Chemlight_HiWhite",
+			"ACE_Chemlight_Orange",
+			"ACE_Chemlight_White",
+			"ACE_Chemlight_IR",
+			"ACE_HandFlare_White",
+			"ACE_HandFlare_Red",
+			"ACE_HandFlare_Green",
+			"ACE_HandFlare_Yellow",
+			"RHS_weap_rsp30_white",
+			"RHS_weap_rsp30_green",
+			"RHS_weap_rsp30_red"
+		};
+	};
 	
+	class Medical
+	{
+		name = "Medical Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			// "ACE_personalAidKit",
+			"ACE_morphine",
+			"ACE_fieldDressing",
+			"ACE_tourniquet",
+			"ACE_bloodIV_250"
+		};
+	};
 	
+	class Hardware
+	{
+		name = "Hardware";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+
+			"Exile_Item_DuctTape",
+			"Exile_Item_ExtensionCord",
+			"Exile_Item_FuelCanisterEmpty",
+			"Exile_Item_JunkMetal",
+			"Exile_Item_LightBulb",
+			"Exile_Item_MetalBoard",
+			"Exile_Item_MetalPole",
+			"Exile_Item_SafeKit",
+			"Exile_Item_CamoTentKit",
+			"Exile_Item_CodeLock",
+			"Exile_Item_MetalScrews",
+			"Exile_Item_MetalWire",
+			"Exile_Item_Laptop",
+			"Exile_Item_BaseCameraKit",
+			"Exile_Item_MetalHedgehogKit",
+			"Exile_Item_Cement",
+			"Exile_Item_Sand",
+			"Exile_Item_MobilePhone",
+			"Exile_Item_CordlessScrewdriver",
+			"Exile_Item_FireExtinguisher",
+			"Exile_Item_OilCanister",
+			"Exile_Item_Hammer",
+			"Exile_Item_Carwheel",
+			"Exile_Item_SleepingMat",
+			"Exile_Item_Defibrillator",
+			"Exile_Item_Wrench",
+			"Exile_Item_Rope",
+			"Exile_Item_Matches",
+			"Exile_Item_CookingPot",
+			"Exile_Item_CanOpener",
+			"Exile_Item_Handsaw",
+			"Exile_Item_Pliers",
+			"Exile_Item_Grinder",
+			"Exile_Item_Foolbox",
+			"Exile_Item_Screwdriver",
+			"Exile_Item_Shovel",
+			"Exile_Item_ToiletPaper",
+			"Exile_Item_BurlapSack"
+		};
+	};
+
+	class Food
+	{
+		name = "Fast Food";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_EMRE",
+			"Exile_Item_GloriousKnakworst",
+			"Exile_Item_Surstromming",
+			"Exile_Item_SausageGravy",
+			"Exile_Item_Catfood",
+			"Exile_Item_ChristmasTinner",
+			"Exile_Item_BBQSandwich",
+			"Exile_Item_MacasCheese",
+			"Exile_Item_Dogfood",
+			"Exile_Item_BeefParts",
+			"Exile_Item_Cheathas",
+			"Exile_Item_Noodles",
+			"Exile_Item_SeedAstics",
+			"Exile_Item_Raisins",
+			"Exile_Item_Moobar",
+			"Exile_Item_InstantCoffee"
+			
+			// Hunted Animals
+			// Note: Adding these to the trader will defeat the purpose of hunting!
+			/*
+			"Exile_Item_SheepSteak_Cooked",
+			"Exile_Item_AlsatianSteak_Cooked",
+			"Exile_Item_CatSharkFilet_Cooked",
+			"Exile_Item_FinSteak_Cooked",
+			"Exile_Item_GoatSteak_Cooked",
+			"Exile_Item_TurtleFilet_Cooked",
+			"Exile_Item_TunaFilet_Cooked",
+			"Exile_Item_RabbitSteak_Cooked",
+			"Exile_Item_ChickenFilet_Cooked",
+			"Exile_Item_RoosterFilet_Cooked",
+			"Exile_Item_MulletFilet_Cooked",
+			"Exile_Item_SalemaFilet_Cooked",
+			"Exile_Item_MackerelFilet_Cooked",
+			"Exile_Item_OrnateFilet_Cooked",
+			"Exile_Item_SnakeFilet_Cooked",
+			"Exile_Item_CatSharkFilet_Raw",
+			"Exile_Item_TunaFilet_Raw",
+			"Exile_Item_AlsatianSteak_Raw",
+			"Exile_Item_TurtleFilet_Raw",
+			"Exile_Item_SheepSteak_Raw",
+			"Exile_Item_FinSteak_Raw",
+			"Exile_Item_GoatSteak_Raw",
+			"Exile_Item_ChickenFilet_Raw",
+			"Exile_Item_RoosterFilet_Raw",
+			"Exile_Item_MackerelFilet_Raw",
+			"Exile_Item_MulletFilet_Raw",
+			"Exile_Item_OrnateFilet_Raw",
+			"Exile_Item_RabbitSteak_Raw",
+			"Exile_Item_SalemaFilet_Raw",
+			"Exile_Item_SnakeFilet_Raw"
+			*/
+		};
+	};
+	
+	class NonVeganFood
+	{
+		name = "Non-Vegan Food";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_CatSharkFilet_Raw",
+			"Exile_Item_TunaFilet_Raw",
+			"Exile_Item_AlsatianSteak_Raw",
+			"Exile_Item_TurtleFilet_Raw",
+			"Exile_Item_SheepSteak_Raw",
+			"Exile_Item_FinSteak_Raw",
+			"Exile_Item_GoatSteak_Raw",
+			"Exile_Item_ChickenFilet_Raw",
+			"Exile_Item_RoosterFilet_Raw",
+			"Exile_Item_MackerelFilet_Raw",
+			"Exile_Item_MulletFilet_Raw",
+			"Exile_Item_OrnateFilet_Raw",
+			"Exile_Item_RabbitSteak_Raw",
+			"Exile_Item_SalemaFilet_Raw",
+			"Exile_Item_SnakeFilet_Raw"
+		};
+	};
+	
+	class Drinks
+	{
+		name = "Drinks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"Exile_Item_PlasticBottleCoffee",
+			"Exile_Item_PowerDrink",
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_Beer",
+			"Exile_Item_EnergyDrink",
+			"Exile_Item_ChocolateMilk",
+			"Exile_Item_MountainDupe",
+			"Exile_Item_PlasticBottleEmpty"
+		};
+	};
+
+	class Equipment
+	{
+		name = "Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"ACE_MapTools",
+			"ACE_Flashlight_MX991",
+			"ACE_Flashlight_XL50",
+			"ACE_VectorDay",
+			"ACE_SpottingScope",
+			"ACE_Tripod",
+			"ACE_NVG_Gen1",
+			"ACE_NVG_Gen2",
+			"ACE_Altimeter",
+			"ACE_microDAGR",
+			"ItemMap",
+			"ItemCompass",
+			"ACE_RangeCard",
+			"ItemWatch",
+			"Exile_Item_XM8",
+			"ACE_CableTie"
+		};
+	};
+	
+	class CivilianAntiRadiationGear
+	{
+		name = "Anti-Radiation Gear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"skn_m04_gas_mask_bare_dry",
+			"skn_m04_gas_mask_blk",
+			"skn_m04_gas_mask_blu",
+			"skn_m04_gas_mask_gre",
+			"skn_m50_gas_mask_hood",
+			"skn_u_nbc_indep_blk",
+			"skn_u_nbc_bluf_mtp"
+		};
+	};
+
+	class CivilianFacewear
+	{
+		name = "Facegear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+			//Glasses
+			"TRYK_US_ESS_Glasses",
+			"TRYK_US_ESS_Glasses_WH",
+			"TRYK_US_ESS_Glasses_BLK",
+			"TRYK_US_ESS_Glasses_TAN",
+			"TRYK_US_ESS_Glasses_TAN_BLK",
+			"TRYK_SPGEAR_Glasses",
+			"TRYK_headset_Glasses",
+			"TRYK_SpsetG_Glasses",
+			"TRYK_Spset_PHC1_Glasses",
+			"TRYK_Spset_PHC2_Glasses",
+			"TRYK_US_ESS_Glasses_H",
+			"TRYK_US_ESS_Glasses_Cover",
+			"TRYK_headset_glasses",
+			"TRYK_headset2_glasses",
+			//NeckGear
+			"TRYK_Shemagh_shade_MESH",
+			"TRYK_Shemagh_shade_N",
+			"TRYK_Shemagh_shade_G_N",
+			"TRYK_Shemagh_shade_WH_N",
+			"TRYK_kio_balaclava_WH",
+			"TRYK_kio_balaclava_BLK",
+			"TRYK_kio_balaclavas",
+			"TRYK_kio_balaclava_BLK_ear",
+			"TRYK_kio_balaclava_ear",
+			"TRYK_kio_balaclava_ESS",
+			"TRYK_Shemagh",
+			"TRYK_Shemagh_mesh",
+			"TRYK_Shemagh_G",
+			"TRYK_Shemagh_WH",
+			"TRYK_Shemagh_shade",
+			"TRYK_Shemagh_shade_G",
+			"TRYK_Shemagh_shade_WH",
+			"TRYK_Shemagh_shade_MH",
+			"TRYK_Shemagh_ESS",
+			"TRYK_Shemagh_ESS_G",
+			"TRYK_Shemagh_ESS_WH",
+			"TRYK_Shemagh_EAR_TAN",
+			"TRYK_Shemagh_EAR_TAN",
+			"TRYK_Shemagh_EAR_WH",
+			
+			//Face Items
+			"TRYK_Beard",
+			"TRYK_Beard_BW",
+			"TRYK_Beard_BK",
+			"TRYK_Beard_Gr",
+			"TRYK_Beard2",
+			"TRYK_Beard_BW2",
+			"TRYK_Beard_BK2",
+			"TRYK_Beard_Gr2",
+			"TRYK_Beard3",
+			"TRYK_Beard_BW3",
+			"TRYK_Beard_BK3",
+			"TRYK_Beard_Gr3",
+			"TRYK_Beard4",
+			"TRYK_Beard_BW4",
+			"TRYK_Beard_BK4",
+			"TRYK_Beard_Gr4",
+			"rhs_googles_black",
+			"rhs_googles_clear",
+			"rhs_googles_yellow",
+			"rhs_googles_orange"
+		};
+	};
+
+	class CivilianHeadwear
+	{
+		name = "Headwear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+			//HeadGear
+			"TRYK_ESS_CAP_OD",
+			"TRYK_ESS_CAP_tan",
+			"TRYK_R_CAP_BLK",
+			"TRYK_R_CAP_TAN",
+			"TRYK_R_CAP_OD_US",
+			"TRYK_r_cap_tan_Glasses",
+			"TRYK_r_cap_blk_Glasses",
+			"TRYK_r_cap_od_Glasses",
+			"TRYK_H_headsetcap_Glasses",
+			"TRYK_H_headsetcap_blk_Glasses",
+			"TRYK_H_headsetcap_od_Glasses",
+			"TRYK_TAC_EARMUFF_SHADE",
+			"TRYK_TAC_EARMUFF",
+			"TRYK_NOMIC_TAC_EARMUFF",
+			"TRYK_headset2",
+			"TRYK_TAC_EARMUFF_Gs",
+			"TRYK_TAC_SET_bn",
+			"TRYK_NOMIC_TAC_EARMUFF_Gs",
+			"TRYK_TAC_EARMUFF_SHADE_Gs",
+			"TRYK_TAC_SET_TAN",
+			"TRYK_TAC_SET_OD",
+			"TRYK_TAC_SET_WH",
+			"TRYK_TAC_SET_MESH",
+			"TRYK_TAC_SET_TAN_2",
+			"TRYK_TAC_SET_OD_2",
+			"TRYK_TAC_SET_WH_2",
+			"TRYK_TAC_SET_MESH_2",
+			"TRYK_bandana_g",
+			"TRYK_H_PASGT_BLK",
+			"TRYK_H_PASGT_OD",
+			"TRYK_H_PASGT_COYO",
+			"TRYK_H_PASGT_TAN",
+			"TRYK_H_Helmet_Snow",
+			"TRYK_H_WH",
+			"TRYK_H_GR",
+			"TRYK_H_AOR1",
+			"TRYK_H_AOR2",
+			"TRYK_H_EARMUFF",
+			"TRYK_H_TACEARMUFF_H",
+			"TRYK_H_Bandana_H",
+			"TRYK_H_Bandana_wig",
+			"TRYK_H_Bandana_wig_g",
+			"TRYK_H_wig",
+			"TRYK_H_headset2",
+			"TRYK_H_ghillie_over",
+			"TRYK_H_ghillie_top",
+			"TRYK_H_ghillie_top_headless",
+			"TRYK_H_ghillie_over_green",
+			"TRYK_H_ghillie_top_green",
+			"TRYK_H_ghillie_top_headless_green",
+			"TRYK_H_woolhat",
+			"TRYK_H_woolhat_CW",
+			"TRYK_H_woolhat_WH",
+			"TRYK_H_woolhat_br",
+			"TRYK_H_woolhat_cu",
+			"TRYK_H_woolhat_tan",
+			"TRYK_H_headsetcap",
+			"TRYK_H_headsetcap_blk",
+			"TRYK_H_headsetcap_od",
+			"TRYK_H_pakol",
+			"TRYK_H_pakol2",
+			"TRYK_H_LHS_HEL_G",
+			"TRYK_H_Helmet_Winter",
+			"TRYK_H_Helmet_Winter_2",
+			"rhssaf_helmet_m59_85_nocamo",
+			"rhssaf_helmet_m59_85_oakleaf",
+			"rhssaf_helmet_m97_olive_nocamo",
+			"rhssaf_helmet_m97_olive_nocamo_black_ess",
+			"rhssaf_helmet_m97_olive_nocamo_black_ess_bare",
+			"rhssaf_helmet_m97_black_nocamo",
+			"rhssaf_helmet_m97_black_nocamo_black_ess",
+			"rhssaf_helmet_m97_black_nocamo_black_ess_bare",
+			"rhssaf_Helmet_m97_woodland",
+			"rhssaf_Helmet_m97_digital",
+			"rhssaf_Helmet_m97_md2camo",
+			"rhssaf_Helmet_m97_oakleaf",
+			"rhssaf_helmet_m97_nostrap_blue",
+			"rhssaf_helmet_m97_nostrap_blue_tan_ess",
+			"rhssaf_helmet_m97_nostrap_blue_tan_ess_bare",
+			"rhssaf_helmet_m97_woodland_black_ess",
+			"rhssaf_helmet_m97_woodland_black_ess_bare",
+			"rhssaf_helmet_m97_digital_black_ess",
+			"rhssaf_helmet_m97_digital_black_ess_bare",
+			"rhssaf_helmet_m97_md2camo_black_ess",
+			"rhssaf_helmet_m97_md2camo_black_ess_bare",
+			"rhssaf_helmet_m97_oakleaf_black_ess",
+			"rhssaf_helmet_m97_oakleaf_black_ess_bare",
+			"rhssaf_helmet_hgu56p",
+			"rhssaf_beret_green",
+			"rhssaf_beret_red",
+			"rhssaf_beret_black",
+			"rhssaf_beret_blue_un",
+			"rhssaf_booniehat_digital",
+			"rhssaf_booniehat_md2camo",
+			"rhssaf_booniehat_woodland"
+		};
+	};
+
+	class CivilianUniforms
+	{
+		name = "Uniforms";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+			//Uniforms
+			"TRYK_HRP_UCP",
+			"TRYK_HRP_USMC",
+			"TRYK_HRP_khk",
+			"TRYK_U_B_OD_OD_CombatUniform",
+			"TRYK_U_B_OD_OD_R_CombatUniform",
+			"TRYK_U_B_TANTAN_CombatUniform",
+			"TRYK_U_B_TANTAN_R_CombatUniform",
+			"TRYK_U_B_BLKBLK_CombatUniform",
+			"TRYK_U_B_BLKBLK_R_CombatUniform",
+			"TRYK_U_B_GRYOCP_CombatUniform",
+			"TRYK_U_B_GRYOCP_R_CombatUniformTshirt",
+			"TRYK_U_B_TANOCP_CombatUniform",
+			"TRYK_U_B_TANOCP_R_CombatUniformTshirt",
+			"TRYK_U_B_BLKOCP_CombatUniform",
+			"TRYK_U_B_BLKOCP_R_CombatUniformTshirt",
+			"TRYK_U_B_BLKTAN_CombatUniform",
+			"TRYK_U_B_BLKTANR_CombatUniformTshirt",
+			"TRYK_U_B_ODTAN_CombatUniform",
+			"TRYK_U_B_ODTANR_CombatUniformTshirt",
+			"TRYK_U_B_GRTAN_CombatUniform",
+			"TRYK_U_B_GRTANR_CombatUniformTshirt",
+			"TRYK_U_B_wood_CombatUniform",
+			"TRYK_U_B_woodR_CombatUniformTshirt",
+			"TRYK_U_B_wood3c_CombatUniform",
+			"TRYK_U_B_wood3c_CombatUniformTshirt",
+			"TRYK_U_B_MARPAT_WOOD_CombatUniform",
+			"TRYK_U_B_MARPAT_WOOD_CombatUniformTshirt",
+			"TRYK_U_B_WOOD_MARPAT_CombatUniform",
+			"TRYK_U_B_WOOD_MARPAT_CombatUniformTshirt",
+			"TRYK_U_B_woodtan_CombatUniform",
+			"TRYK_U_B_woodtanR_CombatUniformTshirt",
+			"TRYK_U_B_JSDF_CombatUniform",
+			"TRYK_U_B_JSDF_CombatUniformTshirt",
+			"TRYK_U_B_3CD_Delta_BDU",
+			"TRYK_U_B_3CD_Delta_BDUTshirt",
+			"TRYK_U_B_3CD_Ranger_BDU",
+			"TRYK_U_B_3CD_Ranger_BDUTshirt",
+			"TRYK_U_B_3CD_BLK_BDUTshirt",
+			"TRYK_U_B_3CD_BLK_BDUTshirt2",
+			"TRYK_U_B_ACU",
+			"TRYK_U_B_ACUTshirt",
+			"TRYK_U_B_MARPAT_Wood",
+			"TRYK_U_B_MARPAT_Wood_Tshirt",
+			"TRYK_U_B_MARPAT_Desert",
+			"TRYK_U_B_MARPAT_Desert_Tshirt",
+			"TRYK_U_B_MARPAT_Desert2",
+			"TRYK_U_B_MARPAT_Desert2_Tshirt",
+			"TRYK_U_B_3c",
+			"TRYK_U_B_3cr",
+			"TRYK_U_B_Sage_Tshirt",
+			"TRYK_U_B_BLK3CD",
+			"TRYK_U_B_BLK3CD_Tshirt",
+			"TRYK_U_B_BLK",
+			"TRYK_U_B_BLK_Tshirt",
+			"TRYK_U_B_BLKTAN",
+			"TRYK_U_B_BLKTAN_Tshirt",
+			"TRYK_U_B_ODTAN",
+			"TRYK_U_B_ODTAN_Tshirt",
+			"TRYK_U_B_BLK_OD",
+			"TRYK_U_B_BLK_OD_Tshirt",
+			"TRYK_U_B_C01_Tsirt",
+			"TRYK_U_B_C02_Tsirt",
+			"TRYK_U_B_OD_BLK",
+			"TRYK_U_B_OD_BLK_2",
+			"TRYK_U_B_BLK_TAN_1",
+			"TRYK_U_B_BLK_TAN_2",
+			"TRYK_U_B_wh_tan_Rollup_CombatUniform",
+			"TRYK_U_B_wh_OD_Rollup_CombatUniform",
+			"TRYK_U_B_wh_blk_Rollup_CombatUniform",
+			"TRYK_U_B_BLK_tan_Rollup_CombatUniform",
+			"TRYK_U_B_BLK_OD_Rollup_CombatUniform",
+			"TRYK_U_B_NATO_UCP_GRY_CombatUniform",
+			"TRYK_U_B_NATO_UCP_GRY_R_CombatUniform",
+			"TRYK_U_B_NATO_UCP_CombatUniform",
+			"TRYK_U_B_NATO_UCP_R_CombatUniform",
+			"TRYK_U_B_NATO_OCP_c_BLK_CombatUniform",
+			"TRYK_U_B_NATO_OCP_BLK_c_R_CombatUniform",
+			"TRYK_U_B_NATO_OCP_BLK_CombatUniform",
+			"TRYK_U_B_NATO_OCP_BLK_R_CombatUniform",
+			"TRYK_U_B_NATO_OCPD_CombatUniform",
+			"TRYK_U_B_NATO_OCPD_R_CombatUniform",
+			"TRYK_U_B_NATO_OCP_CombatUniform",
+			"TRYK_U_B_NATO_OCP_R_CombatUniform",
+			"TRYK_U_B_AOR1_Rollup_CombatUniform",
+			"TRYK_U_B_AOR2_Rollup_CombatUniform",
+			"TRYK_U_B_MTP_CombatUniform",
+			"TRYK_U_B_MTP_R_CombatUniform",
+			"TRYK_U_B_MTP_BLK_CombatUniform",
+			"TRYK_U_B_MTP_BLK_R_CombatUniform",
+			"TRYK_U_B_Woodland",
+			"TRYK_U_B_Woodland_Tshirt",
+			"TRYK_U_B_WDL_GRY_CombatUniform",
+			"TRYK_U_B_WDL_GRY_R_CombatUniform",
+			"TRYK_U_B_ARO1_GR_CombatUniform",
+			"TRYK_U_B_ARO1_GR_R_CombatUniform",
+			"TRYK_U_B_ARO1_GRY_CombatUniform",
+			"TRYK_U_B_ARO1_GRY_R_CombatUniform",
+			"TRYK_U_B_ARO1_CombatUniform",
+			"TRYK_U_B_ARO1R_CombatUniform",
+			"TRYK_U_B_ARO1_BLK_CombatUniform",
+			"TRYK_U_B_ARO1_BLK_R_CombatUniform",
+			"TRYK_U_B_ARO1_CBR_CombatUniform",
+			"TRYK_U_B_ARO1_CBR_R_CombatUniform",
+			"TRYK_U_B_ARO2_CombatUniform",
+			"TRYK_U_B_ARO2R_CombatUniform",
+			"TRYK_U_B_AOR2_BLK_CombatUniform",
+			"TRYK_U_B_AOR2_BLK_R_CombatUniform",
+			"TRYK_U_B_AOR2_OD_CombatUniform",
+			"TRYK_U_B_AOR2_OD_R_CombatUniform",
+			"TRYK_U_B_AOR2_GRY_CombatUniform",
+			"TRYK_U_B_AOR2_GRY_R_CombatUniform",
+			"TRYK_U_B_Snow_CombatUniform",
+			"TRYK_U_B_Snowt",
+			"TRYK_U_B_Denim_T_WH",
+			"TRYK_U_B_Denim_T_BK",
+			"TRYK_U_B_BLK_T_WH",
+			"TRYK_U_B_BLK_T_BK",
+			"TRYK_U_B_RED_T_BR",
+			"TRYK_U_B_Denim_T_BG_WH",
+			"TRYK_U_B_Denim_T_BG_BK",
+			"TRYK_U_B_BLK_T_BG_WH",
+			"TRYK_U_B_BLK_T_BG_BK",
+			"TRYK_U_B_RED_T_BG_BR",
+			"TRYK_U_B_fleece",
+			"TRYK_U_B_fleece_UCP",
+			"TRYK_U_B_UCP_PCUs",
+			"TRYK_U_B_GRY_PCUs",
+			"TRYK_U_B_Wood_PCUs",
+			"TRYK_U_B_PCUs",
+			"TRYK_U_B_UCP_PCUs_R",
+			"TRYK_U_B_GRY_PCUs_R",
+			"TRYK_U_B_Wood_PCUs_R",
+			"TRYK_U_B_PCUs_R",
+			"TRYK_U_B_PCUGs",
+			"TRYK_U_B_PCUODs",
+			"TRYK_U_B_PCUGs_gry",
+			"TRYK_U_B_PCUGs_BLK",
+			"TRYK_U_B_PCUGs_OD",
+			"TRYK_U_B_PCUGs_gry_R",
+			"TRYK_U_B_PCUGs_BLK_R",
+			"TRYK_U_B_PCUGs_OD_R",
+			"TRYK_U_Bts_GRYGRY_PCUs",
+			"TRYK_U_Bts_UCP_PCUs",
+			"TRYK_U_Bts_Wood_PCUs",
+			"TRYK_U_Bts_PCUs",
+			"TRYK_U_pad_j",
+			"TRYK_U_pad_j_blk",
+			"TRYK_U_pad_hood_Cl",
+			"TRYK_U_pad_hood_Cl_blk",
+			"TRYK_U_pad_hood_tan",
+			"TRYK_U_pad_hood_Blk",
+			"TRYK_U_pad_hood_CSATBlk",
+			"TRYK_U_pad_hood_Blod",
+			"TRYK_U_pad_hood_odBK",
+			"TRYK_U_pad_hood_BKT2",
+			"TRYK_hoodie_Blk",
+			"TRYK_hoodie_FR",
+			"TRYK_hoodie_Wood",
+			"TRYK_hoodie_3c",
+			"TRYK_T_camo_tan",
+			"TRYK_T_camo_3c",
+			"TRYK_T_camo_Wood",
+			"TRYK_T_camo_wood_marpat",
+			"TRYK_T_camo_Desert_marpat",
+			"TRYK_T_camo_3c_BG",
+			"TRYK_T_camo_Wood_BG",
+			"TRYK_T_camo_wood_marpat_BG",
+			"TRYK_T_camo_desert_marpat_BG",
+			"TRYK_T_PAD",
+			"TRYK_T_OD_PAD",
+			"TRYK_T_TAN_PAD",
+			"TRYK_T_BLK_PAD",
+			"TRYK_T_T2_PAD",
+			"TRYK_T_CSAT_PAD",
+			"TRYK_U_nohoodPcu_gry",
+			"TRYK_U_hood_nc",
+			"TRYK_U_hood_mc",
+			"TRYK_U_denim_hood_blk",
+			"TRYK_U_denim_hood_mc",
+			"TRYK_U_denim_hood_3c",
+			"TRYK_U_denim_hood_nc",
+			"TRYK_U_denim_jersey_blu",
+			"TRYK_U_denim_jersey_blk",
+			"TRYK_shirts_PAD",
+			"TRYK_shirts_OD_PAD",
+			"TRYK_shirts_TAN_PAD",
+			"TRYK_shirts_BLK_PAD",
+			"TRYK_shirts_PAD_BK",
+			"TRYK_shirts_OD_PAD_BK",
+			"TRYK_shirts_TAN_PAD_BK",
+			"TRYK_shirts_BLK_PAD_BK",
+			"TRYK_shirts_PAD_BLW",
+			"TRYK_shirts_OD_PAD_BLW",
+			"TRYK_shirts_TAN_PAD_BLW",
+			"TRYK_shirts_BLK_PAD_BLW",
+			"TRYK_shirts_PAD_YEL",
+			"TRYK_shirts_OD_PAD_YEL",
+			"TRYK_shirts_TAN_PAD_YEL",
+			"TRYK_shirts_BLK_PAD_YEL",
+			"TRYK_shirts_PAD_RED2",
+			"TRYK_shirts_OD_PAD_RED2",
+			"TRYK_shirts_TAN_PAD_RED2",
+			"TRYK_shirts_BLK_PAD_RED2",
+			"TRYK_shirts_PAD_BLU3",
+			"TRYK_shirts_OD_PAD_BLU3",
+			"TRYK_shirts_TAN_PAD_BLU3",
+			"TRYK_shirts_BLK_PAD_BLU3",
+			"TRYK_shirts_DENIM_R",
+			"TRYK_shirts_DENIM_BL",
+			"TRYK_shirts_DENIM_BK",
+			"TRYK_shirts_DENIM_WH",
+			"TRYK_shirts_DENIM_BWH",
+			"TRYK_shirts_DENIM_RED2",
+			"TRYK_shirts_DENIM_WHB",
+			"TRYK_shirts_DENIM_ylb",
+			"TRYK_shirts_DENIM_od",
+			"TRYK_shirts_DENIM_R_Sleeve",
+			"TRYK_shirts_DENIM_BL_Sleeve",
+			"TRYK_shirts_DENIM_BK_Sleeve",
+			"TRYK_shirts_DENIM_WH_Sleeve",
+			"TRYK_shirts_DENIM_BWH_Sleeve",
+			"TRYK_shirts_DENIM_RED2_Sleeve",
+			"TRYK_shirts_DENIM_WHB_Sleeve",
+			"TRYK_shirts_DENIM_ylb_Sleeve",
+			"TRYK_shirts_DENIM_od_Sleeve",
+			"TRYK_shirts_PAD_BL",
+			"TRYK_shirts_OD_PAD_BL",
+			"TRYK_shirts_TAN_PAD_BL",
+			"TRYK_shirts_BLK_PAD_BL",
+			"TRYK_U_taki_wh",
+			"TRYK_U_taki_COY",
+			"TRYK_U_taki_BL",
+			"TRYK_U_taki_BLK",
+			"TRYK_U_Bts_PCUGs",
+			"TRYK_U_Bts_PCUODs",
+			"TRYK_U_taki_G_WH",
+			"TRYK_U_taki_G_COY",
+			"TRYK_U_taki_G_BL",
+			"TRYK_U_taki_G_BLK",
+			"TRYK_U_B_PCUHs",
+			"TRYK_U_B_PCUGHs",
+			"TRYK_U_B_PCUODHs",
+			"TRYK_B_USMC_R",
+			"TRYK_B_USMC_R_ROLL",
+			"TRYK_ZARATAKI",
+			"TRYK_ZARATAKI2",
+			"TRYK_ZARATAKI3",
+			"TRYK_B_TRYK_UCP_T",
+			"TRYK_B_TRYK_3C_T",
+			"TRYK_B_TRYK_MTP_T",
+			"TRYK_B_TRYK_OCP_T",
+			"TRYK_B_TRYK_OCP_D_T",
+			"TRYK_DMARPAT_T",
+			"TRYK_C_AOR2_T",
+			"TRYK_U_B_Sage_T",
+			"TRYK_U_B_Wood_T",
+			"TRYK_U_B_BLTAN_T",
+			"TRYK_U_B_BLOD_T",
+			"TRYK_OVERALL_flesh",
+			"TRYK_OVERALL_nok_flesh",
+			"TRYK_OVERALL_SAGE_BLKboots",
+			"TRYK_OVERALL_SAGE_BLKboots_nk_blk",
+			"TRYK_OVERALL_SAGE_BLKboots_nk",
+			"TRYK_OVERALL_SAGE_BLKboots_nk_blk2",
+			"TRYK_OVERALL_SAGE",
+			"TRYK_SUITS_BLK_F",
+			"TRYK_SUITS_BR_F",
+			"TRYK_U_B_PCUHsW",
+			"TRYK_U_B_PCUHsW2",
+			"TRYK_U_B_PCUHsW3",
+			"TRYK_U_B_PCUHsW3nh",
+			"TRYK_U_B_PCUHsW4",
+			"TRYK_U_B_PCUHsW5",
+			"TRYK_U_B_PCUHsW6",
+			"rhssaf_uniform_m10_digital",
+			"rhssaf_uniform_m10_digital_summer",
+			"rhssaf_uniform_m10_digital_desert",
+			"rhssaf_uniform_m10_digital_tan_boots",
+			"rhssaf_uniform_m93_oakleaf",
+			"rhssaf_uniform_m93_oakleaf_summer"
+		};
+	};
+
+	class CivilianVests
+	{
+		name = "Vests";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+			//Vests
+			"TRYK_Hrp_vest_ucp",
+			"TRYK_Hrp_vest_od",
+			//"TRYK_V_PlateCarrier_JSDF",// Missing icon
+			"TRYK_V_ArmorVest_AOR1",
+			"TRYK_V_ArmorVest_AOR2",
+			"TRYK_V_ArmorVest_coyo",
+			"TRYK_V_ArmorVest_Brown",
+			"TRYK_V_ArmorVest_CBR",
+			"TRYK_V_ArmorVest_khk",
+			"TRYK_V_ArmorVest_rgr",
+			"TRYK_V_ArmorVest_green",
+			"TRYK_V_ArmorVest_tan",
+			"TRYK_V_ArmorVest_Delta",
+			"TRYK_V_ArmorVest_Ranger",
+			"TRYK_V_ArmorVest_AOR1_2",
+			"TRYK_V_ArmorVest_AOR2_2",
+			"TRYK_V_ArmorVest_coyo2",
+			"TRYK_V_ArmorVest_Brown2",
+			"TRYK_V_ArmorVest_cbr2",
+			"TRYK_V_ArmorVest_khk2",
+			"TRYK_V_ArmorVest_rgr2",
+			"TRYK_V_ArmorVest_green2",
+			"TRYK_V_ArmorVest_tan2",
+			"TRYK_V_ArmorVest_Delta2",
+			"TRYK_V_ArmorVest_Ranger2",
+			"TRYK_V_PlateCarrier_blk",
+			"TRYK_V_PlateCarrier_oli",
+			"TRYK_V_PlateCarrier_coyo",
+			"TRYK_V_PlateCarrier_wood",
+			"TRYK_V_PlateCarrier_ACU",
+			"TRYK_V_TacVest_coyo",
+			"TRYK_V_harnes_blk_L",
+			"TRYK_V_harnes_od_L",
+			"TRYK_V_harnes_TAN_L",
+			"TRYK_V_PlateCarrier_blk_L",
+			"TRYK_V_PlateCarrier_wood_L",
+			"TRYK_V_PlateCarrier_ACU_L",
+			"TRYK_V_PlateCarrier_coyo_L",
+			"TRYK_V_ChestRig_L",
+			"TRYK_V_ChestRig",
+			//"TRYK_V_Bulletproof",// Has no capacity
+			//"TRYK_V_Bulletproof_BLK",// Has no capacity
+			//"TRYK_V_Bulletproof_BL",// Has no capacity
+			"TRYK_V_IOTV_BLK",
+			"TRYK_V_tacv1M_BK",
+			"TRYK_V_tacv1MLC_BK",
+			"TRYK_V_tacv1",
+			"TRYK_V_tacv1_CY",
+			"TRYK_V_tacv1_BK",
+			"TRYK_V_tacv1_P_BK",
+			"TRYK_V_tacv1_SHERIFF_BK",
+			"TRYK_V_tacv1_FBI_BK",
+			"TRYK_V_tacv1LP_BK",
+			"TRYK_V_tacv1LSRF_BK",
+			"TRYK_V_tacv1LC_BK",
+			"TRYK_V_tacv1LC_CY",
+			"TRYK_V_tacv1LC_OD",
+			"TRYK_V_tacv1LC_FBI_BK",
+			"TRYK_V_tacv1LC_SRF_BK",
+			"TRYK_V_tacv1LC_SRF_OD",
+			"TRYK_V_tacv1LC_P_BK",
+			"TRYK_V_PlateCarrier_POLICE",
+			"TRYK_V_ArmorVest_HRT_B",
+			"TRYK_V_ArmorVest_HRT_OD",
+			"TRYK_V_ArmorVest_HRT2_B",
+			"TRYK_V_ArmorVest_HRT2_OD",
+			"TRYK_V_ArmorVest_Winter",
+			"TRYK_V_Sheriff_BA_OD",
+			"TRYK_V_tacv10_BK",
+			"TRYK_V_tacv10_OD",
+			"TRYK_V_tacv10_TN",
+			"TRYK_V_tacv10LC_BK",
+			"TRYK_V_tacv10LC_OD",
+			"TRYK_V_tacv10LC_TN",
+			"TRYK_V_tacv1L_BK",
+			"TRYK_V_tacv1L_OD",
+			"TRYK_V_tacv1L_CY",
+			"TRYK_V_tacv1LC_FBI2_BK",
+			"TRYK_V_tacv1LC_SRF2_BK",
+			"TRYK_V_tacv1LC_SRF2_OD",
+			"TRYK_V_tacv1LC_P2_BK",
+			"TRYK_V_tacv1_MSL_BK",
+			"TRYK_V_tacv1_MSL_NV",
+			"TRYK_V_tacv1LMSL_BK",
+			"TRYK_V_tacv1LMSL_NV",
+			"TRYK_V_tacv1LC_MSL_BK",
+			"TRYK_V_tacv1LC_MSL_NV",
+			"TRYK_V_tacSVD_BK",
+			"TRYK_V_tacSVD_OD",
+			"TRYK_V_Sheriff_BA_TL",
+			"TRYK_V_Sheriff_BA_TBL",
+			"TRYK_V_Sheriff_BA_TCL",
+			"TRYK_V_Sheriff_BA_TL2",
+			"TRYK_V_Sheriff_BA_TBL2",
+			"TRYK_V_Sheriff_BA_TCL2",
+			"TRYK_V_Sheriff_BA_T",
+			"TRYK_V_Sheriff_BA_TB",
+			"TRYK_V_Sheriff_BA_T2",
+			"TRYK_V_Sheriff_BA_TB2",
+			"TRYK_V_Sheriff_BA_T3",
+			"TRYK_V_Sheriff_BA_TB3",
+			"TRYK_V_Sheriff_BA_T4",
+			"TRYK_V_Sheriff_BA_TB4",
+			"TRYK_V_Sheriff_BA_T5",
+			"TRYK_V_Sheriff_BA_TB5",
+			"TRYK_V_Sheriff_BA_TBL3_BK",
+			"TRYK_V_Sheriff_BA_TBL3_OD",
+			"TRYK_V_Sheriff_BA_TBL3_TN",
+			"TRYK_LOC_AK_chestrig_OD",
+			"TRYK_LOC_AK_chestrig_TAN",
+			"rhssaf_vest_md98_woodland",
+			"rhssaf_vest_md98_md2camo",
+			"rhssaf_vest_md98_digital",
+			"rhssaf_vest_md98_officer",
+			"rhssaf_vest_md98_rifleman",
+			"rhssaf_vest_otv_md2camo",
+			"rhssaf_vest_md99_md2camo_rifleman",
+			"rhssaf_vest_md99_digital_rifleman",
+			"rhssaf_vest_md99_woodland_rifleman",
+			"rhssaf_vest_md99_md2camo",
+			"rhssaf_vest_md99_digital",
+			"rhssaf_vest_md99_woodland"
+		};
+	};
+
+	class CivilianBackpacks
+	{
+		name = "Backpacks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+			//BackPacks
+			"TRYK_B_AssaultPack_UCP",
+			"TRYK_B_AssaultPack_Type2camo",
+			"TRYK_B_AssaultPack_MARPAT_Desert",
+			"TRYK_B_AssaultPack_MARPAT_Wood",
+			"TRYK_B_Kitbag_Base",
+			"TRYK_B_Kitbag_blk",
+			"TRYK_B_Kitbag_aaf",
+			"TRYK_B_Carryall_blk",
+			"TRYK_B_Carryall_wh",
+			"TRYK_B_Carryall_wood",
+			"TRYK_B_Carryall_JSDF",
+			"TRYK_B_Kitbag_Base_JSDF",
+			"TRYK_B_Coyotebackpack",
+			"TRYK_B_Coyotebackpack_OD",
+			"TRYK_B_Coyotebackpack_BLK",
+			"TRYK_B_Coyotebackpack_WH",
+			"TRYK_B_Alicepack",
+			"TRYK_B_Medbag",
+			"TRYK_B_Medbag_OD",
+			"TRYK_B_Medbag_BK",
+			"TRYK_B_Medbag_ucp",
+			"TRYK_B_Belt",
+			"TRYK_B_Belt_BLK",
+			"TRYK_B_Belt_CYT",
+			"TRYK_B_Belt_tan",
+			"TRYK_B_Belt_br",
+			"TRYK_B_Belt_GR",
+			"TRYK_B_Belt_AOR1",
+			"TRYK_B_Belt_AOR2",
+			"TRYK_B_BAF_BAG_BLK",
+			"TRYK_B_BAF_BAG_CYT",
+			"TRYK_B_BAF_BAG_OD",
+			"TRYK_B_BAF_BAG_rgr",
+			"TRYK_B_BAF_BAG_mcamo",
+			"TRYK_B_tube_cyt",
+			"TRYK_B_tube_od",
+			"TRYK_B_tube_blk",
+			"TRYK_B_FieldPack_Wood",
+			"TRYK_Winter_pack",
+			"rhssaf_Kitbag_base",
+			"rhssaf_kitbag_md2camo",
+			"rhssaf_kitbag_digital",
+			"rhssaf_kitbag_smb"
+		};
+	};
+	
+
 	// Military
+	
+	
+	class MilitaryUniforms
+	{
+		name = "Military Uniforms";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"rhs_uniform_FROG01_m81",
+			"rhs_uniform_FROG01_d",
+			"rhs_uniform_FROG01_wd",
+			"rhs_uniform_cu_ocp",
+			"rhs_uniform_cu_ucp",
+			"rhs_uniform_cu_ocp_101st",
+			"rhs_uniform_cu_ocp_10th",
+			"rhs_uniform_cu_ocp_1stcav",
+			"rhs_uniform_cu_ocp_82nd",
+			"rhs_uniform_cu_ucp_101st",
+			"rhs_uniform_cu_ucp_10th",
+			"rhs_uniform_cu_ucp_1stcav",
+			"rhs_uniform_cu_ucp_82nd",
+			"rhs_uniform_cu_ocp_patchless",
+	        "rhs_uniform_cu_ucp_patchless",
+			// Added by ElShotte - 5 Items
+			"rhs_uniform_g3_m81",
+			"rhs_uniform_g3_blk",
+			"rhs_uniform_g3_mc",
+			"rhs_uniform_g3_rgr",
+			"rhs_uniform_g3_tan",
+			"rhsgref_uniform_alpenflage",
+			"rhsgref_uniform_flecktarn",
+			"rhsgref_uniform_para_ttsko_mountain",
+			"rhsgref_uniform_para_ttsko_oxblood",
+			"rhsgref_uniform_para_ttsko_urban",
+			"rhsgref_uniform_reed",
+			"rhsgref_uniform_specter",
+			"rhsgref_uniform_tigerstripe",
+			"rhsgref_uniform_ttsko_forest",
+			"rhsgref_uniform_ttsko_mountain",
+			"rhsgref_uniform_ttsko_urban",
+			"rhsgref_uniform_vsr",
+			"rhsgref_uniform_woodland",
+			"rhsgref_uniform_woodland_olive"
+		};
+	};
+
+	class MilitaryVests
+	{
+		name = "Military Vests";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\vest_ca.paa";
+		items[] =
+		{
+
+			"rhsusf_iotv_ucp",
+			"rhsusf_iotv_ucp_grenadier",
+			"rhsusf_iotv_ucp_medic",
+			"rhsusf_iotv_ucp_repair",
+			"rhsusf_iotv_ucp_rifleman",
+			"rhsusf_iotv_ucp_SAW",
+			"rhsusf_iotv_ucp_squadleader",
+			"rhsusf_iotv_ucp_teamleader",
+			"rhsusf_iotv_ocp",
+			"rhsusf_iotv_ocp_grenadier",
+			"rhsusf_iotv_ocp_medic",
+			"rhsusf_iotv_ocp_repair",
+			"rhsusf_iotv_ocp_rifleman",
+			"rhsusf_iotv_ocp_SAW",
+			"rhsusf_iotv_ocp_squadleader",
+			"rhsusf_iotv_ocp_teamleader",
+			//added by chainsaw - 2
+			"rhsusf_spc",
+			"rhsusf_spc_mg",
+			// Added by ElShotte - 12 Items
+			"rhsusf_spc_marksman",
+			"rhsusf_spc_corpsman",
+			"rhsusf_spc_patchless",
+			"rhsusf_spc_squadleader",
+			"rhsusf_spc_teamleader",
+			"rhsusf_spc_light",
+			"rhsusf_spc_rifleman",
+			"rhsusf_spc_iar",
+			"rhsusf_spcs_ocp_rifleman",
+			"rhsusf_spcs_ocp",
+			"rhsusf_spcs_ucp_rifleman",
+			"rhsusf_spcs_ucp",
+			"rhsgref_6b23",
+			"rhsgref_6b23_khaki",
+			"rhsgref_6b23_khaki_medic",
+			"rhsgref_6b23_khaki_nco",
+			"rhsgref_6b23_khaki_officer",
+			"rhsgref_6b23_khaki_rifleman",
+			"rhsgref_6b23_khaki_sniper",
+			"rhsgref_6b23_ttsko_digi",
+			"rhsgref_6b23_ttsko_digi_medic",
+			"rhsgref_6b23_ttsko_digi_nco",
+			"rhsgref_6b23_ttsko_digi_officer",
+			"rhsgref_6b23_ttsko_digi_rifleman",
+			"rhsgref_6b23_ttsko_digi_sniper",
+			"rhsgref_6b23_ttsko_forest",
+			"rhsgref_6b23_ttsko_forest_rifleman",
+			"rhsgref_6b23_ttsko_mountain",
+			"rhsgref_6b23_ttsko_mountain_medic",
+			"rhsgref_6b23_ttsko_mountain_nco",
+			"rhsgref_6b23_ttsko_mountain_officer",
+			"rhsgref_6b23_ttsko_mountain_rifleman",
+			"rhsgref_6b23_ttsko_mountain_sniper",
+			"rhsgref_otv_digi",
+			"rhsgref_otv_khaki"
+
+		};
+	};
+
+	class MilitaryHeadgear
+	{
+		name = "Military Headgear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
+		items[] =
+		{
+
+			"rhs_Booniehat_m81",
+			"rhs_Booniehat_marpatd",
+			"rhs_Booniehat_marpatwd",
+			"rhs_Booniehat_ocp",
+			"rhs_Booniehat_ucp",
+			"rhsusf_Bowman",
+			"rhsusf_ach_bare",
+			"rhsusf_ach_bare_des",
+			"rhsusf_ach_bare_des_ess",
+			"rhsusf_ach_bare_des_headset",
+			"rhsusf_ach_bare_des_headset_ess",
+			"rhsusf_ach_bare_ess",
+			"rhsusf_ach_bare_headset",
+			"rhsusf_ach_bare_headset_ess",
+			"rhsusf_ach_bare_semi",
+			"rhsusf_ach_bare_semi_ess",
+			"rhsusf_ach_bare_semi_headset",
+			"rhsusf_ach_bare_semi_headset_ess",
+			"rhsusf_ach_bare_tan",
+			"rhsusf_ach_bare_tan_ess",
+			"rhsusf_ach_bare_tan_headset",
+			"rhsusf_ach_bare_tan_headset_ess",
+			"rhsusf_ach_bare_wood",
+			"rhsusf_ach_bare_wood_ess",
+			"rhsusf_ach_bare_wood_headset",
+			"rhsusf_ach_bare_wood_headset_ess",
+			"rhsusf_ach_helmet_ESS_ocp",
+			"rhsusf_ach_helmet_ESS_ucp",
+			"rhsusf_ach_helmet_M81",
+			"rhsusf_ach_helmet_camo_ocp",
+			"rhsusf_ach_helmet_headset_ess_ocp",
+			"rhsusf_ach_helmet_headset_ess_ucp",
+			"rhsusf_ach_helmet_headset_ocp",
+			"rhsusf_ach_helmet_headset_ucp",
+			"rhsusf_ach_helmet_ocp",
+			"rhsusf_ach_helmet_ocp_norotos",
+			"rhsusf_ach_helmet_ucp",
+			"rhsusf_ach_helmet_ucp_norotos",
+			"rhsusf_bowman_cap",
+			"rhsusf_lwh_helmet_M1942",
+			"rhsusf_lwh_helmet_marpatd",
+			"rhsusf_lwh_helmet_marpatd_ess",
+			"rhsusf_lwh_helmet_marpatd_headset",
+			"rhsusf_lwh_helmet_marpatwd",
+			"rhsusf_lwh_helmet_marpatwd_ess",
+			"rhsusf_lwh_helmet_marpatwd_headset",
+			"rhsusf_mich_bare",
+			"rhsusf_mich_bare_alt",
+			"rhsusf_mich_bare_alt_semi",
+			"rhsusf_mich_bare_alt_tan",
+			"rhsusf_mich_bare_headset",
+			"rhsusf_mich_bare_norotos",
+			"rhsusf_mich_bare_norotos_alt",
+			"rhsusf_mich_bare_norotos_alt_headset",
+			"rhsusf_mich_bare_norotos_alt_semi",
+			"rhsusf_mich_bare_norotos_alt_semi_headset",
+			"rhsusf_mich_bare_norotos_alt_tan",
+			"rhsusf_mich_bare_norotos_alt_tan_headset",
+			"rhsusf_mich_bare_norotos_arc",
+			"rhsusf_mich_bare_norotos_arc_alt",
+			"rhsusf_mich_bare_norotos_arc_alt_headset",
+			"rhsusf_mich_bare_norotos_arc_alt_semi",
+			"rhsusf_mich_bare_norotos_arc_alt_semi_headset",
+			"rhsusf_mich_bare_norotos_arc_alt_tan",
+			"rhsusf_mich_bare_norotos_arc_alt_tan_headset",
+			"rhsusf_mich_bare_norotos_arc_headset",
+			"rhsusf_mich_bare_norotos_arc_semi",
+			"rhsusf_mich_bare_norotos_arc_semi_headset",
+			"rhsusf_mich_bare_norotos_arc_tan",
+			"rhsusf_mich_bare_norotos_headset",
+			"rhsusf_mich_bare_norotos_semi",
+			"rhsusf_mich_bare_norotos_semi_headset",
+			"rhsusf_mich_bare_norotos_tan",
+			"rhsusf_mich_bare_norotos_tan_headset",
+			"rhsusf_mich_bare_semi",
+			"rhsusf_mich_bare_semi_headset",
+			"rhsusf_mich_bare_tan",
+			"rhsusf_mich_bare_tan_headset",
+			"rhsusf_mich_helmet_marpatd_alt_headset",
+			"rhsusf_mich_helmet_marpatd_headset",
+			"rhsusf_mich_helmet_marpatd_norotos",
+			"rhsusf_mich_helmet_marpatd_norotos_arc",
+			"rhsusf_mich_helmet_marpatd_norotos_arc_headset",
+			"rhsusf_mich_helmet_marpatd_norotos_headset",
+			"rhsusf_mich_helmet_marpatwd",
+			"rhsusf_mich_helmet_marpatwd_alt",
+			"rhsusf_mich_helmet_marpatwd_alt_headset",
+			"rhsusf_mich_helmet_marpatwd_headset",
+			"rhsusf_mich_helmet_marpatwd_norotos",
+			"rhsusf_mich_helmet_marpatwd_norotos_arc",
+			"rhsusf_mich_helmet_marpatwd_norotos_arc_headset",
+			"rhsusf_mich_helmet_marpatwd_norotos_headset",
+			// added by chainsaw - 13
+			"rhsusf_patrolcap_ocp",
+			"rhsusf_patrolcap_ucp",
+			"rhsusf_opscore_01",
+			"rhsusf_opscore_01_tan",
+			"rhsusf_opscore_02_tan",
+			"rhsusf_opscore_03_ocp",
+			"rhsusf_opscore_04_ocp",
+			"rhsusf_cvc_helmet",
+			"rhsusf_cvc_ess",
+			"rhsusf_hgu56p",
+			"rhsusf_hgu56p_mask",
+			"rhsusf_cvc_green_helmet",
+			"rhsusf_cvc_green_ess",
+			// Added by ElShotte - 41 Items
+			"rhsusf_opscore_bk_pelt",
+			"rhsusf_opscore_bk",
+			"rhsusf_opscore_coy_cover",
+			"rhsusf_opscore_coy_cover_pelt",
+			"rhsusf_opscore_fg",
+			"rhsusf_opscore_fg_pelt",
+			"rhsusf_opscore_fg_pelt_cam",
+			"rhsusf_opscore_fg_pelt_nsw",
+			"rhsusf_opscore_mc",
+			"rhsusf_opscore_mc_pelt",
+			"rhsusf_opscore_mc_pelt_nsw",
+			"rhsusf_opscore_mc_cover",
+			"rhsusf_opscore_mc_cover_pelt",
+			"rhsusf_opscore_mc_cover_pelt_nsw",
+			"rhsusf_opscore_mc_cover_pelt_cam",
+			"rhsusf_opscore_paint",
+			"rhsusf_opscore_paint_pelt",
+			"rhsusf_opscore_paint_pelt_nsw",
+			"rhsusf_opscore_paint_pelt_nsw_cam",
+			"rhsusf_opscore_rg_cover",
+			"rhsusf_opscore_rg_cover_pelt",
+			"rhsusf_opscore_ut",
+			"rhsusf_opscore_ut_pelt",
+			"rhsusf_opscore_ut_pelt_cam",
+			"rhsusf_opscore_ut_pelt_nsw",
+			"rhsusf_opscore_ut_pelt_nsw_cam",
+			"rhsusf_opscore_mar_ut_pelt",
+			"rhsusf_opscore_mar_ut",
+			"rhsusf_opscore_mar_fg_pelt",
+			"rhsusf_opscore_mar_fg",
+			"rhsusf_protech_helmet",
+			"rhsusf_protech_helmet_ess",
+			"rhsusf_protech_helmet_rhino",
+			"rhsusf_protech_helmet_rhino_ess",
+			"rhsgref_6b27m",
+			"rhsgref_6b27m_ttsko_digi",
+			"rhsgref_6b27m_ttsko_forest",
+			"rhsgref_6b27m_ttsko_mountain",
+			"rhsgref_6b27m_ttsko_urban",
+			"rhsgref_Booniehat_alpen",
+			"rhsgref_fieldcap",
+			"rhsgref_fieldcap_ttsko_digi",
+			"rhsgref_fieldcap_ttsko_forest",
+			"rhsgref_fieldcap_ttsko_mountain",
+			"rhsgref_fieldcap_ttsko_urban",
+			"rhsgref_patrolcap_specter",
+			"rhsgref_ssh68",
+			"rhsgref_ssh68_emr",
+			"rhsgref_ssh68_ttsko_digi",
+			"rhsgref_ssh68_ttsko_forest",
+			"rhsgref_ssh68_ttsko_mountain",
+			"rhsgref_ssh68_un"
+		};
+	};
+
+	class MilitaryBackpacks
+	{
+		name = "Military Backpacks";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
+		items[] =
+		{
+			"rhsusf_assault_eagleaiii_coy",
+			"rhsusf_assault_eagleaiii_ocp",
+			"rhsusf_assault_eagleaiii_ucp",
+			"rhsusf_falconii_coy",
+			"rhsusf_falconii_mc",
+			"rhsusf_falconii",
+			"RHS_M2_Gun_Bag",
+
+		};
+	};
+
+	class MilitaryMedical
+	{
+		name = "Hospital";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			// "ACE_personalAidKit",
+			"ACE_morphine",
+			"ACE_epinephrine",
+			"ACE_fieldDressing",
+			"ACE_bloodIV_250",
+			"ACE_bloodIV_500",
+			"ACE_bloodIV",
+			"ACE_bodyBag",
+			"ACE_tourniquet",
+			"Exile_Item_Defibrillator"
+		};
+	};
+
+	class MilitaryEquipment
+	{
+		name = "Military Equipment";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"B_Parachute",
+			"ACE_NonSteerableParachute",
+			"ACE_DAGR",
+			"ACE_Kestrel4500",
+			"ACE_ATragMX",
+			"ACE_HuntIR_monitor",
+			"ACE_HuntIR_M203",
+			"ACE_IR_Strobe_Item",
+			"ACE_DefusalKit",
+			"ACE_Cellphone",
+			"ACE_Clacker",
+			"ACE_CableTie",
+			"ACE_MapTools",
+			"ACE_Flashlight_MX991",
+			"ACE_RangeCard",
+			"ACE_Flashlight_XL50",
+			"ACE_VectorDay",
+			"ACE_SpottingScope",
+			"ACE_Tripod",
+			"ACE_NVG_Gen1",
+			"ACE_NVG_Gen2",
+			"lerca_1200_black",
+			"ACE_Vector",
+			"ACE_Altimeter",
+			"RHS_pdu4",
+			"ACE_microDAGR",
+			"ACE_M26_Clacker",
+			"ACE_NVG_Gen4",
+			"ACE_NVG_Wide"		
+		};
+	};
 	
 	class AssaultRifles
 	{
@@ -469,12 +1747,18 @@ class CfgTraderCategories
 			"rhs_weap_XM2010_wd",
 			"rhs_weap_XM2010_d",
 			"rhs_weap_XM2010_sa",
-			"rhs_weap_svd",
-			"rhs_weap_svdp_wd",
-			"rhs_weap_svdp_wd_npz",
-			"rhs_weap_svdp_npz",
-			"rhs_weap_svds",
-			"rhs_weap_svds_npz"
+			"rhs_weap_m24sws",
+			"rhs_weap_m24sws_blk",
+			"rhs_weap_m24sws_ghillie",
+			"rhs_weap_m40a5",
+			"rhs_weap_m40a5_d",
+			"rhs_weap_m40a5_w",
+			"rhs_weap_M107",
+			"rhs_weap_M107_d",
+			"rhs_weap_M107_w",
+			"rhs_weap_m110",
+			"rhs_weap_sr25_ec_d",
+			"rhs_weap_sr25_ec_wd"
 		};
 	};
 
@@ -817,7 +2101,30 @@ class CfgTraderCategories
 			"CSW_M870_8Rnd_slug",
 			"CSW_20Rnd_57x28_SS190",
 			"CSW_20Rnd_57x28_SS198",
-			"CSW_Taser_Probe_Mag"
+			"CSW_Taser_Probe_Mag",
+			"rhsgref_5Rnd_792x57_kar98k",
+ 			"rhsgref_30rnd_556x45_m21",
+ 			"rhsgref_5Rnd_762x54_m38",
+ 			"rhsgref_10Rnd_792x57_m76",
+			"rhssaf_30rnd_556x45_EPR_G36",
+			"rhssaf_30rnd_556x45_SOST_G36",
+			"rhssaf_100rnd_556x45_EPR_G36",
+			"rhssaf_30rnd_556x45_SPR_G36",
+			"rhssaf_30rnd_556x45_Tracers_G36",
+			"rhssaf_30rnd_556x45_MDIM_G36",
+			"rhssaf_30rnd_556x45_TDIM_G36",
+			"150Rnd_556x45_Drum_Mag_F",
+			"150Rnd_556x45_Drum_Mag_Tracer_F",
+			"rhs_30Rnd_762x39mm",
+			"rhs_30Rnd_762x39mm_tracer",
+			"rhs_30Rnd_762x39mm_89",
+			"rhs_30Rnd_762x39mm_U",
+			"rhsgref_30rnd_556x45_m21",
+			"rhsgref_30rnd_556x45_m21_t",
+			"rhs_100Rnd_762x54mmR",
+			"rhs_100Rnd_762x54mmR_green",
+			"rhssaf_250Rnd_762x54R"
+			//"rhs_30Rnd_762x39mm"
 
 		};
 	};
@@ -861,11 +2168,23 @@ class CfgTraderCategories
 			"ACE_M14",
 			"ACE_M84",
 			"1Rnd_HE_Grenade_shell",
-			"3Rnd_HE_Grenade_shell"
+			"rhs_mag_fakel",
+			"rhs_mag_m576",
+			"rhs_mag_m18_green",
+			"rhs_mag_m18_purple",
+			"rhs_mag_m18_red",
+			"rhs_mag_m18_yellow",
+			"rhs_mag_m67",
+			"rhs_mag_mk84",
+			"rhs_mag_mk3a2",
+			"rhs_mag_m4009",
+			"rhs_mag_m7a3_cs",
+			"rhs_mag_an_m8hc",
+			"rhs_mag_an_m14_th3"
 		};
 	};
 	
-		class PointerAttachments
+	class PointerAttachments
 	{
 		name = "Pointer Attachments";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
@@ -884,9 +2203,9 @@ class CfgTraderCategories
 		};
 	};
 	
-	class BipodAttachments
+	class UnderbarrelAttachments
 	{
-		name = "Bipods";
+		name = "Underbarrel Attachments";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
 		items[] =
 		{
@@ -899,6 +2218,11 @@ class CfgTraderCategories
 			"bipod_03_F_blk",
 			"bipod_03_F_oli",
 			"bipod_01_F_khk",
+			"rhsusf_acc_grip1",
+			"rhsusf_acc_grip2",
+			"rhsusf_acc_grip2_tan",
+			"rhsusf_acc_grip3",
+			"rhsusf_acc_grip3_tan",
 			
 			// START RHS
 			
@@ -1047,360 +2371,80 @@ class CfgTraderCategories
 			
 			// START RHS
 			
-			"rhsusf_acc_eotech_552",
+			"rhsusf_acc_eotech_552_d",
+	        "rhsusf_acc_eotech_552",
+			"rhsusf_acc_eotech_xps3",
+			"rhsusf_acc_EOTECH",
 			"rhsusf_acc_LEUPOLDMK4",
 			"rhsusf_acc_ELCAN",
 			"rhsusf_acc_ELCAN_pip",
 			"rhsusf_acc_ACOG",
 			"rhsusf_acc_ACOG_pip",
-			"rhs_acc_1pn93_2",
 			"rhsusf_acc_ACOG2",
 			"rhsusf_acc_ACOG_USMC",
 			"rhsusf_acc_ACOG2_USMC",
 			"rhsusf_acc_ACOG3_USMC",
 			"rhsusf_acc_LEUPOLDMK4_2",
 			"rhsusf_acc_EOTECH",
-			"rhs_acc_1p29",
-			"rhs_acc_1p78",
-			"rhs_acc_pkas",
-			"rhs_acc_1p63",
-			"rhs_acc_ekp1",
-			"rhs_acc_pso1m2",
-			"rhs_acc_pgo7v",
-			"rhs_acc_1pn93_1"
+
+			// Added by ElShotte - 19 Items
+			"rhsusf_acc_ACOG_MDO",
+			"rhsusf_acc_ACOG_RMR",
+			"rhsusf_acc_ACOG_d",
+			"rhsusf_acc_ACOG_wd",
+			"rhsusf_acc_anpas13gv1",
+			"rhsusf_acc_premier_anpvs27",
+			"rhsusf_acc_premier_low",
+			"rhsusf_acc_premier",
+			"rhsusf_acc_SpecterDR",
+			"rhsusf_acc_SpecterDR_OD",
+			"rhsusf_acc_SpecterDR_D",
+			"rhsusf_acc_SpecterDR_A_3d",
+			"rhsusf_acc_M8541",
+			"rhsusf_acc_M8541_low",
+			"rhsusf_acc_M8541_low_d",
+			"rhsusf_acc_M8541_low_wd"
 		};
 	};
 	
-	
-	// Civilian
-
-	class Smokes
+	class AntiRadiationMasks
 	{
-		name = "Smokes";
+		name = "Anti-Radiation Masks";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"SmokeShell",
-			"SmokeShellBlue",
-			"SmokeShellGreen",
-			"SmokeShellOrange",
-			"SmokeShellPurple",
-			"SmokeShellRed",
-			"SmokeShellYellow",
-			"1Rnd_Smoke_Grenade_shell",
-			"1Rnd_SmokeBlue_Grenade_shell",
-			"1Rnd_SmokeGreen_Grenade_shell",
-			"1Rnd_SmokeOrange_Grenade_shell",
-			"1Rnd_SmokePurple_Grenade_shell",
-			"1Rnd_SmokeRed_Grenade_shell",
-			"1Rnd_SmokeYellow_Grenade_shell",
-			"3Rnd_Smoke_Grenade_shell",
-			"3Rnd_SmokeBlue_Grenade_shell",
-			"3Rnd_SmokeGreen_Grenade_shell",
-			"3Rnd_SmokeOrange_Grenade_shell",
-			"3Rnd_SmokePurple_Grenade_shell",
-			"3Rnd_SmokeRed_Grenade_shell",
-			"3Rnd_SmokeYellow_Grenade_shell"
-		};
-	};
-
-	class Flares
-	{
-		name = "Flares";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"ACE_Chemlight_HiOrange",
-			"ACE_Chemlight_HiRed",
-			"ACE_Chemlight_HiYellow",
-			"ACE_Chemlight_HiWhite",
-			"ACE_Chemlight_Orange",
-			"ACE_Chemlight_White",
-			"ACE_Chemlight_IR",
-			"ACE_HandFlare_White",
-			"ACE_HandFlare_Red",
-			"ACE_HandFlare_Green",
-			"ACE_HandFlare_Yellow",
-			"RHS_weap_rsp30_white",
-			"RHS_weap_rsp30_green",
-			"RHS_weap_rsp30_red"
+			"skn_m04_gas_mask_bare_dry",
+			"skn_m04_gas_mask_blk",
+			"skn_m04_gas_mask_blu",
+			"skn_m04_gas_mask_gre",
+			"skn_m50_gas_mask_hood",
+			"skn_m50_gas_mask_hood_wd",
+			"skn_m10_balaclava_blue_dry",
+			"skn_m10_balaclava_red_dry",
+			"skn_m10_balaclava_white_dry",
+			"skn_m10_balaclava_yellow_dry"
 		};
 	};
 	
-	class CivilianMedical
+	class AntiRadiationSuits
 	{
-		name = "Medical Equipment";
+		name = "Anti-Radiation Masks";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"ACE_personalAidKit",
-			"ACE_morphine",
-			"ACE_fieldDressing",
-			"ACE_bloodIV_250"
+			"skn_u_nbc_indep_blk",
+			"skn_u_nbc_bluf_mtp",
+			"skn_u_nbc_bluf_wd",
+			"skn_u_nbc_opf_blue",
+			"skn_u_nbc_opf_red",
+			"skn_u_nbc_opf_white",
+			"skn_u_nbc_opf_yellow"
 		};
 	};
 	
-	class Hardware
-	{
-		name = "Hardware";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-
-			"Exile_Item_DuctTape",
-			"Exile_Item_ExtensionCord",
-			"Exile_Item_FuelCanisterEmpty",
-			"Exile_Item_JunkMetal",
-			"Exile_Item_LightBulb",
-			"Exile_Item_MetalBoard",
-			"Exile_Item_MetalPole",
-			"Exile_Item_SafeKit",
-			"Exile_Item_CamoTentKit",
-			"Exile_Item_CodeLock",
-			"Exile_Item_MetalScrews"
-
-			/*
-			--Not for Sale--
-			"Exile_Item_MetalWire",
-			"Exile_Item_Laptop",
-			"Exile_Item_BaseCameraKit",
-			"Exile_Item_MetalHedgehogKit",
-			"Exile_Item_Cement",
-			"Exile_Item_Sand",
-			"Exile_Item_MobilePhone",
-			--Unused--
-			"Exile_Item_SprayCan_Black",
-			"Exile_Item_SprayCan_Red",
-			"Exile_Item_SprayCan_Green",
-			"Exile_Item_SprayCan_White",
-			"Exile_Item_SprayCan_Blue",
-			"Exile_Item_CordlessScrewdriver",
-			"Exile_Item_FireExtinguisher",
-			"Exile_Item_OilCanister",
-			"Exile_Item_Hammer",
-			"Exile_Item_Carwheel",
-			"Exile_Item_SleepingMat",
-			"Exile_Item_Defibrillator",
-			"Exile_Item_Wrench",
-			"Exile_Item_Rope"
-		*/
-		};
-	};
-
-	class Food
-	{
-		name = "Fast Food";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"Exile_Item_EMRE",
-			"Exile_Item_GloriousKnakworst",
-			"Exile_Item_Surstromming",
-			"Exile_Item_SausageGravy",
-			"Exile_Item_Catfood",
-			"Exile_Item_ChristmasTinner",
-			"Exile_Item_BBQSandwich",
-			"Exile_Item_MacasCheese",
-			"Exile_Item_Dogfood",
-			"Exile_Item_BeefParts",
-			"Exile_Item_Cheathas",
-			"Exile_Item_Noodles",
-			"Exile_Item_SeedAstics",
-			"Exile_Item_Raisins",
-			"Exile_Item_Moobar",
-			"Exile_Item_InstantCoffee"
-			
-			// Hunted Animals
-			// Note: Adding these to the trader will defeat the purpose of hunting!
-			/*
-			"Exile_Item_SheepSteak_Cooked",
-			"Exile_Item_AlsatianSteak_Cooked",
-			"Exile_Item_CatSharkFilet_Cooked",
-			"Exile_Item_FinSteak_Cooked",
-			"Exile_Item_GoatSteak_Cooked",
-			"Exile_Item_TurtleFilet_Cooked",
-			"Exile_Item_TunaFilet_Cooked",
-			"Exile_Item_RabbitSteak_Cooked",
-			"Exile_Item_ChickenFilet_Cooked",
-			"Exile_Item_RoosterFilet_Cooked",
-			"Exile_Item_MulletFilet_Cooked",
-			"Exile_Item_SalemaFilet_Cooked",
-			"Exile_Item_MackerelFilet_Cooked",
-			"Exile_Item_OrnateFilet_Cooked",
-			"Exile_Item_SnakeFilet_Cooked",
-			"Exile_Item_CatSharkFilet_Raw",
-			"Exile_Item_TunaFilet_Raw",
-			"Exile_Item_AlsatianSteak_Raw",
-			"Exile_Item_TurtleFilet_Raw",
-			"Exile_Item_SheepSteak_Raw",
-			"Exile_Item_FinSteak_Raw",
-			"Exile_Item_GoatSteak_Raw",
-			"Exile_Item_ChickenFilet_Raw",
-			"Exile_Item_RoosterFilet_Raw",
-			"Exile_Item_MackerelFilet_Raw",
-			"Exile_Item_MulletFilet_Raw",
-			"Exile_Item_OrnateFilet_Raw",
-			"Exile_Item_RabbitSteak_Raw",
-			"Exile_Item_SalemaFilet_Raw",
-			"Exile_Item_SnakeFilet_Raw"
-			*/
-		};
-	};
-	
-	class NonVeganFood
-	{
-		name = "Non-Vegan Food";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"Exile_Item_CatSharkFilet_Raw",
-			"Exile_Item_TunaFilet_Raw",
-			"Exile_Item_AlsatianSteak_Raw",
-			"Exile_Item_TurtleFilet_Raw",
-			"Exile_Item_SheepSteak_Raw",
-			"Exile_Item_FinSteak_Raw",
-			"Exile_Item_GoatSteak_Raw",
-			"Exile_Item_ChickenFilet_Raw",
-			"Exile_Item_RoosterFilet_Raw",
-			"Exile_Item_MackerelFilet_Raw",
-			"Exile_Item_MulletFilet_Raw",
-			"Exile_Item_OrnateFilet_Raw",
-			"Exile_Item_RabbitSteak_Raw",
-			"Exile_Item_SalemaFilet_Raw",
-			"Exile_Item_SnakeFilet_Raw"
-		};
-	};
-	
-	class Drinks
-	{
-		name = "Drinks";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"Exile_Item_PlasticBottleCoffee",
-			"Exile_Item_PowerDrink",
-			"Exile_Item_PlasticBottleFreshWater",
-			"Exile_Item_Beer",
-			"Exile_Item_EnergyDrink",
-			"Exile_Item_ChocolateMilk",
-			"Exile_Item_MountainDupe",
-			"Exile_Item_PlasticBottleEmpty"
-		};
-	};
-
-	class NavigationEquipment
-	{
-		name = "Navigation Equipment";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"ACE_MapTools",
-			"ACE_Flashlight_MX991",
-			"ACE_Flashlight_XL50",
-			"ACE_VectorDay",
-			"ACE_SpottingScope",
-			"ACE_Tripod",
-			"ACE_NVG_Gen1",
-			"ACE_NVG_Gen2",
-			"ACE_Altimeter",
-			"ACE_microDAGR"
-		};
-	};
-
-	class SurvivalTools
-	{
-		name = "Survival Tools";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"Exile_Item_Matches",
-			"Exile_Item_CookingPot",
-			"Exile_Item_CanOpener",
-			"Exile_Item_Handsaw",
-			"Exile_Item_Pliers",
-			"Exile_Item_Grinder",
-			"Exile_Item_Foolbox",
-			"Exile_Item_CordlessScrewdriver",
-			"Exile_Item_FireExtinguisher",
-			"Exile_Item_Hammer",
-			"Exile_Item_OilCanister",
-			"Exile_Item_Screwdriver",
-			"Exile_Item_Shovel",
-			"Exile_Item_Wrench",
-			"Exile_Item_SleepingMat",
-			"Exile_Item_ToiletPaper",
-			"Exile_Item_BurlapSack",			
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"Exile_Item_XM8",
-			"ACE_RangeCard",
-			"ACE_CableTie"			
-		};
-	};
 
 
-	// Military
-	
-	class MilitaryMedical
-	{
-		name = "Hospital";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"ACE_personalAidKit",
-			"ACE_morphine",
-			"ACE_epinephrine",
-			"ACE_fieldDressing",
-			"ACE_bloodIV_250",
-			"ACE_bloodIV_500",
-			"ACE_bloodIV",
-			"ACE_bodyBag",
-			"Exile_Item_Defibrillator"
-		};
-	};
-
-
-	class MilitaryEquipment
-	{
-		name = "Military Equipment";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"B_Parachute",
-			"ACE_NonSteerableParachute",
-			"ACE_DAGR",
-			"ACE_Kestrel4500",
-			"ACE_ATragMX",
-			"ACE_HuntIR_monitor",
-			"ACE_HuntIR_M203",
-			"ACE_IR_Strobe_Item",
-			"ACE_DefusalKit",
-			"ACE_Cellphone",
-			"ACE_Clacker",
-			"ACE_CableTie",
-			"ACE_MapTools",
-			"ACE_Flashlight_MX991",
-			"ACE_RangeCard",
-			"ACE_Flashlight_XL50",
-			"ACE_VectorDay",
-			"ACE_SpottingScope",
-			"ACE_Tripod",
-			"ACE_NVG_Gen1",
-			"ACE_NVG_Gen2",
-			"lerca_1200_black",
-			"ACE_Vector",
-			"ACE_Altimeter",
-			"RHS_pdu4",
-			"ACE_microDAGR",
-			"ACE_M26_Clacker",
-			"ACE_NVG_Gen4",
-			"ACE_NVG_Wide"		
-		};
-	};
-	
-	
-	// Civilian
+	// Vehicles
 
 	class MikesBikes
 	{
@@ -1584,10 +2628,6 @@ class CfgTraderCategories
 		};
 	};
 
-
-
-	// Military
-
 	class MilitaryTransport
 	{
 		name = "Military Transport";
@@ -1632,7 +2672,19 @@ class CfgTraderCategories
 			"rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy",
 			"rhsusf_M1078A1P2_B_d_open_fmtv_usarmy",
 			"rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy",
-			"rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy"
+			"rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy",
+			"rhsgref_cdf_reg_uaz_ags",
+ 			"rhsgref_cdf_reg_uaz_dshkm",
+			"rhssaf_un_ural",
+			"rhssaf_un_uaz",
+			"rhssaf_un_uaz_open",
+			"rhssaf_army_ural",
+			"rhssaf_army_ural_open",
+			"rhssaf_army_ural_fuel",
+			"rhssaf_army_pts",
+			"rhssaf_m998_olive_2dr_halftop",
+			"rhssaf_m998_olive_2dr_fulltop",
+			"rhssaf_m1025_olive"
 
 		};
 	};
@@ -1666,10 +2718,10 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"rhsusf_m1a1aim_tuski_d"
+			"rhsusf_m1a1aim_tuski_d",
+			"rhsgref_un_m1117"
 		};
 	};
-	
 	
 	class ExtendedBaseMod
 	{
@@ -1771,140 +2823,5 @@ class CfgTraderCategories
 		};
 	};
 	
-	
-	class ExtendedFMod
-	{
-		name = "Extended Fortifications";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] = 
-		{
-		"EFM_beam_wood_angular_bearer_01",
-		"EFM_beam_wood_h_1_5m",
-		"EFM_beam_wood_h_1_5m_railing",
-		"EFM_beam_wood_h_1m_railing",
-		"EFM_beam_wood_h_2m",
-		"EFM_beam_wood_h_2m_railing",
-		"EFM_beam_wood_h_3m",
-		"EFM_beam_wood_h_3m_railing",
-		"EFM_beam_wood_h_4m",
-		"EFM_beam_wood_h_4m_railing",
-		"EFM_beam_wood_v_0_5m",
-		"EFM_beam_wood_v_1_5m",
-		"EFM_beam_wood_v_2_75m",
-		"EFM_beam_wood_v_2m",
-		"EFM_concrete_barrier_new",
-		"EFM_concrete_wall_big_pillar_new",
-		"EFM_concrete_wall_big_half_new",
-		"EFM_concrete_wall_big_new_camo_opfor",
-		"EFM_concrete_wall_big_new",
-		"EFM_concrete_wall_pillar_new",
-		"EFM_concrete_wall_half_new",
-		"EFM_concrete_wall_new_camo_blufor",
-		"EFM_concrete_wall_new_camo_opfor",
-		"EFM_concrete_wall_new",
-		"EFM_coverage_camo_net_1_5m_blufor",
-		"EFM_coverage_camo_net_1_5m_opfor",
-		"EFM_coverage_camo_net_2m_blufor",
-		"EFM_coverage_camo_net_2m_opfor",
-		"EFM_coverage_concrete_2_7m",
-		"EFM_coverage_concrete_2m",
-		"EFM_ladder_metal_1_7m",
-		"EFM_ladder_metal_2_7m",
-		"EFM_ladder_metal_3_7m",
-		"EFM_coverage_plywood_2_7m",
-		"EFM_coverage_plywood_2_7m_fortified_A",
-		"EFM_coverage_plywood_2_7m_fortified_beam",
-		"EFM_coverage_plywood_2m_beam",
-		"EFM_coverage_plywood_2m",
-		"EFM_coverage_plywood_2m_fortified_A",
-		"EFM_rack_wood_big_new",
-		"EFM_revetment_wall_0_80x0_60x0_90m",
-		"EFM_revetment_wall_0_80x0_60x0_90m_soil_double",
-		"EFM_revetment_wall_0_80x0_60x0_90m_soil",
-		"EFM_revetment_wall_0_80x0_60x0_90m_soil_c_blufor",
-		"EFM_revetment_wall_0_80x0_60x0_90m_soil_c_opfor",
-		"EFM_revetment_wall_1_60x0_60x0_90m",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double_c_blufor",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil_double_c_opfor",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil_c_blufor",
-		"EFM_revetment_wall_1_60x0_60x0_90m_soil_c_opfor",
-		"EFM_stair_wood_1_7m",		
-		"EFM_stair_wood_2_7m",
-		"EFM_stair_wood_3_5m",
-		"EFM_support_hole_dirt",
-		"EFM_support_hole_soil",
-		"EFM_mobile_barrier_A",
-		"EFM_mobile_barrier_B",
-		"EFM_mobile_dragons_teeth_small",
-		"EFM_mobile_dragons_teeth_small_orange",
-		"EFM_pole_B_01_yellow",
-		"EFM_pole_B_02_black",
-		"EFM_pole_B_03_black_white",
-		"EFM_tetrapod_line",
-		"EFM_tetrapod_line_wet",
-		"EFM_tetrapod_pile_big",
-		"EFM_tetrapod_pile_big_wet",
-		"EFM_tetrapod_single",
-		"EFM_tetrapod_single_wet",
-		"EFM_ground_surface_2x2m_soil",
-		"EFM_ground_surface_4x4m_soil",
-		"EFM_ground_surface_8x4m_soil",
-		"EFM_ground_surface_2x2m_dirt", 
-		"EFM_ground_surface_4x4m_dirt",
-		"EFM_ground_surface_8x4m_dirt",
-		"EFM_wood_wall_2m_door",
-		"EFM_wood_wall_2m_half_single",
-		"EFM_wood_wall_2m_half_beam_single_c_blufor",
-		"EFM_wood_wall_2m_half_beam_single_c_opfor",
-		"EFM_wood_wall_2m_half_single_filled",
-		"EFM_wood_wall_2m_half_beam_single_filled_c_blufor",
-		"EFM_wood_wall_2m_half_beam_single_filled_c_opfor",
-		"EFM_wood_wall_2m_single",
-		"EFM_wood_wall_2m_single_filled",
-		"EFM_wood_wall_2m_half_beam_single",
-		"EFM_wood_wall_2m_half_beam_single_filled",
-		"EFM_wood_wall_2m_support"		
-		};
-	};
-	
-	class AntiRadiationMasks
-	{
-		name = "Anti-Radiation Masks";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"skn_m04_gas_mask_bare_dry",
-			"skn_m04_gas_mask_blk",
-			"skn_m04_gas_mask_blu",
-			"skn_m04_gas_mask_gre",
-			"skn_m50_gas_mask_hood",
-			"skn_m50_gas_mask_hood_wd",
-			"skn_m10_balaclava_blue_dry",
-			"skn_m10_balaclava_red_dry",
-			"skn_m10_balaclava_white_dry",
-			"skn_m10_balaclava_yellow_dry"
-		};
-	};
-	
-	class AntiRadiationSuits
-	{
-		name = "Anti-Radiation Masks";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"skn_u_nbc_indep_blk",
-			"skn_u_nbc_bluf_mtp",
-			"skn_u_nbc_bluf_wd",
-			"skn_u_nbc_opf_blue",
-			"skn_u_nbc_opf_red",
-			"skn_u_nbc_opf_white",
-			"skn_u_nbc_opf_yellow"
-		};
-	};
+
 };
-
-
-
-

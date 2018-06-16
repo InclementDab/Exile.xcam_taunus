@@ -1,3 +1,19 @@
+class CfgExileArsenal
+{
+	
+	#include "Prices\AcePrices.hpp"
+	#include "Prices\TrykPrices.hpp"
+	#include "Prices\NiarmsPrices.hpp"
+	#include "Prices\RhsPrices.hpp"
+	#include "Prices\ExilePrices.hpp"
+	#include "Prices\CbrnPrices.hpp"
+	#include "Prices\Miscprices.hpp"
+	#include "Prices\ExtendedBaseMod.hpp"
+	#include "Prices\RDSprices.hpp"
+	
+};
+
+
 class CfgTraders
 {
 	class Trader_Civilian_Weapons
@@ -6,129 +22,46 @@ class CfgTraders
 		showWeaponFilter = 1;
 		categories[] =
 		{
-			"CivilianPistols"
-		};
-	};
-	
-	class Trader_Hospital
-	{
-		name = "HOSPITAL";
-		showWeaponFilter = 0;
-		categories[] =
-		{
-			"MilitaryMedical"
-		};
-	};
-	
-	class Trader_Black_Market
-	{
-		name = "BLACK MARKET DEALER";
-		showWeaponFilter = 1;
-		categories[] =
-		{
-			"AntiRadiationMasks",
-			"AntiRadiationSuits",
-			"LightMachineGuns",
-			"CivilianPistols"
+			"CivilianPistols",
+			"CivilianRifles",
+			"Ammunition"
 		};
 	};
 
-
-	/**
-	 * Weapons, scopes, silencers, ammo
-	 */
-	class Exile_Trader_Armory
-	{
-		name = "ARMORY";
-		showWeaponFilter = 1;
-		categories[] = 
-		{
-			"PointerAttachments",
-			"BipodAttachments",
-			"MuzzleAttachments",
-			"OpticAttachments",
-			"Ammunition",
-			"Pistols",
-			"Shotguns",
-			"SubMachineGuns",
-			"AssaultRifles",
-			"SniperRifles"
-		};
-	};
-
-	/**
-	 * Satchels, nades, UAVs, static MGs
-	 */
-	class Exile_Trader_SpecialOperations
-	{
-		name = "SPECIAL OPERATIONS";
-		showWeaponFilter = 1; // for noob tubes
-		categories[] = 
-		{
-			"Smokes",
-			"UAVs",
-			"StaticMGs",
-			"Explosives",
-			"ACE_Grenades",
-			"RHSMines"
-		};
-	};
-
-	/**
-	 * Uniforms, vests, helmets, backpacks
-	 */
-	class Exile_Trader_Equipment
+	class Trader_Civilian_SurvivalGear
 	{	
-		name = "EQUIPMENT";
+		name = "SURVIVAL EQUIPMENT";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Headgear",
-			"Glasses",
-			"Uniforms",
-			"Vests",
-			"Backpacks",
-			"Equipment"
-
-		};
-	};
-
-	/**
-	 * Cans, cans, cans
-	 */
-	class Exile_Trader_Food
-	{
-		name = "FAST FOOD";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
+			"SurvivalTools",
+			"NavigationEquipment",
+			"Medical",
+			"Flares",
+			"Hardware",
+			"Smokes",
 			"Food",
 			"Drinks",
 			"NonVeganFood"
 		};
 	};
 
-	/**
-	 * Light bulbs, metal, etc.
-	 */
-	class Exile_Trader_Hardware
+	class Trader_Civilian_Clothing
 	{
-		name = "HARDWARE";
-		showWeaponFilter = 0;
-		categories[] = 
+		name = "CIVILIAN WEAPONS";
+		showWeaponFilter = 1;
+		categories[] =
 		{
-			"Hardware",
-			"Tools",
-			"ExtendedBaseMod",
-			"ExtendedFMod",
-			"SurvivalTools"
+			"CivilianAntiRadiationGear",
+			"CivilianFacewear",
+			"CivilianHeadwear",
+			"CivilianUniforms",
+			"CivilianVests",
+			"CivilianBackpacks"
 		};
 	};
 
-	/**
-	 * Sells cars and general vehicles
-	 */
-	class Exile_Trader_Vehicle
+	class Trader_Civilian_Vehicles
 	{
 		name = "VEHICLE";
 		showWeaponFilter = 0;
@@ -140,9 +73,6 @@ class CfgTraders
 		};
 	};
 
-	/**
-	 * Sells choppers and planes
-	 */
 	class Trader_Civilian_Aircraft
 	{
 		name = "AIRCRAFT";
@@ -155,18 +85,79 @@ class CfgTraders
 			"CivilianTrucks"
 		};
 	};
+
+
 	
-	class Exile_Trader_Bikes
+	
+	class Trader_Military_Weapons
 	{
-		name = "BIKES";
+		name = "MILITARY WEAPONS";
+		showWeaponFilter = 1;
+		categories[] =
+		{
+			"AssaultRifles",
+			"SubMachineGuns",
+			"Shotguns",
+			"LightMachineGuns",
+			"SniperRifles",
+			"Pistols",
+			"Ammunition",
+			"PointerAttachments",
+			"UnderbarrelAttachments",
+			"MuzzleAttachments",
+			"OpticAttachments"
+			
+			
+		};
+	};
+	
+	class Trader_Military_SurvivalGear
+	{
+		name = "MILITARY SURVIVAL EQUIPMENT";
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"Bikes"
+			"MilitaryEquipment",
+			"NavigationEquipment",
+			"MilitaryMedical",
+			"Flares",
+			"Hardware",
+			"Smokes",
+			"SurvivalTools",
+			"Food",
+			"Drinks",
+			"NonVeganFood"
+			
+		};
+	};
+	
+	
+	class Trader_Black_Market
+	{
+		name = "BLACK MARKET DEALER";
+		showWeaponFilter = 1;
+		categories[] =
+		{
+			"AntiRadiationMasks",
+			"AntiRadiationSuits",
+			"Explosives",
+			"Grenades"
+		};
+	};
+	
+	class Trader_Hardware
+	{
+		name = "HARDWARE";
+		showWeaponFilter = 0;
+		categories[] = 
+		{
+			"Hardware",
+			"Equipment",
+			"ExtendedBaseMod"
 		};
 	};
 
-	class MikesBikes
+	class Mikes_Bikes
 	{
 		name = "Mike's Bikes";
 		showWeaponFilter = 0;
@@ -176,7 +167,7 @@ class CfgTraders
 		};
 	};
 
-	class ArmorTrader
+	class Trader_Military_Vehicles
 	{
 		name = "Armor Trader";
 		showWeaponFilter = 0;
@@ -186,78 +177,18 @@ class CfgTraders
 		};
 	};
 
-	class Exile_Trader_CommunityCustoms3
+	
+	
+	
+	class Trader_Template
 	{
-		name = "COMMUNITY";
+		name = "NAME";
 		showWeaponFilter = 0;
 		categories[] = 
 		{
 			"Community3"
 		};
 	};
-
-	class Exile_Trader_CommunityCustoms4
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community4"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms5
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community5"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms6
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community6"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms7
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community7"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms8
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community8"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms9
-	{
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community9"
-		};
-	};
-
-	class Exile_Trader_CommunityCustoms10
-	{
 		name = "COMMUNITY";
 		showWeaponFilter = 0;
 		categories[] = 
@@ -268,20 +199,7 @@ class CfgTraders
 };
 
 
-class CfgExileArsenal
-{
-	
-	#include "Prices\AcePrices.hpp"
-	#include "Prices\TrykPrices.hpp"
-	#include "Prices\NiarmsPrices.hpp"
-	#include "Prices\RhsPrices.hpp"
-	#include "Prices\ExilePrices.hpp"
-	#include "Prices\CbrnPrices.hpp"
-	#include "Prices\Miscprices.hpp"
-	#include "Prices\ExtendedFPrices.hpp"
-	#include "Prices\ExtendedBaseMod.hpp"
-	
-};
+
 
 
 

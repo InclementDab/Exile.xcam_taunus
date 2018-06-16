@@ -53,7 +53,7 @@
 	class ACE_ATragMX								{ quality = 3; price = 6000; };
 	class ACE_Clacker								{ quality = 3; price = 8000; };
 	class ACE_HuntIR_monitor						{ quality = 3; price = 10000; };
-	class ACE_personalAidKit						{ quality = 3; price = 10000; };
+	// class ACE_personalAidKit						{ quality = 3; price = 10000; };
 	class ACE_NVG_Gen2								{ quality = 3; price = 8000; };
 	class lerca_1200_black							{ quality = 3; price = 6000; };
 	class ACE_Vector								{ quality = 3; price = 6000; };
