@@ -17,7 +17,7 @@ class CfgAdminToolkitCustomMod {
 		/* send a message to everyone using the parameters text field */
 		{"Restart Msg To All", "['messageall', 'Server restart in few minutes'] call AdminToolkit_doAction"},
 		/* Quickly get a Helicopter */
-		{"Need a Heli", "['getvehicle', 'B_Heli_Light_01_armed_F'] call AdminToolkit_doAction"},
+		{"Need a Heli", "['getvehicle', 'B_Heli_Light_01_armed_F'] call AdminToolkit_doAction"}
 	};
 };
 

@@ -84,7 +84,7 @@ class Offroad_Armed_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Offroad_Armed_3: CDAH_AbstractCraftingRecipe
 	{
@@ -121,7 +121,7 @@ class Offroad_Armed_3: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Offroad_Armed_4: CDAH_AbstractCraftingRecipe
 	{
@@ -158,7 +158,7 @@ class Offroad_Armed_4: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Offroad_Armed_5: CDAH_AbstractCraftingRecipe
 	{
@@ -195,7 +195,7 @@ class Offroad_Armed_5: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Offroad_Armed_6: CDAH_AbstractCraftingRecipe
 	{
@@ -232,7 +232,7 @@ class Offroad_Armed_6: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //SUV A2 Armed
 class SUV_A2_armed: CDAH_AbstractCraftingRecipe
@@ -270,7 +270,7 @@ class SUV_A2_armed: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //BTR 40 Armed
 class BTR_Armed_1: CDAH_AbstractCraftingRecipe
@@ -309,7 +309,7 @@ class BTR_Armed_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class BTR_Armed_2: CDAH_AbstractCraftingRecipe
 	{
@@ -347,7 +347,7 @@ class BTR_Armed_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //UAZ MG
 class UAZ_MG: CDAH_AbstractCraftingRecipe
@@ -385,7 +385,7 @@ class UAZ_MG: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //Prowler_MG
 class Prowler_MG_1: CDAH_AbstractCraftingRecipe
@@ -424,7 +424,7 @@ class Prowler_MG_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Prowler_MG_2: CDAH_AbstractCraftingRecipe
 	{
@@ -462,7 +462,7 @@ class Prowler_MG_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //Qilin_Minigun
 class Qilin_Mini_1: CDAH_AbstractCraftingRecipe
@@ -501,7 +501,7 @@ class Qilin_Mini_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Qilin_Mini_2: CDAH_AbstractCraftingRecipe
 	{
@@ -539,7 +539,7 @@ class Qilin_Mini_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //Ifrit
 class Ifrit_1: CDAH_AbstractCraftingRecipe
@@ -577,7 +577,7 @@ class Ifrit_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Ifrit_2: CDAH_AbstractCraftingRecipe
 	{
@@ -613,7 +613,7 @@ class Ifrit_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //Hunter
 class Hunter: CDAH_AbstractCraftingRecipe
@@ -650,7 +650,7 @@ class Hunter: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 
 //Strider
 class Strider: CDAH_AbstractCraftingRecipe
@@ -687,7 +687,7 @@ class Strider: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "RepairContainer";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}	
+	};
 	
 //Tempest
 class Tempest_1: CDAH_AbstractCraftingRecipe
@@ -724,7 +724,7 @@ class Tempest_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 
 class Tempest_2: CDAH_AbstractCraftingRecipe
 	{
@@ -760,7 +760,7 @@ class Tempest_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 
 //Hemtt
 class Hemtt_1: CDAH_AbstractCraftingRecipe
@@ -798,7 +798,7 @@ class Hemtt_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Hemtt_2: CDAH_AbstractCraftingRecipe
 	{
@@ -834,7 +834,7 @@ class Hemtt_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 //Zamak
 class Zamak_1: CDAH_AbstractCraftingRecipe
@@ -871,7 +871,7 @@ class Zamak_1: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Zamak_2: CDAH_AbstractCraftingRecipe
 	{
@@ -907,7 +907,7 @@ class Zamak_2: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Zamak_3: CDAH_AbstractCraftingRecipe
 	{
@@ -944,7 +944,7 @@ class Zamak_3: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};
 	
 class Zamak_4: CDAH_AbstractCraftingRecipe
 	{
@@ -980,4 +980,4 @@ class Zamak_4: CDAH_AbstractCraftingRecipe
 		requiredInteractionModelGroup = "Transformator";
 		
 		categorie = "Level E - Armed Offroader & Miltrucks";
-	}
+	};

@@ -41,7 +41,7 @@ class Repair_1: CDAH_AbstractCraftingRecipe
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_Wrench",
 			"Exile_Item_Grinder",
-			"Exile_Item_Pliers",,
+			"Exile_Item_Pliers",
 			"Exile_Item_Hammer"
 		};
 		requiredInteractionModelGroup = "RepairContainer";
@@ -114,7 +114,7 @@ class Repair_3: CDAH_AbstractCraftingRecipe
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_Wrench",
 			"Exile_Item_Grinder",
-			"Exile_Item_Pliers",
+			"Exile_Item_Pliers"
 		};
 		requiredInteractionModelGroup = "RepairContainer";
 		
@@ -149,7 +149,7 @@ class Repair_4: CDAH_AbstractCraftingRecipe
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_Wrench",
 			"Exile_Item_Grinder",
-			"Exile_Item_Pliers",
+			"Exile_Item_Pliers"
 		};
 		requiredInteractionModelGroup = "RepairContainer";
 		

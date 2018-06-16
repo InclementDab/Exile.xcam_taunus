@@ -1296,7 +1296,7 @@ class CfgTraderCategories
 			"rhsusf_falconii_coy",
 			"rhsusf_falconii_mc",
 			"rhsusf_falconii",
-			"RHS_M2_Gun_Bag",
+			"RHS_M2_Gun_Bag"
 
 		};
 	};

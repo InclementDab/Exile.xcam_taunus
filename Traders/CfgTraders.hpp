@@ -189,13 +189,6 @@ class CfgTraders
 			"Community3"
 		};
 	};
-		name = "COMMUNITY";
-		showWeaponFilter = 0;
-		categories[] = 
-		{
-			"Community10"
-		};
-	};
 };
 
 
