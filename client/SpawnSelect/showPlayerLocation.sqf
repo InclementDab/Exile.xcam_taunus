@@ -11,7 +11,7 @@ ExileClientIntroIsPlaying = true;
 
 
 99.5 cutText ["", "BLACK IN", 4];
-sleep 10;
+uiSleep 3;
 _posX = 0.03 * safezoneW + safezoneX;
 _posY = 0.75 * safezoneH + safezoneY;
 _rootFormat = "<t align = 'left' shadow = '1' size = '0.7' font='PuristaSemiBold'>%1</t>";

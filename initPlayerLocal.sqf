@@ -38,13 +38,23 @@
 
 [] execVM "client\weather\nightFog.sqf";
 
-waitUntil {player == player};
 waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 waitUntil {ExileClientPlayerIsSpawned};
 
 
-[] execVM "intro.sqf";
+if ("ItemRadio" in (assignedItems player)) then
+{
+	player setVariable ["RadioToggle", true, true];
+} else {
+	player setVariable ["RadioToggle", false, true];
+};
+
+
+[] execVM "client\spawnselect\showplayerlocation.sqf";
 [] execVM "client\radio\initRadio.sqf";
+[] execVM "client\playerstats\manTracker.sqf";
+
+diag_log "InitPlayerLocal Complete";
 
 
 

@@ -17,7 +17,7 @@
 
 
 	params ["_unit", ["_state", false, [true]]];
-	_unit setVariable ["RadioToggle", _state];
+	_unit setVariable ["RadioToggle", _state, true];
 	
 	if (_state) then 
 	{

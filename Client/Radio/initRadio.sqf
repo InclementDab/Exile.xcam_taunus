@@ -29,13 +29,7 @@ if (hasInterface) then
 		_statement = {[player, false] call RadioToggle};
 		_action = [_classname, _name, _icon, _statement, _condition] call ace_interact_menu_fnc_createAction;
 		[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
-		
-		if ("ItemRadio" in (assignedItems player)) then
-		{
-			player setVariable ["RadioToggle", true, true];
-		} else {
-			player setVariable ["RadioToggle", false, true];
-		};
+	
 		
 } else {
 	

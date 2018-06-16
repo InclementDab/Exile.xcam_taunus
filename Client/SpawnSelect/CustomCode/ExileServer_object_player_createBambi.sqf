@@ -140,4 +140,5 @@ _bambiPlayer call ExileServer_object_player_database_update;
 ] call ExileServer_system_network_send_to;
 [_sessionID, _bambiPlayer] call ExileServer_system_session_update;
 
+
 true

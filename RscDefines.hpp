@@ -33,7 +33,7 @@ class RscExileXM8PictureButton: RscPictureButton
 	type = 11;
 	colorBackground[] = {0,0,0,0};
 	colorText[] = {1,1,1,1};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	color[] = {1,1,1,0.7};
 	colorActive[] = {1,1,1,1};
@@ -73,50 +73,50 @@ class RscExileXM8Html: RscHtml
 	filename = "";
 	class H1
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
 	};
 	class H2
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "right";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
 	class H3
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
 	class H4
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
 	class H5
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
 	class H6
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
 	class P
 	{
-		fontBold = "RobotoCondensedBold";
-		font = "RobotoCondensed";
+		fontBold = "RobotoCondensedLightBold";
+		font = "RobotoCondensedLight";
 		align = "left";
 		sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	};
@@ -141,7 +141,7 @@ class RscExileXM8Combo: RscCombo
 	type = 4;
 	colorText[] = {1,1,1,1};
 	colorBackground[] = {0,0,0,1};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	text = "";
 	style = "0x10 + 0x200";
@@ -164,7 +164,7 @@ class RscExileXM8ControlsGroupNoHScrollbars: RscControlsGroupNoHScrollbars
 	type = 15;
 	style = 16;
 	colorText[] = {1,1,1,1};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	SizeEx = "(((((safezoneW / safezoneH) min 1) / 1.2) / 25) * 1)";
 	text = "";
 	class HScrollbar{};
@@ -175,7 +175,7 @@ class RscExileXM8Text: RscText
 	type = 0;
 	style = 0;
 	colorBackground[] ={0,0,0,0};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	colorText[] = {1,1,1,1};
 	SizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	text = "";
@@ -190,7 +190,7 @@ class RscExileXM8StructuredText: RscStructuredText
 	size = "(((((safezoneW / safezoneH) min 1) / 1.2) / 25) * 1)";
 	class Attributes
 	{
-		font = "RobotoCondensed";
+		font = "RobotoCondensedLight";
 		color = "#ffffff";
 		colorLink = "#D09B43";
 		align = "left";
@@ -408,7 +408,7 @@ class RscExileXM8ListBox: RscListbox
 	style = 16;
 	colorBackground[] = {0,0,0,0.3};
 	colorText[] = {1,1,1,1};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	text = "";
 	rowHeight = 0;
@@ -450,7 +450,7 @@ class SM_SpawnSelect_RscButton
 	w = 0.095589;
 	h = 0.039216;
 	shadow = 2;
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	url = "";
 	offsetX = 0;
@@ -490,7 +490,7 @@ class SM_SpawnSelect_RscText
 	style = 0;
 	shadow = 1;
 	colorShadow[] = {0, 0, 0, 0.5};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	SizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	linespacing = 1;
 	tooltipColorText[] = {1, 1, 1, 1};
@@ -542,7 +542,7 @@ class SM_SpawnSelect_RscMapControl
 		y = "SafeZoneY + safezoneH - 4.5 * 					(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
 		w = "10 * 					(			((safezoneW / safezoneH) min 1.2) / 40)";
 		h = "3.5 * 					(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
-		font = "RobotoCondensed";
+		font = "RobotoCondensedLight";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	};
 	class ActiveMarker
@@ -830,7 +830,7 @@ class SM_SpawnSelect_RscMapControl
 	alphaFadeEndScale = 2;
 	colorTrails[] = {0.84, 0.76, 0.65, 0.15};
 	colorTrailsFill[] = {0.84, 0.76, 0.65, 0.65};
-	fontLabel = "RobotoCondensed";
+	fontLabel = "RobotoCondensedLight";
 	sizeExLabel = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	fontGrid = "TahomaB";
 	sizeExGrid = 0.02;
@@ -838,7 +838,7 @@ class SM_SpawnSelect_RscMapControl
 	sizeExUnits = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	fontNames = "EtelkaNarrowMediumPro";
 	sizeExNames = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8) * 2";
-	fontInfo = "RobotoCondensed";
+	fontInfo = "RobotoCondensedLight";
 	sizeExInfo = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	fontLevel = "TahomaB";
 	sizeExLevel = 0.02;
@@ -1022,7 +1022,7 @@ class SM_TraderPlus_RscText
 	style = 0;
 	shadow = 1;
 	colorShadow[] = {0, 0, 0, 0.5};
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	SizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	linespacing = 1;
 	tooltipColorText[] = {1, 1, 1, 1};
@@ -1054,7 +1054,7 @@ class SM_TraderPlus_RscButton
 	w = 0.095589;
 	h = 0.039216;
 	shadow = 2;
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	url = "";
 	offsetX = 0;
@@ -1088,7 +1088,7 @@ class SM_TraderPlus_RscStructuredText
 	colorText[] = {1, 1, 1, 1};
 	class Attributes
 	{
-		font = "RobotoCondensed";
+		font = "RobotoCondensedLight";
 		color = "#ffffff";
 		colorLink = "#D09B43";
 		align = "left";
@@ -1160,7 +1160,7 @@ class SM_TraderPlus_RscCombo
 		color[] = {1, 1, 1, 1};
 	};
 	style = "0x10 + 0x200";
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	shadow = 0;
 	x = 0;
@@ -1215,7 +1215,7 @@ class SM_TraderPlus_RscListBox
 	w = 0.3;
 	h = 0.3;
 	style = 16;
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	shadow = 0;
 	colorShadow[] = {0, 0, 0, 0.5};
@@ -1314,7 +1314,7 @@ class SM_TraderPlus_RscEdit
 	text = "";
 	size = 0.2;
 	style = "0x00 + 0x40";
-	font = "RobotoCondensed";
+	font = "RobotoCondensedLight";
 	shadow = 2;
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	canModify = 1;

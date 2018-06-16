@@ -1,26 +1,10 @@
-class CfgPatches
-{
-	class ExileTaunus
-	{
-		requiredVersion = 1.00;
-		requiredAddons[] = 
-		{
-			"xcam_taunus"
-		};
-		units[] = {};
-		weapons[] = {};
-		magazines[] = {};
-		ammo[] = {};
-	};
-};
-
 class CfgMarkers
 {
 	class ExileMissionCivEasyIcon
 	{
 		scope=0;
 		name="Exile Mission Icon (Easy)";
-		icon="\ExileMission\assets\mission_easy_civ.paa";
+		icon="assets\mission_easy_civ.paa";
 		color[]={1,1,1,1};
 		size=32;
 		shadow=0;
@@ -30,7 +14,7 @@ class CfgMarkers
 	class CustomSpawnZoneIcon 
 	{
 		name = "Exile Spawn Zone Icon";
-		icon = "\ExileMission\assets\spawn_zone_cb.paa";
+		icon = "assets\spawn_zone_cb.paa";
 		color[] = {1,1,1,1};
 		size = 64;
 		shadow = true;

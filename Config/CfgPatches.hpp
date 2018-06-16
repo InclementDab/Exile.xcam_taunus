@@ -20,7 +20,7 @@ class CfgMarkers
 	{
 		scope=0;
 		name="Exile Mission Icon (Easy)";
-		icon="\assets\mission_easy_civ.paa";
+		icon="assets\mission_easy_civ.paa";
 		color[]={1,1,1,1};
 		size=32;
 		shadow=0;
@@ -30,7 +30,7 @@ class CfgMarkers
 	class CustomSpawnZoneIcon 
 	{
 		name = "Exile Spawn Zone Icon";
-		icon = "\assets\spawn_zone_cb.paa";
+		icon = "assets\spawn_zone_cb.paa";
 		color[] = {1,1,1,1};
 		size = 64;
 		shadow = true;

@@ -10,12 +10,12 @@
  */
  
 private["_mapsizeX", "_mapsizeY", "_gridSize", "_gridVehicles", "_gridSizeOffset", "_vehicleCount", "_debugMarkers", "_vehicleClassNames", "_maximumDamage", "_damageChance", "_randomizeFuel", "_fuel", "_randomizeAmmo", "_ammo", "_xSize", "_workingXSize", "_ySize", "_workingYSize", "_position", "_spawned", "_spawnedPositions", "_positionReal", "_spawnControl", "_vehicleClassName", "_vehicle", "_hitpointsData", "_hitpoints", "_debugMarker"];
-_mapsizeX = 20500; 
-_mapsizeY = 20500; 
+_mapsizeX = 15000; //20500; 
+_mapsizeY = 15000; //20500; 
 _gridSize = getNumber(configFile >> "CfgSettings" >> "VehicleSpawn" >> "vehiclesGridSize");
 _gridVehicles = getNumber(configFile >> "CfgSettings" >> "VehicleSpawn" >> "vehiclesGridAmount");
 format ["Spawning Dynamic Vehicles. GridSize: %1 Vehs/Grid: %2",_gridSize,_gridVehicles] call ExileServer_util_log;
-_gridSizeOffset = _gridSize % 2;
+_gridSizeOffset = 0; //_gridSize % 2;
 _vehicleCount = 0;
 _debugMarkers = ((getNumber(configFile >> "CfgSettings" >> "VehicleSpawn" >> "vehiclesDebugMarkers")) isEqualTo 1);
 _vehicleClassNames = getArray (configFile >> "CfgSettings" >> "VehicleSpawn" >> "ground");
