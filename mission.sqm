@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=426;
+		nextID=444;
 	};
 	class Camera
 	{
-		pos[]={18400.693,422.74158,19447.6};
-		dir[]={0.53914297,-0.57452035,0.61584568};
-		up[]={0.37843996,0.81848711,0.43227887};
-		aside[]={0.7524147,-2.0163134e-007,-0.65870339};
+		pos[]={18409.373,426.52347,19454.057};
+		dir[]={0.030403512,-0.44222039,0.89640939};
+		up[]={0.01499208,0.89690036,0.44198489};
+		aside[]={0.99944526,-4.88144e-007,-0.033898849};
 	};
 };
 binarizationWanted=0;
@@ -900,7 +900,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1263;
+		items=1262;
 		class Item0
 		{
 			dataType="Group";
@@ -29127,7 +29127,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42372;
+			angle=225.42371;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -100864,6 +100864,7 @@ class Mission
 			};
 			id=10088;
 			type="rmair_PlaneDummy";
+			atlOffset=0.16000366;
 		};
 		class Item1171
 		{
@@ -100896,6 +100897,7 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
+			atlOffset=0.16000366;
 		};
 		class Item1173
 		{
@@ -100944,6 +100946,7 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1176
 		{
@@ -100960,6 +100963,7 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1177
 		{
@@ -103491,8 +103495,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={133.48146,463.94363,20443.369};
-				angles[]={6.0495319,2.2154684,0.012000273};
+				position[]={133.481,463.94363,20443.369};
+				angles[]={6.0495381,2.2154684,0.012007865};
 			};
 			id=10429;
 			type="ALiVE_sys_data";
@@ -103696,8 +103700,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={130.51007,464.02667,20443.883};
-				angles[]={6.0438619,0,0.01799392};
+				position[]={130.50999,464.02667,20443.883};
+				angles[]={6.0438657,0,0.017994344};
 			};
 			id=10431;
 			type="ALiVE_SYS_playeroptions";
@@ -104473,7 +104477,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="BLU_F";
+							value="BLU_G_F";
 						};
 					};
 				};
@@ -105057,7 +105061,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="BLU_T_F";
+							value="BLU_F";
 						};
 					};
 				};
@@ -107577,7 +107581,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={18444.789,400,19512.492};
+				position[]={18422.357,400,19487.703};
 			};
 			id=10450;
 			type="ALiVE_sys_profile";
@@ -107750,7 +107754,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="false";
+							value="true";
 						};
 					};
 				};
@@ -108017,35 +108021,6 @@ class Mission
 				};
 				nAttributes=11;
 			};
-		};
-		class Item1262
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={18453.26,400.00143,19461.813};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=10460;
-					type="rhsusf_navy_sarc_d";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=10459;
 		};
 	};
 	class Connections
