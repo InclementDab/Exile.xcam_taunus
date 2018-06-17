@@ -19,7 +19,6 @@ if (hasinterface) exitWith {
 				_handle < 0
 			} do {
 				_priority = _priority + 1;
-			};
 				_handle ppEffectEnable true;
 				_handle ppEffectAdjust [10];
 				_handle ppEffectCommit 0;
