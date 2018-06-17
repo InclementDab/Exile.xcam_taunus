@@ -42,6 +42,7 @@
 	class ACE_NonSteerableParachute					{ quality = 2; price = 3500; };
 	class ACE_SpottingScope							{ quality = 2; price = 3000; };
 	class ACE_Tripod								{ quality = 2; price = 3000; };
+	class ItemRadio									{ quality = 2; price = 3000; };
 
 	
 	// Quality 3 4000-10000

@@ -531,7 +531,6 @@
 	class ItemGPS									{ quality = 2; price = 4000; };
 	class ItemMap									{ quality = 1; price = 60; };
 	class ItemCompass								{ quality = 1; price = 60; };
-	class ItemRadio									{ quality = 1; price = 400; };
 	class Binocular									{ quality = 1; price = 400; };
 	class Exile_Item_XM8							{ quality = 2; price = 200; };
 	class Exile_Item_MobilePhone					{ quality = 6; price = 5000; };
