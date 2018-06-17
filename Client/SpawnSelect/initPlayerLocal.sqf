@@ -1,6 +1,6 @@
 
 if (hasinterface) exitWith {
-
+/*
 	["ace_unconscious", {
 		params ["_unit", "_isUnconscious"];
 		if (_isUnconscious) then	
@@ -14,7 +14,7 @@ if (hasinterface) exitWith {
 			4 fadeSound 1;
 			["DynamicBlur", 400] spawn {
 			params ["_name", "_priority", "_handle"];
-			while {
+			while {	
 				_handle = ppEffectCreate [_name, _priority];
 				_handle < 0
 			} do {
@@ -32,7 +32,7 @@ if (hasinterface) exitWith {
 			};
 		};
 	}] call CBA_fnc_localEvent;
-
+*/
 
 
 	[] execVM "client\weather\nightFog.sqf";
