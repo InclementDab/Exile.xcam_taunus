@@ -19,8 +19,7 @@ class CfgExileCustomCode
 	ExileClient_gui_selectSpawnLocation_show 							= "Client\SpawnSelect\CustomCode\ExileClient_gui_selectSpawnLocation_show.sqf";
 	ExileServer_object_player_createBambi								= "Client\SpawnSelect\CustomCode\ExileServer_object_player_createBambi.sqf";
 	ExileServer_object_player_network_createPlayerRequest 				= "Client\SpawnSelect\CustomCode\ExileServer_object_player_network_createPlayerRequest.sqf";
-	ExileClient_object_player_event_onPlayerRespawn						= "Client\SpawnSelect\CustomCode\ExileClient_object_player_event_onPlayerRespawn.sqf";
-	ExileClient_object_player_event_onPlayerKilled						= "Client\SpawnSelect\CustomCode\ExileClient_object_player_event_onPlayerKilled.sqf";
+	ExileClient_object_player_network_createPlayerResponse				= "Client\SpawnSelect\CustomCode\ExileClient_object_player_network_createPlayerResponse.sqf";
 	
 	// Enigma
 	ExileClient_object_player_death_startBleedingOut 					= "Client\Enigma\CustomCode\ExileClient_object_player_death_startBleedingOut.sqf";
