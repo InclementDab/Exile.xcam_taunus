@@ -18,9 +18,14 @@ private ['_code', '_function', '_file'];
 }
 forEach
 [
-	['RadioToggle', 'Client\Radio\RadioToggle.sqf'],
-	['Enigma_RevivePlyr', 'Client\Enigma\Enigma_RevivePlyr.sqf'],
-	['fn_CDAH_setCraftTime', 'client\CDAH\logic\fn_CDAH_setCraftTime.sqf']
+	['Enigma_RevivePlyr', 			'Client\Enigma\Enigma_RevivePlyr.sqf'],
+	['fn_CDAH_setCraftTime', 		'Client\CDAH\logic\fn_CDAH_setCraftTime.sqf'],
+	['onPlayerLoad', 				'Client\Player\onPlayerload.sqf'],
+	['unconciousEffect', 			'Client\Player\Effects\UnconciousEffect.sqf'],
+	['showPlayerLocation', 			'Client\Player\Effects\showplayerlocation.sqf'],
+	['manTracker', 					'Client\Player\Functions\manTracker.sqf'],
+	['initRadio', 					'Client\Player\functions\initRadio.sqf'],
+	['RadioToggle', 				'Client\Player\Radio\RadioToggle.sqf']
 ];
 
 

@@ -35,14 +35,14 @@ class CfgExileCustomCode
 	ExileClient_system_radiation_thread_update 							= "Client\RadiationZone\CustomCode\ExileClient_system_radiation_thread_update.sqf";
 	
 	// Radio
-	ExileServer_system_network_send_broadcast 							= "Client\Radio\CustomCode\ExileServer_system_network_send_broadcast.sqf";
+	ExileServer_system_network_send_broadcast 							= "Client\System\CustomCode\ExileServer_system_network_send_broadcast.sqf";
 	
-	// Player Stats
-	ExileServer_object_player_database_load 							= "Client\PlayerStats\CustomCode\ExileServer_object_player_database_load.sqf";
-	ExileServer_object_player_database_update 							= "Client\PlayerStats\CustomCode\ExileServer_object_player_database_update.sqf";
-	ExileServer_object_player_event_onMpKilled 							= "Client\PlayerStats\CustomCode\ExileServer_object_player_event_onMpKilled.sqf";
-	ExileClient_object_player_stats_reset 								= "Client\PlayerStats\CustomCode\ExileClient_object_player_stats_reset.sqf";
-	ExileClient_object_player_stats_update 								= "Client\PlayerStats\CustomCode\ExileClient_object_player_stats_update.sqf";
+	// Player
+	ExileServer_object_player_database_load 							= "Client\Player\CustomCode\ExileServer_object_player_database_load.sqf";
+	ExileServer_object_player_database_update 							= "Client\Player\CustomCode\ExileServer_object_player_database_update.sqf";
+	ExileServer_object_player_event_onMpKilled 							= "Client\Player\CustomCode\ExileServer_object_player_event_onMpKilled.sqf";
+	ExileClient_object_player_stats_reset 								= "Client\Player\CustomCode\ExileClient_object_player_stats_reset.sqf";
+	ExileClient_object_player_stats_update 								= "Client\Player\CustomCode\ExileClient_object_player_stats_update.sqf";
 
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened 					= "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";

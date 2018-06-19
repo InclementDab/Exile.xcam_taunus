@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=10491;
+		nextID=10493;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=570;
+		nextID=588;
 	};
 	class Camera
 	{
-		pos[]={6869.4258,868.08923,11770.214};
-		dir[]={0.50300437,-0.42650476,0.75172555};
-		up[]={0.23719425,0.90448111,0.35447997};
-		aside[]={0.83110869,3.2945536e-008,-0.55612195};
+		pos[]={6877.4976,874.76385,11788.457};
+		dir[]={0.51210976,-0.73040694,0.45195541};
+		up[]={0.54764313,0.68300617,0.48331487};
+		aside[]={0.66170454,-8.4517524e-008,-0.74977577};
 	};
 };
 binarizationWanted=0;
@@ -28333,7 +28333,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42354;
+			angle=225.42349;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -106573,7 +106573,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={6875.0884,862.19409,11772.631};
+						position[]={6885.6807,861.70477,11792.921};
 					};
 					side="West";
 					flags=7;
@@ -106581,16 +106581,16 @@ class Mission
 					{
 						isPlayer=1;
 					};
-					id=10490;
-					type="rhsusf_navy_sarc_d";
-					atlOffset=6.1035156e-005;
+					id=10492;
+					type="rhsusf_army_ocp_rifleman_82nd";
+					atlOffset=-6.1035156e-005;
 				};
 			};
 			class Attributes
 			{
 			};
-			id=10489;
-			atlOffset=6.1035156e-005;
+			id=10491;
+			atlOffset=-6.1035156e-005;
 		};
 	};
 	class Connections

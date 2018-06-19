@@ -9,7 +9,7 @@
 
 ExileClientIntroIsPlaying = true;
 
-
+[0, 1, 2, 3, 4, 5] enableChannel false;
 99.5 cutText ["", "BLACK IN", 4];
 uiSleep 3;
 _posX = 0.03 * safezoneW + safezoneX;
@@ -131,7 +131,10 @@ uiSleep 3;
 
 
 
-uiSleep 10;
+uiSleep 5;
+1 enableChannel [true, false];
+[3, 4, 5] enableChannel true;
+uiSleep 5;
 //clean the screen
 ["", _posX, _posY, 10, 0, 0, 90] spawn BIS_fnc_dynamicText;
 };
