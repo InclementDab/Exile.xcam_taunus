@@ -1,6 +1,7 @@
 
+
 if (hasinterface) exitWith {
-/*
+
 	["ace_unconscious", {
 		params ["_unit", "_isUnconscious"];
 		if (_isUnconscious) then	
@@ -19,6 +20,7 @@ if (hasinterface) exitWith {
 				_handle < 0
 			} do {
 				_priority = _priority + 1;
+			};
 				_handle ppEffectEnable true;
 				_handle ppEffectAdjust [10];
 				_handle ppEffectCommit 0;
@@ -32,7 +34,7 @@ if (hasinterface) exitWith {
 			};
 		};
 	}] call CBA_fnc_localEvent;
-*/
+
 
 
 	[] execVM "client\weather\nightFog.sqf";
