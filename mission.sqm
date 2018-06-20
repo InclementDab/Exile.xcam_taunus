@@ -20,7 +20,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6883.5854,874.76385,11792.004};
+		pos[]={6875.3145,874.76385,11786.766};
 		dir[]={0.51196665,-0.79550725,0.32415056};
 		up[]={0.67212206,0.60593885,0.42555228};
 		aside[]={0.53494471,-6.8102963e-008,-0.84489703};
@@ -163,14 +163,13 @@ addons[]=
 	"A3_Structures_F_Bootcamp_Items_Food",
 	"A3_Supplies_F_Heli_CargoNets",
 	"alive_sys_profile",
-	"alive_mil_logistics",
-	"rhsusf_c_troops"
+	"alive_mil_logistics"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=78;
+		items=77;
 		class Item0
 		{
 			className="exile_client";
@@ -644,13 +643,6 @@ class AddonsMetaData
 			name="alive_mil_logistics";
 			author="ALiVE Mod Team";
 		};
-		class Item77
-		{
-			className="rhsusf_c_troops";
-			name="RHSUSF Infantry & Equipment";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
 	};
 };
 randomSeed=9785690;
@@ -817,7 +809,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1229;
+		items=1228;
 		class Item0
 		{
 			dataType="Group";
@@ -28333,7 +28325,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42345;
+			angle=225.42342;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -106560,37 +106552,6 @@ class Mission
 			};
 			id=10476;
 			type="CUP_armchair";
-		};
-		class Item1228
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={6885.6807,861.70477,11792.921};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=10492;
-					type="rhsusf_army_ocp_rifleman_82nd";
-					atlOffset=-6.1035156e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=10491;
-			atlOffset=-6.1035156e-005;
 		};
 	};
 	class Connections
