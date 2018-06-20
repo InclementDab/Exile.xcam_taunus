@@ -14,6 +14,12 @@ if (hasinterface) exitWith {
 	
 	if (player getVariable ["isNewPlayer", false, false]) exitWith {
 		
+		if ("ItemRadio" in (assignedItems player)) then
+		{
+			player setVariable ["RadioToggle", true, true];
+		} else {
+			player setVariable ["RadioToggle", false, true];
+		};
 		[] call initRadio;
 		[] call manTracker;
 		[] call newPlayerStartup;
