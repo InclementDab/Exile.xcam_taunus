@@ -68,6 +68,7 @@ class CfgRemoteExec
 		class SM_Network_HandleMessage { allowedTargets = 2; };
 		class vcm_serverask { allowedTargets = 2; };
 		class AdminToolkit_network_receiveRequest { allowedTargets = 2; };
+		class bis_fnc_debugconsoleexec { allowedTargets = 2; }; // NEEDS TO BE CHANGED UPON SERVER LAUNCH
 	};
 	class Commands
 	{

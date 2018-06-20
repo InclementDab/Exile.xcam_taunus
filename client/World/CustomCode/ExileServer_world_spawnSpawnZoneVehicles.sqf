@@ -1,14 +1,15 @@
-private _mapsizeX = worldSize; 
-private _mapsizeY = worldSize; 
-private _gridSize = 1400;
+"Creating spawn zone vehicles..." call ExileServer_util_log;
+private _spawnRadius = 4500;
+private _vehiclesToSpawn = 2;
+
 private _vehicleConfig = configFile >> "CfgSettings" >> "VehicleSpawn";
-if (_gridSize < 1) exitWith { "Failed to spawn dynamic vehicles: _gridSize" call ExileServer_util_log; true };
-private _gridVehicles = getNumber(_vehicleConfig >> "vehiclesGridAmount");
-if (_gridVehicles < 1) exitWith { "Failed to spawn dynamic vehicles: _gridVehicles" call ExileServer_util_log; true };
-private _gridSizeOffset = _gridSize % 2;
-private _vehicleCount = 0;
 private _vehicles = getArray (_vehicleConfig >> "Ground");
 private _ships = getArray (_vehicleConfig >> "water");
+private _maximumDamage = getNumber (_vehicleConfig >> "maximumDamage");
+private _damageChance = getNumber (_vehicleConfig >> "damageChance");
+private _fuel = (getNumber(_vehicleConfig >> "fuel"));
+private _ammo = (getNumber(_vehicleConfig >> "ammo"));
+
 private _vehicleClassNames = [[],[]];
 private _shipClassNames = [[],[]];
 {
@@ -33,32 +34,21 @@ private _shipClassNames = [[],[]];
 	_shipClassNames set[1, _tmp1];
 } forEach _ships;
 
-if (_vehicleClassNames isEqualTo []) exitWith { "Failed to spawn dynamic vehicles: _vehicleClassNames" call ExileServer_util_log; true };
-if (_shipClassNames isEqualTo []) exitWith { "Failed to spawn dynamic vehicles: _shipClassNames" call ExileServer_util_log; true };
-private _maximumDamage = getNumber (_vehicleConfig >> "maximumDamage");
-private _damageChance = getNumber (_vehicleConfig >> "damageChance");
-private _fuel = (getNumber(_vehicleConfig >> "fuel"));
-private _ammo = (getNumber(_vehicleConfig >> "ammo"));
-
-format ["Spawning Dynamic Vehicles. GridSize: %1 Vehs/Grid: %2",_gridSize,_gridVehicles] call ExileServer_util_log;
-
-for "_xSize" from 0 to _mapsizeX step _gridSize do
+private _spawnedPositions = [];
 {
-	private _workingXSize = _xSize + _gridSizeOffset;
-	for "_ySize" from 0 to _mapsizeY step _gridSize do
-	{
-		private _workingYSize = _ySize + _gridSizeOffset;
-		private _position = [_workingXSize,_workingYSize];
+    private _markerName = _x;
+    if (getMarkerType _markerName == "ExileSpawnZone") then
+    {
+		private _position = getMarkerPos _markerName;
 		private _spawned = 0;
-		private _spawnedPositions = [];
-		while {_spawned < _gridVehicles} do 
+		while {_spawned < _vehiclesToSpawn} do 
 		{
-			private _positionReal = [_position, 25, _gridSize, 5, 1, 1, 0, _spawnedPositions] call BIS_fnc_findSafePos;
-			_positionReal set[2, 0];
+			private _positionReal = [_position, 25, _spawnRadius, 5, 1, 1, 0, _spawnedPositions] call BIS_fnc_findSafePos;
 			private _spawnControl = [[(_positionReal select 0) - 50, (_positionReal select 1) + 50],[(_positionReal select 0) + 50,(_positionReal select 1) - 50]];
 			_spawnedPositions pushBack _spawnControl;
+			_positionReal set[2, 0];
 			_positionReal params["_posX","_posY"];
-			private _isInside = (_posX < worldSize && {_posY < worldSize} && {_posX > 0} && {_posY > 0});
+			private _isInside = (_posX < worldSize && _posY < worldSize && _posX > 0 && _posY > 0);
 			if (_isInside) then
 			{
 				private _vehicleClassName = call
@@ -66,11 +56,11 @@ for "_xSize" from 0 to _mapsizeX step _gridSize do
 					private _return = "";
 					if !(surfaceIsWater _positionReal) then
 					{ 
-						_return = (_vehicleClassNames select 0) selectRandomWeighted (_vehicleClassNames select 1);
+						_return = ((_vehicleClassNames select 0) selectRandomWeighted (_vehicleClassNames select 1));
 					}
 					else
 					{ 
-						_return = (_shipClassNames select 0) selectRandomWeighted (_shipClassNames select 1);
+						_return = ((_shipClassNames select 0) selectRandomWeighted (_shipClassNames select 1));
 					};
 					_return
 				};
@@ -144,11 +134,8 @@ for "_xSize" from 0 to _mapsizeX step _gridSize do
 				};
 
 				_spawned = _spawned + 1;
-				_vehicleCount = _vehicleCount + 1;
-				//format ["Spawned dynamic vehicle %1",_vehicleCount] call ExileServer_util_log;
 			};
 		};
 	};
-};
-format ["Dynamic vehicles spawned. Count : %1",_vehicleCount] call ExileServer_util_log;
+} forEach allMapMarkers;
 true

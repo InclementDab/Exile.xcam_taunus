@@ -19,12 +19,11 @@ if !(_uid in ["", "__SERVER__", "__HEADLESS__"]) then
 	if (_isKnownAccount) then
 	{
 		format["startAccountSession:%1:%2", _uid, _name] call ExileServer_system_database_query_fireAndForget;
-		player setVariable ["isNewPlayer", false, true];
 	}
 	else 
 	{
 		format["createAccount:%1:%2", _uid, _name] call ExileServer_system_database_query_fireAndForget;
-		player setVariable ["isNewPlayer", true, true];
+		profileNamespace setVariable ["HCExileServerJoined", false];
 	};
 };
 true

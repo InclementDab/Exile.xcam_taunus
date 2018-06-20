@@ -226,8 +226,10 @@ uiSleep 5;
 ["", _posX, _posY, 10, 0, 0, 90] spawn BIS_fnc_dynamicText;
 };
  
- 
+profileNamespace setVariable ["HCExileServerJoined", true];
  
 ExileClientIntroIsPlaying = false;
+
+
 
 true

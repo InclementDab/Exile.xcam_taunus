@@ -21,6 +21,7 @@ forEach
 	['Enigma_RevivePlyr', 			'Client\Enigma\Enigma_RevivePlyr.sqf'],
 	['fn_CDAH_setCraftTime', 		'Client\CDAH\logic\fn_CDAH_setCraftTime.sqf'],
 	['onPlayerLoad', 				'Client\Player\onPlayerload.sqf'],
+	['newPlayerStartup', 			'Client\Player\Effects\newPlayerStartup.sqf'],
 	['unconciousEffect', 			'Client\Player\Effects\UnconciousEffect.sqf'],
 	['showPlayerLocation', 			'Client\Player\Effects\showplayerlocation.sqf'],
 	['manTracker', 					'Client\Player\Functions\manTracker.sqf'],

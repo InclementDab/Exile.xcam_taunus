@@ -89,7 +89,7 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		};
 		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00044);
 		player setVariable [QGVAR(bloodVolume), _damage];
-		hint format ["Radiation %1", ExilePlayerRadiation];
+		// hint format ["Radiation %1", ExilePlayerRadiation]; debug mode
 	}; 
 };
 
@@ -108,8 +108,21 @@ if !(ExilePlayerRadiation isEqualTo ExilePlayerRadiationLastCheck) then
 		[0,0,0,0,0,0,4]
 	];
 	ExilePostProcessing_RadiationColor ppEffectCommit 2;
-	ExilePostProcessing_RadiationChroma ppEffectAdjust [0.02 * (ExilePlayerRadiation*.00027),0.02 * (ExilePlayerRadiation*.00027),true];
+	ExilePostProcessing_RadiationChroma ppEffectAdjust 
+	[
+		0.02 * (ExilePlayerRadiation*.00027),
+		0.02 * (ExilePlayerRadiation*.00027),
+		true
+	];
 	ExilePostProcessing_RadiationChroma ppEffectCommit 2;
-	ExilePostProcessing_RadiationFilm ppEffectAdjust [ExilePlayerRadiation,8.39,8,0.9,0.9,true];
+	ExilePostProcessing_RadiationFilm ppEffectAdjust 
+	[
+		ExilePlayerRadiation,
+		8.39,
+		8,
+		0.9,
+		0.9,
+		true
+	];
 	ExilePostProcessing_RadiationFilm ppEffectCommit 2;
 };

@@ -31,11 +31,9 @@ class CfgExileCustomCode
 	ExileClient_gui_hud_toggleHungerIcon								= "Client\Gui\CustomCode\ExileClient_gui_hud_toggleHungerIcon.sqf";
 	ExileClient_gui_hud_toggleThirstIcon								= "Client\Gui\CustomCode\ExileClient_gui_hud_toggleThirstIcon.sqf";
 
-	// Radiation Zone
-	ExileClient_system_radiation_thread_update 							= "Client\RadiationZone\CustomCode\ExileClient_system_radiation_thread_update.sqf";
-	
 	// Radio
 	ExileServer_system_network_send_broadcast 							= "Client\System\CustomCode\ExileServer_system_network_send_broadcast.sqf";
+	ExileClient_system_radiation_thread_update 							= "Client\System\CustomCode\ExileClient_system_radiation_thread_update.sqf";
 	
 	// Player
 	ExileServer_object_player_database_load 							= "Client\Player\CustomCode\ExileServer_object_player_database_load.sqf";
@@ -44,7 +42,9 @@ class CfgExileCustomCode
 	ExileClient_object_player_stats_reset 								= "Client\Player\CustomCode\ExileClient_object_player_stats_reset.sqf";
 	ExileClient_object_player_stats_update 								= "Client\Player\CustomCode\ExileClient_object_player_stats_update.sqf";
 	ExileServer_system_network_event_onPlayerConnected					= "Client\Player\CustomCode\ExileServer_system_network_event_onPlayerConnected.sqf";
-
+	ExileClient_object_player_initialize								= "Client\Player\CustomCode\ExileClient_object_player_initialize.sqf";
+	
+	
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened 					= "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";
 	ExileClient_object_player_event_onEnterSafezone 					= "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onEnterSafezone.sqf";
@@ -62,6 +62,7 @@ class CfgExileCustomCode
 	// World
 	ExileClient_util_world_findCoastPosition							= "Client\World\CustomCode\ExileClient_util_world_findCoastPosition.sqf";
 	ExileServer_world_spawnVehicles										= "Client\World\CustomCode\ExileServer_world_spawnVehicles.sqf";
+	ExileServer_world_spawnSpawnZoneVehicles							= "Client\World\CustomCode\ExileServer_world_spawnSpawnZoneVehicles.sqf";
 	
 	// CDAH
 	ExileClient_gui_crafting_show 										= "Client\CDAH\CustomCode\ExileClient_gui_crafting_show.sqf";
