@@ -43,6 +43,7 @@ class CfgExileCustomCode
 	ExileServer_object_player_event_onMpKilled 							= "Client\Player\CustomCode\ExileServer_object_player_event_onMpKilled.sqf";
 	ExileClient_object_player_stats_reset 								= "Client\Player\CustomCode\ExileClient_object_player_stats_reset.sqf";
 	ExileClient_object_player_stats_update 								= "Client\Player\CustomCode\ExileClient_object_player_stats_update.sqf";
+	ExileServer_system_network_event_onPlayerConnected					= "Client\Player\CustomCode\ExileServer_system_network_event_onPlayerConnected.sqf";
 
 	// Safezone Plus
 	ExileClient_object_player_event_onInventoryOpened 					= "Client\SafezonePlus\CustomCode\ExileClient_object_player_event_onInventoryOpened.sqf";

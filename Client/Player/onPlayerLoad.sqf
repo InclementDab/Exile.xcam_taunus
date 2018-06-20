@@ -7,10 +7,18 @@ if (hasinterface) exitWith {
 	["unconciousEffect"] call CBA_fnc_localEvent;
 
 
-	[] execVM "client\player\effects\worldFog";
+	[] execVM "effects\worldFog.sqf";
 
 	waitUntil {!isNil "ExileClientPlayerIsSpawned"};
 	waitUntil {ExileClientPlayerIsSpawned};
+	
+	if (player getVariable ["isNewPlayer", false, false]) exitWith {
+		
+		[] call initRadio;
+		[] call manTracker;
+		[] call newPlayerStartup;
+	};
+		
 
 
 	if ("ItemRadio" in (assignedItems player)) then
@@ -24,7 +32,6 @@ if (hasinterface) exitWith {
 	[] call initRadio;
 	[] call manTracker;
 
-	diag_log "InitPlayerLocal Complete";
 };
 
 
