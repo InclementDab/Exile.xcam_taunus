@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=588;
+		nextID=606;
 	};
 	class Camera
 	{
-		pos[]={6875.3145,874.76385,11786.766};
-		dir[]={0.51196665,-0.79550725,0.32415056};
-		up[]={0.67212206,0.60593885,0.42555228};
-		aside[]={0.53494471,-6.8102963e-008,-0.84489703};
+		pos[]={6883.3716,874.76385,11792.552};
+		dir[]={0.32478699,-0.9168185,0.23231883};
+		up[]={0.7456913,0.39930373,0.53338981};
+		aside[]={0.58178681,-8.6612999e-008,-0.81335086};
 	};
 };
 binarizationWanted=0;
@@ -23733,6 +23733,7 @@ class Mission
 					};
 					id=1386;
 					type="SM_Zombz_Zone";
+					atlOffset=0.49523163;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28325,7 +28326,7 @@ class Mission
 			name="mikesBikes1_4";
 			text="Mike's Bikes";
 			type="mil_triangle";
-			angle=225.42342;
+			angle=225.4234;
 			id=1553;
 			atlOffset=0.014160156;
 		};
@@ -99845,6 +99846,7 @@ class Mission
 			};
 			id=10093;
 			type="Land_Airport_01_controlTower_F";
+			atlOffset=0.16000366;
 		};
 		class Item1154
 		{
@@ -99893,6 +99895,7 @@ class Mission
 			};
 			id=10101;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1157
 		{
@@ -99909,6 +99912,7 @@ class Mission
 			};
 			id=10102;
 			type="Land_LampAirport_F";
+			atlOffset=0.16000366;
 		};
 		class Item1158
 		{

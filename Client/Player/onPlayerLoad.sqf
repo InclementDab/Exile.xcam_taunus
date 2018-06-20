@@ -7,12 +7,12 @@ if (hasinterface) exitWith {
 	["unconciousEffect"] call CBA_fnc_localEvent;
 
 
-	[] execVM "effects\worldFog.sqf";
+	[] execVM "client\player\effects\worldFog.sqf";
 
 	waitUntil {!isNil "ExileClientPlayerIsSpawned"};
-	waitUntil {ExileClientPlayerIsSpawned};
+	// waitUntil {ExileClientPlayerIsSpawned};
 	
-	if (player getVariable ["isNewPlayer", false, false]) exitWith {
+	if (player getVariable ["isNewPlayer", false]) exitWith {
 		
 		if ("ItemRadio" in (assignedItems player)) then
 		{

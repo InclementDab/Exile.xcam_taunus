@@ -86,6 +86,6 @@ if !(getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Escape") th
 	(_this select 8) call ExileClient_object_player_bambiStateBegin;
 };
 
-[] call Playerload;
+[] call onPlayerLoad;
 
 true
