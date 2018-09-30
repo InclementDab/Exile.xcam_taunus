@@ -10,6 +10,7 @@
  */
 
 
+ 
 #include "Traders\CfgTraders.hpp"
 #include "Traders\CfgTraderCategories.hpp"
 
