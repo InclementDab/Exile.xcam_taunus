@@ -90,6 +90,42 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		_damage = (player getVariable [QGVAR(bloodVolume), 100]) - (ExilePlayerRadiation * 0.00044);
 		player setVariable [QGVAR(bloodVolume), _damage];
 		// hint format ["Radiation %1", ExilePlayerRadiation]; debug mode
+		
+		
+		[.55 + random 0.12] spawn 
+		{     
+			setwind [0.2,0.1,false];
+			_n =  abs(wind select 0) + abs(wind select 1) + abs(wind select 2);
+			_velocity = wind;
+			_color = [1, 1, 1];   
+
+			_hndl = ppEffectCreate ["colorCorrections", 1501];
+			_hndl ppEffectEnable true;
+			_hndl ppEffectCommit 0;
+
+			_snowflakes1 = "#particlesource" createVehicleLocal getposASL player; 
+			//_snowflakes1  attachto [player, [0,0,12]];
+			_snowflakes1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 14, 2, 0], "", "Billboard", 1, 22, [0, 0, (8000/_distance)], _velocity, (0), 1.69, 1, 1, [1.5], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
+			_snowflakes1  setParticleRandom [0, [50 + (random 5),50 + (random 5), 4], [0, 0, 0], 0, 0, [0, 0, 0, .03], 0, 0];
+			_snowflakes1  setParticleCircle [0, [0, 0, 0]];
+			_snowflakes1  setDropInterval (1/_distance); 
+
+
+			_snowflakes2 = "#particlesource" createVehicleLocal getposASL player; 
+			   //_snowflakes2  attachto [player, [0,0,12]];
+			_snowflakes2  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1, 14, [0, 0, (8000/_distance)], _velocity, (0), 1.39, 0, 0, [.2], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
+			_snowflakes2  setParticleRandom [0, [35 + (random 4),25 + (random 4), 5], [0, 0, 0], 0, 0, [0, 0, 0, 2], 0, 0];
+			_snowflakes2  setParticleCircle [0, [0, 0, 0]];
+			_snowflakes2  setDropInterval (1/_distance)*4; 
+
+
+			_clouds1 = "#particlesource" createVehicleLocal getposASL player; 
+			//_clouds1  attachto [player, [0,0,12]];
+			_clouds1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1,22, [0, 0, 1], _velocity, (_n * 4), 1.72, 1, 1, [22 + random 33], [[1,1,1,0],[1,1,1,1],[1,1,1,0]],[1000], 0, 0, "", "", player];
+			_clouds1  setParticleRandom [3, [55 + (random 8),55 + (random 10), 55], [2, 2, 0], 0, 0, [0, 0, 0, 0], 0, 0];
+			_clouds1  setParticleCircle [0, [0, 0, 0]];
+			_clouds1  setDropInterval 5/_distance; 
+        };
 	}; 
 };
 
@@ -125,4 +161,5 @@ if !(ExilePlayerRadiation isEqualTo ExilePlayerRadiationLastCheck) then
 		true
 	];
 	ExilePostProcessing_RadiationFilm ppEffectCommit 2;
+
 };
