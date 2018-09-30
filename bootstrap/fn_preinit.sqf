@@ -21,13 +21,12 @@ forEach
 	['Enigma_RevivePlyr', 			'Client\Enigma\Enigma_RevivePlyr.sqf'],
 	['fn_CDAH_setCraftTime', 		'Client\CDAH\logic\fn_CDAH_setCraftTime.sqf'],
 	['onPlayerLoad', 				'Client\Player\onPlayerload.sqf'],
-	['newPlayerStartup', 			'Client\Player\Effects\newPlayerStartup.sqf'],
-	['unconciousEffect', 			'Client\Player\Effects\UnconciousEffect.sqf'],
-	['showPlayerLocation', 			'Client\Player\Effects\showplayerlocation.sqf'],
-	['manTracker', 					'Client\Player\Functions\manTracker.sqf'],
+	['newPlayerStartup', 			'Client\Player\functions\newPlayerStartup.sqf'],
+	['unconciousEffect', 			'Client\Player\functions\UnconciousEffect.sqf'],
+	['showPlayerLocation', 			'Client\Player\functions\showplayerlocation.sqf'],
 	['initRadio', 					'Client\Player\functions\initRadio.sqf'],
-	['RadioToggle', 				'Client\Player\Radio\RadioToggle.sqf'],
-	['MKY_fnc_getNamedLocation',    'Client\weather\snow\MKY_fnc_getNamedLocation.sqf']
+	['worldFog', 					'Client\Player\Effects\worldfog.sqf'],
+	['RadioToggle', 				'Client\Player\Radio\RadioToggle.sqf']
 ];
 
 

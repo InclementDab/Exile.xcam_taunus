@@ -1,7 +1,7 @@
-// Ground Fog - TorturedChunk - Kaysi - mmmyum @ OpenDayZ.net
 
-//Modify By CNSU
-waitUntil {!isNull player};
+
+
+
 doofog = {
 private ["_obj","_pos","_inVehicle"];
         _inVehicle = (vehicle player != player);
@@ -51,7 +51,7 @@ private ["_obj","_pos","_inVehicle"];
                 1 call doofog;
 			};
 			
-			if ((player distance2d (getMarkerPos "marker_42")) < 3500) then 
+			if ((player distance2d (getMarkerPos "radiationZone")) < 3500) then 
 			{
 				player setVariable ["playerfog", floor time + 5];
 				4 call doofog;

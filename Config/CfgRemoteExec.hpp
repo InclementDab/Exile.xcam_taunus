@@ -4,6 +4,9 @@ class CfgRemoteExec
 	{
 		mode = 1;
 		jip = 0;
+		
+		class bis_fnc_debugconsoleexec { allowedTargets = 2; }; // NEEDS TO BE CHANGED UPON SERVER LAUNCH
+		
 		class fnc_AdminReq { allowedTargets=2; };
 		class fn_xm8apps_server { allowedTargets=2; };
 		class CDAH_fnc_CDAH_Workshop_Gui { allowedTargets=0; };
@@ -48,11 +51,6 @@ class CfgRemoteExec
 		class achilles_fnc_setvehicleammodef;
 		class achilles_fnc_modulecas_server;
 		class bis_fnc_modulerespawnvehicle;
-		class AR_Client_Rappel_From_Heli { allowedTargets=0; }; 
-		class AR_Hint { allowedTargets=1; }; 
-		class AR_Hide_Object_Global { allowedTargets=2; }; 
-		class AR_Enable_Rappelling_Animation { allowedTargets=2; }; 
-		class AR_Rappel_From_Heli { allowedTargets=2; }; 
 		class SA_Simulate_Towing	{ allowedTargets=0; }; 
 		class SA_Attach_Tow_Ropes	{ allowedTargets=0; }; 
 		class SA_Take_Tow_Ropes		{ allowedTargets=0; }; 
@@ -68,7 +66,28 @@ class CfgRemoteExec
 		class SM_Network_HandleMessage { allowedTargets = 2; };
 		class vcm_serverask { allowedTargets = 2; };
 		class AdminToolkit_network_receiveRequest { allowedTargets = 2; };
-		class bis_fnc_debugconsoleexec { allowedTargets = 2; }; // NEEDS TO BE CHANGED UPON SERVER LAUNCH
+		class ASL_Pickup_Ropes { allowedTargets=0; }; 
+		class ASL_Deploy_Ropes_Index { allowedTargets=0; }; 
+		class ASL_Rope_Set_Mass { allowedTargets=0; }; 
+		class ASL_Extend_Ropes { allowedTargets=0; }; 
+		class ASL_Shorten_Ropes { allowedTargets=0; }; 
+		class ASL_Release_Cargo { allowedTargets=0; }; 
+		class ASL_Retract_Ropes { allowedTargets=0; }; 
+		class ASL_Deploy_Ropes { allowedTargets=0; }; 
+		class ASL_Attach_Ropes { allowedTargets=0; }; 
+		class ASL_Drop_Ropes { allowedTargets=0; }; 
+		class ASL_Hint { allowedTargets=1; }; 
+		class ASL_Hide_Object_Global { allowedTargets=2; }; 
+		class AR_Client_Rappel_From_Heli { allowedTargets=0; }; 
+		class AR_Hint { allowedTargets=1; }; 
+		class AR_Hide_Object_Global { allowedTargets=2; }; 
+		class AR_Enable_Rappelling_Animation { allowedTargets=2; }; 
+		class AR_Rappel_From_Heli { allowedTargets=2; }; 
+		class AUR_Hint { allowedTargets=1; }; 
+		class AUR_Hide_Object_Global { allowedTargets=2; }; 
+		class AUR_Enable_Rappelling_Animation_Global { allowedTargets=2; }; 
+		class AUR_Play_Rappelling_Sounds_Global { allowedTargets=2; }; 
+
 	};
 	class Commands
 	{

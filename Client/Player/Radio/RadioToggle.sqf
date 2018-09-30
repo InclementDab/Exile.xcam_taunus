@@ -16,14 +16,14 @@
  */
 
 
-	params ["_unit", ["_state", false, [true]]];
-	_unit setVariable ["RadioToggle", _state, true];
+params ["_unit", ["_state", false, [true]]];
+_unit setVariable ["RadioToggle", _state, true];
 	
-	if (_state) then 
-	{
-		["Radio Enabled", true] call ace_common_fnc_displayText; 
-		playsound "RadioEnable";
-	} else {
-		["Radio Disabled", true] call ace_common_fnc_displayText;
-		playsound "RadioDisable";
-	};
+if (_state) then 
+{
+	["Radio Enabled", true] call ace_common_fnc_displayText; 
+	playsound "RadioEnable";
+} else {
+	["Radio Disabled", true] call ace_common_fnc_displayText;
+	playsound "RadioDisable";
+};

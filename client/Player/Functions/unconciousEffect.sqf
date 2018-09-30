@@ -1,5 +1,4 @@
 
-
 params ["_unit", "_isUnconscious"];
 if !(_isUnconscious) then 
 {

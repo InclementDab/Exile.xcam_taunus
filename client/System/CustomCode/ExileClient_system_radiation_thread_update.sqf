@@ -19,7 +19,7 @@ ExilePlayerRadiation = 0;
 
 if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") then
 {
-	_distance = player distance2d (getMarkerPos "marker_42");
+	_distance = player distance2d (getMarkerPos "radiationZone");
 	if (_distance < 4000) exitWith
 	{
 		_radiationMaskFactor = 1;
@@ -75,12 +75,14 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		if (ExilePlayerRadiation > 700) then
 		{
 			playSound [format ["Exile_Sound_GeigerCounter_High0%1", 1 + (floor random 3)], true];
+			playSound "SndExileHeartbeatFast";
 		}
 		else
 		{
 			if (ExilePlayerRadiation > 350) then
 			{
 				playSound [format ["Exile_Sound_GeigerCounter_Medium0%1", 1 + (floor random 3)], true];
+				playSound "SndExileHeartbeatSlow";
 			}
 			else
 			{
@@ -92,8 +94,8 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		// hint format ["Radiation %1", ExilePlayerRadiation]; debug mode
 		
 		
-		[] spawn {     
-			_distance = player distance2d (getMarkerPos "marker_42");
+		[.55 + (random .12)] spawn {     
+			_distance = player distance2d (getMarkerPos "radiationZone");
 			_velocity = [floor(random 5), floor(random 5), (random 2) + (5-(.1*_distance^2))];
 			_color = [1, 1, 1];
 			
@@ -103,7 +105,7 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 
 			_snowflakes1 = "#particlesource" createVehicleLocal getposASL player; 
 			//_snowflakes1  attachto [player, [0,0,12]];
-			_snowflakes1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 14, 2, 0], "", "Billboard", 1, 22, [0, 0, 6], _velocity, (0), 1.69, 1, 1, [1.5], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player]
+			_snowflakes1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 14, 2, 0], "", "Billboard", 1, 22, [0, 0, 6], _velocity, (0), 1.69, 1, 1, [1.5], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
 			_snowflakes1  setParticleRandom [0, [50 + (random 5),50 + (random 5), 4], [0, 0, 0], 0, 0, [0, 0, 0, .03], 0, 0];
 			_snowflakes1  setParticleCircle [0, [0, 0, 0]];
 			_snowflakes1  setDropInterval (1/_distance); 
@@ -114,15 +116,15 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 			_snowflakes2  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1, 14, [0, 0, 6], _velocity, (0), 1.39, 0, 0, [.2], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
 			_snowflakes2  setParticleRandom [0, [35 + (random 4),25 + (random 4), 5], [0, 0, 0], 0, 0, [0, 0, 0, 2], 0, 0];
 			_snowflakes2  setParticleCircle [0, [0, 0, 0]];
-			_snowflakes2  setDropInterval (1/_distance)*4; 
+			_snowflakes2  setDropInterval ((1/_distance)*4); 
 
 
 			_clouds1 = "#particlesource" createVehicleLocal getposASL player; 
 			//_clouds1  attachto [player, [0,0,12]];
-			_clouds1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1,22, [0, 0, 16], _velocity, (_n * 4), 1.72, 1, 1, [22 + random 33], [[1,1,1,0],[1,1,1,1],[1,1,1,0]],[1000], 0, 0, "", "", player];
+			_clouds1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1,22, [0, 0, 16], _velocity, (0), 1.72, 1, 1, [22 + random 33], [[1,1,1,0],[1,1,1,1],[1,1,1,0]],[1000], 0, 0, "", "", player];
 			_clouds1  setParticleRandom [3, [55 + (random 8),55 + (random 10), 55], [2, 2, 0], 0, 0, [0, 0, 0, 0], 0, 0];
 			_clouds1  setParticleCircle [0, [0, 0, 0]];
-			_clouds1  setDropInterval 5/_distance; 
+			_clouds1  setDropInterval (5/_distance); 
         };
 	}; 
 };
