@@ -91308,8 +91308,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15584.816,430.42511,17172.617};
-				angles[]={0.11153467,5.5379801,0.087774232};
+				position[]={15583.308,430.46225,17171.088};
+				angles[]={0.10955723,5.5379801,0.089761026};
 			};
 			side="Empty";
 			flags=4;
