@@ -15,4 +15,14 @@ class CfgSounds
 		sound[] = {"assets\slam.wav",1,1,200};
 		titles[] = {};
 	};
+	class Blizzard
+	{
+		sound[] = {"assets\blizzard.ogg",1,1,200};
+		titles[] = {};
+	};
+	class Snowfall
+	{
+		sound[] = {"assets\snowfall.ogg",1,1,200};
+		titles[] = {};
+	};
 };

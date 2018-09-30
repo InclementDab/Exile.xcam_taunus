@@ -1,7 +1,7 @@
 
 
 params ["_unit", "_isUnconscious"];
-if (!_isUnconscious) then 
+if !(_isUnconscious) then 
 {
 	titleCut ["", "BLACK IN", 4]; 
 	4 fadeSound 1;

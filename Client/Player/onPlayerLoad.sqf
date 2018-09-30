@@ -2,8 +2,7 @@
 
 if (hasinterface) exitWith {
 	
-	["ace_unconcious", unconciousEffect] call CBA_fnc_addEventHandler;
-	["unconciousEffect"] call CBA_fnc_localEvent;
+	["ace_unconscious", unconciousEffect] call CBA_fnc_addEventHandler;
 
 
 	[] execVM "client\player\effects\worldFog.sqf";
@@ -37,5 +36,7 @@ if (hasinterface) exitWith {
 		[] call manTracker;
 	};
 };
+
+setTerrainGrid 48;
 
 

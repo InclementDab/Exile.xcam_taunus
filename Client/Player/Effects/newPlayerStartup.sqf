@@ -21,15 +21,14 @@ ExileClientIntroIsPlaying = true;
 
 
 cutText ["", "BLACK FADED", 2];
-
 uiSleep 2;
 4 fadeSound 1.0;
 playSound "SweepingSlam";
 uiSleep 1;
-	["<t size='1.0' font='PuristaBold'>Welcome to Hardcore Exile Taunus</t>", (0.295 * safezoneW + safezoneX), (0.435 * safezoneH + safezoneY), 3.5, 1, 0, 90] spawn BIS_fnc_dynamicText;
-	uiSleep 2;
-	["<t size='1.0' font='PuristaBold'>Good Luck...</t>", (0.295 * safezoneW + safezoneX), (0.48 * safezoneH + safezoneY), 1.5, 1, 0, 91] spawn BIS_fnc_dynamicText;
-	uiSleep 4;
+["<t size='1.0' font='PuristaBold'>Welcome to Hardcore Exile Taunus</t>", (0.295 * safezoneW + safezoneX), (0.435 * safezoneH + safezoneY), 3.5, 1, 0, 90] spawn BIS_fnc_dynamicText;
+uiSleep 2;
+["<t size='1.0' font='PuristaBold'>Good Luck...</t>", (0.295 * safezoneW + safezoneX), (0.48 * safezoneH + safezoneY), 1.5, 1, 0, 91] spawn BIS_fnc_dynamicText;
+uiSleep 4;
 	
 
 _hndChromAberration = ppEffectCreate ["ChromAberration", 201];

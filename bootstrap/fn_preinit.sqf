@@ -26,7 +26,8 @@ forEach
 	['showPlayerLocation', 			'Client\Player\Effects\showplayerlocation.sqf'],
 	['manTracker', 					'Client\Player\Functions\manTracker.sqf'],
 	['initRadio', 					'Client\Player\functions\initRadio.sqf'],
-	['RadioToggle', 				'Client\Player\Radio\RadioToggle.sqf']
+	['RadioToggle', 				'Client\Player\Radio\RadioToggle.sqf'],
+	['MKY_fnc_getNamedLocation',    'Client\weather\snow\MKY_fnc_getNamedLocation.sqf']
 ];
 
 

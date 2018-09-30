@@ -74,4 +74,45 @@ class CfgExileCustomCode
 	ExileServer_system_weather_thread_weatherSimulation 				= "Client\Weather\CustomCode\ExileServer_system_weather_thread_weatherSimulation.sqf";
 	ExileServer_system_weather_initialize 								= "Client\Weather\CustomCode\ExileServer_system_weather_initialize.sqf";
 	
+	//ExtDB3
+	ExileServer_system_database_connect 								= "Client\ExtDB3\ExileServer_system_database_connect.sqf";
+	ExileServer_system_simulationMonitor_initialize 					= "Client\ExtDB3\ExileServer_system_simulationMonitor_initialize.sqf";
+	ExileServer_system_process_noobFilter 								= "Client\ExtDB3\ExileServer_system_process_noobFilter.sqf";
+	ExileServer_world_initialize 										= "Client\ExtDB3\ExileServer_world_initialize.sqf";
+	ExileServer_util_time_uptime 										= "Client\ExtDB3\ExileServer_util_time_uptime.sqf";
+	ExileServer_util_time_currentTime 									= "Client\ExtDB3\ExileServer_util_time_currentTime.sqf";
+	ExileServer_util_time_addTime 										= "Client\ExtDB3\ExileServer_util_time_addTime.sqf";
+	ExileServer_system_trading_network_wasteDumpRequest 				= "Client\ExtDB3\ExileServer_system_trading_network_wasteDumpRequest.sqf";
+	ExileServer_system_trading_network_sellItemRequest 					= "Client\ExtDB3\ExileServer_system_trading_network_sellItemRequest.sqf";
+	ExileServer_system_trading_network_purchaseVehicleSkinRequest 		= "Client\ExtDB3\ExileServer_system_trading_network_purchaseVehicleSkinRequest.sqf";
+	ExileServer_system_trading_network_purchaseVehicleRequest 			= "Client\ExtDB3\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
+	ExileServer_system_trading_network_purchaseItemRequest 				= "Client\ExtDB3\ExileServer_system_trading_network_purchaseItemRequest.sqf";
+	ExileServer_system_territory_network_territoryUpgradeRequest 		= "Client\ExtDB3\ExileServer_system_territory_network_territoryUpgradeRequest.sqf";
+	ExileServer_system_territory_network_restoreFlagRequest 			= "Client\ExtDB3\ExileServer_system_territory_network_restoreFlagRequest.sqf";
+	ExileServer_system_territory_network_purchaseTerritory 				= "Client\ExtDB3\ExileServer_system_territory_network_purchaseTerritory.sqf";
+ExileServer_system_territory_network_payTerritoryProtectionMoneyRequest = "Client\ExtDB3\ExileServer_system_territory_network_payTerritoryProtectionMoneyRequest.sqf";
+	ExileServer_system_territory_network_payFlagRansomRequest 			= "Client\ExtDB3\ExileServer_system_territory_network_payFlagRansomRequest.sqf";
+	ExileServer_system_territory_network_flagStolenRequest 				= "Client\ExtDB3\ExileServer_system_territory_network_flagStolenRequest.sqf";
+	ExileServer_system_territory_maintenance_recalculateDueDate 		= "Client\ExtDB3\ExileServer_system_territory_maintenance_recalculateDueDate.sqf";
+	ExileServer_system_territory_database_insert 						= "Client\ExtDB3\ExileServer_system_territory_database_insert.sqf";
+	ExileServer_system_database_query_selectSingleField 				= "Client\ExtDB3\ExileServer_system_database_query_selectSingleField.sqf";
+	ExileServer_system_database_query_selectSingle 						= "Client\ExtDB3\ExileServer_system_database_query_selectSingle.sqf";
+	ExileServer_system_database_query_selectFull 						= "Client\ExtDB3\ExileServer_system_database_query_selectFull.sqf";
+	ExileServer_system_database_query_insertSingle 						= "Client\ExtDB3\ExileServer_system_database_query_insertSingle.sqf";
+	ExileServer_system_database_query_fireAndForget						= "Client\ExtDB3\ExileServer_system_database_query_fireAndForget.sqf";
+	ExileServer_system_database_handleBig 								= "Client\ExtDB3\ExileServer_system_database_handleBig.sqf";
+	ExileServer_object_vehicle_database_load 							= "Client\ExtDB3\ExileServer_object_vehicle_database_load.sqf";
+	ExileServer_object_vehicle_createPersistentVehicle 					= "Client\ExtDB3\ExileServer_object_vehicle_createPersistentVehicle.sqf";
+	ExileServer_object_vehicle_createNonPersistentVehicle 				= "Client\ExtDB3\ExileServer_object_vehicle_createNonPersistentVehicle.sqf";
+	// ExileServer_object_player_event_onMpKilled 							= "Client\ExtDB3\ExileServer_object_player_event_onMpKilled.sqf";
+	// ExileServer_object_player_database_load 							= "Client\ExtDB3\ExileServer_object_player_database_load.sqf";
+	// ExileServer_object_player_createBambi 								= "Client\ExtDB3\ExileServer_object_player_createBambi.sqf";
+	ExileServer_object_container_database_update 						= "Client\ExtDB3\ExileServer_object_container_database_update.sqf";
+	ExileServer_object_container_database_load 							= "Client\ExtDB3\ExileServer_object_container_database_load.sqf";
+	ExileServer_object_container_database_insert 						= "Client\ExtDB3\ExileServer_object_container_database_insert.sqf";
+	ExileServer_object_container_createContainer 						= "Client\ExtDB3\ExileServer_object_container_createContainer.sqf";
+	ExileServer_object_construction_database_load 						= "Client\ExtDB3\ExileServer_object_construction_database_load.sqf";
+	ExileServer_object_construction_database_insert 					= "Client\ExtDB3\ExileServer_object_construction_database_insert.sqf";
+	ExileServer_object_vehicle_network_retrieveVehicleRequest 			= "Client\ExtDB3\ExileServer_object_vehicle_network_retrieveVehicleRequest.sqf";
+	
 };

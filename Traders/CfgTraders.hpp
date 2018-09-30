@@ -9,7 +9,7 @@ class CfgExileArsenal
 	#include "Prices\ExtendedBaseMod.hpp"
 	#include "Prices\Miscprices.hpp"
 	#include "Prices\NiarmsPrices.hpp"
-	#include "Prices\RDSprices.hpp"
+	#include "Prices\CUPprices.hpp"
 	#include "Prices\RhsPrices.hpp"
 	#include "Prices\TrykPrices.hpp"
 	
@@ -69,9 +69,9 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"Cars",
-			"Trucks",
-			"RHSVehicles"
+			"CivilianCars",
+			"CivilianTrucks",
+			"MikesBikes"
 		};
 	};
 
@@ -81,10 +81,8 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"CivilianCars", 
-			"CivilianPlanes",
-			"CivilianChoppers",
-			"CivilianTrucks"
+			"CivilianChoppers", 
+			"CivilianPlanes"
 		};
 	};
 
@@ -133,6 +131,24 @@ class CfgTraders
 		};
 	};
 	
+	class Trader_Military_Uniforms
+	{
+		name = "MILITARY CLOTHING";
+		showWeaponFilter = 1;
+		categories[] =
+		{
+			"MilitaryUniforms",
+			"MilitaryVests",
+			"MilitaryHeadgear",
+			"MilitaryBackpacks",
+			"MilitaryEquipment",
+			"Grenades"
+			
+			
+		};
+	};
+
+
 	
 	class Trader_Black_Market
 	{
@@ -175,7 +191,8 @@ class CfgTraders
 		showWeaponFilter = 0;
 		categories[] = 
 		{
-			"MilitaryArmor"
+			"MilitaryTransport",
+			"MilitaryArmed"
 		};
 	};
 

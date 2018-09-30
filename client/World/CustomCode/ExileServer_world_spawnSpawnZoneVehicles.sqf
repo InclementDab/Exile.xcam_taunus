@@ -85,6 +85,7 @@ private _spawnedPositions = [];
 				private _maximumNumberOfItemsPerLootSpot = getNumber (_lootConfig >> "maximumNumberOfItemsPerLootSpot");
 				private _numberOfItemsToSpawn = (floor (random _maximumNumberOfItemsPerLootSpot)) + 1;
 				private _spawnedItemClassNames = [];
+				/*
 				for "_n" from 1 to _numberOfItemsToSpawn do
 				{
 					private _itemClassName = "Residential" call ExileServer_system_lootManager_dropItem;
@@ -132,6 +133,7 @@ private _spawnedPositions = [];
 						_spawnedItemClassNames pushBack _itemClassName;
 					};
 				};
+				*/
 
 				_spawned = _spawned + 1;
 			};

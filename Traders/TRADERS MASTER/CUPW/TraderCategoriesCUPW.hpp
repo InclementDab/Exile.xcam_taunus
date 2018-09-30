@@ -14,24 +14,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemmuzzle_ca.paa";
 		items[] =
 		{
-            "CUP_muzzle_PBS4",
-            "CUP_muzzle_PB6P9",
-            "CUP_muzzle_Bizon",
-            "CUP_muzzle_snds_M110",
-            "CUP_muzzle_snds_M14",
-            "CUP_muzzle_snds_M9",
-            "CUP_muzzle_snds_MicroUzi",
-            "CUP_muzzle_snds_AWM",
-            "CUP_muzzle_snds_G36_black",
-            "CUP_muzzle_snds_G36_desert",
-            "CUP_muzzle_snds_L85",
-            "CUP_muzzle_snds_M16_camo",
-            "CUP_muzzle_snds_M16",
-            "CUP_muzzle_snds_SCAR_L",
-            "CUP_muzzle_mfsup_SCAR_L",
-            "CUP_muzzle_snds_SCAR_H",
-            "CUP_muzzle_mfsup_SCAR_H",
-            "CUP_muzzle_snds_XM8"
+
 		};
 	};
 
@@ -90,93 +73,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"CUP_20Rnd_B_AA12_Pellets",
-            "CUP_20Rnd_B_AA12_74Slug",
-            "CUP_20Rnd_B_AA12_HE",
-            "CUP_8Rnd_B_Beneli_74Slug",
-            "CUP_8Rnd_B_Saiga12_74Slug_M",
-            "CUP_8Rnd_9x18_Makarov_M",
-            "CUP_8Rnd_9x18_MakarovSD_M",
-            "CUP_15Rnd_9x19_M9",
-            "CUP_18Rnd_9x19_Phantom",
-            "CUP_6Rnd_45ACP_M",
-            "CUP_17Rnd_9x19_glock17",
-            "CUP_7Rnd_45ACP_1911",
-            "CUP_10Rnd_9x19_Compact",
-            "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
-            "CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
-            "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249",
-            "CUP_200Rnd_TE1_Red_Tracer_556x45_M249",
-            "CUP_100Rnd_TE4_Green_Tracer_556x45_M249",
-            "CUP_100Rnd_TE4_Red_Tracer_556x45_M249",
-            "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249",
-            "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1",
-            "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1",
-            "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1",
-            "CUP_50Rnd_UK59_762x54R_Tracer",
-            "CUP_64Rnd_9x19_Bizon_M",
-            "CUP_64Rnd_Green_Tracer_9x19_Bizon_M",
-            "CUP_64Rnd_Red_Tracer_9x19_Bizon_M",
-            "CUP_64Rnd_White_Tracer_9x19_Bizon_M",
-            "CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M",
-            "CUP_30Rnd_9x19_EVO",
-            "CUP_30Rnd_9x19_UZI",
-            "CUP_30Rnd_9x19_MP5",
-            "CUP_20Rnd_B_765x17_Ball_M",
-            "CUP_5Rnd_127x99_as50_M",
-            "CUP_5Rnd_86x70_L115A1",
-            "CUP_10Rnd_762x51_CZ750_Tracer",
-            "CUP_10Rnd_762x51_CZ750",
-            "CUP_10x_303_M",
-            "CUP_5Rnd_762x51_M24",
-            "CUP_10Rnd_127x99_m107",
-            "CUP_20Rnd_762x51_B_M110",
-            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110",
-            "CUP_20Rnd_TE1_Red_Tracer_762x51_M110",
-            "CUP_20Rnd_TE1_Green_Tracer_762x51_M110",
-            "CUP_20Rnd_TE1_White_Tracer_762x51_M110",
-            "CUP_10Rnd_762x54_SVD_M",
-            "CUP_10Rnd_9x39_SP5_VSS_M",
-            "CUP_20Rnd_9x39_SP5_VSS_M",
-            "CUP_5x_22_LR_17_HMR_M",
-            "CUP_5Rnd_127x108_KSVK_M",
-            "CUP_30Rnd_545x39_AK_M",
-            "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
-            "CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M",
-            "CUP_30Rnd_TE1_White_Tracer_545x39_AK_M",
-            "CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",
-            "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",
-            "CUP_30Rnd_762x39_AK47_M",
-            "CUP_30Rnd_556x45_Stanag",
-            "CUP_30Rnd_556x45_G36",
-            "CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
-            "CUP_30Rnd_TE1_Green_Tracer_556x45_G36",
-            "CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36",
-            "CUP_100Rnd_556x45_BetaCMag",
-            "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
-            "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag",
-            "CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag",
-            "CUP_20Rnd_556x45_Stanag",
-            "CUP_20Rnd_762x51_CZ805B",
-            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B",
-            "CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B",
-            "CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B",
-            "CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B",
-            "CUP_20Rnd_762x51_DMR",
-            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR",
-            "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
-            "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",
-            "CUP_20Rnd_TE1_White_Tracer_762x51_DMR",
-            "CUP_20Rnd_762x51_FNFAL_M",
-            "CUP_30Rnd_Sa58_M_TracerG",
-            "CUP_30Rnd_Sa58_M_TracerR",
-            "CUP_30Rnd_Sa58_M_TracerY",
-            "CUP_30Rnd_Sa58_M",
-            "CUP_20Rnd_762x51_B_SCAR",
-            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR",
-            "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
-            "CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR",
-            "CUP_20Rnd_TE1_White_Tracer_762x51_SCAR"
+
 		};
 	};
 
@@ -199,7 +96,7 @@
             "CUP_hgun_Makarov",
             "CUP_hgun_PB6P9",
 //        	"CUP_hgun_PB6P9_snds",
-            "CUP_hgun_MicroUzi",
+          
 //         	"CUP_hgun_MicroUzi_snds",
 //       	"CUP_hgun_Phantom_Flashlight",
 //        	"CUP_hgun_Phantom_Flashlight_snds",
@@ -217,7 +114,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-            "CUP_smg_bizon",
+            
 //       	"CUP_smg_bizon_snds",
             "CUP_smg_EVO",
 //        	"CUP_smg_EVO_MRad_Flashlight",
@@ -281,7 +178,7 @@
 //       	"CUP_arifle_AK74_GL_kobra",
 //        	"CUP_arifle_CZ805_A1_ZDDot_Laser",
 //        	"CUP_arifle_CZ805_GL_ZDDot_Laser",
-            "CUP_arifle_CZ805_A2",
+            
 //    		"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds",
 //        	"CUP_arifle_CZ805B_GL_ACOG_Laser",
             "CUP_arifle_FNFAL",
@@ -333,11 +230,10 @@
             "CUP_arifle_M4A1_BUIS_desert_GL",
             "CUP_arifle_M4A1_black",
             "CUP_arifle_M4A1_desert",
-            "CUP_arifle_Sa58P",
-            "CUP_arifle_Sa58V",
+
 //         	"CUP_arifle_Sa58V_ACOG_Laser",
 //      	"CUP_arifle_Sa58V_Aim_Laser",
-            "CUP_arifle_Mk16_CQC",
+            
 //       	"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",
 //       	"CUP_arifle_Mk16_CQC_SFG_Holo",
 //         	"CUP_arifle_Mk16_STD_EGLM_ACOG_Laser",
@@ -357,8 +253,7 @@
             "CUP_arifle_XM8_Compact",
 //          "CUP_arifle_XM8_Compact_Holo_Flashlight",
 //         	"CUP_arifle_XM8_Railed_Holo_Laser_snds",
-            "CUP_arifle_xm8_SAW",
-            "CUP_arifle_xm8_sharpshooter",
+
 //        	"CUP_arifle_XM8_Railed_ANPAS13c1_Laser",
 //        	"CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds",
             "CUP_arifle_CZ805_A1",
@@ -382,28 +277,12 @@
 //        	"CUP_arifle_Sa58RIS2_Arco_Laser",
 //        	"CUP_arifle_Sa58RIS1_camo_Aco_Laser",
 //        	"CUP_arifle_Sa58RIS2_camo_Arco_Laser",
-            "CUP_arifle_Mk16_CQC_FG",
-            "CUP_arifle_Mk16_CQC_SFG",
-            "CUP_arifle_Mk16_CQC_EGLM",
-            "CUP_arifle_Mk16_STD",
-            "CUP_arifle_Mk16_STD_FG",
-            "CUP_arifle_Mk16_STD_SFG",
-            "CUP_arifle_Mk16_STD_EGLM",
-            "CUP_arifle_Mk16_SV",
+
 //          "CUP_arifle_Mk16_CQC_EGLM_Holo_Laser_mfsup",
-            "CUP_arifle_Mk17_CQC",
-            "CUP_arifle_Mk17_CQC_FG",
-            "CUP_arifle_Mk17_CQC_SFG",
-            "CUP_arifle_Mk17_CQC_EGLM",
-            "CUP_arifle_Mk17_STD",
-            "CUP_arifle_Mk17_STD_FG",
-            "CUP_arifle_Mk17_STD_SFG",
-            "CUP_arifle_Mk17_STD_EGLM",
+
             "CUP_arifle_Mk20",
 //      	"CUP_arifle_Mk20_LeupoldMk4MRT",
-            "CUP_sgun_AA12",
-            "CUP_sgun_M1014",
-            "CUP_sgun_Saiga12K"
+
 		};
 	};
 
@@ -423,22 +302,20 @@
 //        	"CUP_srifle_CZ750_SOS_bipod",
             "CUP_srifle_DMR",
 //         	"CUP_srifle_DMR_LeupoldMk4",
-            "CUP_srifle_CZ550",
+            
             "CUP_srifle_LeeEnfield",
             "CUP_srifle_M14",
 //			"CUP_srifle_M15_Aim",
-            "CUP_srifle_Mk12SPR",
+            
 //         	"CUP_srifle_Mk12SPR_LeupoldM3LR",
-            "CUP_srifle_M24_des",
-            "CUP_srifle_M24_wdl",
+           
 //        	"CUP_srifle_M24_ghillie",
 //        	"CUP_srifle_M24_wdl_LeupoldMk4LRT",
 //       	"CUP_srifle_M24_des_LeupoldMk4LRT",
-            "CUP_srifle_M40A3",
-            "CUP_srifle_M107_Base",
+
 //          "CUP_srifle_M107_LeupoldVX3",
 //         	"CUP_srifle_M107_ANPAS13c2",
-            "CUP_srifle_M110",
+            
 //      	"CUP_srifle_M110_ANPAS13c2",
 //        	"CUP_srifle_M110_ANPVS10",
             "CUP_srifle_SVD",
@@ -451,7 +328,7 @@
             "CUP_srifle_ksvk",
             "CUP_srifle_VSSVintorez",
 //        	"CUP_srifle_VSSVintorez_pso",
-            "CUP_srifle_AS50"
+            
 		};
 	};
 

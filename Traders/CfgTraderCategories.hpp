@@ -89,7 +89,11 @@ class CfgTraderCategories
 			"rhs_weap_g36c",
 			"rhs_weap_g36kv",
 			"rhs_weap_g36kv_ag36",
-			"rhs_weap_m84"
+			"rhs_weap_m84",
+			"CUP_arifle_CZ805_A2",
+            "CUP_arifle_Sa58P",
+            "CUP_arifle_Sa58V",
+			"CUP_srifle_CZ550"
 		};
 	};
 	
@@ -522,7 +526,43 @@ class CfgTraderCategories
 			"rhssaf_beret_blue_un",
 			"rhssaf_booniehat_digital",
 			"rhssaf_booniehat_md2camo",
-			"rhssaf_booniehat_woodland"
+			"rhssaf_booniehat_woodland",
+			"CUP_H_C_Beanie_01",
+			"CUP_H_C_Beanie_02",
+			"CUP_H_C_Beanie_03",
+			"CUP_H_C_Beanie_04",
+			"CUP_H_TKI_Lungee_01",
+			"CUP_H_TKI_Lungee_02",
+			"CUP_H_TKI_Lungee_03",
+			"CUP_H_TKI_Lungee_04",
+			"CUP_H_TKI_Lungee_05",
+			"CUP_H_TKI_Lungee_06",
+			"CUP_H_TKI_Lungee_Open_01",
+			"CUP_H_TKI_Lungee_Open_02",
+			"CUP_H_TKI_Lungee_Open_03",
+			"CUP_H_TKI_Lungee_Open_04",
+			"CUP_H_TKI_Lungee_Open_05",
+			"CUP_H_TKI_Lungee_Open_06",
+			"CUP_H_TKI_Pakol_1_01",
+			"CUP_H_TKI_Pakol_1_02",
+			"CUP_H_TKI_Pakol_1_03",
+			"CUP_H_TKI_Pakol_1_04",
+			"CUP_H_TKI_Pakol_1_05",
+			"CUP_H_TKI_Pakol_1_06",
+			"CUP_H_TKI_Pakol_2_01",
+			"CUP_H_TKI_Pakol_2_02",
+			"CUP_H_TKI_Pakol_2_03",
+			"CUP_H_TKI_Pakol_2_04",
+			"CUP_H_TKI_Pakol_2_05",
+			"CUP_H_TKI_Pakol_2_06",
+			"CUP_H_TKI_SkullCap_01",
+			"CUP_H_TKI_SkullCap_02",
+			"CUP_H_TKI_SkullCap_03",
+			"CUP_H_TKI_SkullCap_04",
+			"CUP_H_TKI_SkullCap_05",
+			"CUP_H_TKI_SkullCap_06",
+			"CUP_H_NAPA_Fedora"
+	
 		};
 	};
 
@@ -812,7 +852,50 @@ class CfgTraderCategories
 			"rhssaf_uniform_m10_digital_desert",
 			"rhssaf_uniform_m10_digital_tan_boots",
 			"rhssaf_uniform_m93_oakleaf",
-			"rhssaf_uniform_m93_oakleaf_summer"
+			"rhssaf_uniform_m93_oakleaf_summer",
+			"CUP_O_TKI_Khet_Partug_01",
+			"CUP_O_TKI_Khet_Partug_02",
+			"CUP_O_TKI_Khet_Partug_03",
+			"CUP_O_TKI_Khet_Partug_04",
+			"CUP_O_TKI_Khet_Partug_05",
+			"CUP_O_TKI_Khet_Partug_06",
+			"CUP_O_TKI_Khet_Partug_07",
+			"CUP_O_TKI_Khet_Partug_08",
+			"CUP_O_TKI_Khet_Jeans_01",
+			"CUP_O_TKI_Khet_Jeans_02",
+			"CUP_O_TKI_Khet_Jeans_03",
+			"CUP_O_TKI_Khet_Jeans_04",
+			"CUP_U_C_Citizen_01",
+			"CUP_U_C_Citizen_02",
+			"CUP_U_C_Citizen_03",
+			"CUP_U_C_Citizen_04",
+			"CUP_U_C_Worker_01",
+			"CUP_U_C_Worker_02",
+			"CUP_U_C_Worker_03",
+			"CUP_U_C_Worker_04",
+			"CUP_U_C_Profiteer_01",
+			"CUP_U_C_Profiteer_02",
+			"CUP_U_C_Profiteer_03",
+			"CUP_U_C_Profiteer_04",
+			"CUP_U_C_Woodlander_01",
+			"CUP_U_C_Woodlander_02",
+			"CUP_U_C_Woodlander_03",
+			"CUP_U_C_Woodlander_04",
+			"CUP_U_C_Villager_01",
+			"CUP_U_C_Villager_02",
+			"CUP_U_C_Villager_03",
+			"CUP_U_C_Villager_04",
+			"CUP_U_I_RACS_Desert_1",
+			"CUP_U_I_RACS_Desert_2",
+			"CUP_U_I_RACS_Urban_1",
+			"CUP_U_I_RACS_Urban_2",
+			"CUP_U_O_SLA_Officer",
+			"CUP_U_O_SLA_Officer_Suit",
+			"CUP_U_O_SLA_MixedCamo",
+			"CUP_U_O_SLA_Green",
+			"CUP_U_O_SLA_Urban",
+			"CUP_U_O_SLA_Desert"
+
 		};
 	};
 
@@ -944,7 +1027,42 @@ class CfgTraderCategories
 			"rhssaf_vest_md99_woodland_rifleman",
 			"rhssaf_vest_md99_md2camo",
 			"rhssaf_vest_md99_digital",
-			"rhssaf_vest_md99_woodland"
+			"rhssaf_vest_md99_woodland",
+			"CUP_V_OI_TKI_Jacket1_01",
+			"CUP_V_OI_TKI_Jacket1_02",
+			"CUP_V_OI_TKI_Jacket1_03",
+			"CUP_V_OI_TKI_Jacket1_04",
+			"CUP_V_OI_TKI_Jacket1_05",
+			"CUP_V_OI_TKI_Jacket1_06",
+			"CUP_V_OI_TKI_Jacket2_01",
+			"CUP_V_OI_TKI_Jacket2_02",
+			"CUP_V_OI_TKI_Jacket2_03",
+			"CUP_V_OI_TKI_Jacket2_04",
+			"CUP_V_OI_TKI_Jacket2_05",
+			"CUP_V_OI_TKI_Jacket2_06",
+			"CUP_V_OI_TKI_Jacket3_01",
+			"CUP_V_OI_TKI_Jacket3_02",
+			"CUP_V_OI_TKI_Jacket3_03",
+			"CUP_V_OI_TKI_Jacket3_04",
+			"CUP_V_OI_TKI_Jacket3_05",
+			"CUP_V_OI_TKI_Jacket3_06",
+			"CUP_V_OI_TKI_Jacket4_01",
+			"CUP_V_OI_TKI_Jacket4_02",
+			"CUP_V_OI_TKI_Jacket4_03",
+			"CUP_V_OI_TKI_Jacket4_04",
+			"CUP_V_OI_TKI_Jacket4_05",
+			"CUP_V_OI_TKI_Jacket4_06",
+			"CUP_V_O_SLA_Carrier_Belt",
+			"CUP_V_O_SLA_Carrier_Belt02",
+			"CUP_V_O_SLA_Carrier_Belt03",
+			"CUP_V_O_SLA_Flak_Vest01",
+			"CUP_V_O_SLA_Flak_Vest02",
+			"CUP_V_O_SLA_Flak_Vest03",
+			"CUP_V_O_TK_CrewBelt",
+			"CUP_V_O_TK_OfficerBelt",
+			"CUP_V_O_TK_OfficerBelt2",
+			"CUP_V_O_TK_Vest_1",
+			"CUP_V_O_TK_Vest_2"
 		};
 	};
 
@@ -997,7 +1115,17 @@ class CfgTraderCategories
 			"rhssaf_Kitbag_base",
 			"rhssaf_kitbag_md2camo",
 			"rhssaf_kitbag_digital",
-			"rhssaf_kitbag_smb"
+			"rhssaf_kitbag_smb",
+			"CUP_B_ACRPara_m95",
+			"CUP_B_AssaultPack_ACU",
+			"CUP_B_AssaultPack_Black",
+			"CUP_B_AssaultPack_Coyote",
+			"CUP_B_Bergen_BAF",
+			"CUP_B_CivPack_WDL",
+			"CUP_B_GER_Pack_Flecktarn",
+			"CUP_B_GER_Pack_Tropentarn",
+			"CUP_B_HikingPack_Civ",
+			"CUP_B_MOLLE_WDL"
 		};
 	};
 	
@@ -1296,7 +1424,11 @@ class CfgTraderCategories
 			"rhsusf_falconii_coy",
 			"rhsusf_falconii_mc",
 			"rhsusf_falconii",
-			"RHS_M2_Gun_Bag"
+			"CUP_B_RUS_Backpack",
+			"CUP_B_USMC_AssaultPack",
+			"CUP_B_USMC_MOLLE",
+			"CUP_B_USPack_Black",
+			"CUP_B_USPack_Coyote"
 
 		};
 	};
@@ -1584,7 +1716,33 @@ class CfgTraderCategories
 			"CSW_LVOA_C_Black_TOB",
 			"CSW_LVOA_C_Sand_TOB",
 			"CSW_LVOA_C_Green_TOB",
-			"CSW_LVOA_C_Block_TOB"
+			"CSW_LVOA_C_Block_TOB",
+			"CUP_arifle_Mk16_CQC",
+            "CUP_arifle_xm8_SAW",
+            "CUP_arifle_xm8_sharpshooter",
+            "CUP_arifle_Mk16_CQC_FG",
+            "CUP_arifle_Mk16_CQC_SFG",
+            "CUP_arifle_Mk16_CQC_EGLM",
+            "CUP_arifle_Mk16_STD",
+            "CUP_arifle_Mk16_STD_FG",
+            "CUP_arifle_Mk16_STD_SFG",
+            "CUP_arifle_Mk16_STD_EGLM",
+            "CUP_arifle_Mk16_SV",
+            "CUP_arifle_Mk17_CQC",
+            "CUP_arifle_Mk17_CQC_FG",
+            "CUP_arifle_Mk17_CQC_SFG",
+            "CUP_arifle_Mk17_CQC_EGLM",
+            "CUP_arifle_Mk17_STD",
+            "CUP_arifle_Mk17_STD_FG",
+            "CUP_arifle_Mk17_STD_SFG",
+            "CUP_arifle_Mk17_STD_EGLM",
+			"CUP_srifle_Mk12SPR",
+            "CUP_srifle_M40A3",
+            "CUP_srifle_M107_Base",
+			"CUP_srifle_M110",
+			"CUP_srifle_M24_des",
+            "CUP_srifle_M24_wdl",
+			"CUP_srifle_AS50"
 		};
 	};
 
@@ -1611,7 +1769,8 @@ class CfgTraderCategories
 			"rhsusf_weap_MP7A2",
 			"rhsusf_weap_MP7A2_desert",
 			"rhsusf_weap_MP7A2_aor1",
-			"rhsusf_weap_MP7A2_winter"
+			"rhsusf_weap_MP7A2_winter",
+			"CUP_smg_bizon"
 
 		};
 	};
@@ -1623,7 +1782,9 @@ class CfgTraderCategories
 		items[] =
 		{
 			"Exile_Weapon_M1014",
-			"CSW_M870"
+			"CSW_M870",
+            "CUP_sgun_AA12",
+            "CUP_sgun_Saiga12K"
 		};
 	};
 
@@ -2123,7 +2284,95 @@ class CfgTraderCategories
 			"rhsgref_30rnd_556x45_m21_t",
 			"rhs_100Rnd_762x54mmR",
 			"rhs_100Rnd_762x54mmR_green",
-			"rhssaf_250Rnd_762x54R"
+			"rhssaf_250Rnd_762x54R",
+			"CUP_20Rnd_B_AA12_Pellets",
+            "CUP_20Rnd_B_AA12_74Slug",
+            "CUP_20Rnd_B_AA12_HE",
+            "CUP_8Rnd_B_Beneli_74Slug",
+            "CUP_8Rnd_B_Saiga12_74Slug_M",
+            "CUP_8Rnd_9x18_Makarov_M",
+            "CUP_8Rnd_9x18_MakarovSD_M",
+            "CUP_15Rnd_9x19_M9",
+            "CUP_18Rnd_9x19_Phantom",
+            "CUP_6Rnd_45ACP_M",
+            "CUP_17Rnd_9x19_glock17",
+            "CUP_7Rnd_45ACP_1911",
+            "CUP_10Rnd_9x19_Compact",
+            "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
+            "CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
+            "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249",
+            "CUP_200Rnd_TE1_Red_Tracer_556x45_M249",
+            "CUP_100Rnd_TE4_Green_Tracer_556x45_M249",
+            "CUP_100Rnd_TE4_Red_Tracer_556x45_M249",
+            "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249",
+            "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1",
+            "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1",
+            "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1",
+            "CUP_50Rnd_UK59_762x54R_Tracer",
+            "CUP_64Rnd_9x19_Bizon_M",
+            "CUP_64Rnd_Green_Tracer_9x19_Bizon_M",
+            "CUP_64Rnd_Red_Tracer_9x19_Bizon_M",
+            "CUP_64Rnd_White_Tracer_9x19_Bizon_M",
+            "CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M",
+            "CUP_30Rnd_9x19_EVO",
+            "CUP_30Rnd_9x19_UZI",
+            "CUP_30Rnd_9x19_MP5",
+            "CUP_20Rnd_B_765x17_Ball_M",
+            "CUP_5Rnd_127x99_as50_M",
+            "CUP_5Rnd_86x70_L115A1",
+            "CUP_10Rnd_762x51_CZ750_Tracer",
+            "CUP_10Rnd_762x51_CZ750",
+            "CUP_10x_303_M",
+            "CUP_5Rnd_762x51_M24",
+            "CUP_10Rnd_127x99_m107",
+            "CUP_20Rnd_762x51_B_M110",
+            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110",
+            "CUP_20Rnd_TE1_Red_Tracer_762x51_M110",
+            "CUP_20Rnd_TE1_Green_Tracer_762x51_M110",
+            "CUP_20Rnd_TE1_White_Tracer_762x51_M110",
+            "CUP_10Rnd_762x54_SVD_M",
+            "CUP_10Rnd_9x39_SP5_VSS_M",
+            "CUP_20Rnd_9x39_SP5_VSS_M",
+            "CUP_5x_22_LR_17_HMR_M",
+            "CUP_5Rnd_127x108_KSVK_M",
+            "CUP_30Rnd_545x39_AK_M",
+            "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
+            "CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M",
+            "CUP_30Rnd_TE1_White_Tracer_545x39_AK_M",
+            "CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",
+            "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",
+            "CUP_30Rnd_762x39_AK47_M",
+            "CUP_30Rnd_556x45_Stanag",
+            "CUP_30Rnd_556x45_G36",
+            "CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
+            "CUP_30Rnd_TE1_Green_Tracer_556x45_G36",
+            "CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36",
+            "CUP_100Rnd_556x45_BetaCMag",
+            "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
+            "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag",
+            "CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag",
+            "CUP_20Rnd_556x45_Stanag",
+            "CUP_20Rnd_762x51_CZ805B",
+            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B",
+            "CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B",
+            "CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B",
+            "CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B",
+            "CUP_20Rnd_762x51_DMR",
+            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR",
+            "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
+            "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",
+            "CUP_20Rnd_TE1_White_Tracer_762x51_DMR",
+            "CUP_20Rnd_762x51_FNFAL_M",
+            "CUP_30Rnd_Sa58_M_TracerG",
+            "CUP_30Rnd_Sa58_M_TracerR",
+            "CUP_30Rnd_Sa58_M_TracerY",
+            "CUP_30Rnd_Sa58_M",
+            "CUP_20Rnd_762x51_B_SCAR",
+            "CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR",
+            "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
+            "CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR",
+            "CUP_20Rnd_TE1_White_Tracer_762x51_SCAR",
+			"CUP_hgun_MicroUzi"
 			//"rhs_30Rnd_762x39mm"
 
 		};
@@ -2297,7 +2546,28 @@ class CfgTraderCategories
 			"rhs_acc_dtk1",
 			"rhs_acc_dtk",
 			"rhs_acc_dtk1l",
-			"rhs_acc_ak5"
+			"rhs_acc_ak5",
+			
+			// CUP
+			
+            "CUP_muzzle_PBS4",
+            "CUP_muzzle_PB6P9",
+            "CUP_muzzle_Bizon",
+            "CUP_muzzle_snds_M110",
+            "CUP_muzzle_snds_M14",
+            "CUP_muzzle_snds_M9",
+            "CUP_muzzle_snds_MicroUzi",
+            "CUP_muzzle_snds_AWM",
+            "CUP_muzzle_snds_G36_black",
+            "CUP_muzzle_snds_G36_desert",
+            "CUP_muzzle_snds_L85",
+            "CUP_muzzle_snds_M16_camo",
+            "CUP_muzzle_snds_M16",
+            "CUP_muzzle_snds_SCAR_L",
+            "CUP_muzzle_mfsup_SCAR_L",
+            "CUP_muzzle_snds_SCAR_H",
+            "CUP_muzzle_mfsup_SCAR_H",
+            "CUP_muzzle_snds_XM8"
 		};
 	};
 	
@@ -2452,12 +2722,12 @@ class CfgTraderCategories
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"RDS_MMT_Civ_01",
-			"RDS_Old_Bike_Civ_01",
 			"C_Quadbike_01_F",
 			"NDS_6x6_ATV_CIV",
-			"RDS_JAWA353_Civ_01",
-			"RDS_tt650_Civ_01"
+			"CUP_B_M1030",
+			"CUP_O_TT650_CHDKZ",
+			"CUP_O_TT650_TKA",
+			"CUP_C_TT650_CIV"
 		};
 	};
 
@@ -2510,26 +2780,9 @@ class CfgTraderCategories
 			// RHS
 			
 			"rhsusf_rg33_d",
-			"rhsusf_rg33_usmc_d",
+			"rhsusf_rg33_usmc_d"
 			
-			// RDS Civ Pack
-			
-			"RDS_Ikarus_Civ_01",
-			"RDS_Ikarus_Civ_02",
-			"RDS_Lada_Civ_01",
-			"RDS_Lada_Civ_02",
-			"RDS_Lada_Civ_03",
-			"RDS_Lada_Civ_04",
-			"RDS_Lada_Civ_05",
-			"RDS_S1203_Civ_01",
-			"RDS_S1203_Civ_02",
-			"RDS_S1203_Civ_03",
-			"RDS_Gaz24_Civ_01",
-			"RDS_Gaz24_Civ_02",
-			"RDS_Gaz24_Civ_03",
-			"RDS_Golf4_Civ_01",
-			"RDS_Octavia_Civ_01",
-			"RDS_Zetor6945_Base"
+
 
 		};
 	};
@@ -2559,13 +2812,97 @@ class CfgTraderCategories
 			"RHS_Ural_MSV_01",
 			"RHS_Ural_Fuel_MSV_01",
 			"RHS_Ural_Open_MSV_01",
-			"rhs_Ural_Flat_MSV_01"
+			"rhs_Ural_Flat_MSV_01",
+			"CUP_O_Ural_CHDKZ",
+			"CUP_O_Ural_Empty_CHDKZ",
+			"CUP_O_Ural_Empty_SLA",
+			"CUP_O_Ural_Empty_TKA",
+			"CUP_O_Ural_Open_CHDKZ",
+			"CUP_O_Ural_Open_SLA",
+			"CUP_O_Ural_Open_TKA",
+			"CUP_O_Ural_Refuel_CHDKZ",
+			"CUP_O_Ural_Refuel_SLA",
+			"CUP_O_Ural_Refuel_TKA",
+			"CUP_O_Ural_Repair_CHDKZ",
+			"CUP_O_Ural_Repair_SLA",
+			"CUP_O_Ural_Repair_TKA",
+			"CUP_O_Ural_SLA",
+			"CUP_O_Ural_TKA",
+			"CUP_C_Datsun",
+			"CUP_C_Datsun_4seat",
+			"CUP_C_Datsun_Covered",
+			"CUP_C_Datsun_Plain",
+			"CUP_C_Datsun_Tubeframe",
+			"CUP_C_LR_Transport_CTK",
+			"CUP_C_UAZ_Unarmed_TK_CIV",
+			"CUP_C_Ural_Civ_01",
+			"CUP_C_Ural_Civ_02",
+			"CUP_C_Ural_Civ_03",
+			"CUP_C_Ural_Open_Civ_01",
+			"CUP_C_Ural_Open_Civ_02",
+			"CUP_C_Ural_Open_Civ_03"
 		};
 	};
 
+	class MilitaryChoppers
+	{
+		name = "Military Helicopters";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"RHS_CH_47F",
+			"rhs_CH_47F_10",
+			"rhs_ka60_c",
+			"rhs_ka60_grey",
+			"B_Heli_Transport_01_F",
+			"RHS_UH60M",
+			"rhs_UH60M_MEV2_d",
+			"rhs_Mi8mt_vvs",
+			"rhs_Mi8mt_cargo_vvs",
+			"rhs_UH1Y_unarmed",
+			"CUP_B_AH1Z_NoWeapons",
+			"CUP_B_AH6J_ESCORT_USA",
+			"CUP_B_AW159_Unarmed_BAF",
+			"CUP_B_CH47F_GB",
+			"CUP_B_CH47F_USA",
+			"CUP_B_CH53E_GER",
+			"CUP_B_CH53E_USMC",
+			"CUP_B_CH53E_VIV_GER",
+			"CUP_B_MH60S_FFV_USMC",
+			"CUP_B_MH60S_USMC",
+			"CUP_B_MH6J_USA",
+			"CUP_B_MI6A_CDF",
+			"CUP_B_Mi171Sh_Unarmed_ACR",
+			"CUP_B_Mi17_CDF",
+			"CUP_B_Mi17_medevac_CDF",
+			"CUP_B_UH1Y_MEV_F",
+			"CUP_B_UH1Y_UNA_F",
+			"CUP_B_UH60L_FFV_US",
+			"CUP_B_UH60L_US",
+			"CUP_B_UH60L_Unarmed_FFV_MEV_US",
+			"CUP_B_UH60L_Unarmed_FFV_US",
+			"CUP_B_UH60L_Unarmed_US",
+			"CUP_B_UH60M_FFV_US",
+			"CUP_B_UH60M_US",
+			"CUP_B_UH60M_Unarmed_FFV_MEV_US",
+			"CUP_B_UH60M_Unarmed_FFV_US",
+			"CUP_B_UH60M_Unarmed_US",
+			"CUP_I_UH60L_FFV_RACS",
+			"CUP_I_UH60L_RACS",
+			"CUP_I_UH60L_Unarmed_FFV_MEV_Racs",
+			"CUP_I_UH60L_Unarmed_FFV_Racs",
+			"CUP_I_UH60L_Unarmed_RACS",
+			"CUP_O_Mi17_TK",
+			"CUP_O_Mi8_medevac_CHDKZ",
+			"CUP_O_Mi8_medevac_RU"
+		};
+	};
+	
+	
+	
 	class CivilianChoppers
 	{
-		name = "Helicopters";
+		name = "Civilian Helicopters";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
@@ -2580,37 +2917,7 @@ class CfgTraderCategories
 			"Exile_Chopper_Mohawk_FIA",
 			"Exile_Chopper_Huron_Black",
 			"Exile_Chopper_Hellcat_Green",
-			"RHS_CH_47F",
-			"rhs_CH_47F_10",
-			"rhs_ka60_c",
-			"rhs_ka60_grey",
-			"B_Heli_Transport_01_F",
-			"RHS_UH60M",
-			"rhs_UH60M_MEV2_d",
-			"rhs_Mi8mt_vvs",
-			"rhs_Mi8mt_cargo_vvs",
-			"rhs_UH1Y_unarmed",
-			"GR_AW101_1",
-			"GR_AW101_2",
-			"GR_Bell412_1",
-			"GR_Bell412_2",
-			"GR_Bell412_3",	
-			"GR_Mi_171_1",
-			"GR_Mi_171_2",
-			"GR_Mi8_1",
-			"GR_Mi8_2",				
-			"GR_UH1N_1",
-			"GR_UH1N_2",
-			"GR_UH1N_3",
-			"GR_UH1D_1",				
-			"GR_UH1H_1",
-			"GR_UH1H_2",
-			"GR_UH1H_3",
-			"GR_UH1H_4",
-			"GR_UH1H_5",
-			"GR_UH1H_6",
-			"GR_UH1H_7",			
-			"GR_UH60_1"
+			"CUP_C_Mi17_Civilian_RU"
 		};
 	};
 
@@ -2684,11 +2991,91 @@ class CfgTraderCategories
 			"rhssaf_army_pts",
 			"rhssaf_m998_olive_2dr_halftop",
 			"rhssaf_m998_olive_2dr_fulltop",
-			"rhssaf_m1025_olive"
+			"rhssaf_m1025_olive",
+			"CUP_B_HMMWV_Transport_USA",
+			"CUP_B_HMMWV_Unarmed_USA",
+			"CUP_B_HMMWV_Unarmed_USMC",
+			"CUP_B_LR_Transport_CZ_W",
+			"CUP_B_LR_Transport_GB_W",
+			"CUP_C_UAZ_Open_TK_CIV",
+			"CUP_I_BTR40_TKG",
+			"CUP_O_UAZ_Open_RU",
+			"CUP_O_UAZ_Unarmed_RU",
+			"CUP_O_Ural_Empty_RU",
+			"CUP_O_Ural_Open_RU",
+			"CUP_O_Ural_RU",
+			"CUP_O_Ural_Refuel_RU",
+			"CUP_O_Ural_Repair_RU",
+			"CUP_B_HMMWV_Ambulance_ACR",
+			"CUP_B_HMMWV_Ambulance_USA",
+			"CUP_B_HMMWV_Ambulance_USMC",
+			"CUP_B_LR_Ambulance_CZ_D",
+			"CUP_B_LR_Ambulance_CZ_W",
+			"CUP_B_LR_Ambulance_GB_D",
+			"CUP_B_LR_Ambulance_GB_W",
+			"CUP_B_LR_Transport_CZ_D",
+			"CUP_B_LR_Transport_GB_D",
+			"CUP_B_UAZ_Open_ACR",
+			"CUP_B_UAZ_Open_CDF",
+			"CUP_B_UAZ_Unarmed_ACR",
+			"CUP_B_UAZ_Unarmed_CDF",
+			"CUP_B_Ural_CDF",
+			"CUP_B_Ural_Empty_CDF",
+			"CUP_B_Ural_Open_CDF",
+			"CUP_B_Ural_Refuel_CDF",
+			"CUP_B_Ural_Repair_CDF"
 
 		};
 	};
 	
+	class MilitaryArmed
+	{
+		name = "Military Armed";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"CUP_BAF_Jackal2_GMG_W",
+			"CUP_BAF_Jackal2_L2A1_W",
+			"CUP_B_BAF_Coyote_L2A1_W",
+			"CUP_B_Dingo_GER_Wdl",
+			"CUP_B_FV432_Bulldog_GB_W_RWS",
+			"CUP_B_HMMWV_AGS_GPK_ACR",
+			"CUP_B_HMMWV_Crows_M2_USA",
+			"CUP_B_HMMWV_Crows_MK19_USA",
+			"CUP_B_HMMWV_DSHKM_GPK_ACR",
+			"CUP_B_HMMWV_M1114_USMC",
+			"CUP_B_HMMWV_M2_GPK_USA",
+			"CUP_B_HMMWV_M2_USA",
+			"CUP_B_HMMWV_M2_USMC",
+			"CUP_B_HMMWV_MK19_USMC",
+			"CUP_B_HMMWV_SOV_USA",
+			"CUP_B_LAV25M240_USMC",
+			"CUP_B_LAV25_HQ_USMC",
+			"CUP_B_LAV25_USMC",
+			"CUP_B_LR_MG_CZ_W",
+			"CUP_B_LR_MG_GB_W",
+			"CUP_B_LR_Special_CZ_W",
+			"CUP_B_Mastiff_HMG_GB_W",
+			"CUP_B_Ridgback_HMG_GB_W",
+			"CUP_I_Datsun_PK_Random",
+			"CUP_I_SUV_Armored_ION",
+			"CUP_I_UAZ_MG_UN",
+			"CUP_O_BRDM2_CHDKZ",
+			"CUP_O_BRDM2_HQ_CHDKZ",
+			"CUP_O_BRDM2_HQ_SLA",
+			"CUP_O_BRDM2_SLA",
+			"CUP_O_BTR90_HQ_RU",
+			"CUP_O_BTR90_RU",
+			"CUP_O_Datsun_PK_Random",
+			"CUP_O_GAZ_Vodnik_PK_RU",
+			"CUP_O_LR_MG_TKA",
+			"CUP_O_LR_MG_TKM",
+			"CUP_O_UAZ_AGS30_RU",
+			"CUP_O_UAZ_MG_RU"
+		};
+	};
+
+
 	class UAVs
 	{
 		name = "Unmanned Aerial Vehicles";
@@ -2712,16 +3099,6 @@ class CfgTraderCategories
 		};
 	};
 	
-	class MilitaryArmor
-	{
-		name = "Armor Trader";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
-		items[] =
-		{
-			"rhsusf_m1a1aim_tuski_d",
-			"rhsgref_un_m1117"
-		};
-	};
 	
 	class ExtendedBaseMod
 	{

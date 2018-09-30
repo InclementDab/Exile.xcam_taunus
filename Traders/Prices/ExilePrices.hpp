@@ -553,22 +553,22 @@
 	class H_PilotHelmetHeli_B						{ quality = 4; price = 700; };
 	class H_PilotHelmetHeli_I						{ quality = 4; price = 700; };
 	class H_PilotHelmetHeli_O						{ quality = 4; price = 700; };
-	class U_B_HeliPilotCoveralls					{ quality = 4; price = 180; };
-	class U_B_PilotCoveralls						{ quality = 2; price = 160; };
-	class U_I_HeliPilotCoveralls					{ quality = 2; price = 160; };
-	class U_I_pilotCoveralls						{ quality = 2; price = 160; };
-	class U_O_PilotCoveralls						{ quality = 2; price = 160; };
-	class H_PilotHelmetFighter_B					{ quality = 5; price = 350; };
-	class H_PilotHelmetFighter_I					{ quality = 5; price = 350; };
-	class H_PilotHelmetFighter_O					{ quality = 5; price = 350; };
+	class U_B_HeliPilotCoveralls					{ quality = 4; price = 300; };
+	class U_B_PilotCoveralls						{ quality = 2; price = 300; };
+	class U_I_HeliPilotCoveralls					{ quality = 2; price = 300; };
+	class U_I_pilotCoveralls						{ quality = 2; price = 300; };
+	class U_O_PilotCoveralls						{ quality = 2; price = 300; };
+	class H_PilotHelmetFighter_B					{ quality = 5; price = 600; };
+	class H_PilotHelmetFighter_I					{ quality = 5; price = 600; };
+	class H_PilotHelmetFighter_O					{ quality = 5; price = 600; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Backpacks
 	///////////////////////////////////////////////////////////////////////////////
-	class B_HuntingBackpack							{ quality = 3; price = 170; };
-	class B_OutdoorPack_blk							{ quality = 1; price = 180; };
-	class B_OutdoorPack_blu							{ quality = 1; price = 180; };
-	class B_OutdoorPack_tan							{ quality = 1; price = 180; };
+	class B_HuntingBackpack							{ quality = 3; price = 1000; };
+	class B_OutdoorPack_blk							{ quality = 1; price = 250; };
+	class B_OutdoorPack_blu							{ quality = 1; price = 250; };
+	class B_OutdoorPack_tan							{ quality = 1; price = 250; };
 	class B_AssaultPack_blk							{ quality = 1; price = 290; };
 	class B_AssaultPack_cbr							{ quality = 1; price = 290; };
 	class B_AssaultPack_dgtl						{ quality = 1; price = 290; };
@@ -576,28 +576,28 @@
 	class B_AssaultPack_mcamo						{ quality = 1; price = 290; };
 	class B_AssaultPack_rgr							{ quality = 1; price = 290; };
 	class B_AssaultPack_sgg							{ quality = 1; price = 290; };
-	class B_FieldPack_blk							{ quality = 2; price = 320; };
-	class B_FieldPack_cbr							{ quality = 2; price = 320; };
-	class B_FieldPack_ocamo							{ quality = 2; price = 320; };
-	class B_FieldPack_oucamo						{ quality = 2; price = 320; };
-	class B_TacticalPack_blk						{ quality = 2; price = 450; };
-	class B_TacticalPack_rgr						{ quality = 2; price = 450; };
-	class B_TacticalPack_ocamo						{ quality = 2; price = 450; };
-	class B_TacticalPack_mcamo						{ quality = 2; price = 450; };
-	class B_TacticalPack_oli						{ quality = 2; price = 450; };
-	class B_Kitbag_cbr								{ quality = 3; price = 500; };
-	class B_Kitbag_mcamo							{ quality = 3; price = 500; };
-	class B_Kitbag_sgg								{ quality = 3; price = 500; };
-	class B_Bergen_blk								{ quality = 3; price = 500; };
-	class B_Bergen_mcamo							{ quality = 3; price = 500; };
-	class B_Bergen_rgr								{ quality = 3; price = 500; };
-	class B_Bergen_sgg								{ quality = 3; price = 500; };
-	class B_Carryall_cbr							{ quality = 4; price = 650; };
-	class B_Carryall_khk							{ quality = 4; price = 650; };
-	class B_Carryall_mcamo							{ quality = 4; price = 650; };
-	class B_Carryall_ocamo							{ quality = 4; price = 650; };
-	class B_Carryall_oli							{ quality = 4; price = 650; };
-	class B_Carryall_oucamo							{ quality = 4; price = 650; };
+	class B_FieldPack_blk							{ quality = 2; price = 450; };
+	class B_FieldPack_cbr							{ quality = 2; price = 450; };
+	class B_FieldPack_ocamo							{ quality = 2; price = 450; };
+	class B_FieldPack_oucamo						{ quality = 2; price = 450; };
+	class B_TacticalPack_blk						{ quality = 2; price = 650; };
+	class B_TacticalPack_rgr						{ quality = 2; price = 650; };
+	class B_TacticalPack_ocamo						{ quality = 2; price = 650; };
+	class B_TacticalPack_mcamo						{ quality = 2; price = 650; };
+	class B_TacticalPack_oli						{ quality = 2; price = 650; };
+	class B_Kitbag_cbr								{ quality = 3; price = 1000; };
+	class B_Kitbag_mcamo							{ quality = 3; price = 1000; };
+	class B_Kitbag_sgg								{ quality = 3; price = 1000; };
+	class B_Bergen_blk								{ quality = 3; price = 1000; };
+	class B_Bergen_mcamo							{ quality = 3; price = 1000; };
+	class B_Bergen_rgr								{ quality = 3; price = 1000; };
+	class B_Bergen_sgg								{ quality = 3; price = 1000; };
+	class B_Carryall_cbr							{ quality = 4; price = 2500; };
+	class B_Carryall_khk							{ quality = 4; price = 2500; };
+	class B_Carryall_mcamo							{ quality = 4; price = 2500; };
+	class B_Carryall_ocamo							{ quality = 4; price = 2500; };
+	class B_Carryall_oli							{ quality = 4; price = 2500; };
+	class B_Carryall_oucamo							{ quality = 4; price = 2500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ammunition
@@ -647,16 +647,6 @@
 	class 7Rnd_408_Mag 										{ quality = 6; price = 10; };
 	class 9Rnd_45ACP_Mag 									{ quality = 1; price = 6; };
 
-	// Price for bullet cam magazines is normal magazine price + 20 pop tabs per bullet
-	class Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag 			{ quality = 6; price = 40 +  5 * 20; };
-	class Exile_Magazine_5Rnd_127x108_APDS_Bullet_Cam_Mag 		{ quality = 6; price = 40 +  5 * 20; };
-	class Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag 		{ quality = 6; price = 40 + 10 * 20; };
-	class Exile_Magazine_7Rnd_408_Bullet_Cam_Mag 				{ quality = 6; price = 10 +  7 * 20; };
-	class Exile_Magazine_10Rnd_338_Bullet_Cam_Mag 				{ quality = 6; price = 30 + 10 * 20; };
-	class Exile_Magazine_10Rnd_127x99_m107_Bullet_Cam_Mag 		{ quality = 6; price = 40 + 10 * 20; };
-	class Exile_Magazine_5Rnd_127x108_KSVK_Bullet_Cam_Mag 		{ quality = 6; price = 40 +  5 * 20; };
-	class Exile_Magazine_5Rnd_127x108_APDS_KSVK_Bullet_Cam_Mag 	{ quality = 6; price = 40 +  5 * 20; };
-
 	///////////////////////////////////////////////////////////////////////////////
 	// Flares
 	///////////////////////////////////////////////////////////////////////////////
@@ -704,74 +694,59 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Explosives
 	///////////////////////////////////////////////////////////////////////////////
-	class HandGrenade								{ quality = 3; price = 140; };
-	class MiniGrenade								{ quality = 2; price = 130; };
-	class B_IR_Grenade								{ quality = 1; price = 450; };
-	class O_IR_Grenade								{ quality = 1; price = 450; };
-	class I_IR_Grenade								{ quality = 1; price = 450; };
-	class 1Rnd_HE_Grenade_shell						{ quality = 2; price = 170; };
-	class 3Rnd_HE_Grenade_shell						{ quality = 3; price = 170*3; };
-	class APERSBoundingMine_Range_Mag				{ quality = 3; price = 1500; };
-	class APERSMine_Range_Mag						{ quality = 3; price = 1600; };
-	class APERSTripMine_Wire_Mag					{ quality = 3; price = 1300; };
-	class ClaymoreDirectionalMine_Remote_Mag		{ quality = 3; price = 1350; };
-	class DemoCharge_Remote_Mag						{ quality = 4; price = 1700; };
-	class IEDLandBig_Remote_Mag						{ quality = 3; price = 1600; };
-	class IEDLandSmall_Remote_Mag					{ quality = 3; price = 1300; };
-	class IEDUrbanBig_Remote_Mag					{ quality = 3; price = 1800; };
-	class IEDUrbanSmall_Remote_Mag					{ quality = 3; price = 1400; };
-	class SatchelCharge_Remote_Mag					{ quality = 5; price = 11000; };
-	class SLAMDirectionalMine_Wire_Mag				{ quality = 3; price = 1700; };
+	class HandGrenade								{ quality = 3; price = 6000; };
+	class MiniGrenade								{ quality = 2; price = 4000; };
+	class SatchelCharge_Remote_Mag					{ quality = 5; price = 32000; };
+	class SLAMDirectionalMine_Wire_Mag				{ quality = 3; price = 17000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Pistols
 	///////////////////////////////////////////////////////////////////////////////
-	class hgun_ACPC2_F 								{ quality = 1; price = 2250; };
-	class hgun_P07_F 								{ quality = 1; price = 2250; };
+	class hgun_ACPC2_F 								{ quality = 2; price = 2250; };
+	class hgun_P07_F 								{ quality = 2; price = 2250; };
 	class hgun_Pistol_heavy_01_F 					{ quality = 2; price = 4380; };
 	class hgun_Pistol_heavy_02_F 					{ quality = 2; price = 4380; };
-	class hgun_Pistol_Signal_F 						{ quality = 1; price = 3100; };
-	class hgun_Rook40_F 							{ quality = 1; price = 2250; };
+	class hgun_Pistol_Signal_F 						{ quality = 2; price = 3100; };
+	class hgun_Rook40_F 							{ quality = 2; price = 2250; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Sub Machine Guns
 	///////////////////////////////////////////////////////////////////////////////
-	class hgun_PDW2000_F 							{ quality = 1; price = 5400; };
-	class SMG_01_F 									{ quality = 1; price = 5550; };
-	class SMG_02_F 									{ quality = 1; price = 5550; };
+	class hgun_PDW2000_F 							{ quality = 2; price = 5400; };
+	class SMG_01_F 									{ quality = 2; price = 5550; };
+	class SMG_02_F 									{ quality = 2; price = 5550; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Light Machine Guns
 	///////////////////////////////////////////////////////////////////////////////
-	class arifle_MX_SW_Black_F						{ quality = 2; price = 31250; };
-	class arifle_MX_SW_F							{ quality = 2; price = 31250; };
-	class LMG_Mk200_F								{ quality = 2; price = 31300; };
-	class LMG_Zafir_F								{ quality = 3; price = 31350; };
-	class MMG_01_hex_F								{ quality = 6; price = 41800; };
-	class MMG_01_tan_F								{ quality = 6; price = 41800; };
-	class MMG_02_black_F							{ quality = 6; price = 41450; };
-	class MMG_02_camo_F								{ quality = 5; price = 41450; };
-	class MMG_02_sand_F								{ quality = 5; price = 41450; };
+	class arifle_MX_SW_Black_F						{ quality = 4; price = 31250; };
+	class arifle_MX_SW_F							{ quality = 4; price = 31250; };
+	class LMG_Mk200_F								{ quality = 4; price = 31300; };
+	class LMG_Zafir_F								{ quality = 5; price = 42500; };
+	class MMG_01_hex_F								{ quality = 6; price = 82400; };
+	class MMG_01_tan_F								{ quality = 6; price = 82400; };
+	class MMG_02_black_F							{ quality = 6; price = 82400; };
+	class MMG_02_camo_F								{ quality = 5; price = 82400; };
+	class MMG_02_sand_F								{ quality = 5; price = 82400; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Assault Rifles
 	///////////////////////////////////////////////////////////////////////////////
-	class arifle_Katiba_C_F							{ quality = 2; price = 115500; };
-	class arifle_Katiba_F							{ quality = 2; price = 15500; };
-	class arifle_Katiba_GL_F						{ quality = 2; price = 16500; };
-	class arifle_Mk20_F								{ quality = 1; price = 15500; };
-	class arifle_Mk20_GL_F							{ quality = 1; price = 16500; };
-	class arifle_Mk20_GL_plain_F					{ quality = 1; price = 16500; };
-	class arifle_Mk20_plain_F						{ quality = 1; price = 15500; };
-	class arifle_Mk20C_F							{ quality = 1; price = 15500; };
-	class arifle_Mk20C_plain_F						{ quality = 1; price = 15500; };
-	class arifle_MX_Black_F							{ quality = 2; price = 15500; };
-	class arifle_MX_F								{ quality = 2; price = 15500; };
-	class arifle_MX_GL_Black_F						{ quality = 2; price = 16500; };
-	class arifle_MX_GL_F							{ quality = 2; price = 16500; };
-	class arifle_MXC_Black_F						{ quality = 2; price = 15500; };
-	class arifle_MXC_F								{ quality = 2; price = 15500; };
-	class arifle_SDAR_F								{ quality = 1; price = 15500; };
+	class arifle_Katiba_C_F							{ quality = 3; price = 115500; };
+	class arifle_Katiba_F							{ quality = 3; price = 15500; };
+	class arifle_Katiba_GL_F						{ quality = 3; price = 16500; };
+	class arifle_Mk20_F								{ quality = 2; price = 15500; };
+	class arifle_Mk20_GL_F							{ quality = 2; price = 16500; };
+	class arifle_Mk20_GL_plain_F					{ quality = 2; price = 16500; };
+	class arifle_Mk20_plain_F						{ quality = 2; price = 15500; };
+	class arifle_Mk20C_F							{ quality = 2; price = 15500; };
+	class arifle_Mk20C_plain_F						{ quality = 2; price = 15500; };
+	class arifle_MX_Black_F							{ quality = 3; price = 15500; };
+	class arifle_MX_F								{ quality = 3; price = 15500; };
+	class arifle_MX_GL_Black_F						{ quality = 3; price = 16500; };
+	class arifle_MX_GL_F							{ quality = 3; price = 16500; };
+	class arifle_MXC_Black_F						{ quality = 3; price = 15500; };
+	class arifle_MXC_F								{ quality = 3; price = 15500; };
 	class arifle_TRG20_F							{ quality = 1; price = 15500; };
 	class arifle_TRG21_F							{ quality = 1; price = 15500; };
 	class arifle_TRG21_GL_F							{ quality = 1; price = 16500; };
@@ -779,17 +754,17 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Sniper Rifles
 	///////////////////////////////////////////////////////////////////////////////
-	class arifle_MXM_Black_F 						{ quality = 2; price = 21550; };
-	class arifle_MXM_F 								{ quality = 2; price = 21550; };
-	class srifle_DMR_01_F 							{ quality = 3; price = 22600; };
-	class srifle_DMR_02_camo_F 						{ quality = 3; price = 22800; };
-	class srifle_DMR_02_F 							{ quality = 3; price = 21800; };
-	class srifle_DMR_02_sniper_F 					{ quality = 3; price = 21800; };
-	class srifle_DMR_03_F 							{ quality = 3; price = 22750; };
-	class srifle_DMR_03_khaki_F 					{ quality = 3; price = 21750; };
-	class srifle_DMR_03_multicam_F 					{ quality = 3; price = 21750; };
-	class srifle_DMR_03_tan_F 						{ quality = 3; price = 21750; };
-	class srifle_DMR_03_woodland_F 					{ quality = 3; price = 21750; };
+	class arifle_MXM_Black_F 						{ quality = 4; price = 21550; };
+	class arifle_MXM_F 								{ quality = 4; price = 21550; };
+	class srifle_DMR_01_F 							{ quality = 4; price = 22600; };
+	class srifle_DMR_02_camo_F 						{ quality = 4; price = 22800; };
+	class srifle_DMR_02_F 							{ quality = 4; price = 21800; };
+	class srifle_DMR_02_sniper_F 					{ quality = 4; price = 21800; };
+	class srifle_DMR_03_F 							{ quality = 4; price = 22750; };
+	class srifle_DMR_03_khaki_F 					{ quality = 4; price = 21750; };
+	class srifle_DMR_03_multicam_F 					{ quality = 4; price = 21750; };
+	class srifle_DMR_03_tan_F 						{ quality = 4; price = 21750; };
+	class srifle_DMR_03_woodland_F 					{ quality = 4; price = 21750; };
 	class srifle_DMR_04_F 							{ quality = 4; price = 21700; };
 	class srifle_DMR_04_Tan_F 						{ quality = 4; price = 21700; };
 	class srifle_DMR_05_blk_F 						{ quality = 4; price = 21850; };
@@ -797,11 +772,11 @@
 	class srifle_DMR_05_tan_f 						{ quality = 4; price = 21850; };
 	class srifle_DMR_06_camo_F 						{ quality = 5; price = 21800; };
 	class srifle_DMR_06_olive_F 					{ quality = 5; price = 21800; };
-	class srifle_EBR_F 								{ quality = 3; price = 21700; };
-	class srifle_GM6_camo_F 						{ quality = 6; price = 150000; };
-	class srifle_GM6_F 								{ quality = 6; price = 150000; };
-	class srifle_LRR_camo_F 						{ quality = 6; price = 50850; };
-	class srifle_LRR_F 								{ quality = 6; price = 50850; };
+	class srifle_EBR_F 								{ quality = 4; price = 21700; };
+	class srifle_GM6_camo_F 						{ quality = 6; price = 156500; };
+	class srifle_GM6_F 								{ quality = 6; price = 156500; };
+	class srifle_LRR_camo_F 						{ quality = 6; price = 112550; };
+	class srifle_LRR_F 								{ quality = 6; price = 110050; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// ArmA 2 Weapons
