@@ -75,14 +75,14 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 		if (ExilePlayerRadiation > 700) then
 		{
 			playSound [format ["Exile_Sound_GeigerCounter_High0%1", 1 + (floor random 3)], true];
-			playSound "SndExileHeartbeatFast";
+			//playSound "SndExileHeartbeatFast";
 		}
 		else
 		{
 			if (ExilePlayerRadiation > 350) then
 			{
 				playSound [format ["Exile_Sound_GeigerCounter_Medium0%1", 1 + (floor random 3)], true];
-				playSound "SndExileHeartbeatSlow";
+				//playSound "SndExileHeartbeatSlow";
 			}
 			else
 			{
@@ -103,29 +103,20 @@ if (getText(missionConfigFile >> "Header" >> "gameType") isEqualTo "Survive") th
 			_hndl ppEffectEnable true;
 			_hndl ppEffectCommit 0;
 
-			_snowflakes1 = "#particlesource" createVehicleLocal getposASL player; 
-			//_snowflakes1  attachto [player, [0,0,12]];
-			_snowflakes1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 14, 2, 0], "", "Billboard", 1, 22, [0, 0, 6], _velocity, (0), 1.69, 1, 1, [1.5], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
-			_snowflakes1  setParticleRandom [0, [50 + (random 5),50 + (random 5), 4], [0, 0, 0], 0, 0, [0, 0, 0, .03], 0, 0];
-			_snowflakes1  setParticleCircle [0, [0, 0, 0]];
-			_snowflakes1  setDropInterval (1/_distance); 
 
+			
+			_snow = "#particlesource" createVehicleLocal (getpos player); 
+			_snow setParticleParams [["\A3\data_f\ParticleEffects\Universal\smoke.p3d", 1,0,1,0],"","billboard",1,25,[0,0,15],[0,0,-0.5],10,0.2,0,0.12,[0.08,0.08],[[1,1,1,0.5],[1,1,1,0.5]],[0,1],0.25,1,"","", player];  
+			_snow setParticleRandom [25, [50, 50, 5], [0, 0, 0], 0, 0.01, [0, 0, 0, 0.1], 0.1, 0];  
+			_snow setParticleCircle [0.0, [0, 0, 0]]; 
+			_snow setDropInterval (_distance/8000);
 
-			_snowflakes2 = "#particlesource" createVehicleLocal getposASL player; 
-			   //_snowflakes2  attachto [player, [0,0,12]];
-			_snowflakes2  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1, 14, [0, 0, 6], _velocity, (0), 1.39, 0, 0, [.2], [[1,1,1,0],[1,1,1,1],[1,1,1,1]],[1000], 0, 0, "", "", player];
-			_snowflakes2  setParticleRandom [0, [35 + (random 4),25 + (random 4), 5], [0, 0, 0], 0, 0, [0, 0, 0, 2], 0, 0];
-			_snowflakes2  setParticleCircle [0, [0, 0, 0]];
-			_snowflakes2  setDropInterval ((1/_distance)*4); 
-
-
-			_clouds1 = "#particlesource" createVehicleLocal getposASL player; 
-			//_clouds1  attachto [player, [0,0,12]];
-			_clouds1  setParticleParams [["a3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 12, 2, 0], "", "Billboard", 1,22, [0, 0, 16], _velocity, (0), 1.72, 1, 1, [22 + random 33], [[1,1,1,0],[1,1,1,1],[1,1,1,0]],[1000], 0, 0, "", "", player];
-			_clouds1  setParticleRandom [3, [55 + (random 8),55 + (random 10), 55], [2, 2, 0], 0, 0, [0, 0, 0, 0], 0, 0];
-			_clouds1  setParticleCircle [0, [0, 0, 0]];
-			_clouds1  setDropInterval (5/_distance); 
-        };
+			
+			_delay = 10;
+			sleep _delay;
+			deleteVehicle _snow;
+			deletevehicle _clouds1;
+		};
 	}; 
 };
 
