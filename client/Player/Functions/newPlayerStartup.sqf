@@ -22,6 +22,7 @@ ExileClientIntroIsPlaying = true;
 
 cutText ["", "BLACK FADED", 2];
 uiSleep 2;
+Sleep 2;
 4 fadeSound 1.0;
 playSound "SweepingSlam";
 uiSleep 1;
